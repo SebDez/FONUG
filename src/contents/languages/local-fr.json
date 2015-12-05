@@ -3,5 +3,50 @@
         "MAIN": {
             "HELLO": "Salut !"
         }
+    },
+    "GENERATOR": {
+        "GENERAL":{
+            "RANDOM":"Au hasard !"
+        },
+        "AGES": {
+            "CHILD": {
+                "FEMALE": "Enfant",
+                "MALE": "Enfant"
+            },
+            "ADOLESCENT": {
+                "FEMALE": "Adolescente",
+                "MALE": "Adolescent"
+            },
+            "YOUNGADULT": {
+                "FEMALE": "Jeune adulte",
+                "MALE": "Jeune adulte"
+            },
+            "ADULT": {
+                "FEMALE": "Adulte",
+                "MALE": "Adulte"
+            },
+            "OLD": {
+                "FEMALE": "Vieille",
+                "MALE": "Vieux"
+            },
+            "VERYOLD": {
+                "FEMALE": "Très vieille",
+                "MALE": "Très vieux"
+            }
+        },
+        "GENDERS": {
+            "FEMALE": "Femelle",
+            "MALE": "Mâle"
+        },
+        "CIVILIZATIONS": {
+            "HUMAN": {
+                "MALE":"Humain",
+                "FEMALE":"Humaine"
+            },
+            "DWARF": {
+                "MALE":"Nain",
+                "FEMALE":"Naine"
+            }
+        }
     }
 }

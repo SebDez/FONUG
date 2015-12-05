@@ -3,5 +3,50 @@
         "MAIN": {
             "HELLO": "Hi !"
         }
+    },
+    "GENERATOR": {
+        "GENERAL": {
+            "RANDOM": "Random it !"
+        },
+        "AGES": {
+            "CHILD": {
+                "FEMALE": "Child",
+                "MALE": "Child"
+            },
+            "ADOLESCENT": {
+                "FEMALE": "Adolescent",
+                "MALE": "Adolescent"
+            },
+            "YOUNGADULT": {
+                "FEMALE": "Young Adult",
+                "MALE": "Young Adult"
+            },
+            "ADULT": {
+                "FEMALE": "Adult",
+                "MALE": "Adult"
+            },
+            "OLD": {
+                "FEMALE": "Old woman",
+                "MALE": "Old man"
+            },
+            "VERYOLD": {
+                "FEMALE": "Very old woman",
+                "MALE": "Very old man"
+            }
+        },
+        "GENDERS": {
+            "FEMALE": "Female",
+            "MALE": "Male"
+        },
+        "CIVILIZATIONS": {
+            "HUMAN": {
+                "MALE": "Human",
+                "FEMALE": "Human"
+            },
+            "DWARF": {
+                "MALE": "Dwarf",
+                "FEMALE": "Dwarf"
+            }
+        }
     }
 }

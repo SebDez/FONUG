@@ -1,6 +1,30 @@
 <navbar></navbar>
 <div class="container">
 
-    {{"VIEWS.MAIN.HELLO" | translate}}
+     <!-- GENDER SELECT -->
+    {{main.updateSelectLists()}}
+    <select ng-model="main.currentCharacter.gender" ng-change="main.updateSelectListsAccordingToGender()">
+        <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+        <option ng-repeat="gender in main.genders" value="{{gender}}">
+            {{gender | translate}}
+        </option>
+    </select>
 
+    <!-- AGE SELECT -->
+    <select ng-model="main.currentCharacter.age">
+        <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+        <option ng-repeat="age in main.ages" value="{{age}}">
+            {{age | translate}}
+        </option>
+    </select>
+
+    <!-- CIVILIZATION SELECT -->
+    <select ng-model="main.currentCharacter.civilization">
+        <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+        <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
+            {{civilization | translate}}
+        </option>
+    </select>
+    
+    {{main.currentCharacter}}
 </div>
