@@ -50,6 +50,32 @@
                 "MALE": "Nain",
                 "FEMALE": "Naine"
             }
+        },
+        "PHYSICALTRAITS": {
+            "NORMAL": {
+                "MALE": "Normal",
+                "FEMALE": "Normale"
+            },
+            "ARMTATOO": {
+                "MALE": "Il a un tatouage sur son bras.",
+                "FEMALE": "Elle a un tatouage sur son bras."
+            },
+            "LIMPINGLEG": {
+                "MALE": "Il boite.",
+                "FEMALE": "Elle boite."
+            },
+            "MISSINGPHALANX": {
+                "MALE": "Il lui manque une phalange sur sa main.",
+                "FEMALE": "Il lui manque une phalange sur sa main."
+            },
+            "SCARONCHEST": {
+                "MALE": "Il a une cicatrice sur la poitrine.",
+                "FEMALE": "Elle a une cicatrice sur la poitrine."
+            },
+            "GNAWNAILS": {
+                "MALE": "Il ronge ses ongles.",
+                "FEMALE": "Elle ronge ses ongles."
+            }
         }
     }
 }

@@ -53,7 +53,7 @@ export class LocalDataFactory {
      * Get all the physical traits labels
      * @return {String} The the physical traits labels to translate
      */
-    getPhysicalTrait() {
+    getPhysicalTraits() {
         return PyhiscalTraits;
     }
 

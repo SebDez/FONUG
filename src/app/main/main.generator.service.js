@@ -93,7 +93,7 @@ export class GeneratorService {
     * @result {String} The  physical trait to translate
     */
     getPhysicalTrait(gender){
-        let tab = this.localDataFactory.getPhysicalTrait();
+        let tab = this.localDataFactory.getPhysicalTraits();
         return this.getElementFromListWithWeighting(tab, gender);
     }
 

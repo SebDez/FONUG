@@ -50,6 +50,32 @@
                 "MALE": "Dwarf",
                 "FEMALE": "Dwarf"
             }
+        },
+        "PHYSICALTRAITS":{
+            "NORMAL": {
+                "MALE": "Normal",
+                "FEMALE": "Normal"
+            },
+            "ARMTATOO": {
+                "MALE": "He has a tatoo on his arm.",
+                "FEMALE": "She has a tatoo on his arm."
+            },
+            "LIMPINGLEG": {
+                "MALE": "He has a limping leg.",
+                "FEMALE": "She has a limping leg."
+            },
+            "MISSINGPHALANX": {
+                "MALE": "He is missing a phalanx on his hand.",
+                "FEMALE": "She is missing a phalanx on his hand."
+            },
+            "SCARONCHEST": {
+                "MALE": "He has a scar on his chest.",
+                "FEMALE": "She has a scar on his chest."
+            },
+            "GNAWNAILS": {
+                "MALE": "He gnaws his nails.",
+                "FEMALE": "She gnaws his nails."
+            }
         }
     }
 }
