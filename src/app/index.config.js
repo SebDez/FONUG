@@ -1,4 +1,4 @@
-export function config($logProvider, toastrConfig, $translateProvider) {
+export function config($logProvider, toastrConfig,$translateProvider) {
     'ngInject';
     // Enable log
     $logProvider.debugEnabled(true);

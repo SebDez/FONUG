@@ -1,12 +1,15 @@
 export class MainController {
 
-    constructor(GeneratorService) {
+    constructor(GeneratorService,$state) {
+        
         'ngInject';
+        this.$state = $state;
         this.generatorService = GeneratorService;
         this.currentCharacter = null;
         this.ages = null;
         this.genders = null;
         this.civilizations = null;
+        this.notRandom=false;
         this.initGenerator();
     }
 
@@ -61,6 +64,10 @@ export class MainController {
             gender: "RANDOM",
             civilization: "RANDOM"
         };
+    }
+    
+    generate(){
+         this.$state.go('generated',   { currentCharacter: this.currentCharacter });
     }
 
 }

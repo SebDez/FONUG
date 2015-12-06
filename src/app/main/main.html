@@ -1,30 +1,40 @@
 <navbar></navbar>
 <div class="container">
+    <div>
+        <label>
+            <input type="radio" ng-model="main.notRandom" ng-value="false"> RANDOM
+        </label>
+        <label>
+            <input type="radio" ng-model="main.notRandom" ng-value="true"> BY MYSELF
+        </label>
+    </div>
 
-     <!-- GENDER SELECT -->
-    {{main.updateSelectLists()}}
-    <select ng-model="main.currentCharacter.gender" ng-change="main.updateSelectListsAccordingToGender()">
-        <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-        <option ng-repeat="gender in main.genders" value="{{gender}}">
-            {{gender | translate}}
-        </option>
-    </select>
+    <div ng-if="main.notRandom">
+        <!-- GENDER SELECT -->
+        {{main.updateSelectLists()}}
+        <select ng-model="main.currentCharacter.gender" ng-change="main.updateSelectListsAccordingToGender()">
+            <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+            <option ng-repeat="gender in main.genders" value="{{gender}}">
+                {{gender | translate}}
+            </option>
+        </select>
 
-    <!-- AGE SELECT -->
-    <select ng-model="main.currentCharacter.age">
-        <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-        <option ng-repeat="age in main.ages" value="{{age}}">
-            {{age | translate}}
-        </option>
-    </select>
+        <!-- AGE SELECT -->
+        <select ng-model="main.currentCharacter.age">
+            <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+            <option ng-repeat="age in main.ages" value="{{age}}">
+                {{age | translate}}
+            </option>
+        </select>
 
-    <!-- CIVILIZATION SELECT -->
-    <select ng-model="main.currentCharacter.civilization">
-        <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-        <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
-            {{civilization | translate}}
-        </option>
-    </select>
+        <!-- CIVILIZATION SELECT -->
+        <select ng-model="main.currentCharacter.civilization">
+            <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+            <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
+                {{civilization | translate}}
+            </option>
+        </select>
+    </div>
     
-    {{main.currentCharacter}}
+    <button ng-click="main.generate()">Generate</button>
 </div>
