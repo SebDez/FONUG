@@ -1,12 +1,13 @@
 {
     "VIEWS": {
         "MAIN": {
-            "HELLO": "Salut !"
+            "RANDOM": "Au  hasard !",
+            "MYSELF": "Personnaliser un peu"
         }
     },
     "GENERATOR": {
-        "GENERAL":{
-            "RANDOM":"Au hasard !"
+        "GENERAL": {
+            "RANDOM": "Au hasard !"
         },
         "AGES": {
             "CHILD": {
@@ -40,12 +41,12 @@
         },
         "CIVILIZATIONS": {
             "HUMAN": {
-                "MALE":"Humain",
-                "FEMALE":"Humaine"
+                "MALE": "Humain",
+                "FEMALE": "Humaine"
             },
             "DWARF": {
-                "MALE":"Nain",
-                "FEMALE":"Naine"
+                "MALE": "Nain",
+                "FEMALE": "Naine"
             }
         }
     }

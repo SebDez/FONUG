@@ -1,7 +1,8 @@
 {
     "VIEWS": {
         "MAIN": {
-            "HELLO": "Hi !"
+            "RANDOM": "Get some random !",
+            "MYSELF": "Do it by myself !"
         }
     },
     "GENERATOR": {
