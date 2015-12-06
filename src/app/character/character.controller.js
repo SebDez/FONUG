@@ -3,33 +3,57 @@ export class CharacterController {
     constructor(GeneratorService, $state, $stateParams) {
         'ngInject';
         this.generatorService = GeneratorService;
-        this.$stateParams=$stateParams;
-        this.$state=$state;
+        this.$stateParams = $stateParams;
+        this.$state = $state;
         this.currentCharacter = this.$stateParams.currentCharacter;
-        
-        if(!this.currentCharacter){
+
+        if (!this.currentCharacter) {
             this.$state.go('home');
-        }else{
-            if(this.currentCharacter.gender==="GENERATOR.GENDERS.FEMALE"){
-                this.currentCharacter.genderTag="FEMALE";
-            }else{
-                this.currentCharacter.genderTag="MALE";
-            }
+        } else {
+            this.setGenderTag();
             this.generateCharacter();
         }
     }
-    
+
     /**
-    * Generate all character values
+    * Set the character gender tag
     */
-    generateCharacter(){
-       let gender=this.currentCharacter.genderTag; this.currentCharacter.physicalTrait=this.generatorService.getPhysicalTrait(gender);
+    setGenderTag(){
+        if (this.currentCharacter.gender === "GENERATOR.GENDERS.FEMALE") {
+                this.currentCharacter.genderTag = "FEMALE";
+            } else {
+                this.currentCharacter.genderTag = "MALE";
+            }
     }
-    
     /**
-    * Return to main page
-    */
-    goToMain(){
+     * Generate all character values
+     */
+    generateCharacter() {
+        //GENDER
+        if(this.currentCharacter.gender==="RANDOM"){
+            this.currentCharacter.gender=this.generatorService.getRandomGender();
+        }
+        this.setGenderTag();
+        let gender = this.currentCharacter.genderTag;
+        
+        //AGE
+        if(this.currentCharacter.age==="RANDOM"){
+            this.currentCharacter.age=this.generatorService.getRandomAge(gender);
+        }
+        
+        //CIVILIZATION
+        if(this.currentCharacter.civilization==="RANDOM"){
+ this.currentCharacter.civilization=this.generatorService.getRandomCivilization(gender);
+        }
+        
+        //PHYSICAL TRAIT
+ this.currentCharacter.physicalTrait=this.generatorService.getPhysicalTrait(gender);
+    }
+
+    /**
+     * Return to main page
+     */
+    goToMain() {
         this.currentCharacter = null;
         this.$state.go('home');
     }

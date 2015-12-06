@@ -1,12 +1,12 @@
 <navbar></navbar>
 <div>
     ACUTAL RESULTS :
-    <p>SEXE : {{character.currentCharacter.gender}}</p>
-    <p>AGE : {{character.currentCharacter.age}}</p>
-    <p>RACE : {{character.currentCharacter.civilization}}</p>
- test - {{character.currentCharacter}} -
+    <p>{{character.currentCharacter.gender | translate}}</p>
+    <p>{{character.currentCharacter.age | translate}}</p>
+    <p>{{character.currentCharacter.civilization | translate}}</p>
+ 
+    <!--test - {{character.currentCharacter}} -->
     
-    
-<button ng-click="character.goToMain()">Générer un autre personnage</button>
+<button ng-click="character.goToMain()">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</button>
     
 </div>

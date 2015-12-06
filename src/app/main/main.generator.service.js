@@ -37,6 +37,38 @@ export class GeneratorService {
     
     
     /**
+    * Get a random gender from list
+    * @return {String} The gender to translate
+    */
+    getRandomGender(){
+        let list =this.getGenders();
+        let randIndex=Math.floor(Math.random() * list.length);
+        return list[randIndex];
+    }
+    
+    /**
+    * Get a random age from list
+    * @param {String} gender The character's gender
+    * @return {String} The age to translate
+    */
+    getRandomAge(gender){
+        let list =this.getAges(gender);
+        let randIndex=Math.floor(Math.random() * list.length);
+        return list[randIndex];
+    }
+    
+    /**
+    * Get a random civilization from list
+    * @param {String} gender The character's gender
+    * @return {String} The civilization to translate
+    */
+    getRandomCivilization(gender){
+        let list =this.getCivilizations(gender);
+        let randIndex=Math.floor(Math.random() * list.length);
+        return list[randIndex];
+    }
+    
+    /**
     * Get an element from a list according to its chance to be picked
     * @param [Object] elements The list of elements
     * @param {String} gender The gender's character

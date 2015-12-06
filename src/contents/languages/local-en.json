@@ -2,7 +2,9 @@
     "VIEWS": {
         "MAIN": {
             "RANDOM": "Get some random !",
-            "MYSELF": "Do it by myself !"
+            "MYSELF": "Do it by myself !",
+            "GENERATEBUTTON": "Generate",
+            "GENERATEOTHER": "Generate another character"
         }
     },
     "GENERATOR": {

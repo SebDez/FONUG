@@ -2,7 +2,9 @@
     "VIEWS": {
         "MAIN": {
             "RANDOM": "Au  hasard !",
-            "MYSELF": "Personnaliser un peu"
+            "MYSELF": "Personnaliser un peu",
+            "GENERATEBUTTON": "Générer",
+            "GENERATEOTHER": "Générer un autre personnage"
         }
     },
     "GENERATOR": {
