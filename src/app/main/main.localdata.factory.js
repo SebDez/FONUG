@@ -1,3 +1,5 @@
+import PyhiscalTraits from '../elements/physicalTraits';
+
 /**
  * This Factory is used to get datas for the generator
  * It could be replace by an api in the future
@@ -50,24 +52,9 @@ export class LocalDataFactory {
     /**
      * Get all the physical traits labels
      * @return {String} The the physical traits labels to translate
-     * //TODO : GET FROM JSON FILE
      */
     getPhysicalTrait() {
-        return [
-            {
-                name: {
-                    MALE: "patateM",
-                    FEMALE: "patateF"
-                },
-                weight: 0.5
-        }, {
-                name: {
-                    MALE: "bananeM",
-                    FEMALE: "bananeF"
-                },
-                weight: 0.5
-        }
-        ];
+        return PyhiscalTraits;
     }
 
 }
