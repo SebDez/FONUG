@@ -1,9 +1,16 @@
-<label>
-   
-<input type="radio" ng-model="navbar.language" value="fr" ng-change='navbar.setLanguage("fr")'>
-    FRANCAIS
-</label>  
-<label>
-   <input type="radio" ng-model="navbar.language" value="en" ng-change='navbar.setLanguage("en")'>
-    ENGLISH
-</label>
+
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <span>FONUG</span>
+            <!-- fill up the space between left and right area -->
+            <span flex></span>
+            <span><label>
+                <input type="radio" ng-model="navbar.language" value="fr" ng-change='navbar.setLanguage("fr")'> FRANCAIS
+            </label>
+            <label>
+                <input type="radio" ng-model="navbar.language" value="en" ng-change='navbar.setLanguage("en")'> ENGLISH
+            </label></span>
+
+        </div>
+    </md-toolbar>
+</div>

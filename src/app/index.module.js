@@ -10,7 +10,7 @@ import {GeneratorService}from './main/main.generator.service';
 import {LocalDataFactory}from './main/main.localdata.factory';
 import {CharacterController}from './character/character.controller.js';
 
-angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate'])
+angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)

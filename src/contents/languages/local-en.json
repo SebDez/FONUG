@@ -1,10 +1,13 @@
 {
     "VIEWS": {
         "MAIN": {
-            "RANDOM": "Get some random !",
-            "MYSELF": "Do it by myself !",
-            "GENERATEBUTTON": "Generate",
-            "GENERATEOTHER": "Generate another character"
+            "RANDOM": "Get some random",
+            "MYSELF": "Do it by myself",
+            "GENERATEBUTTON": "Generate a character",
+            "GENERATEOTHER": "Generate another character",
+            "GENDER":"Gender",
+            "AGE":"Age",
+            "CIVILIZATION":"Civilization"
         }
     },
     "GENERATOR": {

@@ -1,40 +1,67 @@
 <navbar></navbar>
-<div class="container">
-    <div>
-        <label>
-            <input type="radio" ng-model="main.notRandom" ng-value="false"> {{'VIEWS.MAIN.RANDOM' | translate}}
-        </label>
-        <label>
-            <input type="radio" ng-model="main.notRandom" ng-value="true"> {{'VIEWS.MAIN.MYSELF' | translate}}
-        </label>
-    </div>
+<div class="container main md-whiteframe-z2">
+    <md-radio-group layout-padding layout="row" layout-xs="column" ng-model="main.notRandom">
+        <div flex>
+            <label>
+                <md-radio-button ng-value="false" class="md-primary">{{'VIEWS.MAIN.RANDOM' | translate}}</md-radio-button>
+            </label>
+        </div>
+        <div flex>
+            <label>
+                <md-radio-button ng-value="true" class="md-primary">{{'VIEWS.MAIN.MYSELF' | translate}}</md-radio-button>
+            </label>
+        </div>
+    </md-radio-group>
 
-    <div ng-if="main.notRandom">
+
+    <div layout="row" layout-padding layout-xs="column" ng-if="main.notRandom">
+
         <!-- GENDER SELECT -->
-        {{main.updateSelectLists()}}
-        <select ng-model="main.currentCharacter.gender" ng-change="main.updateSelectListsAccordingToGender()">
-            <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-            <option ng-repeat="gender in main.genders" value="{{gender}}">
-                {{gender | translate}}
-            </option>
-        </select>
+        <div flex>
+            <label class="control-label">{{'VIEWS.MAIN.GENDER' | translate}}</label>
+            <md-input-container style="margin-right: 10px;">
+
+                <select ng-model="main.currentCharacter.gender" ng-change="main.updateSelectListsAccordingToGender()" class="form-control">
+                    <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+                    <option ng-repeat="gender in main.genders" value="{{gender}}">
+                        {{gender | translate}}
+                    </option>
+                </select>
+            </md-input-container>
+        </div>
 
         <!-- AGE SELECT -->
-        <select ng-model="main.currentCharacter.age">
-            <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-            <option ng-repeat="age in main.ages" value="{{age}}">
-                {{age | translate}}
-            </option>
-        </select>
+        <div flex>
+            <label class="control-label">{{'VIEWS.MAIN.AGE' | translate}}</label>
+            <md-input-container style="margin-right: 10px;">
+                <select ng-model="main.currentCharacter.age" class="form-control">
+                    <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+                    <option ng-repeat="age in main.ages" value="{{age}}">
+                        {{age | translate}}
+                    </option>
+                </select>
+            </md-input-container>
+        </div>
 
         <!-- CIVILIZATION SELECT -->
-        <select ng-model="main.currentCharacter.civilization">
-            <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-            <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
-                {{civilization | translate}}
-            </option>
-        </select>
+        <div flex>
+            <label class="control-label">{{'VIEWS.MAIN.CIVILIZATION' | translate}}</label>
+            <md-input-container style="margin-right: 10px;">
+
+                <select ng-model="main.currentCharacter.civilization" class="form-control">
+                    <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
+                    <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
+                        {{civilization | translate}}
+                    </option>
+                </select>
+            </md-input-container>
+
+        </div>
     </div>
-    
-    <button ng-click="main.generate()">{{'VIEWS.MAIN.GENERATEBUTTON' | translate}}</button>
+
+    <div layout="row" layout-padding>
+        <div flex>
+            <md-button ng-click="main.generate()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEBUTTON' | translate}}</md-button>
+        </div>
+    </div>
 </div>
