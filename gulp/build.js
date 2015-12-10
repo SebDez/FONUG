@@ -82,6 +82,11 @@ gulp.task('contents', function () {
         .pipe(gulp.dest('dist/contents/'));
 });
 
+gulp.task('flags', function () {
+    return gulp.src('./flags/**/*.*')
+        .pipe(gulp.dest('dist/flags/'));
+});
+
 gulp.task('other', function () {
   var fileFilter = $.filter(function (file) {
     return file.stat.isFile();
