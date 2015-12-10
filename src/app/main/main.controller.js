@@ -14,6 +14,8 @@ export class MainController {
         
         this.btnRandClass="md-raised";
         this.btnPersoClass="md-raised md-primary";
+        
+        this.changeSelectedMode(this.notRandom);
     }
 
     /**

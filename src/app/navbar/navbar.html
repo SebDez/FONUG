@@ -1,17 +1,14 @@
-
-    <md-toolbar>
-        <div class="md-toolbar-tools">
-            <span>FONUG</span>
-            <!-- fill up the space between left and right area -->
-            <span flex></span>
-            <span><label>
-                <input type="radio" ng-model="navbar.language" value="fr" ng-change='navbar.setLanguage("fr")'> FRANCAIS
-            </label>
-            <label>
-                <input type="radio" ng-model="navbar.language" value="en" ng-change='navbar.setLanguage("en")'> ENGLISH
-            </label></span>
+<md-toolbar>
+    <div class="md-toolbar-tools">
+        <span>FONUG</span>
+        <!-- fill up the space between left and right area -->
+        <span flex></span>
+        <span class="{{navbar.radioFrClass}}" ng-click='navbar.setSelectedLang("fr")'>
+    <h2 class="flag-icon flag-icon-fr"></h2></span>
+        <span class="{{navbar.radioGbClass}}" ng-click='navbar.setSelectedLang("en")'>
+    <h2 class="flag-icon flag-icon-gb"></h2></span>
 
         <md-icon hide-gt-md ng-click="sidenav.toggleLeft()" class="glyphicon glyphicon-menu-hamburger" ng-style="{color: white, 'font-size': '25px', height: '25px'}"></md-icon>
-        
-        </div>
-    </md-toolbar>
+
+    </div>
+</md-toolbar>
