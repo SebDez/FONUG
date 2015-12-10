@@ -1,13 +1,19 @@
 <navbar></navbar>
-<div>
+<sidenav></sidenav>
+
+<div class="container main md-whiteframe-z2">
+
     ACUTAL RESULTS :
     <p>{{character.currentCharacter.gender | translate}}</p>
     <p>{{character.currentCharacter.age | translate}}</p>
     <p>{{character.currentCharacter.civilization | translate}}</p>
     <p>{{character.currentCharacter.physicalTrait | translate}}</p>
- 
+
     <!--test - {{character.currentCharacter}} -->
-    
-<button ng-click="character.goToMain()">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</button>
-    
+
+    <div layout="row" layout-padding>
+        <div flex>
+            <md-button ng-click="character.goToMain()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</md-button>
+        </div>
+    </div>
 </div>
