@@ -2,18 +2,11 @@
 <sidenav>
 </sidenav>
 <div class="container main md-whiteframe-z2">
-    <md-radio-group layout-padding layout="row" layout-xs="column" ng-model="main.notRandom">
-        <div flex>
-            <label>
-                <md-radio-button ng-value="false" class="md-primary">{{'VIEWS.MAIN.RANDOM' | translate}}</md-radio-button>
-            </label>
-        </div>
-        <div flex>
-            <label>
-                <md-radio-button ng-value="true" class="md-primary">{{'VIEWS.MAIN.MYSELF' | translate}}</md-radio-button>
-            </label>
-        </div>
-    </md-radio-group>
+    
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+      <md-button class="{{main.btnRandClass}}" ng-click="main.changeSelectedMode(false)">{{'VIEWS.MAIN.RANDOM' | translate}}</md-button>
+      <md-button class="{{main.btnPersoClass}}" ng-click="main.changeSelectedMode(true)">{{'VIEWS.MAIN.MYSELF' | translate}}</md-button>
+    </section>
 
 
     <div layout="row" layout-padding layout-xs="column" ng-if="main.notRandom">

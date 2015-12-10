@@ -11,6 +11,9 @@ export class MainController {
         this.civilizations = null;
         this.notRandom=false;
         this.initGenerator();
+        
+        this.btnRandClass="md-raised";
+        this.btnPersoClass="md-raised md-primary";
     }
 
     /**
@@ -66,8 +69,29 @@ export class MainController {
         };
     }
     
+    
+    /**
+    * Go the generator state with selected init values
+    */
     generate(){
          this.$state.go('generated',   { currentCharacter: this.currentCharacter });
+    }
+    
+    
+    /**
+    * Altern between 'random' mode and 'personalize' mode
+    * @param {Boolean} val True if personnalize, false for random
+    */
+    changeSelectedMode(val){
+        if(val){
+            this.notRandom =true;
+            this.btnRandClass="md-raised";
+            this.btnPersoClass="md-raised md-primary";
+        }else{
+            this.notRandom =false;
+            this.btnRandClass="md-raised md-primary";
+            this.btnPersoClass="md-raised";
+        }
     }
 
 }
