@@ -8,8 +8,8 @@ export class NavbarController {
         this.$translate = $translate;
         this.language=this.$translate.use();
         
-        this.radioFrClass="";
-        this.radioGbClass="";
+        this.radioFrClass="label label-info";
+        this.radioGbClass="label";
         
         this.setSelectedLang(this.language);
     }
