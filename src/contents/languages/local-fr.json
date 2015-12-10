@@ -8,6 +8,9 @@
             "GENDER":"Genre",
             "AGE":"Âge",
             "CIVILIZATION":"Civilisation"
+        },
+        "SIDENAV": {
+            "NAVIGATION": "Navigation"
         }
     },
     "GENERATOR": {
