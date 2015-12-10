@@ -9,6 +9,8 @@ import {NavbarController}from './navbar/navbar.controller';
 import {GeneratorService}from './main/main.generator.service';
 import {LocalDataFactory}from './main/main.localdata.factory';
 import {CharacterController}from './character/character.controller.js';
+import {SidenavController}from './sidenav/sidenav.controller';
+import {SidenavDirective}from './sidenav/sidenav.directive.js';
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial'])
   .constant('malarkey', malarkey)
@@ -21,4 +23,6 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .directive('navbar', NavbarDirective)
     .service('GeneratorService', GeneratorService)
     .factory('LocalDataFactory', () => {return new LocalDataFactory()})
-    .controller('CharacterController', CharacterController);
+    .controller('CharacterController', CharacterController)
+    .directive('sidenav', SidenavDirective)
+    .controller('SidenavController', SidenavController);
