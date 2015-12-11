@@ -9,11 +9,13 @@ export class MainController {
         this.ages = null;
         this.genders = null;
         this.civilizations = null;
+        this.modeChoice='init';
         this.notRandom=false;
         this.initGenerator();
         
         this.btnRandClass="md-raised";
-        this.btnPersoClass="md-raised md-primary";
+        this.btnPersoClass="md-raised";
+        this.btnGenerateIsDisabled=true;
         
         this.changeSelectedMode(this.notRandom);
     }
@@ -85,14 +87,21 @@ export class MainController {
     * @param {Boolean} val True if personnalize, false for random
     */
     changeSelectedMode(val){
-        if(val){
+        if(val==='notRandom'){
             this.notRandom =true;
             this.btnRandClass="md-raised";
             this.btnPersoClass="md-raised md-primary";
-        }else{
+            this.btnGenerateIsDisabled=false;
+        }else if(val==='rand'){
             this.notRandom =false;
             this.btnRandClass="md-raised md-primary";
             this.btnPersoClass="md-raised";
+            this.btnGenerateIsDisabled=false;
+        }else{
+            this.notRandom =false;
+            this.btnRandClass="md-raised";
+            this.btnPersoClass="md-raised";
+            this.btnGenerateIsDisabled=true;
         }
     }
 

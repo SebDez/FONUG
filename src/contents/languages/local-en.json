@@ -91,6 +91,13 @@
             "TEXT3":"<p>From a technical point of view, this application is made with AngularJS and other pretty cool stuff that I'm in love with ! It's open-source and you can see it here :</p>",
             "TITLE":"ABOUT",
             "BUTTON":"See the sources on Github"
+        },
+        "CONTACT": {
+            "TITLE":"CONTACT",
+            "BUTTON":"Go To the facebook page",
+            "TEXT1":"<p>As a good developper I'm a feneant one, that's why there is no contact form.</p>",
+            "TEXT2":"<p>On the other hand, we have a Facebook page, do not hesitate to contact me by this way and, why not, subscribe to it ?</p>",
+            "TEXT3":"<p>I look forward to see your creations and to know what tales they can have lived !</p>"
         }
     }
 }

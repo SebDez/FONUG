@@ -91,6 +91,13 @@
             "TEXT3":"<p>Du point de vue technique, l'application est réalisée avec de l'AngularJS et plein d'autres technos JS super sympa que j'adore tout particulièrement, c'est open source vous pouvez jeter un oeil ici :</p>",
             "TITLE":"A PROPOS",
             "BUTTON":"Voir les sources sur Github"
+        },
+        "CONTACT": {
+            "TITLE":"CONTACT",
+            "BUTTON":"Voir la page Facebook",
+            "TEXT1":"En tant que bon développeur qui se repecte je suis quelqu'un de fénéant c'est pourquoi il n'y a pas ici de formulaire de contact.",
+            "TEXT2":"<p>En revanche nous avons une page Facebook, n'hésitez pas à venir me contacter via celle-ci et pourquoi pas vous abonner à celle-ci ?</p>",
+            "TEXT3":"<p>J'ai hâte de découvrir vos créations et de connaitre les histoires que vous leur avez fait vivre !</p>"
         }
     }
 }

@@ -3,8 +3,8 @@
 </sidenav>
 <div class="container main md-whiteframe-z2">
         <section layout="row" layout-sm="column" layout-xs="column" layout-align="center center" layout-wrap >
-      <md-button class="{{main.btnRandClass}}" ng-click="main.changeSelectedMode(false)">{{'VIEWS.MAIN.RANDOM' | translate}}</md-button>
-      <md-button class="{{main.btnPersoClass}}" ng-click="main.changeSelectedMode(true)">{{'VIEWS.MAIN.MYSELF' | translate}}</md-button>
+      <md-button class="{{main.btnRandClass}}" ng-click="main.changeSelectedMode('rand')">{{'VIEWS.MAIN.RANDOM' | translate}}</md-button>
+      <md-button class="{{main.btnPersoClass}}" ng-click="main.changeSelectedMode('notRandom')">{{'VIEWS.MAIN.MYSELF' | translate}}</md-button>
     </section>
 
 
@@ -55,7 +55,7 @@
 
     <div layout="row" layout-padding>
         <div flex>
-            <md-button ng-click="main.generate()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEBUTTON' | translate}}</md-button>
+            <md-button ng-disabled="main.btnGenerateIsDisabled" ng-click="main.generate()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEBUTTON' | translate}}</md-button>
         </div>
     </div>
 </div>
