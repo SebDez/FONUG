@@ -2,9 +2,13 @@
 <sidenav>
 </sidenav>
 <div class="container main md-whiteframe-z2">
-        <section layout="row" layout-sm="column" layout-xs="column" layout-align="center center" layout-wrap >
-      <md-button class="{{main.btnRandClass}}" ng-click="main.changeSelectedMode('rand')">{{'VIEWS.MAIN.RANDOM' | translate}}</md-button>
-      <md-button class="{{main.btnPersoClass}}" ng-click="main.changeSelectedMode('notRandom')">{{'VIEWS.MAIN.MYSELF' | translate}}</md-button>
+
+    <p ng-bind-html="'VIEWS.MAIN.TEXT2' | translate"></p>
+    <p ng-bind-html="'VIEWS.MAIN.TEXT1' | translate"></p>
+
+    <section layout="row" layout-sm="column" layout-xs="column" layout-align="center center" layout-wrap>
+        <md-button class="{{main.btnRandClass}}" ng-click="main.changeSelectedMode('rand')">{{'VIEWS.MAIN.RANDOM' | translate}}</md-button>
+        <md-button class="{{main.btnPersoClass}}" ng-click="main.changeSelectedMode('notRandom')">{{'VIEWS.MAIN.MYSELF' | translate}}</md-button>
     </section>
 
 

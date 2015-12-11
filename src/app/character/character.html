@@ -2,7 +2,9 @@
 <sidenav></sidenav>
 
 <div class="container main md-whiteframe-z2">
-
+    <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">MON PERSONNAGE</h1>
+    </md-toolbar>
     ACUTAL RESULTS :
     <p>{{character.currentCharacter.gender | translate}}</p>
     <p>{{character.currentCharacter.age | translate}}</p>
@@ -10,7 +12,10 @@
     <p>{{character.currentCharacter.physicalTrait | translate}}</p>
 
     <!--test - {{character.currentCharacter}} -->
-
+    <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">WORK IN PROGRESS</h1>
+    </md-toolbar>
+    
     <div layout="row" layout-padding>
         <div flex>
             <md-button ng-click="sidenav.goToMain()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</md-button>

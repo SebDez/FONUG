@@ -78,7 +78,9 @@
             "GENERATEOTHER": "Générer un autre personnage",
             "GENDER":"Genre",
             "AGE":"Âge",
-            "CIVILIZATION":"Civilisation"
+            "CIVILIZATION":"Civilisation",
+            "TEXT1":"<p>Il convient autant pour la génération rapide de Personages Non Joueurs que pour d'autres personnages de fiction, le but n'est pas de générer une fiche personnage mais de bien donner des pistes lors de la création du personnage.</p>",
+            "TEXT2":"FONUG est un générateur aléatoire de personnage."
         },
         "SIDENAV": {
             "NAVIGATION": "Navigation",

@@ -78,7 +78,9 @@
             "GENERATEOTHER": "Generate another character",
             "GENDER":"Gender",
             "AGE":"Age",
-            "CIVILIZATION":"Civilization"
+            "CIVILIZATION":"Civilization",
+            "TEXT1":"<p>It is appropriate both for the rapid generation of Non Player Characters as other fictional characters , the goal is not to generate a player cheet but to give some tracks at character creation.</p>",
+            "TEXT2":"FONUG is a character generator entierly random."
         },
         "SIDENAV": {
             "NAVIGATION": "Navigation",
