@@ -50,11 +50,4 @@ export class CharacterController {
  this.currentCharacter.physicalTrait=this.generatorService.getPhysicalTrait(gender);
     }
 
-    /**
-     * Return to main page
-     */
-    goToMain() {
-        this.currentCharacter = null;
-        this.$state.go('home');
-    }
 }

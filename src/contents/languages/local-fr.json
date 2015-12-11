@@ -1,18 +1,4 @@
 {
-    "VIEWS": {
-        "MAIN": {
-            "RANDOM": "Au  hasard",
-            "MYSELF": "Personnalisé",
-            "GENERATEBUTTON": "Générer un personnage",
-            "GENERATEOTHER": "Générer un autre personnage",
-            "GENDER":"Genre",
-            "AGE":"Âge",
-            "CIVILIZATION":"Civilisation"
-        },
-        "SIDENAV": {
-            "NAVIGATION": "Navigation"
-        }
-    },
     "GENERATOR": {
         "GENERAL": {
             "RANDOM": "Au hasard !"
@@ -82,6 +68,29 @@
                 "MALE": "Il ronge ses ongles.",
                 "FEMALE": "Elle ronge ses ongles."
             }
+        }
+    },
+    "VIEWS": {
+        "MAIN": {
+            "RANDOM": "Au  hasard",
+            "MYSELF": "Personnalisé",
+            "GENERATEBUTTON": "Générer un personnage",
+            "GENERATEOTHER": "Générer un autre personnage",
+            "GENDER":"Genre",
+            "AGE":"Âge",
+            "CIVILIZATION":"Civilisation"
+        },
+        "SIDENAV": {
+            "NAVIGATION": "Navigation",
+            "ABOUT":"A propos",
+            "CONTACT":"Contact"
+        },
+        "ABOUT": {
+            "TEXT1":"<p>FONUG est un générateur de personnages aléatoires open-source, libre et gratuit !</p> <p>Vous pouvez choisir de générer votre personnage soit de manière intégralement aléatoire soit en spécifiant initialement des critères comme l'âge, le sexe ou la civilisation de celui-ci.</p><p>Le personnage généré est très général et avec des informations plutôt vagues dans le simple but de pouvoir transposer vos personnages dans tous les univers possibles.</p><p>Certaines informations pourront paraitre contradictoires ou surprenantes et il sera à vous d'adapter selon le contexte dans lequel apparaitrait votre personnage. (Découvrir que le petit neveu de 5 ans de votre personnage est du genre chaotique mauvais n'est pas un moment facile mais croyez moi le générateur ne se trompe jamais !)</p>",
+            "TEXT2":"<p>Je tiens à remercie Alexis K., grand MJ des collines du Nord, qui a eut l'idée de ce projet et m'a fourni une bonne base de travail et Christian T. pour m'avoir fourni ses petites mains pour remplir mes jeux de données.</p><p>Enfin un grand merci à GUNOF (http://www.gunof.net/) un générateur Univervsel de Noms de Fiction que j'adore et que j'utilise souvent, c'est un peu en hommage que j'ai appelé l'application ainsi (FONUG/GUNOF).</p>",
+            "TEXT3":"<p>Du point de vue technique, l'application est réalisée avec de l'AngularJS et plein d'autres technos JS super sympa que j'adore tout particulièrement, c'est open source vous pouvez jeter un oeil ici :</p>",
+            "TITLE":"A PROPOS",
+            "BUTTON":"Voir les sources sur Github"
         }
     }
 }

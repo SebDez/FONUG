@@ -11,6 +11,8 @@ import {LocalDataFactory}from './main/main.localdata.factory';
 import {CharacterController}from './character/character.controller.js';
 import {SidenavController}from './sidenav/sidenav.controller';
 import {SidenavDirective}from './sidenav/sidenav.directive.js';
+import {AboutController}from './about/about.controller.js';
+import {ContactController}from './contact/contact.controller.js';
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial'])
   .constant('malarkey', malarkey)
@@ -25,4 +27,6 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .factory('LocalDataFactory', () => {return new LocalDataFactory()})
     .controller('CharacterController', CharacterController)
     .directive('sidenav', SidenavDirective)
-    .controller('SidenavController', SidenavController);
+    .controller('SidenavController', SidenavController)
+    .controller('AboutController', AboutController)
+    .controller('ContactController', ContactController);

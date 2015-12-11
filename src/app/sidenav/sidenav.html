@@ -9,23 +9,31 @@
             </div>
         </md-list-item>
         <md-divider></md-divider>
-        <md-list-item class="md-2-line" ng-click="character.goToMain()">
+        <md-list-item class="md-2-line" ng-click="sidenav.goToMain()">
             <div class="md-list-item-text">
                 <h3>{{'VIEWS.MAIN.GENERATEBUTTON' | translate}}</h3>
             </div>
         </md-list-item>
         <md-divider></md-divider>
-        <md-list-item class="md-2-line" ng-click="">
+        <md-list-item class="md-2-line" ng-click="sidenav.goToAbout()">
             <div class="md-list-item-text">
-                <h3>LIEN 1</h3>
+                <h3>{{'VIEWS.SIDENAV.ABOUT' | translate}}</h3>
             </div>
         </md-list-item>
         <md-divider></md-divider>
-        <md-list-item class="md-2-line" ng-click="">
+        <md-list-item class="md-2-line" ng-click="sidenav.goToContact()">
             <div class="md-list-item-text">
-                <h3>LIEN 2</h3>
+                <h3>{{'VIEWS.SIDENAV.CONTACT' | translate}}</h3>
             </div>
         </md-list-item>
+                <md-divider></md-divider>
+        <md-list-item class="md-2-line" ng-click="">
+            <div class="md-list-item-text">
+                
+        <h6>FONUG, Copyright 2015-2016 Sébastien Dez
+FONUG application is distributed under the terms of the GNU GPL</h6>
+            </div>
+        </md-list-item>
+        
     </md-content>
-    <md-divider></md-divider>
 </md-sidenav>

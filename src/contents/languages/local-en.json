@@ -1,18 +1,4 @@
 {
-    "VIEWS": {
-        "MAIN": {
-            "RANDOM": "Get some random",
-            "MYSELF": "Do it by myself",
-            "GENERATEBUTTON": "Generate a character",
-            "GENERATEOTHER": "Generate another character",
-            "GENDER":"Gender",
-            "AGE":"Age",
-            "CIVILIZATION":"Civilization"
-        },
-        "SIDENAV": {
-            "NAVIGATION": "Navigation"
-        }
-    },
     "GENERATOR": {
         "GENERAL": {
             "RANDOM": "Random it !"
@@ -82,6 +68,29 @@
                 "MALE": "He gnaws his nails.",
                 "FEMALE": "She gnaws his nails."
             }
+        }
+    }, 
+    "VIEWS": {
+        "MAIN": {
+            "RANDOM": "Get some random",
+            "MYSELF": "Do it by myself",
+            "GENERATEBUTTON": "Generate a character",
+            "GENERATEOTHER": "Generate another character",
+            "GENDER":"Gender",
+            "AGE":"Age",
+            "CIVILIZATION":"Civilization"
+        },
+        "SIDENAV": {
+            "NAVIGATION": "Navigation",
+            "ABOUT":"About",
+            "CONTACT":"Contact"
+        },
+        "ABOUT": {
+            "TEXT1":"<p>FONUG is a generator for random characters, it is open-source and free !</p> <p>You can choose to generate your character entirely randomly or to select the gender, the age or the civilization as start values.</p><p>The character is generated according to that choice, the data could not be rational, it's up to you to adjust the values that you judge appropriated.</p><p>The character generated is very general with a view to be adapted to any world background (as a mediavel wolrd to a futuristic one ) I know that learn that your character's nephew of 5 years old is a kind of chaotic evil isn't a great moment, but believe me, the generator is never wrong !</p>",
+            "TEXT2":"<p>I would like to thanks Alexis K., Great MJ of the Northern Hills, to give the idea of this project and some useful informations about it. I would also thanks Christian T. to help me (with his tiny hands) while setting the app datasets.</p><p>Finally, a great thanks to GUNOF (http://www.gunof.net/) a universale generator of fiction names (only in french) that I love so much and which I use very often. FONUG is a kind of tribute to it and that's why I called it like this (FONUG/GUNOF).</p>",
+            "TEXT3":"<p>From a technical point of view, this application is made with AngularJS and other pretty cool stuff that I'm in love with ! It's open-source and you can see it here :</p>",
+            "TITLE":"ABOUT",
+            "BUTTON":"See the sources on Github"
         }
     }
 }

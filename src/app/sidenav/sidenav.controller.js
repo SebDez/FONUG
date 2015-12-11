@@ -33,10 +33,33 @@ export class SidenavController {
                 .toggle();
         }, 200);
     }
-    
-    
+
+    /*
+     * Close the sidenav
+     */
     close() {
-      this.$mdSidenav('left').close();
+        this.$mdSidenav('left').close();
+    }
+
+    /**
+     * Go to contact page
+     */
+    goToContact() {
+        this.$state.go('contact');
+    }
+
+    /**
+     * Go to about page
+     */
+    goToAbout() {
+        this.$state.go('about');
     }
     
+    /**
+     * Go to main page
+     */
+    goToMain() {
+        this.$state.go('home');
+    }
+
 }
