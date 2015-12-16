@@ -41,6 +41,10 @@
             "DWARF": {
                 "MALE": "Nain",
                 "FEMALE": "Naine"
+            },
+            "ELF": {
+                "MALE": "Elfe",
+                "FEMALE": "Elfe"
             }
         },
         "PHYSICALTRAITS": {

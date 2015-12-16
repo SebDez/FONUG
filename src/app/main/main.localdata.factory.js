@@ -44,8 +44,9 @@ export class LocalDataFactory {
      */
     getCivilizations(gender) {
         return [
-            'GENERATOR.CIVILIZATIONS.HUMAN.' + gender,
-            'GENERATOR.CIVILIZATIONS.DWARF.' + gender
+            {name:'GENERATOR.CIVILIZATIONS.HUMAN.' + gender, logo:'human-ear'},
+            {name:'GENERATOR.CIVILIZATIONS.DWARF.' + gender, logo:'dwarf-face'},
+            {name:'GENERATOR.CIVILIZATIONS.ELF.' + gender, logo:'woman-elf-face'} 
         ];
     }
 

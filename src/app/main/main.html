@@ -49,7 +49,7 @@
                 <select ng-model="main.currentCharacter.civilization" class="form-control">
                     <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
                     <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
-                        {{civilization | translate}}
+                        {{civilization.name | translate}}
                     </option>
                 </select>
             </md-input-container>

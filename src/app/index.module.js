@@ -14,7 +14,7 @@ import {SidenavDirective}from './sidenav/sidenav.directive.js';
 import {AboutController}from './about/about.controller.js';
 import {ContactController}from './contact/contact.controller.js';
 
-angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial'])
+angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)

@@ -6,12 +6,25 @@ export class CharacterController {
         this.$stateParams = $stateParams;
         this.$state = $state;
         this.currentCharacter = this.$stateParams.currentCharacter;
+        
+        this.setCivilization();
+        
+        this.logoColor="defaultColor";
 
         if (!this.currentCharacter) {
             this.$state.go('home');
         } else {
             this.setGenderTag();
             this.generateCharacter();
+        }
+        
+        this.mdtheme='md-theme-green';
+    }
+    
+    setCivilization(){
+        if(this.currentCharacter.civilization!='RANDOM'){
+            let civ =  JSON.parse(this.currentCharacter.civilization);
+            this.currentCharacter.civilization = civ;
         }
     }
 
