@@ -5,22 +5,24 @@ export class CharacterController {
         this.generatorService = GeneratorService;
         this.$stateParams = $stateParams;
         this.$state = $state;
-        this.currentCharacter = this.$stateParams.currentCharacter;
         
-        this.setCivilization();
-        
-        this.logoColor="defaultColor";
-
-        if (!this.currentCharacter) {
+        if (!this.$stateParams.currentCharacter) {
             this.$state.go('home');
         } else {
+            this.currentCharacter = this.$stateParams.currentCharacter;
             this.setGenderTag();
+            this.setCivilization();
             this.generateCharacter();
         }
         
+        this.logoColor="defaultColor";
+
         this.mdtheme='md-theme-green';
     }
     
+    /**
+    * Convert the civilizaiton get from main to json object
+    */
     setCivilization(){
         if(this.currentCharacter.civilization!='RANDOM'){
             let civ =  JSON.parse(this.currentCharacter.civilization);

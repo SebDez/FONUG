@@ -104,6 +104,9 @@
             "TEXT1":"<p>As a good developper I'm a feneant one, that's why there is no contact form.</p>",
             "TEXT2":"<p>On the other hand, we have a Facebook page, do not hesitate to contact me by this way and, why not, subscribe to it ?</p>",
             "TEXT3":"<p>I look forward to see your creations and to know what tales they can have lived !</p>"
+        },
+        "GENERATOR":{
+            "SOON":"Soon generated ;)"
         }
     }
 }
