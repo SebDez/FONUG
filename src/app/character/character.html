@@ -5,7 +5,7 @@
 
     <!-- MAIN -->
     <md-toolbar md-theme="green">
-        <h1 class="md-toolbar-tools">MON PERSONNAGE</h1>
+        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}}</h1>
     </md-toolbar>
     <div layout="row" layout-xs="column" layout-wrap >
         <div flex="30" class="logoContainer">
@@ -14,34 +14,34 @@
         <div flex="70">
             <div layout="column" layout-wrap class="right">
                 <div flex="100">
-                    <h4 class="statLabel">Charisme :</h4>
+                    <h4 class="statLabel">{{'VIEWS.GENERATOR.CHARISMA' | translate}} :</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 10%">0</div>
                     </div>
                 </div>
                 <div flex="100">
-                    <h4 class="statLabel">Beauté :</h4>
+                    <h4 class="statLabel">{{'VIEWS.GENERATOR.BEAUTY' | translate}} :</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">0
                         </div>
                     </div>
                 </div>
                 <div flex="100">
-                    <h4 class="statLabel">Intellect :</h4>
+                    <h4 class="statLabel">{{'VIEWS.GENERATOR.INTELLECT' | translate}} :</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">{{'VIEWS.GENERATOR.SOON' | translate}}
                         </div>
                     </div>
                 </div>
                 <div flex="100">
-                    <h4 class="statLabel">Perception :</h4>
+                    <h4 class="statLabel">{{'VIEWS.GENERATOR.PERCEPTION' | translate}} :</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">{{'VIEWS.GENERATOR.SOON' | translate}}
                         </div>
                     </div>
                 </div>
                 <div flex="100">
-                    <h4 class="statLabel">Excellence au combat :</h4>
+                    <h4 class="statLabel">{{'VIEWS.GENERATOR.FIGHT_SKILLS' | translate}} :</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">{{'VIEWS.GENERATOR.SOON' | translate}}
                         </div>
@@ -50,23 +50,23 @@
             </div>
         </div>
         <div flex="50">
-            <h4 class="inline">Age :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.AGE' | translate}} :</h4>
             <p class="inline">{{character.currentCharacter.age | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Genre :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.GENDER' | translate}} :</h4>
             <p class="inline">{{character.currentCharacter.gender | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Civilisation :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.CIVILIZATION' | translate}} :</h4>
             <p class="inline">{{character.currentCharacter.civilization.name | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Classe :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.CLASS' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="100">
-            <h4 class="inline">Punchline :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.PUNCHLINE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
     </div>
@@ -75,45 +75,45 @@
 
     <!-- PHYSICAL -->
     <md-toolbar class="character.mdtheme">
-        <h1 class="md-toolbar-tools">PHYSIQUE</h1>
+        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PHYSICAL' | translate}}</h1>
     </md-toolbar>
 
 
     <div layout="row" layout-xs="column" layout-wrap>
         <div flex="50">
-            <h4 class="inline">Corpulence :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.CORPULENCE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Forme du visage :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.FACE_SHAPE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Teint :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.SKIN_TONE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Yeux :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.EYES' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Bouche :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.MOUTH' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Nez :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.NOSE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Cheveux :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.HAIR' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="100">
-            <h4 class="inline">Signe particulier visage :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.SPECIAL_SIGN_FACE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="100">
-            <h4 class="inline">Signe particulier corps :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.SPECIAL_SIGN_BODY' | translate}} :</h4>
             <p class="inline">{{character.currentCharacter.physicalTrait | translate}}</p>
         </div>
     </div>
@@ -121,33 +121,33 @@
 
     <!-- PERSONALITE -->
     <md-toolbar class="character.mdtheme">
-        <h1 class="md-toolbar-tools">PERSONNALITE</h1>
+        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PERSONNALITY' | translate}}</h1>
     </md-toolbar>
 
 
     <div layout="row" layout-xs="column" layout-wrap>
         <div flex="50">
-            <h4 class="inline">Alignement :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.ALIGNMENT' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Objectif :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.GOAL' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Motivation :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.MOTIVATION' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Défaut :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.DEFECT' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Qualité :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.QUALITY' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Phobie :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.PHOBIA' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
     </div>
@@ -156,33 +156,33 @@
 
     <!-- SOCIAL -->
     <md-toolbar class="character.mdtheme">
-        <h1 class="md-toolbar-tools">SOCIAL</h1>
+        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.SOCIAL' | translate}}</h1>
     </md-toolbar>
 
 
     <div layout="row" layout-xs="column" layout-wrap>
         <div flex="100" class="inline">
-            <h4 class="inline">Talents :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.TALENT' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Profession :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.PROFESSION' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Situation familiale :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.FAMILY_SITUATION' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Situation financière :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.FINANCIAL_SITUATION' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Accent :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.ACCENT' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Réputation :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.REPUTATION' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
     </div>
@@ -190,25 +190,25 @@
 
     <!-- APPARENCE -->
     <md-toolbar class="character.mdtheme">
-        <h1 class="md-toolbar-tools">WORK IN PROGRESS</h1>
+        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.APPEARANCE' | translate}}</h1>
     </md-toolbar>
 
 
     <div layout="row" layout-xs="column" layout-wrap>
         <div flex="50">
-            <h4 class="inline">Style de combat :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.COMBAT_STYLE' | translate}}:</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Habits :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHES' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Accessoires :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.ACCESSORIES' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
         <div flex="50">
-            <h4 class="inline">Style vestimentaire :</h4>
+            <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHING_STYLE' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
         </div>
     </div>

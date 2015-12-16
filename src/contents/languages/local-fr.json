@@ -30,8 +30,8 @@
             }
         },
         "GENDERS": {
-            "FEMALE": "Femelle",
-            "MALE": "Mâle"
+            "FEMALE": "Féminin",
+            "MALE": "Masculin"
         },
         "CIVILIZATIONS": {
             "HUMAN": {
@@ -106,7 +106,47 @@
             "TEXT3":"<p>J'ai hâte de découvrir vos créations et de connaitre les histoires que vous leur avez fait vivre !</p>"
         },
         "GENERATOR":{
-            "SOON":"Bientôt généré ;)"
+            "SOON":"Bientôt généré ;)",
+            "MY_CHARACTER":"Mon personnage",
+            "CHARISMA":"Charisme",
+            "BEAUTY":"Beauté",
+            "INTELLECT":"Intellect",
+            "PERCEPTION":"Perception",
+            "FIGHT_SKILLS":"Excellence au combat",
+            "AGE":"Âge",
+            "GENDER":"Genre",
+            "CIVILIZATION":"Civilisation",
+            "CLASS":"Classe",
+            "PUNCHLINE":"Punchline",
+            "PHYSICAL":"Physique",
+            "CORPULENCE":"Corpulence",
+            "FACE_SHAPE":"Forme du visage",
+            "SKIN_TONE":"Teint",
+            "EYES":"Yeux",
+            "MOUTH":"Bouche",
+            "NOSE":"Nez",
+            "HAIR":"Cheveux",
+            "SPECIAL_SIGN_FACE":"Signe Distinctif (visage)",
+            "SPECIAL_SIGN_BODY":"Signe Distinctif (corps)",
+            "PERSONNALITY":"Personnalité",
+            "ALIGNMENT":"Alignement",
+            "GOAL":"Objectif",
+            "MOTIVATION":"Motivation",
+            "DEFECT":"Défaut",
+            "QUALITY":"Qualité",
+            "PHOBIA":"Phobie",
+            "SOCIAL":"Social",
+            "TALENT":"Talent",
+            "PROFESSION":"Profession",
+            "FAMILY_SITUATION":"Situation Familiale",
+            "FINANCIAL_SITUATION":"Situation Financière",
+            "ACCENT":"Accent",
+            "REPUTATION":"Reputation",
+            "APPEARANCE":"Apparence",
+            "COMBAT_STYLE":"Style de combat",
+            "CLOTHES":"Vêtements",
+            "ACCESSORIES":"Accessoires",
+            "CLOTHING_STYLE":"Style Vestimentaire"
         }
     }
 }
