@@ -1,5 +1,6 @@
 import PyhiscalTraits from '../elements/physicalTraits';
 import Civilizations from '../elements/Civilizations';
+import Alignments from '../elements/Alignments';
 
 /**
  * This Factory is used to get datas for the generator
@@ -49,10 +50,17 @@ export class LocalDataFactory {
 
     /**
      * Get all the physical traits labels
-     * @return {String} The the physical traits labels to translate
+     * @return {String} The physical traits labels to translate
      */
     getPhysicalTraits() {
         return PyhiscalTraits;
     }
 
+    /**
+     * Get all the alignment labels
+     * @return {String} The alignments labels to translate
+     */
+    getAlignments() {
+        return Alignments;
+    }
 }

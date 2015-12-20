@@ -1,49 +1,49 @@
 <navbar></navbar>
 <sidenav></sidenav>
 
-<div class="container main md-whiteframe-z2">
-
+<div class="container main md-whiteframe-z2"  md-theme="{{character.currentCharacter.alignment.mdTheme}}">
     <!-- MAIN -->
-    <md-toolbar md-theme="green">
+    <md-toolbar>
         <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}}</h1>
     </md-toolbar>
     <div layout="row" layout-xs="column" layout-wrap >
         <div flex="30" class="logoContainer">
-            <un-svg class="logo {{character.logoColor}}" ng-attr-fill="blue" svg-src="../../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
+            <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
         </div>
         <div flex="70">
             <div layout="column" layout-wrap class="right">
                 <div flex="100">
                     <h4 class="statLabel">{{'VIEWS.GENERATOR.CHARISMA' | translate}} :</h4>
+                    
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 10%">0</div>
+                        <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 10%">0</div>
                     </div>
                 </div>
                 <div flex="100">
                     <h4 class="statLabel">{{'VIEWS.GENERATOR.BEAUTY' | translate}} :</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">0
+                        <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">0
                         </div>
                     </div>
                 </div>
                 <div flex="100">
                     <h4 class="statLabel">{{'VIEWS.GENERATOR.INTELLECT' | translate}} :</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">{{'VIEWS.GENERATOR.SOON' | translate}}
+                        <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">{{'VIEWS.GENERATOR.SOON' | translate}}
                         </div>
                     </div>
                 </div>
                 <div flex="100">
                     <h4 class="statLabel">{{'VIEWS.GENERATOR.PERCEPTION' | translate}} :</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">{{'VIEWS.GENERATOR.SOON' | translate}}
+                        <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">{{'VIEWS.GENERATOR.SOON' | translate}}
                         </div>
                     </div>
                 </div>
                 <div flex="100">
                     <h4 class="statLabel">{{'VIEWS.GENERATOR.FIGHT_SKILLS' | translate}} :</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">{{'VIEWS.GENERATOR.SOON' | translate}}
+                        <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">{{'VIEWS.GENERATOR.SOON' | translate}}
                         </div>
                     </div>
                 </div>
@@ -52,6 +52,9 @@
         <div flex="50">
             <h4 class="inline">{{'VIEWS.GENERATOR.AGE' | translate}} :</h4>
             <p class="inline">{{character.currentCharacter.age | translate}}</p>
+        </div>
+        <div flex="50">
+            <h4 class="inline">{{'VIEWS.GENERATOR.ALIGNMENT' | translate}} :</h4><span class="inline label {{character.currentCharacter.alignment.cssTheme}}">{{character.currentCharacter.alignment.name | translate}}</span>
         </div>
         <div flex="50">
             <h4 class="inline">{{'VIEWS.GENERATOR.GENDER' | translate}} :</h4>
@@ -74,7 +77,7 @@
 
 
     <!-- PHYSICAL -->
-    <md-toolbar class="character.mdtheme">
+    <md-toolbar>
         <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PHYSICAL' | translate}}</h1>
     </md-toolbar>
 
@@ -120,16 +123,12 @@
     <!-- ##### -->
 
     <!-- PERSONALITE -->
-    <md-toolbar class="character.mdtheme">
+    <md-toolbar >
         <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PERSONNALITY' | translate}}</h1>
     </md-toolbar>
 
 
     <div layout="row" layout-xs="column" layout-wrap>
-        <div flex="50">
-            <h4 class="inline">{{'VIEWS.GENERATOR.ALIGNMENT' | translate}} :</h4>
-            <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
-        </div>
         <div flex="50">
             <h4 class="inline">{{'VIEWS.GENERATOR.GOAL' | translate}} :</h4>
             <p class="inline">{{'VIEWS.GENERATOR.SOON' | translate}}</p>
@@ -155,7 +154,7 @@
 
 
     <!-- SOCIAL -->
-    <md-toolbar class="character.mdtheme">
+    <md-toolbar >
         <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.SOCIAL' | translate}}</h1>
     </md-toolbar>
 
@@ -189,7 +188,7 @@
     <!-- ##### -->
 
     <!-- APPARENCE -->
-    <md-toolbar class="character.mdtheme">
+    <md-toolbar >
         <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.APPEARANCE' | translate}}</h1>
     </md-toolbar>
 

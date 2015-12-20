@@ -14,10 +14,6 @@ export class CharacterController {
             this.setCivilization();
             this.generateCharacter();
         }
-        
-        this.logoColor="defaultColor";
-
-        this.mdtheme='md-theme-green';
     }
     
     /**
@@ -25,7 +21,7 @@ export class CharacterController {
     */
     setCivilization(){
         if(this.currentCharacter.civilization!='RANDOM'){
-            let civ =  JSON.parse(this.currentCharacter.civilization);
+            let civ =  angular.fromJson(this.currentCharacter.civilization);
             this.currentCharacter.civilization = civ;
         }
     }
@@ -63,6 +59,9 @@ export class CharacterController {
         
         //PHYSICAL TRAIT
  this.currentCharacter.physicalTrait=this.generatorService.getPhysicalTrait(gender);
+        
+        //ALIGNMENT
+ this.currentCharacter.alignment=this.generatorService.getAlignment();
     }
 
 }

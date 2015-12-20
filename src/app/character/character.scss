@@ -1,42 +1,150 @@
-.inline{
+.inline {
     display: inline-block;
     padding-right: 5px;
 }
 
-.progress{
-    display:inline-table;
+.progress {
+    display: inline-table;
     width: 50%;
     margin-bottom: 0;
     padding: 0 0 0 0;
     position: relative;
 }
 
-.statLabel{
+.statLabel {
     display: inline-block;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     line-height: 10px;
 }
 
-.right{
+.right {
     margin-top: 3%;
     text-align: right;
     padding-right: 5%;
 }
 
-.logo{
+.logo {
     height: 80%;
     margin-top: 5%;
     padding-left: 5%;
 }
 
-.logoContainer {
+.logoContainer {}
+
+.lawfulGood {
+    fill: #2196f3;
 }
 
-.defaultColor{
-    fill:black;
+.neutralGood {
+    fill: #00bcd4;
 }
 
-.logoRed{
-    fill:red;
+.chaoticGood {
+    fill: #009688;
+}
+
+.lawfulNeutral {
+    fill: #9c27b0;
+}
+
+.trueNeutral {
+    fill: #ffc107;
+}
+
+.chaoticNeutral {
+    fill: #673ab7;
+}
+
+.lawfulEvil {
+    fill: #f44336;
+}
+
+.neutralEvil {
+    fill: #e91e63;
+}
+
+.chaoticEvil {
+    fill: #ff5722;
+}
+
+span.lawfulGood {
+    fill: #2196f3;
+    background-color: #2196f3;
+}
+
+span.neutralGood {
+    fill: #00bcd4;
+    background-color: #00bcd4;
+}
+
+span.chaoticGood {
+    fill: #009688;
+    background-color: #009688;
+}
+
+span.lawfulNeutral {
+    fill: #9c27b0;
+    background-color: #9c27b0;
+}
+
+span.trueNeutral {
+    fill: #ffc107;
+    background-color: #ffc107;
+}
+
+span.chaoticNeutral {
+    fill: #673ab7;
+    background-color: #673ab7;
+}
+
+span.lawfulEvil {
+    fill: #f44336;
+    background-color: #f44336;
+}
+
+span.neutralEvil {
+    fill: #e91e63;
+    background-color: #e91e63;
+}
+
+span.chaoticEvil {
+    fill: #ff5722;
+    background-color: #ff5722;
+}
+
+.progress-bar-custom.lawfulGood {
+    background: #2196f3;
+}
+
+.progress-bar-custom.neutralGood {
+    background: #00bcd4;
+}
+
+.progress-bar-custom.chaoticGood {
+    background: #009688;
+}
+
+.progress-bar-custom.lawfulNeutral {
+    background: #9c27b0;
+}
+
+.progress-bar-custom.trueNeutral {
+    background: #ffc107;
+}
+
+.progress-bar-custom.chaoticNeutral {
+    background: #673ab7;
+}
+
+.progress-bar-custom.lawfulEvil {
+    background: #f44336;
+}
+
+.progress-bar-custom.neutralEvil {
+    background: #e91e63;
+}
+
+.progress-bar-custom.chaoticEvil {
+    background: #ff5722;
 }

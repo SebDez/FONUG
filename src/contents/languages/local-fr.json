@@ -72,6 +72,17 @@
                 "MALE": "Il ronge ses ongles.",
                 "FEMALE": "Elle ronge ses ongles."
             }
+        },
+        "ALIGNMENTS":{
+            "LAWFULGOOD":"Loyal Bon",
+            "NEUTRALGOOD":"Neutre Bon",
+            "CHAOTICGOOD":"Chaotique Bon",
+            "LAWFULNEUTRAL":"Loyal Neutre",
+            "TRUENEUTRAL":"Vrai Neutre",
+            "CHAOTICNEUTRAL":"Chaotique Neutre",
+            "LAWFULEVIL":"Loyal Mauvais",
+            "NEUTRALEVIL":"Neutre Mauvais",
+            "CHAOTICEVIL":"Chaotique Mauvais"
         }
     },
     "VIEWS": {

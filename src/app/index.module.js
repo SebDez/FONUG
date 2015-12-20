@@ -29,4 +29,15 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .directive('sidenav', SidenavDirective)
     .controller('SidenavController', SidenavController)
     .controller('AboutController', AboutController)
-    .controller('ContactController', ContactController);
+    .controller('ContactController', ContactController)
+    .config(function($mdThemingProvider) {
+        $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
+        $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');
+        $mdThemingProvider.theme('chaoticGoodTheme').primaryPalette('teal');
+        $mdThemingProvider.theme('lawfulNeutralTheme').primaryPalette('purple');
+        $mdThemingProvider.theme('trueNeutralTheme').primaryPalette('amber');
+        $mdThemingProvider.theme('chaoticNeutralTheme').primaryPalette('deep-purple');
+        $mdThemingProvider.theme('lawfulEvilTheme').primaryPalette('red');
+        $mdThemingProvider.theme('neutralEvilTheme').primaryPalette('pink');
+        $mdThemingProvider.theme('chaoticEvilTheme').primaryPalette('deep-orange');
+    });

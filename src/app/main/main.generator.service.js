@@ -69,18 +69,26 @@ export class GeneratorService {
     }
     
     /**
-    * Get an element from a list according to its chance to be picked
+    * Get an element label from a list according to its chance to be picked
     * @param [Object] elements The list of elements
-    * @param {String} gender The gender's character
+    * @param {String} gender The gender's character (can be null)
     * @result {String} The element name to translate
     */
-    getElementFromListWithWeighting(elements, gender){
+    getElementLabelFromListWithWeighting(elements, gender){
         let randomList =[];
         let nb=0;
         for(let element of elements){
-            nb=element.weight*10;
+            if(element.weight){
+                nb=element.weight*10;
+            }else{
+                nb=1;
+            }
             for(let i=0; i<nb; i++){
-                randomList.push(element.name[gender]);
+                if(gender){
+                    randomList.push(element.name[gender]);
+                }else{
+                    randomList.push(element.name);
+                }
             }
         }
         let randIndex=Math.floor(Math.random() * randomList.length-1) ;
@@ -94,7 +102,16 @@ export class GeneratorService {
     */
     getPhysicalTrait(gender){
         let tab = this.localDataFactory.getPhysicalTraits();
-        return this.getElementFromListWithWeighting(tab, gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
-
+    
+    /**
+    * Get the caractere alignment
+    * @result {String} The  alignment to translate
+    */
+    getAlignment(){
+        let tab = this.localDataFactory.getAlignments();
+        let randIndex=Math.floor(Math.random() * tab.length-1) ;
+        return tab[randIndex];
+    }
 }
