@@ -1,4 +1,5 @@
 import PyhiscalTraits from '../elements/physicalTraits';
+import Civilizations from '../elements/Civilizations';
 
 /**
  * This Factory is used to get datas for the generator
@@ -43,11 +44,7 @@ export class LocalDataFactory {
      * @return {String} The civilizations label to translate
      */
     getCivilizations(gender) {
-        return [
-            {name:'GENERATOR.CIVILIZATIONS.HUMAN.' + gender, logo:'human-ear'},
-            {name:'GENERATOR.CIVILIZATIONS.DWARF.' + gender, logo:'dwarf-face'},
-            {name:'GENERATOR.CIVILIZATIONS.ELF.' + gender, logo:'woman-elf-face'} 
-        ];
+        return Civilizations[gender];
     }
 
     /**
