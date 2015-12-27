@@ -4,11 +4,11 @@
 <div class="container main md-whiteframe-z2"  md-theme="{{character.currentCharacter.alignment.mdTheme}}">
     <!-- MAIN -->
     <md-toolbar>
-        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}}</h1>
+        <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}} : {{character.currentCharacter.name}}</h1>
     </md-toolbar>
     <div layout="row" layout-xs="column" layout-wrap >
         <div flex="30" class="logoContainer">
-            <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
+            <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
         </div>
         <div flex="70">
             <div layout="column" layout-wrap class="right">

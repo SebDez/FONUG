@@ -30,10 +30,10 @@ export class CharacterController {
     * Set the character gender tag
     */
     setGenderTag(){
-        if (this.currentCharacter.gender === "GENERATOR.GENDERS.FEMALE") {
-                this.currentCharacter.genderTag = "FEMALE";
+        if (this.currentCharacter.gender === 'GENERATOR.GENDERS.FEMALE') {
+                this.currentCharacter.genderTag = 'FEMALE';
             } else {
-                this.currentCharacter.genderTag = "MALE";
+                this.currentCharacter.genderTag = 'MALE';
             }
     }
     /**
@@ -41,19 +41,19 @@ export class CharacterController {
      */
     generateCharacter() {
         //GENDER
-        if(this.currentCharacter.gender==="RANDOM"){
+        if(this.currentCharacter.gender==='RANDOM'){
             this.currentCharacter.gender=this.generatorService.getRandomGender();
         }
         this.setGenderTag();
         let gender = this.currentCharacter.genderTag;
         
         //AGE
-        if(this.currentCharacter.age==="RANDOM"){
+        if(this.currentCharacter.age==='RANDOM'){
             this.currentCharacter.age=this.generatorService.getRandomAge(gender);
         }
         
         //CIVILIZATION
-        if(this.currentCharacter.civilization==="RANDOM"){
+        if(this.currentCharacter.civilization==='RANDOM'){
  this.currentCharacter.civilization=this.generatorService.getRandomCivilization(gender);
         }
         
@@ -62,6 +62,9 @@ export class CharacterController {
         
         //ALIGNMENT
  this.currentCharacter.alignment=this.generatorService.getAlignment();
+
+    //NAME
+ this.currentCharacter.name=this.generatorService.generateName(this.currentCharacter.genderTag, this.currentCharacter.civilization.tag);
     }
 
 }

@@ -91,27 +91,55 @@ export class GeneratorService {
                 }
             }
         }
-        let randIndex=Math.floor(Math.random() * randomList.length-1) ;
+        let randIndex=Math.floor(Math.random() * randomList.length) ;
         return randomList[randIndex];
     }
     
     /**
-    * Get the caractere physical trait
+    * Get the character physical trait
     * @param {String} gender The gender's character
     * @result {String} The  physical trait to translate
     */
     getPhysicalTrait(gender){
-        let tab = this.localDataFactory.getPhysicalTraits();
+        let tab = this.localDataFactory.getPhysicalTraits(gender);
         return this.getElementLabelFromListWithWeighting(tab);
     }
     
     /**
-    * Get the caractere alignment
+    * Get the character alignment
     * @result {String} The  alignment to translate
     */
     getAlignment(){
         let tab = this.localDataFactory.getAlignments();
-        let randIndex=Math.floor(Math.random() * tab.length-1) ;
+        let randIndex=Math.floor(Math.random() * tab.length) ;
         return tab[randIndex];
+    }
+    
+    /**
+    * Generate a name for a gender and a civilization (or use default)
+    * @param {String} inputGender The character gender
+    * @param {String} civilization The character civilization
+    * @return {String} The name generated
+    */
+    generateName(inputGender, civilization){
+        let tab = this.localDataFactory.getNames();
+        let civ = civilization;
+        let gender = inputGender;
+        if(!tab[civ]){
+            civ="DEFAULT";
+        }
+        if(!gender || (gender!="MALE" && gender !="FEMALE")){
+            gender="MALE";
+        }
+        
+        let randIndexBegin=Math.floor(Math.random() * tab[civ][gender]["beginning"].length);
+        let randIndexMiddle=Math.floor(Math.random() * tab[civ][gender]["middle"].length);
+        let randIndexEnd=Math.floor(Math.random() * tab[civ][gender]["end"].length);
+        
+        let begin = tab[civ][gender]["beginning"][randIndexBegin];
+        let middle= tab[civ][gender]["middle"][randIndexMiddle];
+        let end = tab[civ][gender]["end"][randIndexEnd];
+        
+        return ""+begin+middle+end;
     }
 }
