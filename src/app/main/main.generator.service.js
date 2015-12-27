@@ -94,6 +94,30 @@ export class GeneratorService {
         let randIndex = this.getRandomIndexInTab(randomList);
         return randomList[randIndex];
     }
+    
+    
+    /**
+     * Get an element object from a list according to its chance to be picked
+     * @param [Object] elements The list of elements
+     * @param {String} gender The gender's character (can be null)
+     * @result {String} The element object
+     */
+    getElementObjectFromListWithWeighting(elements, gender) {
+        let randomList = [];
+        let nb = 0;
+        for (let element of elements) {
+            if (element.weight) {
+                nb = element.weight * 10;
+            } else {
+                nb = 1;
+            }
+            for (let i = 0; i < nb; i++) {
+                randomList.push(element);
+            }
+        }
+        let randIndex = this.getRandomIndexInTab(randomList);
+        return randomList[randIndex];
+    }
 
     /**
      * Get a random index for an array
@@ -157,11 +181,11 @@ export class GeneratorService {
     /**
      * Get the character charisma
      * @param {String} gender The character's gender
-     * @result {String} The charisma label to translate
+     * @result {String} The charisma object
      */
     getCharisma(gender) {
         let tab = this.localDataFactory.getCharismaList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementObjectFromListWithWeighting(tab,gender);
     }
 
 
@@ -172,7 +196,7 @@ export class GeneratorService {
      */
     getBeauty(gender) {
         let tab = this.localDataFactory.getBeautyList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementObjectFromListWithWeighting(tab,gender);
     }
 
 
@@ -183,7 +207,7 @@ export class GeneratorService {
      */
     getIntellect(gender) {
         let tab = this.localDataFactory.getIntellectList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementObjectFromListWithWeighting(tab,gender);
     }
 
 
@@ -194,7 +218,7 @@ export class GeneratorService {
      */
     getPerception(gender) {
         let tab = this.localDataFactory.getPerceptionList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementObjectFromListWithWeighting(tab,gender);
     }
 
 
@@ -205,7 +229,7 @@ export class GeneratorService {
      */
     getFightSkills(gender) {
         let tab = this.localDataFactory.getFightSkillsList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementObjectFromListWithWeighting(tab,gender);
     }
 
 

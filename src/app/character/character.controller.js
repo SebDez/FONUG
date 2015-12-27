@@ -185,5 +185,18 @@ export class CharacterController {
         
         
     }
+    
+    /**
+    * Get an element name from an object
+    * @param {Object} element The element concerned
+    * @return {String} The label to translate
+    */
+    getLabelFromElementObject(element){
+        if(this.currentCharacter.genderTag==='MALE'){
+            return element.name.MALE;
+        }else if(this.currentCharacter.genderTag==='FEMALE'){
+            return element.name.FEMALE;
+        }
+    }
 
 }

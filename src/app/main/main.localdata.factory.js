@@ -2,6 +2,11 @@ import SpecialSignBody from '../elements/SpecialSignBody';
 import Civilizations from '../elements/Civilizations';
 import Alignments from '../elements/Alignments';
 import Names from '../elements/Names';
+import Charisma from '../elements/Charisma';
+import Beauty from '../elements/Beauty';
+import Intellect from '../elements/Intellect';
+import Perception from '../elements/Perception';
+import FightSkills from '../elements/FightSkills';
 
 /**
  * This Factory is used to get datas for the generator
@@ -86,7 +91,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getCharismaList() {
-        return this.notSet;
+        return Charisma;
     }
 
     /**
@@ -94,7 +99,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getBeautyList() {
-        return this.notSet;
+        return Beauty;
     }
 
     /**
@@ -102,7 +107,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getIntellectList() {
-        return this.notSet;
+        return Intellect;
     }
 
     /**
@@ -110,7 +115,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getPerceptionList() {
-        return this.notSet;
+        return Perception;
     }
 
     /**
@@ -118,7 +123,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getFightSkillsList() {
-        return this.notSet;
+        return FightSkills;
     }
 
     /**
