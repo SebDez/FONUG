@@ -9,6 +9,7 @@ import Perception from '../elements/Perception';
 import FightSkills from '../elements/FightSkills';
 import Goals from '../elements/Goals';
 import Defects from '../elements/Defects';
+import Qualities from '../elements/Qualities';
 
 /**
  * This Factory is used to get datas for the generator
@@ -237,7 +238,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getQualityList() {
-        return this.notSet;
+        return Qualities;
     }
 
     /**

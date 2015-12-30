@@ -318,6 +318,120 @@
                 "MALE": "Vulgaire",
                 "FEMALE": "Vulgaire"
             }
+        },
+        "QUALITIES":{
+            "CLEVER":{
+                "MALE": "Adroit",
+                "FEMALE": "Adroite"
+            },
+            "PLEASANT":{
+                "MALE": "Agréable",
+                "FEMALE": "Agréable"
+            },
+            "APPLIED":{
+                "MALE": "Appliqué",
+                "FEMALE": "Appliquée"
+            },
+            "QUIET":{
+                "MALE": "Calme",
+                "FEMALE": "Calme"
+            },
+            "WARM":{
+                "MALE": "Chaleureux",
+                "FEMALE": "Chaleureuse"
+            },
+            "EDUCATED":{
+                "MALE": "Cultivé",
+                "FEMALE": "Cultivée"
+            },
+            "DEDICATED":{
+                "MALE": "Dévoué",
+                "FEMALE": "Dévouée"
+            },
+            "DISCIPLINED":{
+                "MALE": "Discipliné",
+                "FEMALE": "Disciplinée"
+            },
+            "TOUGH":{
+                "MALE": "Endurant",
+                "FEMALE": "Endurante"
+            },
+            "LOYAL":{
+                "MALE": "Fidèle",
+                "FEMALE": "Fidèle"
+            },
+            "STRONG":{
+                "MALE": "Fort",
+                "FEMALE": "Forte"
+            },
+            "HUMBLE":{
+                "MALE": "Humble",
+                "FEMALE": "Humble"
+            },
+            "INTEGRATES":{
+                "MALE": "Intégre",
+                "FEMALE": "Intégre"
+            },
+            "LEADER":{
+                "MALE": "Meneur",
+                "FEMALE": "Meneuse"
+            },
+            "LUCID":{
+                "MALE": "Lucide",
+                "FEMALE": "Lucide"
+            },
+            "CLEVER":{
+                "MALE": "Malin",
+                "FEMALE": "Maline"
+            },
+            "FUNNY":{
+                "MALE": "Marrant",
+                "FEMALE": "Marrante"
+            },
+            "ORIGINAL":{
+                "MALE": "Original",
+                "FEMALE": "Originale"
+            },
+            "PHILOSOPHICAL":{
+                "MALE": "Philosophe",
+                "FEMALE": "Philosophe"
+            },
+            "PROVIDINGSENSITIVE":{
+                "MALE": "Prévoyant",
+                "FEMALE": "Prévoyante"
+            },
+            "STABLE":{
+                "MALE": "Stable",
+                "FEMALE": "Stable"
+            },
+            "STRATEGIST":{
+                "MALE": "Stratège",
+                "FEMALE": "Stratège"
+            },
+            "TENACIOUS":{
+                "MALE": "Tenace",
+                "FEMALE": "Tenace"
+            },
+            "BRAVE":{
+                "MALE": "Valeureux",
+                "FEMALE": "Valeureuse"
+            },
+            "DETERMINED":{
+                "MALE": "Volontaire",
+                "FEMALE": "Volontaire"
+            },
+            "ZEN":{
+                "MALE": "Zen",
+                "FEMALE": "Zen"
+            },
+            "RESOURCEFUL":{
+                "MALE": "Débrouillard",
+                "FEMALE": "Débrouillarde"
+            },
+            "PRAGMATIC":{
+                "MALE": "Pragmatique",
+                "FEMALE": "Pragmatique"
+            }
         }
     },
     "VIEWS": {
