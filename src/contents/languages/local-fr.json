@@ -173,6 +173,151 @@
                 "MALE": "Excellent",
                 "FEMALE": "Excellente"
             }
+        },
+        "GOALS":{
+            "LUST":"La luxure",
+            "LOVE":"L'amour",
+            "WEALTH":"Le richesse",
+            "GREATERGOOD":"Le bien commun",
+            "POWER":"Le pouvoir",
+            "GLORY":"La gloire",
+            "FAMOUS":"La renommée",
+            "KNOWLEDGE":"Le savoir",
+            "SAVINGLOVE":"Sauver un être cher"
+        },
+        "DEFECTS":{
+            "ABRUPT":{
+                "MALE": "Abrupt",
+                "FEMALE": "Abrupte"
+            },
+            "ACERBIC":{
+                "MALE": "Acerbe",
+                "FEMALE": "Acerbe"
+            },
+            "ANXIOUS":{
+                "MALE": "Anxieux",
+                "FEMALE": "Anxieuse"
+            },
+            "AUTHORITARIAN":{
+                "MALE": "Autoritaire",
+                "FEMALE": "Autoritaire"
+            },
+            "STUBBORN":{
+                "MALE": "Borné",
+                "FEMALE": "Bornée"
+            },
+            "NOISY":{
+                "MALE": "Bruyant",
+                "FEMALE": "Bruyante"
+            },
+            "SECRETIVEPERSON":{
+                "MALE": "Cachotier",
+                "FEMALE": "Cachotière"
+            },
+            "CAREERIST":{
+                "MALE": "Carriériste",
+                "FEMALE": "Carriériste"
+            },
+            "COMPLICATED":{
+                "MALE": "Compliqué",
+                "FEMALE": "Compliquée"
+            },
+            "CRUEL":{
+                "MALE": "Cruel",
+                "FEMALE": "Cruelle"
+            },
+            "DEFEATIST":{
+                "MALE": "Défaitiste",
+                "FEMALE": "Défaitiste"
+            },
+            "SPENDTHRIFT":{
+                "MALE": "Dépensier",
+                "FEMALE": "Dépensière"
+            },
+            "DISOBEDIENT":{
+                "MALE": "Désobéissant",
+                "FEMALE": "Désobéissante"
+            },
+            "ABSENTMINDED":{
+                "MALE": "Distrait",
+                "FEMALE": "Distraite"
+            },
+            "SELFISH":{
+                "MALE": "Égoïste",
+                "FEMALE": "Égoïste"
+            },
+            "INFORMAL":{
+                "MALE": "Famillier",
+                "FEMALE": "Famillière"
+            },
+            "RUDE":{
+                "MALE": "Grossier",
+                "FEMALE": "Grossière"
+            },
+            "HYPOCRITE":{
+                "MALE": "Hypocrite",
+                "FEMALE": "Hypocrite"
+            },
+            "UNCULTIVATED":{
+                "MALE": "Inculte",
+                "FEMALE": "Inculte"
+            },
+            "INTOLERANT":{
+                "MALE": "Intolérant",
+                "FEMALE": "Intolérante"
+            },
+            "LAXPERSON":{
+                "MALE": "Laxiste",
+                "FEMALE": "Laxiste"
+            },
+            "HEAVY":{
+                "MALE": "Lourd",
+                "FEMALE": "Lourde"
+            },
+            "WHIMSICAL":{
+                "MALE": "Lunatique",
+                "FEMALE": "Lunatique"
+            },
+            "MACHOMAN":{
+                "MALE": "Macho",
+                "FEMALE": "Macho"
+            },
+            "MANIPULATOR":{
+                "MALE": "Manipulateur",
+                "FEMALE": "Manipulatice"
+            },
+            "PROUD":{
+                "MALE": "Orgeuilleux",
+                "FEMALE": "Orgeuilleuse"
+            },
+            "FEARFUL":{
+                "MALE": "Peureux",
+                "FEMALE": "Peureuse"
+            },
+            "FASTIDIOUS":{
+                "MALE": "Pointilleux",
+                "FEMALE": "Pointilleuse"
+            },
+            "RACIST":{
+                "MALE": "Raciste",
+                "FEMALE": "Raciste"
+            },
+            "SQUARE":{
+                "MALE": "Ringard",
+                "FEMALE": "Ringarde"
+            },
+            "STUPID":{
+                "MALE": "Stupide",
+                "FEMALE": "Stupide"
+            },
+            "SAD":{
+                "MALE": "Triste",
+                "FEMALE": "Triste"
+            },
+            "GROSS":{
+                "MALE": "Vulgaire",
+                "FEMALE": "Vulgaire"
+            }
         }
     },
     "VIEWS": {

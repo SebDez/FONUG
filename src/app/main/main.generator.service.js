@@ -346,12 +346,11 @@ export class GeneratorService {
 
     /**
      * Get the character goal
-     * @param {String} gender The character's gender
      * @result {String} The goal label to translate
      */
-    getGoal(gender) {
+    getGoal() {
         let tab = this.localDataFactory.getGoalList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 

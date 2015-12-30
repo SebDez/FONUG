@@ -7,6 +7,8 @@ import Beauty from '../elements/Beauty';
 import Intellect from '../elements/Intellect';
 import Perception from '../elements/Perception';
 import FightSkills from '../elements/FightSkills';
+import Goals from '../elements/Goals';
+import Defects from '../elements/Defects';
 
 /**
  * This Factory is used to get datas for the generator
@@ -211,7 +213,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getGoalList() {
-        return this.notSet;
+        return Goals;
     }
 
     /**
@@ -227,7 +229,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels to translate
      */
     getDefectList() {
-        return this.notSet;
+        return Defects;
     }
 
     /**
