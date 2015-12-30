@@ -234,7 +234,7 @@ export class LocalDataFactory {
     }
 
     /**
-     * Get all the x labels
+     * Get all the qualities labels
      * @return {String} The alignments labels to translate
      */
     getQualityList() {
@@ -242,10 +242,18 @@ export class LocalDataFactory {
     }
 
     /**
-     * Get all the x labels
+     * Get all the Phobia labels
      * @return {String} The alignments labels to translate
      */
     getPhobiaList() {
+        return this.notSet;
+    }
+    
+    /**
+     * Get all the temper labels
+     * @return {String} The tempers labels to translate
+     */
+    getTemperList() {
         return this.notSet;
     }
 

@@ -506,7 +506,8 @@
             "COMBAT_STYLE": "Style de combat",
             "CLOTHES": "Vêtements",
             "ACCESSORIES": "Accessoires",
-            "CLOTHING_STYLE": "Style Vestimentaire"
+            "CLOTHING_STYLE": "Style Vestimentaire",
+            "TEMPER":"Tempérament"
         }
     }
 }

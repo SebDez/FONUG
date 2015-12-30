@@ -505,5 +505,15 @@ export class GeneratorService {
         let tab = this.localDataFactory.getClothingStyleList();
         return this.getElementLabelFromListWithWeighting(tab,gender);
     }
+    
+    /**
+     * Get the character temper
+     * @param {String} gender The character's gender
+     * @result {String} The temper label to translate
+     */
+    getTemper(gender) {
+        let tab = this.localDataFactory.getTemperList();
+        return this.getElementLabelFromListWithWeighting(tab,gender);
+    }
 
 }
