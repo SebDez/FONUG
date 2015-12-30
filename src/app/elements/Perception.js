@@ -1,29 +1,29 @@
 module.exports = [
     {
         name: {
-            MALE: 'Inattentif',
-            FEMALE: 'Inattentive'
+            MALE: 'GENERATOR.PERCEPTION.INATTENTIVE.MALE',
+            FEMALE: 'GENERATOR.PERCEPTION.INATTENTIVE.FEMALE'
         },
         weight: 0.2,
         percentage:30
     }, {
         name: {
-            MALE: 'Plutôt absent',
-            FEMALE: 'Plutôt absente'
+            MALE: 'GENERATOR.PERCEPTION.UNOBSERVANT.MALE',
+            FEMALE: 'GENERATOR.PERCEPTION.UNOBSERVANT.FEMALE'
         },
         weight: 0.4,
         percentage:55
     }, {
         name: {
-            MALE: 'Attentif',
-            FEMALE: 'Attentive'
+            MALE: 'GENERATOR.PERCEPTION.ATTENTIVE.MALE',
+            FEMALE: 'GENERATOR.PERCEPTION.ATTENTIVE.FEMALE'
         },
         weight: 0.4,
         percentage:75
     }, {
         name: {
-            MALE: 'Très attentif',
-            FEMALE: 'Très attentive'
+            MALE: 'GENERATOR.PERCEPTION.VERYATTENTIVE.MALE',
+            FEMALE: 'GENERATOR.PERCEPTION.VERYATTENTIVE.FEMALE'
         },
         weight: 0.2,
         percentage:90

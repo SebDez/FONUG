@@ -83,6 +83,96 @@
             "LAWFULEVIL":"Lawful Evil",
             "NEUTRALEVIL":"Neutral Evil",
             "CHAOTICEVIL":"Chaotic Evil"
+        },
+        "BEAUTY": {
+            "UGLY": {
+                "MALE": "Ugly",
+                "FEMALE": "Ugly"
+            },
+            "NOTATTRACTIVE": {
+                "MALE": "Few seductive",
+                "FEMALE": "Few seductive"
+            },
+            "NICE": {
+                "MALE": "Pretty nice",
+                "FEMALE": "Pretty nice"
+            },
+            "BEAUTIFUL": {
+                "MALE": "Very beautiful",
+                "FEMALE": "Very beautiful"
+            }
+        },
+        "PERCEPTION": {
+            "INATTENTIVE": {
+                "MALE": "Inattentive",
+                "FEMALE": "Inattentive"
+            },
+            "UNOBSERVANT": {
+                "MALE": "Unobservant",
+                "FEMALE": "Unobservant"
+            },
+            "ATTENTIVE": {
+                "MALE": "Attentive",
+                "FEMALE": "Attentive"
+            },
+            "VERYATTENTIVE": {
+                "MALE": "Very attentive",
+                "FEMALE": "Very attentive"
+            }
+        },
+        "INTELLECT": {
+            "STUPID": {
+                "MALE": "Stupid",
+                "FEMALE": "Stupid"
+            },
+            "PRETTYSTUPID": {
+                "MALE": "Pretty stupid",
+                "FEMALE": "Pretty stupid"
+            },
+            "PRETTYSMART": {
+                "MALE": "Smart",
+                "FEMALE": "Smart"
+            },
+            "VERYSMART": {
+                "MALE": "Very smart",
+                "FEMALE": "Very smart"
+            }
+        },
+        "CHARISMA": {
+            "NOPRESENCE": {
+                "MALE": "No presence",
+                "FEMALE": "No presence"
+            },
+            "UNCHARISMATIC": {
+                "MALE": "Uncharismatic",
+                "FEMALE": "Uncharismatic"
+            },
+            "CHARISMATIC": {
+                "MALE": "Charismatic",
+                "FEMALE": "Charismatic"
+            },
+            "VERYCHARISMATIC": {
+                "MALE": "Very charismatic",
+                "FEMALE": "Very charismatic"
+            }
+        },
+        "FIGHTSKILLS": {
+            "INEXPERIENCED": {
+                "MALE": "Inexperienced",
+                "FEMALE": "Inexperienced"
+            },
+            "NOOB": {
+                "MALE": "Noob",
+                "FEMALE": "Noob"
+            },
+            "EXPERIMENTED": {
+                "MALE": "Experimented",
+                "FEMALE": "Experimented"
+            },
+            "EXCELLENT": {
+                "MALE": "Excellent",
+                "FEMALE": "Excellent"
+            }
         }
     }, 
     "VIEWS": {

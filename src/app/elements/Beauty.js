@@ -1,29 +1,29 @@
 module.exports = [
     {
         name: {
-            MALE: 'Laid',
-            FEMALE: 'Laide'
+            MALE: 'GENERATOR.BEAUTY.UGLY.MALE',
+            FEMALE: 'GENERATOR.BEAUTY.UGLY.FEMALE'
         },
         weight: 0.2,
         percentage:30
     }, {
         name: {
-            MALE: 'Peu séduisant',
-            FEMALE: 'Peu séduisante'
+            MALE: 'GENERATOR.BEAUTY.NOTATTRACTIVE.MALE',
+            FEMALE: 'GENERATOR.BEAUTY.NOTATTRACTIVE.FEMALE'
         },
         weight: 0.4,
         percentage:55
     }, {
         name: {
-            MALE: 'Plutôt beau',
-            FEMALE: 'Plutôt belle'
+            MALE: 'GENERATOR.BEAUTY.NICE.MALE',
+            FEMALE: 'GENERATOR.BEAUTY.NICE.FEMALE'
         },
         weight: 0.4,
         percentage:75
     }, {
         name: {
-            MALE: 'Très beau',
-            FEMALE: 'Très belle'
+            MALE: 'GENERATOR.BEAUTY.BEAUTIFUL.MALE',
+            FEMALE: 'GENERATOR.BEAUTY.BEAUTIFUL.FEMALE'
         },
         weight: 0.2,
         percentage:90

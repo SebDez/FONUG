@@ -183,7 +183,7 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The charisma object
      */
-    getCharisma(gender) {
+    getCharisma() {
         let tab = this.localDataFactory.getCharismaList();
         return this.getElementObjectFromListWithWeighting(tab);
     }
@@ -194,7 +194,7 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The beauty label to translate
      */
-    getBeauty(gender) {
+    getBeauty() {
         let tab = this.localDataFactory.getBeautyList();
         return this.getElementObjectFromListWithWeighting(tab);
     }
@@ -205,7 +205,7 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The intellect label to translate
      */
-    getIntellect(gender) {
+    getIntellect() {
         let tab = this.localDataFactory.getIntellectList();
         return this.getElementObjectFromListWithWeighting(tab);
     }
@@ -216,7 +216,7 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The label to translate
      */
-    getPerception(gender) {
+    getPerception() {
         let tab = this.localDataFactory.getPerceptionList();
         return this.getElementObjectFromListWithWeighting(tab);
     }
@@ -227,7 +227,7 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The label to translate
      */
-    getFightSkills(gender) {
+    getFightSkills() { 
         let tab = this.localDataFactory.getFightSkillsList();
         return this.getElementObjectFromListWithWeighting(tab);
     }

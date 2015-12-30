@@ -73,16 +73,106 @@
                 "FEMALE": "Elle ronge ses ongles."
             }
         },
-        "ALIGNMENTS":{
-            "LAWFULGOOD":"Loyal Bon",
-            "NEUTRALGOOD":"Neutre Bon",
-            "CHAOTICGOOD":"Chaotique Bon",
-            "LAWFULNEUTRAL":"Loyal Neutre",
-            "TRUENEUTRAL":"Vrai Neutre",
-            "CHAOTICNEUTRAL":"Chaotique Neutre",
-            "LAWFULEVIL":"Loyal Mauvais",
-            "NEUTRALEVIL":"Neutre Mauvais",
-            "CHAOTICEVIL":"Chaotique Mauvais"
+        "ALIGNMENTS": {
+            "LAWFULGOOD": "Loyal Bon",
+            "NEUTRALGOOD": "Neutre Bon",
+            "CHAOTICGOOD": "Chaotique Bon",
+            "LAWFULNEUTRAL": "Loyal Neutre",
+            "TRUENEUTRAL": "Vrai Neutre",
+            "CHAOTICNEUTRAL": "Chaotique Neutre",
+            "LAWFULEVIL": "Loyal Mauvais",
+            "NEUTRALEVIL": "Neutre Mauvais",
+            "CHAOTICEVIL": "Chaotique Mauvais"
+        },
+        "BEAUTY": {
+            "UGLY": {
+                "MALE": "Laid",
+                "FEMALE": "Laide"
+            },
+            "NOTATTRACTIVE": {
+                "MALE": "Peu séduisant",
+                "FEMALE": "Peu séduisant"
+            },
+            "NICE": {
+                "MALE": "Plutôt beau",
+                "FEMALE": "Plutôt belle"
+            },
+            "BEAUTIFUL": {
+                "MALE": "Très beau",
+                "FEMALE": "Très belle"
+            }
+        },
+        "PERCEPTION": {
+            "INATTENTIVE": {
+                "MALE": "Absent",
+                "FEMALE": "Absente"
+            },
+            "UNOBSERVANT": {
+                "MALE": "Distrait",
+                "FEMALE": "Distraite"
+            },
+            "ATTENTIVE": {
+                "MALE": "Attentif",
+                "FEMALE": "Attentive"
+            },
+            "VERYATTENTIVE": {
+                "MALE": "Très attentif",
+                "FEMALE": "Très attentive"
+            }
+        },
+        "INTELLECT": {
+            "STUPID": {
+                "MALE": "Stupid",
+                "FEMALE": "Stupid"
+            },
+            "PRETTYSTUPID": {
+                "MALE": "Pretty stupid",
+                "FEMALE": "Pretty stupid"
+            },
+            "PRETTYSMART": {
+                "MALE": "Smart",
+                "FEMALE": "Smart"
+            },
+            "VERYSMART": {
+                "MALE": "Very smart",
+                "FEMALE": "Very smart"
+            }
+        },
+        "CHARISMA": {
+            "NOPRESENCE": {
+                "MALE": "Aucune présence",
+                "FEMALE": "Aucune présence"
+            },
+            "UNCHARISMATIC": {
+                "MALE": "Peu de charisme",
+                "FEMALE": "Peu de charisme"
+            },
+            "CHARISMATIC": {
+                "MALE": "Charismatique",
+                "FEMALE": "Charismatique"
+            },
+            "VERYCHARISMATIC": {
+                "MALE": "Très charismatique",
+                "FEMALE": "Très charismatique"
+            }
+        },
+        "FIGHTSKILLS": {
+            "INEXPERIENCED": {
+                "MALE": "Novice",
+                "FEMALE": "Novice"
+            },
+            "NOOB": {
+                "MALE": "Bleusaille",
+                "FEMALE": "Bleusaille"
+            },
+            "EXPERIMENTED": {
+                "MALE": "Expérimenté",
+                "FEMALE": "Expérimentée"
+            },
+            "EXCELLENT": {
+                "MALE": "Excellent",
+                "FEMALE": "Excellente"
+            }
         }
     },
     "VIEWS": {
@@ -91,73 +181,73 @@
             "MYSELF": "Personnalisé",
             "GENERATEBUTTON": "Générer un personnage",
             "GENERATEOTHER": "Générer un autre personnage",
-            "GENDER":"Genre",
-            "AGE":"Âge",
-            "CIVILIZATION":"Civilisation",
-            "TEXT1":"<p>Il convient autant pour la génération rapide de Personages Non Joueurs que pour d'autres personnages de fiction, le but n'est pas de générer une fiche personnage mais de bien donner des pistes lors de la création du personnage.</p>",
-            "TEXT2":"FONUG est un générateur aléatoire de personnage."
+            "GENDER": "Genre",
+            "AGE": "Âge",
+            "CIVILIZATION": "Civilisation",
+            "TEXT1": "<p>Il convient autant pour la génération rapide de Personages Non Joueurs que pour d'autres personnages de fiction, le but n'est pas de générer une fiche personnage mais de bien donner des pistes lors de la création du personnage.</p>",
+            "TEXT2": "FONUG est un générateur aléatoire de personnage."
         },
         "SIDENAV": {
             "NAVIGATION": "Navigation",
-            "ABOUT":"A propos",
-            "CONTACT":"Contact"
+            "ABOUT": "A propos",
+            "CONTACT": "Contact"
         },
         "ABOUT": {
-            "TEXT1":"<p>FONUG est un générateur de personnages aléatoires open-source, libre et gratuit !</p> <p>Vous pouvez choisir de générer votre personnage soit de manière intégralement aléatoire soit en spécifiant initialement des critères comme l'âge, le sexe ou la civilisation de celui-ci.</p><p>Le personnage généré est très général et avec des informations plutôt vagues dans le simple but de pouvoir transposer vos personnages dans tous les univers possibles.</p><p>Certaines informations pourront paraitre contradictoires ou surprenantes et il sera à vous d'adapter selon le contexte dans lequel apparaitrait votre personnage. (Découvrir que le petit neveu de 5 ans de votre personnage est du genre chaotique mauvais n'est pas un moment facile mais croyez moi le générateur ne se trompe jamais !)</p>",
-            "TEXT2":"<p>Je tiens à remercie Alexis K., grand MJ des collines du Nord, qui a eut l'idée de ce projet et m'a fourni une bonne base de travail et Christian T. pour m'avoir fourni ses petites mains pour remplir mes jeux de données.</p><p>Enfin un grand merci à GUNOF (http://www.gunof.net/) un générateur Univervsel de Noms de Fiction que j'adore et que j'utilise souvent, c'est un peu en hommage que j'ai appelé l'application ainsi (FONUG/GUNOF).</p>",
-            "TEXT3":"<p>Du point de vue technique, l'application est réalisée avec de l'AngularJS et plein d'autres technos JS super sympa que j'adore tout particulièrement, c'est open source vous pouvez jeter un oeil ici :</p>",
-            "TITLE":"A PROPOS",
-            "BUTTON":"Voir les sources sur Github"
+            "TEXT1": "<p>FONUG est un générateur de personnages aléatoires open-source, libre et gratuit !</p> <p>Vous pouvez choisir de générer votre personnage soit de manière intégralement aléatoire soit en spécifiant initialement des critères comme l'âge, le sexe ou la civilisation de celui-ci.</p><p>Le personnage généré est très général et avec des informations plutôt vagues dans le simple but de pouvoir transposer vos personnages dans tous les univers possibles.</p><p>Certaines informations pourront paraitre contradictoires ou surprenantes et il sera à vous d'adapter selon le contexte dans lequel apparaitrait votre personnage. (Découvrir que le petit neveu de 5 ans de votre personnage est du genre chaotique mauvais n'est pas un moment facile mais croyez moi le générateur ne se trompe jamais !)</p>",
+            "TEXT2": "<p>Je tiens à remercie Alexis K., grand MJ des collines du Nord, qui a eut l'idée de ce projet et m'a fourni une bonne base de travail et Christian T. pour m'avoir fourni ses petites mains pour remplir mes jeux de données.</p><p>Enfin un grand merci à GUNOF (http://www.gunof.net/) un générateur Univervsel de Noms de Fiction que j'adore et que j'utilise souvent, c'est un peu en hommage que j'ai appelé l'application ainsi (FONUG/GUNOF).</p>",
+            "TEXT3": "<p>Du point de vue technique, l'application est réalisée avec de l'AngularJS et plein d'autres technos JS super sympa que j'adore tout particulièrement, c'est open source vous pouvez jeter un oeil ici :</p>",
+            "TITLE": "A PROPOS",
+            "BUTTON": "Voir les sources sur Github"
         },
         "CONTACT": {
-            "TITLE":"CONTACT",
-            "BUTTON":"Voir la page Facebook",
-            "TEXT1":"En tant que bon développeur qui se repecte je suis quelqu'un de fénéant c'est pourquoi il n'y a pas ici de formulaire de contact.",
-            "TEXT2":"<p>En revanche nous avons une page Facebook, n'hésitez pas à venir me contacter via celle-ci et pourquoi pas vous abonner à celle-ci ?</p>",
-            "TEXT3":"<p>J'ai hâte de découvrir vos créations et de connaitre les histoires que vous leur avez fait vivre !</p>"
+            "TITLE": "CONTACT",
+            "BUTTON": "Voir la page Facebook",
+            "TEXT1": "En tant que bon développeur qui se repecte je suis quelqu'un de fénéant c'est pourquoi il n'y a pas ici de formulaire de contact.",
+            "TEXT2": "<p>En revanche nous avons une page Facebook, n'hésitez pas à venir me contacter via celle-ci et pourquoi pas vous abonner à celle-ci ?</p>",
+            "TEXT3": "<p>J'ai hâte de découvrir vos créations et de connaitre les histoires que vous leur avez fait vivre !</p>"
         },
-        "GENERATOR":{
-            "SOON":"Bientôt généré ;)",
-            "MY_CHARACTER":"Mon personnage",
-            "CHARISMA":"Charisme",
-            "BEAUTY":"Beauté",
-            "INTELLECT":"Intellect",
-            "PERCEPTION":"Perception",
-            "FIGHT_SKILLS":"Excellence au combat",
-            "AGE":"Âge",
-            "GENDER":"Genre",
-            "CIVILIZATION":"Civilisation",
-            "CLASS":"Classe",
-            "PUNCHLINE":"Punchline",
-            "PHYSICAL":"Physique",
-            "CORPULENCE":"Corpulence",
-            "FACE_SHAPE":"Forme du visage",
-            "SKIN_TONE":"Teint",
-            "EYES":"Yeux",
-            "MOUTH":"Bouche",
-            "NOSE":"Nez",
-            "HAIR":"Cheveux",
-            "SPECIAL_SIGN_FACE":"Signe Distinctif (visage)",
-            "SPECIAL_SIGN_BODY":"Signe Distinctif (corps)",
-            "PERSONNALITY":"Personnalité",
-            "ALIGNMENT":"Alignement",
-            "GOAL":"Objectif",
-            "MOTIVATION":"Motivation",
-            "DEFECT":"Défaut",
-            "QUALITY":"Qualité",
-            "PHOBIA":"Phobie",
-            "SOCIAL":"Social",
-            "TALENT":"Talent",
-            "PROFESSION":"Profession",
-            "FAMILY_SITUATION":"Situation Familiale",
-            "FINANCIAL_SITUATION":"Situation Financière",
-            "ACCENT":"Accent",
-            "REPUTATION":"Reputation",
-            "APPEARANCE":"Apparence",
-            "COMBAT_STYLE":"Style de combat",
-            "CLOTHES":"Vêtements",
-            "ACCESSORIES":"Accessoires",
-            "CLOTHING_STYLE":"Style Vestimentaire"
+        "GENERATOR": {
+            "SOON": "Bientôt généré ;)",
+            "MY_CHARACTER": "Mon personnage",
+            "CHARISMA": "Charisme",
+            "BEAUTY": "Beauté",
+            "INTELLECT": "Intellect",
+            "PERCEPTION": "Perception",
+            "FIGHT_SKILLS": "Excellence au combat",
+            "AGE": "Âge",
+            "GENDER": "Genre",
+            "CIVILIZATION": "Civilisation",
+            "CLASS": "Classe",
+            "PUNCHLINE": "Punchline",
+            "PHYSICAL": "Physique",
+            "CORPULENCE": "Corpulence",
+            "FACE_SHAPE": "Forme du visage",
+            "SKIN_TONE": "Teint",
+            "EYES": "Yeux",
+            "MOUTH": "Bouche",
+            "NOSE": "Nez",
+            "HAIR": "Cheveux",
+            "SPECIAL_SIGN_FACE": "Signe Distinctif (visage)",
+            "SPECIAL_SIGN_BODY": "Signe Distinctif (corps)",
+            "PERSONNALITY": "Personnalité",
+            "ALIGNMENT": "Alignement",
+            "GOAL": "Objectif",
+            "MOTIVATION": "Motivation",
+            "DEFECT": "Défaut",
+            "QUALITY": "Qualité",
+            "PHOBIA": "Phobie",
+            "SOCIAL": "Social",
+            "TALENT": "Talent",
+            "PROFESSION": "Profession",
+            "FAMILY_SITUATION": "Situation Familiale",
+            "FINANCIAL_SITUATION": "Situation Financière",
+            "ACCENT": "Accent",
+            "REPUTATION": "Reputation",
+            "APPEARANCE": "Apparence",
+            "COMBAT_STYLE": "Style de combat",
+            "CLOTHES": "Vêtements",
+            "ACCESSORIES": "Accessoires",
+            "CLOTHING_STYLE": "Style Vestimentaire"
         }
     }
 }

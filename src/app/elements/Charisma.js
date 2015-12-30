@@ -1,29 +1,29 @@
 module.exports = [
     {
         name: {
-            MALE: 'Aucune présence',
-            FEMALE: 'Aucune présence'
+            MALE: 'GENERATOR.CHARISMA.NOPRESENCE.MALE',
+            FEMALE: 'GENERATOR.CHARISMA.NOPRESENCE.FEMALE'
         },
         weight: 0.2,
         percentage:30
     }, {
         name: {
-            MALE: 'Peu charismatique',
-            FEMALE: 'Peu charismatique'
+            MALE: 'GENERATOR.CHARISMA.UNCHARISMATIC.MALE',
+            FEMALE: 'GENERATOR.CHARISMA.UNCHARISMATIC.FEMALE'
         },
         weight: 0.4,
         percentage:55
     }, {
         name: {
-            MALE: 'Charismatique',
-            FEMALE: 'Charismatique'
+            MALE: 'GENERATOR.CHARISMA.CHARISMATIC.MALE',
+            FEMALE: 'GENERATOR.CHARISMA.CHARISMATIC.FEMALE'
         },
         weight: 0.4,
         percentage:75
     }, {
         name: {
-            MALE: 'Très charistmatique',
-            FEMALE: 'Très charistmatique'
+            MALE: 'GENERATOR.CHARISMA.VERYCHARISMATIC.MALE',
+            FEMALE: 'GENERATOR.CHARISMA.VERYCHARISMATIC.FEMALE'
         },
         weight: 0.2,
         percentage:90

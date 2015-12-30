@@ -1,29 +1,29 @@
 module.exports = [
     {
         name: {
-            MALE: 'Stupide',
-            FEMALE: 'Stupide'
+            MALE: 'GENERATOR.INTELLECT.STUPID.MALE',
+            FEMALE: 'GENERATOR.INTELLECT.STUPID.FEMALE'
         },
         weight: 0.2,
         percentage:30
     }, {
         name: {
-            MALE: 'Assez bête',
-            FEMALE: 'Assez bête'
+            MALE: 'GENERATOR.INTELLECT.PRETTYSTUPID.MALE',
+            FEMALE: 'GENERATOR.INTELLECT.PRETTYSTUPID.FEMALE'
         },
         weight: 0.4,
         percentage:55
     }, {
         name: {
-            MALE: 'Plutôt malin',
-            FEMALE: 'Plutôt malin'
+            MALE: 'GENERATOR.INTELLECT.PRETTYSMART.MALE',
+            FEMALE: 'GENERATOR.INTELLECT.PRETTYSMART.FEMALE'
         },
         weight: 0.4,
         percentage:75
     }, {
         name: {
-            MALE: 'Très intelligent',
-            FEMALE: 'Très intelligent'
+            MALE: 'GENERATOR.INTELLECT.VERYSMART.MALE',
+            FEMALE: 'GENERATOR.INTELLECT.VERYSMART.FEMALE'
         },
         weight: 0.2,
         percentage:90

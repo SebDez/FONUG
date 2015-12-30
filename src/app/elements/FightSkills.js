@@ -1,29 +1,29 @@
 module.exports = [
     {
         name: {
-            MALE: 'Très mauvais',
-            FEMALE: 'Très mauvaise'
+            MALE: 'GENERATOR.FIGHTSKILLS.INEXPERIENCED.MALE',
+            FEMALE: 'GENERATOR.FIGHTSKILLS.INEXPERIENCED.FEMALE'
         },
         weight: 0.2,
         percentage:30
     }, {
         name: {
-            MALE: 'Plutôt mauvais',
-            FEMALE: 'Plutôt mauvaise'
+            MALE: 'GENERATOR.FIGHTSKILLS.NOOB.MALE',
+            FEMALE: 'GENERATOR.FIGHTSKILLS.NOOB.FEMALE'
         },
         weight: 0.4,
         percentage:55
     }, {
         name: {
-            MALE: 'Plutôt doué',
-            FEMALE: 'Plutôt douée'
+            MALE: 'GENERATOR.FIGHTSKILLS.EXPERIMENTED.MALE',
+            FEMALE: 'GENERATOR.FIGHTSKILLS.EXPERIMENTED.FEMALE'
         },
         weight: 0.4,
         percentage:75
     }, {
         name: {
-            MALE: 'Très doué',
-            FEMALE: 'Très douée'
+            MALE: 'GENERATOR.FIGHTSKILLS.EXCELLENT.MALE',
+            FEMALE: 'GENERATOR.FIGHTSKILLS.EXCELLENT.FEMALE'
         },
         weight: 0.2,
         percentage:90
