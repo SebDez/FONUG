@@ -2,228 +2,228 @@
 <sidenav></sidenav>
 
 <div class="divContainer" layout="column" layout-align="center center" layout-wrap>
-  <div class="container main md-whiteframe-z2" md-theme="{{character.currentCharacter.alignment.mdTheme}}">
-    <!-- MAIN -->
-    <md-toolbar>
-      <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}} : {{character.currentCharacter.name}}</h1>
-    </md-toolbar>
-    <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-      <div flex="30" class="logoContainer">
-        <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
-      </div>
-      <div flex="70">
-        <div layout="column" layout-wrap class="right">
-          <div flex="100">
-            <h4 class="statLabel">{{'VIEWS.GENERATOR.CHARISMA' | translate}} :</h4>
+    <div class="container main md-whiteframe-z2" md-theme="{{character.currentCharacter.alignment.mdTheme}}">
+        <!-- MAIN -->
+        <md-toolbar>
+            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}}: {{character.currentCharacter.name}}</h1>
+        </md-toolbar>
+        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
+            <div flex="30" class="logoContainer">
+                <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
+            </div>
+            <div flex="70">
+                <div layout="column" class="right">
+                    <div flex="100">
+                        <h4 class="statLabel">{{'VIEWS.GENERATOR.CHARISMA' | translate}}:</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.charisma.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.charisma.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.charisma) | translate}}</div>
+                        </div>
+                    </div>
 
-            <div class="progress">
-              <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.charisma.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.charisma.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.charisma) | translate}}</div>
+                    <div flex="100">
+                        <h4 class="statLabel">{{'VIEWS.GENERATOR.BEAUTY' | translate}}:</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.beauty.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.beauty.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.beauty) | translate}}
+                            </div>
+                        </div>
+                    </div>
+                    <div flex="100">
+                        <h4 class="statLabel">{{'VIEWS.GENERATOR.INTELLECT' | translate}}:</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.intellect.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.intellect.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.intellect) | translate}}
+                            </div>
+                        </div>
+                    </div>
+                    <div flex="100">
+                        <h4 class="statLabel">{{'VIEWS.GENERATOR.PERCEPTION' | translate}}:</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.perception.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.perception.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.perception) | translate}}
+                            </div>
+                        </div>
+                    </div>
+                    <div flex="100">
+                        <h4 class="statLabel">{{'VIEWS.GENERATOR.FIGHT_SKILLS' | translate}}:</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.fightSkills.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.fightSkills.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.fightSkills) | translate}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div flex="100">
-            <h4 class="statLabel">{{'VIEWS.GENERATOR.BEAUTY' | translate}} :</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.beauty.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.beauty.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.beauty) | translate}}
-              </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.AGE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.age | translate}}</p>
             </div>
-          </div>
-          <div flex="100">
-            <h4 class="statLabel">{{'VIEWS.GENERATOR.INTELLECT' | translate}} :</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.intellect.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.intellect.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.intellect) | translate}}
-              </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.ALIGNMENT' | translate}}:</h4>
+                <span class="inline label {{character.currentCharacter.alignment.cssTheme}}">{{character.currentCharacter.alignment.name | translate}}</span>
             </div>
-          </div>
-          <div flex="100">
-            <h4 class="statLabel">{{'VIEWS.GENERATOR.PERCEPTION' | translate}} :</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.perception.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.perception.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.perception) | translate}}
-              </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.GENDER' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.gender | translate}}</p>
             </div>
-          </div>
-          <div flex="100">
-            <h4 class="statLabel">{{'VIEWS.GENERATOR.FIGHT_SKILLS' | translate}} :</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.fightSkills.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.fightSkills.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.fightSkills) | translate}}
-              </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.CIVILIZATION' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.civilization.name | translate}}</p>
             </div>
-          </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.CLASS' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.charClass | translate}}</p>
+            </div>
+            <div flex="100">
+                <h4 class="inline">{{'VIEWS.GENERATOR.PUNCHLINE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.punchline | translate}}</p>
+            </div>
         </div>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.AGE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.age | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.ALIGNMENT' | translate}} :</h4>
-        <span class="inline label {{character.currentCharacter.alignment.cssTheme}}">{{character.currentCharacter.alignment.name | translate}}</span>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.GENDER' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.gender | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.CIVILIZATION' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.civilization.name | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.CLASS' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.charClass | translate}}</p>
-      </div>
-      <div flex="100">
-        <h4 class="inline">{{'VIEWS.GENERATOR.PUNCHLINE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.punchline | translate}}</p>
-      </div>
+        <!-- ##### -->
+
+
+        <!-- PHYSICAL -->
+        <md-toolbar class="title">
+            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PHYSICAL' | translate}}</h1>
+        </md-toolbar>
+
+
+        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.CORPULENCE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.corpulence | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.FACE_SHAPE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.faceShape | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.SKIN_TONE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.skinTone | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.EYES' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.eyes | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.MOUTH' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.mouth | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.NOSE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.nose | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.HAIR' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.hair | translate}}</p>
+            </div>
+            <div flex="100">
+                <h4 class="inline">{{'VIEWS.GENERATOR.SPECIAL_SIGN_FACE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.specialSignFace | translate}}</p>
+            </div>
+            <div flex="100">
+                <h4 class="inline">{{'VIEWS.GENERATOR.SPECIAL_SIGN_BODY' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.specialSignBody | translate}}</p>
+            </div>
+        </div>
+        <!-- ##### -->
+
+        <!-- PERSONALITE -->
+        <md-toolbar class="title">
+            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PERSONNALITY' | translate}}</h1>
+        </md-toolbar>
+
+
+        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.GOAL' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.goal | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.MOTIVATION' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.motivation | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.DEFECT' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.defect | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.QUALITY' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.quality | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.PHOBIA' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.phobia | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.TEMPER' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.temper | translate}}</p>
+            </div>
+        </div>
+        <!-- ##### -->
+
+
+        <!-- SOCIAL -->
+        <md-toolbar class="title">
+            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.SOCIAL' | translate}}</h1>
+        </md-toolbar>
+
+
+        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
+            <div flex="100" class="inline">
+                <h4 class="inline">{{'VIEWS.GENERATOR.TALENT' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.talent | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.PROFESSION' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.profession | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.FAMILY_SITUATION' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.familySituation | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.FINANCIAL_SITUATION' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.financialSituation | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.ACCENT' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.accent | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.REPUTATION' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.reputation | translate}}</p>
+            </div>
+        </div>
+        <!-- ##### -->
+
+        <!-- APPARENCE -->
+        <md-toolbar class="title">
+            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.APPEARANCE' | translate}}</h1>
+        </md-toolbar>
+
+
+        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.COMBAT_STYLE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.combatStyle | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHES' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.clothes | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.ACCESSORIES' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.accessories | translate}}</p>
+            </div>
+            <div flex="50">
+                <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHING_STYLE' | translate}}:</h4>
+                <p class="inline">{{character.currentCharacter.clothingStyle | translate}}</p>
+            </div>
+        </div>
+        <!-- ##### -->
+
+
+        <div layout="row" layout-padding>
+            <div flex>
+                <md-button ng-click="sidenav.goToMain()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</md-button>
+            </div>
+        </div>
     </div>
-    <!-- ##### -->
-
-
-    <!-- PHYSICAL -->
-    <md-toolbar>
-      <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PHYSICAL' | translate}}</h1>
-    </md-toolbar>
-
-
-    <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.CORPULENCE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.corpulence | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.FACE_SHAPE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.faceShape | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.SKIN_TONE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.skinTone | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.EYES' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.eyes | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.MOUTH' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.mouth | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.NOSE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.nose | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.HAIR' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.hair | translate}}</p>
-      </div>
-      <div flex="100">
-        <h4 class="inline">{{'VIEWS.GENERATOR.SPECIAL_SIGN_FACE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.specialSignFace | translate}}</p>
-      </div>
-      <div flex="100">
-        <h4 class="inline">{{'VIEWS.GENERATOR.SPECIAL_SIGN_BODY' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.specialSignBody | translate}}</p>
-      </div>
-    </div>
-    <!-- ##### -->
-
-    <!-- PERSONALITE -->
-    <md-toolbar>
-      <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PERSONNALITY' | translate}}</h1>
-    </md-toolbar>
-
-
-    <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.GOAL' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.goal | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.MOTIVATION' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.motivation | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.DEFECT' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.defect | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.QUALITY' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.quality | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.PHOBIA' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.phobia | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.TEMPER' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.temper | translate}}</p>
-      </div>
-    </div>
-    <!-- ##### -->
-
-
-    <!-- SOCIAL -->
-    <md-toolbar>
-      <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.SOCIAL' | translate}}</h1>
-    </md-toolbar>
-
-
-    <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-      <div flex="100" class="inline">
-        <h4 class="inline">{{'VIEWS.GENERATOR.TALENT' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.talent | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.PROFESSION' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.profession | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.FAMILY_SITUATION' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.familySituation | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.FINANCIAL_SITUATION' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.financialSituation | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.ACCENT' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.accent | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.REPUTATION' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.reputation | translate}}</p>
-      </div>
-    </div>
-    <!-- ##### -->
-
-    <!-- APPARENCE -->
-    <md-toolbar>
-      <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.APPEARANCE' | translate}}</h1>
-    </md-toolbar>
-
-
-    <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.COMBAT_STYLE' | translate}}:</h4>
-        <p class="inline">{{character.currentCharacter.combatStyle | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHES' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.clothes | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.ACCESSORIES' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.accessories | translate}}</p>
-      </div>
-      <div flex="50">
-        <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHING_STYLE' | translate}} :</h4>
-        <p class="inline">{{character.currentCharacter.clothingStyle | translate}}</p>
-      </div>
-    </div>
-    <!-- ##### -->
-
-
-    <div layout="row" layout-padding>
-      <div flex>
-        <md-button ng-click="sidenav.goToMain()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</md-button>
-      </div>
-    </div>
-  </div>
 </div>

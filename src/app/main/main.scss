@@ -1,31 +1,38 @@
-.background{
-    background-color:#e0e0e0;
+.background {
+    background-color: #e0e0e0;
     height: 100%;
-    min-height:100%;
-    height:100%
+    min-height: 100%;
+    height: 100%
 }
 
-.divContainer{
-  margin-left: 10%;
-  width: 83%;
-}
-
-.main{
-    background-color: white;
+.divContainer {
+    margin-left: 10%;
+    width: 83%;
     margin-top: 5%;
-    padding: 2% 2% 2% 2%;
+}
+
+.main {
+    background-color: white;
     text-align: center;
     display: inline-block;
 }
 
-label > input{ /* HIDE RADIO */
-  //visibility: hidden; /* Makes input not-clickable */
-  //position: absolute; /* Remove input from document flow */
+label > input {
+    /* HIDE RADIO */
+    
+    //visibility: hidden; /* Makes input not-clickable */
+    //position: absolute; /* Remove input from document flow */
 }
-label > input + md-button{ /* IMAGE STYLES */
-  //cursor:pointer;
-  //border:2px solid transparent;
+
+label > input + md-button {
+    /* IMAGE STYLES */
+    
+    //cursor:pointer;
+    //border:2px solid transparent;
 }
-label > input:checked + md-button{ /* (RADIO CHECKED) IMAGE STYLES */
-  //border:2px solid #f00;
+
+label > input:checked + md-button {
+    /* (RADIO CHECKED) IMAGE STYLES */
+    
+    //border:2px solid #f00;
 }
