@@ -24,13 +24,22 @@
     padding-right: 5%;
 }
 
+$break-small: 600px;
+
 .logo {
-    height: 80%;
-    margin-top: 5%;
-    padding-left: 5%;
+    width: 60%;
+    @media screen and (max-width: $break-small) {
+      width: 50%;
+    }
 }
 
-.logoContainer {}
+.logoContainer {
+
+  @media screen and (max-width: $break-small) {
+    min-width:100%;
+    width:100%
+  }
+}
 
 .lawfulGood {
     fill: #2196f3;
