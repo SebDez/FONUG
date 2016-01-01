@@ -106,7 +106,7 @@
                 "MALE": "Fantôme",
                 "FEMALE": "Fantôme"
             },
-            "DEMON": {
+            "DAEMON": {
                 "MALE": "Démon",
                 "FEMALE": "Démone"
             },
@@ -209,6 +209,11 @@
             "GOAULD": {
                 "MALE": "Goa'Uld",
                 "FEMALE": "Goa'Uld"
+            },
+
+            "CYCLOP": {
+                "MALE": "Cyclope",
+                "FEMALE": "Cyclope"
             }
         },
         "PHYSICALTRAITS": {
@@ -820,7 +825,7 @@
                 "MALE": "Ninja",
                 "FEMALE": "Ninja"
             },
-            "SAMOURAÏ":{
+            "SAMOURAI":{
                 "MALE": "Samouraï",
                 "FEMALE": "Samouraï"
             },

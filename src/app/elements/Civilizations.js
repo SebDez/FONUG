@@ -16,168 +16,172 @@ module.exports = {
             tag: 'ELF'
     },{
             name: 'GENERATOR.CIVILIZATIONS.DUERGAR.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'dwarf-face',
+            tag: 'DUERGAR'
     },{
             name: 'GENERATOR.CIVILIZATIONS.DROW.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'woman-elf-face',
+            tag: 'DROW'
     },{
             name: 'GENERATOR.CIVILIZATIONS.WOODELVES.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'woman-elf-face',
+            tag: 'WOODELVES'
     },{
             name: 'GENERATOR.CIVILIZATIONS.KHAJIIT.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'khajiit',
+            tag: 'KHAJIIT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.ORC.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'orc-head',
+            tag: 'ORC'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GOBLIN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'orc-head',
+            tag: 'GOBLIN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.URUKHAI.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'orc-head',
+            tag: 'URUKHAI'
     },{
             name: 'GENERATOR.CIVILIZATIONS.LIZARDMEN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'rex',
+            tag: 'LIZARDMEN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GNOME.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'pie-slice',
+            tag: 'GNOME'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HOBBIT.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'pie-slice',
+            tag: 'HOBBIT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HALFLING.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'pie-slice',
+            tag: 'HALFLING'
     },{
             name: 'GENERATOR.CIVILIZATIONS.TROLL.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'condylura-skull',
+            tag: 'TROLL'
     },{
             name: 'GENERATOR.CIVILIZATIONS.OGRE.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'condylura-skull',
+            tag: 'OGRE'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GIANT.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'condylura-skull',
+            tag: 'GIANT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GHOST.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'ghost',
+            tag: 'GHOST'
     },{
-            name: 'GENERATOR.CIVILIZATIONS.DEMON.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            name: 'GENERATOR.CIVILIZATIONS.DAEMON.MALE',
+            logo: 'daemon-skull',
+            tag: 'DEMON'
     },{
             name: 'GENERATOR.CIVILIZATIONS.ANGEL.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'angel-outfit',
+            tag: 'ANGEL'
     },{
             name: 'GENERATOR.CIVILIZATIONS.FAIRY.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'fairy',
+            tag: 'FAIRY'
     },{
             name: 'GENERATOR.CIVILIZATIONS.ENT.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'evil-tree',
+            tag: 'ENT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.SYLVARI.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'falling-leaf',
+            tag: 'SYLVARI'
     },{
             name: 'GENERATOR.CIVILIZATIONS.BEASTMEN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'triple-claws',
+            tag: 'BEASTMEN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.LYCAN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'wolf-head',
+            tag: 'LYCAN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.VAMPIRE.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'pretty-fangs',
+            tag: 'VAMPIRE'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GARGOYLE.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'robot-golem',
+            tag: 'GARGOYLE'
     },{
             name: 'GENERATOR.CIVILIZATIONS.QUNARI.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'horn-internal',
+            tag: 'QUNARI'
     },{
             name: 'GENERATOR.CIVILIZATIONS.SKAVEN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'moon-claws',
+            tag: 'SKAVEN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.AMPHIBIAN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'angler-fish',
+            tag: 'AMPHIBIAN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.MINOTAUR.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'minotaur',
+            tag: 'MINOTAUR'
     },{
             name: 'GENERATOR.CIVILIZATIONS.CENTAUR.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'horse-head',
+            tag: 'CENTAUR'
     },{
             name: 'GENERATOR.CIVILIZATIONS.DJINN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'ifrit',
+            tag: 'DJINN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.DRYAD.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'falling-leaf',
+            tag: 'DRYAD'
     },{
             name: 'GENERATOR.CIVILIZATIONS.DRAGONBORN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'dragon-head',
+            tag: 'DRAGONBORN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.FAUN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'hoof',
+            tag: 'FAUN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GHOUL.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'half-body-crawling',
+            tag: 'GHOUL'
     },{
             name: 'GENERATOR.CIVILIZATIONS.MINOBOAR.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'boar-tusks',
+            tag: 'MINOBOAR'
     },{
             name: 'GENERATOR.CIVILIZATIONS.SIREN.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'harpy',
+            tag: 'SIREN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.NAGA.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'harpy',
+            tag: 'NAGA'
     },{
             name: 'GENERATOR.CIVILIZATIONS.MERMAID.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'harpy',
+            tag: 'MERMAID'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HALFINSECT.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'praying-mantis',
+            tag: 'HALFINSECT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GOLEM.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'robot-golem',
+            tag: 'GOLEM'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GOAULD.MALE',
-            logo: 'default',
-            tag: 'DEFAULT'
+            logo: 'apple-maggot',
+            tag: 'GOAULD'
+    },{
+            name: 'GENERATOR.CIVILIZATIONS.CYCLOP.MALE',
+            logo: 'cyclops',
+            tag: 'CYCLOP'
     }],
     FEMALE: [
         {
