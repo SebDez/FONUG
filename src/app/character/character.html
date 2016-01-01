@@ -6,7 +6,7 @@
 
         <!-- MAIN -->
         <md-toolbar>
-            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}}: {{character.currentCharacter.name}}</h1>
+            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.MY_CHARACTER' | translate}}: {{character.currentCharacter.name}} - {{character.currentCharacter.civilization.name | translate}} {{character.currentCharacter.charClass | translate}}</h1>
         </md-toolbar>
         <md-content style="height: 650px;">
             <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
@@ -14,39 +14,78 @@
                     <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
                 </div>
                 <div flex="70">
+
                     <div layout="column" class="right">
-                        <div flex="100">
-                            <h4 class="statLabel">{{'VIEWS.GENERATOR.CHARISMA' | translate}}:</h4>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.charisma.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.charisma.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.charisma) | translate}}</div>
+
+                        <div layout="row" layout-sm="column" layout-xs="column">
+
+                            <div flex="15">
+                                <h4 class="statLabel">{{'VIEWS.GENERATOR.CHARISMA' | translate}}:</h4>
+                            </div>
+
+                            <div flex="85">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.charisma.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.charisma.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.charisma) | translate}}</div>
+                                </div>
                             </div>
                         </div>
 
-                        <div flex="100">
-                            <h4 class="statLabel">{{'VIEWS.GENERATOR.BEAUTY' | translate}}:</h4>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.beauty.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.beauty.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.beauty) | translate}}
+
+                        <div layout="row" layout-sm="column" layout-xs="column">
+
+                            <div flex="15">
+                                <h4 class="statLabel">{{'VIEWS.GENERATOR.BEAUTY' | translate}}:</h4>
+                            </div>
+
+                            <div flex="85">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.beauty.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.beauty.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.beauty) | translate}}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div flex="100">
-                            <h4 class="statLabel">{{'VIEWS.GENERATOR.INTELLECT' | translate}}:</h4>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.intellect.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.intellect.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.intellect) | translate}}
+
+
+                        <div layout="row" layout-sm="column" layout-xs="column">
+
+                            <div flex="15">
+                                <h4 class="statLabel">{{'VIEWS.GENERATOR.INTELLECT' | translate}}:</h4>
+                            </div>
+
+                            <div flex="85">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.intellect.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.intellect.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.intellect) | translate}}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div flex="100">
-                            <h4 class="statLabel">{{'VIEWS.GENERATOR.PERCEPTION' | translate}}:</h4>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.perception.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.perception.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.perception) | translate}}
+
+
+                        <div layout="row" layout-sm="column" layout-xs="column">
+
+                            <div flex="15">
+                                <h4 class="statLabel">{{'VIEWS.GENERATOR.PERCEPTION' | translate}}:</h4>
+                            </div>
+
+                            <div flex="85">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.perception.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.perception.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.perception) | translate}}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div flex="100">
-                            <h4 class="statLabel">{{'VIEWS.GENERATOR.FIGHT_SKILLS' | translate}}:</h4>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.fightSkills.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.fightSkills.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.fightSkills) | translate}}
+
+
+                        <div layout="row" layout-sm="column" layout-xs="column">
+
+                            <div flex="15">
+                                <h4 class="statLabel">{{'VIEWS.GENERATOR.FIGHT_SKILLS' | translate}}:</h4>
+                            </div>
+
+                            <div flex="85">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.fightSkills.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.fightSkills.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.fightSkills) | translate}}
+                                    </div>
                                 </div>
                             </div>
                         </div>

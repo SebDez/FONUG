@@ -44,12 +44,12 @@
 
       <!-- CIVILIZATION SELECT -->
       <div flex>
-        <label class="control-label">{{'VIEWS.MAIN.CIVILIZATION' | translate}}</label>
+        <label class="control-label">{{'VIEWS.MAIN.CIVILIZATION' | translate }}</label>
         <md-input-container style="margin-right: 10px;">
 
-          <select ng-model="main.currentCharacter.civilization" class="form-control">
+          <select ng-model="main.currentCharacter.civilization " class="form-control" >
             <option value="RANDOM">{{'GENERATOR.GENERAL.RANDOM' | translate}}</option>
-            <option ng-repeat="civilization in main.civilizations" value="{{civilization}}">
+            <option ng-repeat="civilization in main.civilizations | orderBy:'name'" value="{{civilization}}">
               {{civilization.name | translate}}
             </option>
           </select>

@@ -10,6 +10,9 @@ import FightSkills from '../elements/FightSkills';
 import Goals from '../elements/Goals';
 import Defects from '../elements/Defects';
 import Qualities from '../elements/Qualities';
+import Tempers from '../elements/Tempers';
+import Phobia from '../elements/Phobia';
+import CharClass from '../elements/CharClass';
 
 /**
  * This Factory is used to get datas for the generator
@@ -134,7 +137,7 @@ export class LocalDataFactory {
      * @return {String} The charclass labels list to translate
      */
     getCharClassList() {
-        return this.notSet;
+        return CharClass;
     }
 
     /**
@@ -246,7 +249,7 @@ export class LocalDataFactory {
      * @return {String} The alignments labels list to translate
      */
     getPhobiaList() {
-        return this.notSet;
+        return Phobia;
     }
     
     /**
@@ -254,7 +257,7 @@ export class LocalDataFactory {
      * @return {String} The tempers labels list to translate
      */
     getTemperList() {
-        return this.notSet;
+        return Tempers;
     }
 
 

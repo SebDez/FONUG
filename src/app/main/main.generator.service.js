@@ -392,9 +392,9 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The phobia label to translate
      */
-    getPhobia(gender) {
+    getPhobia() {
         let tab = this.localDataFactory.getPhobiaList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 

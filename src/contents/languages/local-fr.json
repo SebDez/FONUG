@@ -45,6 +45,170 @@
             "ELF": {
                 "MALE": "Elfe",
                 "FEMALE": "Elfe"
+            },
+            "DUERGAR": {
+                "MALE": "Duergar",
+                "FEMALE": "Duergar"
+            },
+            "DROW": {
+                "MALE": "Drow",
+                "FEMALE": "Drow"
+            },
+            "WOODELVES": {
+                "MALE": "Elfe Sylvain",
+                "FEMALE": "Elfe Sylvain"
+            },
+            "KHAJIIT": {
+                "MALE": "Khajiit",
+                "FEMALE": "Khajiit"
+            },
+            "ORC": {
+                "MALE": "Orc",
+                "FEMALE": "Orcesse"
+            },
+            "GOBLIN": {
+                "MALE": "Gobelin",
+                "FEMALE": "Gobeline"
+            },
+            "URUKHAI": {
+                "MALE": "Uruk-hai",
+                "FEMALE": "Uruk-hai"
+            },
+            "LIZARDMEN": {
+                "MALE": "Homme-Lézard",
+                "FEMALE": "Femme-Lézard"
+            },
+            "GNOME": {
+                "MALE": "Gnome",
+                "FEMALE": "Gnome"
+            },
+            "HOBBIT": {
+                "MALE": "Hobbit",
+                "FEMALE": "Hobbit"
+            },
+            "HALFLING": {
+                "MALE": "Halfelin",
+                "FEMALE": "Halfeline"
+            },
+            "TROLL": {
+                "MALE": "Troll",
+                "FEMALE": "Troll"
+            },
+            "OGRE": {
+                "MALE": "Ogre",
+                "FEMALE": "Ogresse"
+            },
+            "GIANT": {
+                "MALE": "Géant",
+                "FEMALE": "Géante"
+            },
+            "GHOST": {
+                "MALE": "Fantôme",
+                "FEMALE": "Fantôme"
+            },
+            "DEMON": {
+                "MALE": "Démon",
+                "FEMALE": "Démone"
+            },
+            "ANGEL": {
+                "MALE": "Ange",
+                "FEMALE": "Ange"
+            },
+            "FAIRY": {
+                "MALE": "Fée",
+                "FEMALE": "Fée"
+            },
+            "ENT": {
+                "MALE": "Ent",
+                "FEMALE": "Ent"
+            },
+            "SYLVARI": {
+                "MALE": "Sylvari",
+                "FEMALE": "Sylvari"
+            },
+            "BEASTMEN": {
+                "MALE": "Homme-Bête",
+                "FEMALE": "Femme-Bête"
+            },
+            "LYCAN": {
+                "MALE": "Lycan",
+                "FEMALE": "Lycan"
+            },
+            "VAMPIRE": {
+                "MALE": "Vampire",
+                "FEMALE": "Vampire"
+            },
+            "GARGOYLE": {
+                "MALE": "Gargouille",
+                "FEMALE": "Gargouille"
+            },
+            "QUNARI": {
+                "MALE": "Qunari",
+                "FEMALE": "Qunari"
+            },
+            "SKAVEN": {
+                "MALE": "Skaven",
+                "FEMALE": "Skaven"
+            },
+            "AMPHIBIAN": {
+                "MALE": "Amphibien",
+                "FEMALE": "Amphibienne"
+            },
+            "MINOTAUR": {
+                "MALE": "Minotaure",
+                "FEMALE": "Minotaure"
+            },
+            "CENTAUR": {
+                "MALE": "Centaure",
+                "FEMALE": "Centaure"
+            },
+            "DJINN": {
+                "MALE": "Djinn",
+                "FEMALE": "Djinn"
+            },
+            "DRYAD": {
+                "MALE": "Dryade",
+                "FEMALE": "Dryade"
+            },
+            "DRAGONBORN": {
+                "MALE": "Fils du Dragon",
+                "FEMALE": "Fille du Dragon"
+            },
+            "FAUN": {
+                "MALE": "Faune",
+                "FEMALE": "Faune"
+            },
+            "GHOUL": {
+                "MALE": "Goule",
+                "FEMALE": "Goule"
+            },
+            "MINOBOAR": {
+                "MALE": "Minoboar",
+                "FEMALE": "Minoboar"
+            },
+            "SIREN": {
+                "MALE": "Sirène",
+                "FEMALE": "Sirène"
+            },
+            "NAGA": {
+                "MALE": "Naga",
+                "FEMALE": "Naga"
+            },
+            "MERMAID": {
+                "MALE": "Ondine",
+                "FEMALE": "Ondine"
+            },
+            "HALFINSECT": {
+                "MALE": "Homme-Insect",
+                "FEMALE": "Femme-Insect"
+            },
+            "GOLEM": {
+                "MALE": "Golem",
+                "FEMALE": "Golem"
+            },
+            "GOAULD": {
+                "MALE": "Goa'Uld",
+                "FEMALE": "Goa'Uld"
             }
         },
         "PHYSICALTRAITS": {
@@ -122,20 +286,20 @@
         },
         "INTELLECT": {
             "STUPID": {
-                "MALE": "Stupid",
-                "FEMALE": "Stupid"
+                "MALE": "Stupide",
+                "FEMALE": "Stupide"
             },
             "PRETTYSTUPID": {
-                "MALE": "Pretty stupid",
-                "FEMALE": "Pretty stupid"
+                "MALE": "Plutôt bête",
+                "FEMALE": "Plutôt bête"
             },
             "PRETTYSMART": {
-                "MALE": "Smart",
-                "FEMALE": "Smart"
+                "MALE": "Malin",
+                "FEMALE": "Maline"
             },
             "VERYSMART": {
-                "MALE": "Very smart",
-                "FEMALE": "Very smart"
+                "MALE": "Très intelligent",
+                "FEMALE": "Très intelligente"
             }
         },
         "CHARISMA": {
@@ -432,6 +596,242 @@
                 "MALE": "Pragmatique",
                 "FEMALE": "Pragmatique"
             }
+        },
+        "TEMPERS":{
+            "BRAVE":{
+                "MALE": "Brave",
+                "FEMALE": "Brave"
+            },
+            "RASH":{
+                "MALE": "Téméraire",
+                "FEMALE": "Téméraire"
+            },
+            "RESERVED":{
+                "MALE": "Réservé",
+                "FEMALE": "Réservée"
+            },
+            "DISCREET":{
+                "MALE": "Discret",
+                "FEMALE": "Discrete"
+            },
+            "SHY":{
+                "MALE": "Timide",
+                "FEMALE": "Timide"
+            },
+            "COWARD":{
+                "MALE": "Lâche",
+                "FEMALE": "Lâche"
+            },
+            "CRAFTY":{
+                "MALE": "Rusé",
+                "FEMALE": "Rusée"
+            },
+            "MEAN":{
+                "MALE": "Méchant",
+                "FEMALE": "Méchante"
+            },
+            "ROGUISH":{
+                "MALE": "Malicieux",
+                "FEMALE": "Malicieuse"
+            },
+            "HONEST":{
+                "MALE": "Honnête",
+                "FEMALE": "Honnête"
+            },
+            "FAITHFUL":{
+                "MALE": "Fidèle",
+                "FEMALE": "Fidèle"
+            },
+            "LOYAL":{
+                "MALE": "Loyal",
+                "FEMALE": "Loyale"
+            },
+            "PROUD":{
+                "MALE": "Fier",
+                "FEMALE": "Fière"
+            },
+            "KIND":{
+                "MALE": "Gentil",
+                "FEMALE": "Gentille"
+            },
+            "HAUGHTY":{
+                "MALE": "Hautain",
+                "FEMALE": "Hautaine"
+            },
+            "ARROGANT":{
+                "MALE": "Orgueilleux",
+                "FEMALE": "Orgueilleuse"
+            },
+            "FRIGHTENING":{
+                "MALE": "Effrayant",
+                "FEMALE": "Effrayante"
+            },
+            "HATEFUL":{
+                "MALE": "Haineux",
+                "FEMALE": "Haineuse"
+            },
+            "NICE":{
+                "MALE": "Sympathique",
+                "FEMALE": "Sympathique"
+            },
+            "ATTACHING":{
+                "MALE": "Attachant",
+                "FEMALE": "Attachante"
+            },
+            "SERIOUS":{
+                "MALE": "Sérieux",
+                "FEMALE": "Sérieuse"
+            },
+            "CHARMING":{
+                "MALE": "Charmant",
+                "FEMALE": "Charmante"
+            },
+            "STRICT":{
+                "MALE": "Sévère",
+                "FEMALE": "Sévère"
+            },
+            "PEACEFUL":{
+                "MALE": "Calme",
+                "FEMALE": "Calme"
+            },
+            "INNOCENT":{
+                "MALE": "Naïf",
+                "FEMALE": "Naïve"
+            },
+            "NOBLE":{
+                "MALE": "Noble",
+                "FEMALE": "Noble"
+            },
+            "CAUTIOUS":{
+                "MALE": "Prudent",
+                "FEMALE": "Prudente"
+            },
+            "ENERGETIC":{
+                "MALE": "Énergique",
+                "FEMALE": "Énergique"
+            },
+            "ROUGH":{
+                "MALE": "Brutal",
+                "FEMALE": "Brutale"
+            },
+            "IMPATIENT":{
+                "MALE": "Impatient",
+                "FEMALE": "Impatiente"
+            },
+            "LAZY":{
+                "MALE": "Paresseux",
+                "FEMALE": "Paresseuse"
+            },
+            "LIAR":{
+                "MALE": "Menteur",
+                "FEMALE": "Menteuse"
+            },
+            "DERISIVE":{
+                "MALE": "Moqueur",
+                "FEMALE": "Moqueuse"
+            },
+            "SMART":{
+                "MALE": "Malin",
+                "FEMALE": "Maline"
+            },
+            "FEARLESS":{
+                "MALE": "Courageux",
+                "FEMALE": "Courageuse"
+            }
+        },
+        "PHOBIA":{
+            "NOTHING":"Aucune",
+            "ARACHNOPHOBIA":"Arachnophobie",
+            "DARK":"Peur Du Noir",
+            "WATER":"Peur de l'eau",
+            "AGORAPHOBIA":"Agoraphobie",
+            "FIRE":"Peur du feu",
+            "CLAUSTROPHOBIA":"Claustrophobie",
+            "PAIN":"Peur de la douleur",
+            "THUNDER":"Peur du Tonnerre",
+            "LONELINESS":"Peur de la solitude",
+            "SPEAKINGPUBLIC":"Parler en public",
+            "BRIDGES":"Peur des ponts",
+            "ANIMALS":"Peur des animaux",
+            "HEIGHTS":"Peur de du vide"
+        },
+        "CHARCLASS":{
+            "BARBARIAN":{
+                "MALE": "Barbare",
+                "FEMALE": "Barbare"
+            },
+            "BARD":{
+                "MALE": "Barde",
+                "FEMALE": "Barde"
+            },
+            "DRUID":{
+                "MALE": "Druide",
+                "FEMALE": "Druidesse"
+            },
+            "WITCHER":{
+                "MALE": "Ensorceleur",
+                "FEMALE": "Ensorceleuse"
+            },
+            "WARRIOR":{
+                "MALE": "Guerrier",
+                "FEMALE": "Guerrière"
+            },
+            "MAGICIAN":{
+                "MALE": "Magicien",
+                "FEMALE": "Magicienne"
+            },
+            "MONK":{
+                "MALE": "Moine",
+                "FEMALE": "Soeur"
+            },
+            "PALADIN":{
+                "MALE": "Paladin",
+                "FEMALE": "Paladine"
+            },
+            "PRIEST":{
+                "MALE": "Prêtre",
+                "FEMALE": "Prêtresse"
+            },
+            "TRAMP":{
+                "MALE": "Rôdeur",
+                "FEMALE": "Rôdeuse"
+            },
+            "NECROMANCER":{
+                "MALE": "Nécromancien",
+                "FEMALE": "Nécromancienne"
+            },
+            "ALCHEMIST":{
+                "MALE": "Alchimiste",
+                "FEMALE": "Alchimiste"
+            },
+            "KNIGHT":{
+                "MALE": "Chevalier",
+                "FEMALE": "Chevalière"
+            },
+            "SOOTHSAYER":{
+                "MALE": "Devin",
+                "FEMALE": "Voyante"
+            },
+            "WITCH":{
+                "MALE": "Sorcier",
+                "FEMALE": "Sorcière"
+            },
+            "NINJA":{
+                "MALE": "Ninja",
+                "FEMALE": "Ninja"
+            },
+            "SAMOURAÏ":{
+                "MALE": "Samouraï",
+                "FEMALE": "Samouraï"
+            },
+            "PIRATE":{
+                "MALE": "Pirate",
+                "FEMALE": "Pirate"
+            },
+            "HEALER":{
+                "MALE": "Soigneur",
+                "FEMALE": "Soigneuse"
+            }
         }
     },
     "VIEWS": {
@@ -472,7 +872,7 @@
             "BEAUTY": "Beauté",
             "INTELLECT": "Intellect",
             "PERCEPTION": "Perception",
-            "FIGHT_SKILLS": "Excellence au combat",
+            "FIGHT_SKILLS": "Combat",
             "AGE": "Âge",
             "GENDER": "Genre",
             "CIVILIZATION": "Civilisation",
