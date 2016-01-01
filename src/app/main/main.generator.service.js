@@ -156,6 +156,7 @@ export class GeneratorService {
      */
     generateName(inputGender, civilization) {
         let tab = this.localDataFactory.getNames();
+        
         let civ = civilization;
         let gender = inputGender;
         if (!tab[civ]) {
