@@ -849,7 +849,8 @@
             "AGE": "Âge",
             "CIVILIZATION": "Civilisation",
             "TEXT1": "<p>Il convient autant pour la génération rapide de Personages Non Joueurs que pour d'autres personnages de fiction, le but n'est pas de générer une fiche personnage mais de bien donner des pistes lors de la création du personnage.</p>",
-            "TEXT2": "FONUG est un générateur aléatoire de personnage."
+            "TEXT2": "FONUG est un générateur aléatoire de personnage.",
+            "QUOTE": "“ Dans le doute, toujours se fier à Fonug jeune MJ. ” - Gandalf, D&D Convention, 4ème Âge"
         },
         "SIDENAV": {
             "NAVIGATION": "Navigation",

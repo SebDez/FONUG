@@ -1,6 +1,13 @@
 <md-toolbar>
     <div class="md-toolbar-tools">
-        <span class="navbar-title" ng-click="sidenav.goToMain()">FONUG</span>
+
+        <span  ng-click="sidenav.goToMain()">
+            <un-svg class="logonavbar" svg-src="../assets/images/dice-twenty-faces-twenty.svg"/>
+            <span flex>FONUG</span>
+        </span>
+        <span class="navbar-title" ng-click="sidenav.goToMain()">
+            FONUG
+        </span>
         <!-- fill up the space between left and right area -->
         <span flex></span>
         <span class="{{navbar.radioFrClass}}" ng-click='navbar.setSelectedLang("fr")'>
