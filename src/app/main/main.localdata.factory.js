@@ -15,6 +15,8 @@ import Phobia from '../elements/Phobia';
 import CharClass from '../elements/CharClass';
 import PunchLines from '../elements/PunchLines';
 import Corpulences from '../elements/Corpulences';
+import FaceShapes from '../elements/FaceShapes';
+import SkinTones from '../elements/SkinTones';
 
 /**
  * This Factory is used to get datas for the generator
@@ -163,7 +165,7 @@ export class LocalDataFactory {
      * @return {String} The faceshape labels list to translate
      */
     getFaceShapeList() {
-        return this.notSet;
+        return FaceShapes;
     }
 
     /**
@@ -171,7 +173,7 @@ export class LocalDataFactory {
      * @return {String} The skin tone labels list to translate
      */
     getSkinToneList() {
-        return this.notSet;
+        return SkinTones;
     }
 
     /**

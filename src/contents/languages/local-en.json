@@ -973,6 +973,90 @@
                 "MALE": "Charming",
                 "FEMALE": "Charming"
             }
+        },
+        "FACESHAPES": {
+            "ROUND": {
+                "MALE": "Round",
+                "FEMALE": "Round"
+            },
+            "THIN": {
+                "MALE": "Thin",
+                "FEMALE": "Thin"
+            },
+            "OVAL": {
+                "MALE": "Oval",
+                "FEMALE": "Oval"
+            },
+            "DUG": {
+                "MALE": "Dug",
+                "FEMALE": "Dug"
+            },
+            "CHUBBY": {
+                "MALE": "Chubby",
+                "FEMALE": "Chubby"
+            },
+            "PALE": {
+                "MALE": "Pale",
+                "FEMALE": "Pale"
+            },
+            "DARK": {
+                "MALE": "Dark",
+                "FEMALE": "Dark"
+            },
+            "SMILING": {
+                "MALE": "Smiling",
+                "FEMALE": "Smiling"
+            },
+            "WRINKLED": {
+                "MALE": "Wrinkled",
+                "FEMALE": "Wrinkled"
+            },
+            "GRIMACING": {
+                "MALE": "Grimacing",
+                "FEMALE": "Grimacing"
+            },
+            "CONTORTED": {
+                "MALE": "Contorted",
+                "FEMALE": "Contorted"
+            }
+        },
+        "SKINTONES": {
+            "HAULED": {
+                "MALE": "Hauled",
+                "FEMALE": "Hauled"
+            },
+            "MATTE": {
+                "MALE": "Matte",
+                "FEMALE": "Matte"
+            },
+            "EBONY": {
+                "MALE": "Ebony",
+                "FEMALE": "Ebony"
+            },
+            "WAN": {
+                "MALE": "Wan",
+                "FEMALE": "Wan"
+            },
+            "PALE": {
+                "MALE": "Pale",
+                "FEMALE": "Pale"
+            },
+            "LIGHT": {
+                "MALE": "Light",
+                "FEMALE": "Light"
+            },
+            "DARK": {
+                "MALE": "Dark",
+                "FEMALE": "Dark"
+            },
+            "BLACK": {
+                "MALE": "Black",
+                "FEMALE": "Black"
+            },
+            "ALBINO": {
+                "MALE": "Albino",
+                "FEMALE": "Albino"
+            }
         }
     },
     "VIEWS": {

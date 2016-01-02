@@ -970,6 +970,90 @@
                 "MALE": "Coquet",
                 "FEMALE": "Coquette"
             }
+        },
+        "FACESHAPES": {
+            "ROUND": {
+                "MALE": "Rond",
+                "FEMALE": "Ronde"
+            },
+            "THIN": {
+                "MALE": "Mince",
+                "FEMALE": "Mince"
+            },
+            "OVAL": {
+                "MALE": "Ovale",
+                "FEMALE": "Ovale"
+            },
+            "DUG": {
+                "MALE": "Creusé",
+                "FEMALE": "Creusée"
+            },
+            "CHUBBY": {
+                "MALE": "Joufflu",
+                "FEMALE": "Joufflue"
+            },
+            "PALE": {
+                "MALE": "Pâle",
+                "FEMALE": "Pâle"
+            },
+            "DARK": {
+                "MALE": "Sombre",
+                "FEMALE": "Sombre"
+            },
+            "SMILING": {
+                "MALE": "Souriant",
+                "FEMALE": "Souriante"
+            },
+            "WRINKLED": {
+                "MALE": "Ridé",
+                "FEMALE": "Ridée"
+            },
+            "GRIMACING": {
+                "MALE": "Grimaçant",
+                "FEMALE": "Grimaçante"
+            },
+            "CONTORTED": {
+                "MALE": "Crispé",
+                "FEMALE": "Crispée"
+            }
+        },
+        "SKINTONES": {
+            "HAULED": {
+                "MALE": "Halé",
+                "FEMALE": "Halé"
+            },
+            "MATTE": {
+                "MALE": "Mat",
+                "FEMALE": "Mat"
+            },
+            "EBONY": {
+                "MALE": "Ébène",
+                "FEMALE": "Ébène"
+            },
+            "WAN": {
+                "MALE": "Blafard",
+                "FEMALE": "Blafard"
+            },
+            "PALE": {
+                "MALE": "Pâle",
+                "FEMALE": "Pâle"
+            },
+            "LIGHT": {
+                "MALE": "Clair",
+                "FEMALE": "Clair"
+            },
+            "DARK": {
+                "MALE": "Foncé",
+                "FEMALE": "Foncé"
+            },
+            "BLACK": {
+                "MALE": "Noir",
+                "FEMALE": "Noir"
+            },
+            "ALBINO": {
+                "MALE": "Albinos",
+                "FEMALE": "Albinos"
+            }
         }
     },
     "VIEWS": {
