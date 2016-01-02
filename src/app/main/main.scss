@@ -5,10 +5,17 @@
     height: 100%
 }
 
+$screen-mid: 1500px;
 .divContainer {
     margin-left: 10%;
-    width: 83%;
+    width: 80%;
     margin-top: 5%;
+    
+    @media screen and (min-width: 970px) and (max-width: 1500px) {
+        margin-left: 35%;
+        width:60%;
+    }
+    
 }
 
 .main {

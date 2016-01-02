@@ -3,12 +3,6 @@
     <md-content layout-padding ng-controller="SidenavController">
 
         <md-icon hide-gt-md ng-click="sidenav.close()" class="glyphicon glyphicon-remove-circle" ng-style="{color: white, 'font-size': '25px', height: '25px', float:'right'}"></md-icon>
-        <md-list-item class="md-2-line">
-            <div class="md-list-item-text">
-                <h3>{{'VIEWS.SIDENAV.NAVIGATION' | translate}}</h3>
-            </div>
-        </md-list-item>
-        <md-divider></md-divider>
         <md-list-item class="md-2-line" ng-click="sidenav.goToMain()">
             <div class="md-list-item-text">
                 <h3>{{'VIEWS.MAIN.GENERATEBUTTON' | translate}}</h3>

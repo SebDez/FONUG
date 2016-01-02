@@ -1,26 +1,28 @@
 <navbar></navbar>
 <sidenav></sidenav>
 
-<div class="container main md-whiteframe-z2">
+<div class="divContainer" layout="column" layout-align="center center" layout-wrap>
+    <div class="container main md-whiteframe-z2">
 
-    <md-content flex layout-padding class="textJustify">
-        <h3 class="textCentered">{{'VIEWS.CONTACT.TITLE' | translate}}</h3>
-    
-        <p ng-bind-html="'VIEWS.CONTACT.TEXT1' | translate"></p>
-        
-<br/>
-        <md-divider></md-divider>
-<br/>
-        <p ng-bind-html="'VIEWS.CONTACT.TEXT2' | translate"></p>
-        
+        <md-content flex layout-padding class="textJustify">
+            <h3 class="textCentered">{{'VIEWS.CONTACT.TITLE' | translate}}</h3>
 
-<br/>
-        <md-divider></md-divider>
-<br/>
-    
-        <p ng-bind-html="'VIEWS.CONTACT.TEXT3' | translate"></p>
-    
+            <p ng-bind-html="'VIEWS.CONTACT.TEXT1' | translate"></p>
 
-    </md-content>
-            <md-button href="https://github.com/SebDez/FONUG" class="md-raised md-primary textCentered" >{{'VIEWS.CONTACT.BUTTON' | translate}}</md-button>
+            <br/>
+            <md-divider></md-divider>
+            <br/>
+            <p ng-bind-html="'VIEWS.CONTACT.TEXT2' | translate"></p>
+
+
+            <br/>
+            <md-divider></md-divider>
+            <br/>
+
+            <p ng-bind-html="'VIEWS.CONTACT.TEXT3' | translate"></p>
+
+
+        </md-content>
+        <md-button href="https://github.com/SebDez/FONUG" class="md-raised md-primary textCentered">{{'VIEWS.CONTACT.BUTTON' | translate}}</md-button>
+    </div>
 </div>
