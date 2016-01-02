@@ -883,6 +883,96 @@
             "TONIGHT":"What are you doing tonight?",
             "SAMETHING":"I would take the same as usual",
             "ROGER":"Roger , another !"
+        },
+        "CORPULENCES": {
+            "BIG": {
+                "MALE": "Big",
+                "FEMALE": "Big"
+            },
+            "FAT": {
+                "MALE": "Fat",
+                "FEMALE": "Fat"
+            },
+            "HUNCHBACKED": {
+                "MALE": "Hunchbacked",
+                "FEMALE": "Hunchbacked"
+            },
+            "LAME": {
+                "MALE": "Lame",
+                "FEMALE": "Lame"
+            },
+            "UGLY": {
+                "MALE": "Ugly",
+                "FEMALE": "Ugly"
+            },
+            "DIRTY": {
+                "MALE": "Dirty",
+                "FEMALE": "Dirty"
+            },
+            "TALL": {
+                "MALE": "Tall",
+                "FEMALE": "Tall"
+            },
+            "SLENDER": {
+                "MALE": "Slender",
+                "FEMALE": "Slender"
+            },
+            "THIN": {
+                "MALE": "Thin",
+                "FEMALE": "Thin"
+            },
+            "STOUT": {
+                "MALE": "Stout",
+                "FEMALE": "Stout"
+            },
+            "STURDY": {
+                "MALE": "Sturdy",
+                "FEMALE": "Sturdy"
+            },
+            "STRONG": {
+                "MALE": "Strong",
+                "FEMALE": "Strong"
+            },
+            "MUSCULAR": {
+                "MALE": "Muscular",
+                "FEMALE": "Muscular"
+            },
+            "SLIM": {
+                "MALE": "Slender",
+                "FEMALE": "Slender"
+            },
+            "FLESHY ": {
+                "MALE": "Fleshy",
+                "FEMALE": "Fleshy"
+            },
+            "THICK": {
+                "MALE": "Thick",
+                "FEMALE": "Thick"
+            },
+            "PLUMP": {
+                "MALE": "Plump",
+                "FEMALE": "Plump"
+            },
+            "BIG": {
+                "MALE": "Big",
+                "FEMALE": "Big"
+            },
+            "CHUNKY": {
+                "MALE": "Chunky",
+                "FEMALE": "Chunky"
+            },
+            "SKINNY": {
+                "MALE": "Skinny",
+                "FEMALE": "Skinny"
+            },
+            "PUNY": {
+                "MALE": "Puny",
+                "FEMALE": "Puny"
+            },
+            "CHARMING": {
+                "MALE": "Charming",
+                "FEMALE": "Charming"
+            }
         }
     },
     "VIEWS": {

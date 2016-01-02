@@ -880,6 +880,96 @@
             "TONIGHT":"Vous faites quoi ce soir ?",
             "SAMETHING":"Je prendrais la même chose que d'habitude",
             "ROGER":"Roger, un autre !"
+        },
+        "CORPULENCES": {
+            "BIG": {
+                "MALE": "Gros",
+                "FEMALE": "Grosse"
+            },
+            "FAT": {
+                "MALE": "Gras",
+                "FEMALE": "Grasse"
+            },
+            "HUNCHBACKED": {
+                "MALE": "Bossu",
+                "FEMALE": "Bossue"
+            },
+            "LAME": {
+                "MALE": "Boiteux",
+                "FEMALE": "Boiteuse"
+            },
+            "UGLY": {
+                "MALE": "Laid",
+                "FEMALE": "Laide"
+            },
+            "DIRTY": {
+                "MALE": "Vilain",
+                "FEMALE": "Vilaine"
+            },
+            "TALL": {
+                "MALE": "Grand",
+                "FEMALE": "Grande"
+            },
+            "SLENDER": {
+                "MALE": "Élancé",
+                "FEMALE": "Élancée"
+            },
+            "THIN": {
+                "MALE": "Mince",
+                "FEMALE": "Mince"
+            },
+            "STOUT": {
+                "MALE": "Corpulent",
+                "FEMALE": "Corpulente"
+            },
+            "STURDY": {
+                "MALE": "Robuste",
+                "FEMALE": "Robuste"
+            },
+            "STRONG": {
+                "MALE": "Fort",
+                "FEMALE": "Forte"
+            },
+            "MUSCULAR": {
+                "MALE": "Musclé",
+                "FEMALE": "Musclée"
+            },
+            "SLIM": {
+                "MALE": "Svelte",
+                "FEMALE": "Svelte"
+            },
+            "FLESHY ": {
+                "MALE": "Empâté",
+                "FEMALE": "Empâtée"
+            },
+            "THICK": {
+                "MALE": "Épais",
+                "FEMALE": "Épaisse"
+            },
+            "PLUMP": {
+                "MALE": "Rondelet",
+                "FEMALE": "Rondelette"
+            },
+            "BIG": {
+                "MALE": "Énorme",
+                "FEMALE": "Énorme"
+            },
+            "CHUNKY": {
+                "MALE": "Trapu",
+                "FEMALE": "Trapue"
+            },
+            "SKINNY": {
+                "MALE": "Maigrelet",
+                "FEMALE": "Maigrelette"
+            },
+            "PUNY": {
+                "MALE": "Gringalet",
+                "FEMALE": "Gringalette"
+            },
+            "CHARMING": {
+                "MALE": "Coquet",
+                "FEMALE": "Coquette"
+            }
         }
     },
     "VIEWS": {

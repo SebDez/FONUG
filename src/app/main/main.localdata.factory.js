@@ -14,6 +14,7 @@ import Tempers from '../elements/Tempers';
 import Phobia from '../elements/Phobia';
 import CharClass from '../elements/CharClass';
 import PunchLines from '../elements/PunchLines';
+import Corpulences from '../elements/Corpulences';
 
 /**
  * This Factory is used to get datas for the generator
@@ -154,7 +155,7 @@ export class LocalDataFactory {
      * @return {String} The corpulence labels list to translate
      */
     getCorpulenceList() {
-        return this.notSet;
+        return Corpulences;
     }
 
     /**
