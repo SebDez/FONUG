@@ -605,120 +605,6 @@
                 "FEMALE": "Pragmatic"
             }
         },
-        "QUALITIES": {
-            "CLEVER": {
-                "MALE": "Clever",
-                "FEMALE": "Clever"
-            },
-            "PLEASANT": {
-                "MALE": "Pleasant",
-                "FEMALE": "Pleasant"
-            },
-            "APPLIED": {
-                "MALE": "Applied",
-                "FEMALE": "Applied"
-            },
-            "QUIET": {
-                "MALE": "Quiet",
-                "FEMALE": "Quiet"
-            },
-            "WARM": {
-                "MALE": "Warm",
-                "FEMALE": "Warm"
-            },
-            "EDUCATED": {
-                "MALE": "Educated",
-                "FEMALE": "Educated"
-            },
-            "DEDICATED": {
-                "MALE": "Dedicated",
-                "FEMALE": "Dedicated"
-            },
-            "DISCIPLINED": {
-                "MALE": "Disciplined",
-                "FEMALE": "Disciplined"
-            },
-            "TOUGH": {
-                "MALE": "Tough",
-                "FEMALE": "Tough"
-            },
-            "LOYAL": {
-                "MALE": "Loyal",
-                "FEMALE": "Loyal"
-            },
-            "STRONG": {
-                "MALE": "Strong",
-                "FEMALE": "Strong"
-            },
-            "HUMBLE": {
-                "MALE": "Humble",
-                "FEMALE": "Humble"
-            },
-            "INTEGRATES": {
-                "MALE": "Integrates",
-                "FEMALE": "Integrates"
-            },
-            "LEADER": {
-                "MALE": "Leader",
-                "FEMALE": "Leader"
-            },
-            "LUCID": {
-                "MALE": "Lucid",
-                "FEMALE": "Lucid"
-            },
-            "CLEVER": {
-                "MALE": "Clever",
-                "FEMALE": "Clever"
-            },
-            "FUNNY": {
-                "MALE": "Funny",
-                "FEMALE": "Funny"
-            },
-            "ORIGINAL": {
-                "MALE": "Original",
-                "FEMALE": "Original"
-            },
-            "PHILOSOPHICAL": {
-                "MALE": "Philosophical",
-                "FEMALE": "Philosophical"
-            },
-            "PROVIDINGSENSITIVE": {
-                "MALE": "Providing Sensitive",
-                "FEMALE": "Providing Sensitive"
-            },
-            "STABLE": {
-                "MALE": "Stable",
-                "FEMALE": "Stable"
-            },
-            "STRATEGIST": {
-                "MALE": "Strategist",
-                "FEMALE": "Strategist"
-            },
-            "TENACIOUS": {
-                "MALE": "Tenacious",
-                "FEMALE": "Tenacious"
-            },
-            "BRAVE": {
-                "MALE": "Brave",
-                "FEMALE": "Brave"
-            },
-            "DETERMINED": {
-                "MALE": "Determined",
-                "FEMALE": "Determined"
-            },
-            "ZEN": {
-                "MALE": "Zen",
-                "FEMALE": "Zen"
-            },
-            "RESOURCEFUL": {
-                "MALE": "Resourceful",
-                "FEMALE": "Resourceful"
-            },
-            "PRAGMATIC": {
-                "MALE": "Pragmatic",
-                "FEMALE": "Pragmatic"
-            }
-        },
         "TEMPERS": {
             "BRAVE": {
                 "MALE": "Brave",
@@ -954,6 +840,49 @@
                 "MALE": "Healer",
                 "FEMALE": "Healer"
             }
+        },
+        "PUNCHLINES":{
+            "BETTERBEFORE":"It was better before !",
+            "NOTCONCERNED":"That does not concern us !",
+            "BLACKWINGS":"Black wings, black words",
+            "NOTME":"It's not me , I swear !",
+            "LIGHTOFF":"Who turned out the lights?",
+            "HUM":"Huuuuuuum...",
+            "GRR":"Grrrr",
+            "PFF":"Pffff",
+            "OUTCH":"Aoutch !!",
+            "ATCHOUM":"Atchoum !",
+            "TCHIP":"*Tchip*",
+            "TOOOLD":"I'm too old for this shit !",
+            "MAKEOFFER":"I'm going to make him an offer he can't refuse.",
+            "DEADPEOPLE":"I see dead people.",
+            "HASTA":"Hasta la vista, baby",
+            "KINGWORLD":"I'm the king of the world!",
+            "LOOKME":"It's me you're looking at?",
+            "SOUPLE":"Calm down boy",
+            "PATIENT":"I am very patient , but rarely long",
+            "FISTFACE":"My fist will soon end up in your face",
+            "VOIRAILLEURS":"Go see elsewhere if I am",
+            "BROCOLIS":"Did you know that broccoli contains more vitamin C than oranges ?",
+            "BICHE":"Want to see my deer ?",
+            "PI":"I love Pi , it relaxes me .",
+            "KNOWIT":"I knew to do it before",
+            "SAISONS":"There are no more seasons",
+            "PVB1":"It is better to argue with someone smart that talking to a fool.",
+            "PVB2":"The lie gives flowers but no fruit .",
+            "PVB3":"Who fears to you in your presence , harm in thy absence.",
+            "PVB4":"If you want to know the truth , listen to the crazy.",
+            "PVB5":"When poverty enters by the door , love goes out the window.",
+            "PVB6":"When a tree falls , we hear ; when the forest grows , not a sound.",
+            "PVB7":"It is better to have a thousand refusing than a promise not kept.",
+            "PVB8":"When you do not know where you're going , look where you're from.",
+            "ILOVE":"I love what you do.",
+            "JUDGE":"I'm not here to judge.",
+            "PASSIONNANT":"Oh yes ? Exciting.",
+            "VERRE":"I'll pay you a drink?",
+            "TONIGHT":"What are you doing tonight?",
+            "SAMETHING":"I would take the same as usual",
+            "ROGER":"Roger , another !"
         }
     },
     "VIEWS": {

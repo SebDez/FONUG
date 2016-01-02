@@ -13,6 +13,7 @@ import Qualities from '../elements/Qualities';
 import Tempers from '../elements/Tempers';
 import Phobia from '../elements/Phobia';
 import CharClass from '../elements/CharClass';
+import PunchLines from '../elements/PunchLines';
 
 /**
  * This Factory is used to get datas for the generator
@@ -145,7 +146,7 @@ export class LocalDataFactory {
      * @return {String} The punchline labels list to translate
      */
     getPunchLineList() {
-        return this.notSet;
+        return PunchLines;
     }
 
     /**

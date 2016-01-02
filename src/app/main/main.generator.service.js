@@ -250,10 +250,10 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The punch line label to translate
      */
-    getPunchLine(gender) {
+    getPunchLine() {
         let tab = this.localDataFactory.getPunchLineList();
 
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 
