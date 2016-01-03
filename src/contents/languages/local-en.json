@@ -1057,6 +1057,62 @@
                 "MALE": "Albino",
                 "FEMALE": "Albino"
             }
+        },
+        "NOSES": {
+            "SHARP": "Sharp",
+            "LONG": "Long",
+            "HOOKED": "Hooked",
+            "ROLLED": "Rolled",
+            "AQUILINE": "Aquiline",
+            "SHORT": "Short",
+            "CRUSHED": "Crushed",
+            "BIG": "Big",
+            "BROKEN": "Broken"
+        },
+        "MOUTH": {
+            "LIPSPINCHED": "Lips Pinched",
+            "PULPY": "Pulpy",
+            "FLESHY": "Fleshy",
+            "THIN": "Thin",
+            "DUCKFACE": "Duck face",
+            "LARGE": "Large"
+        },
+        "EYES": {
+            "VIVID": "Vivid",
+            "BRIGHT": "Bright",
+            "DULL": "Dull",
+            "DARK": "Dark",
+            "COLD": "Cold",
+            "BEADY": "Beady",
+            "SUSPICIOUS": "Suspicious",
+            "THREATENING": "Threatening",
+            "ASTONISHED": "Astonished",
+            "PIERCING": "Piercing",
+            "EMPTY": "Empty",
+            "SHORT-SIGHTED": "Short-sighted",
+            "BLIND": "Blind",
+            "GRIM": "Grim"
+        },
+        "HAIRS": {
+            "SHORTBLACK": "Black (Short)",
+            "SHORTBROWN": "Brown (Short)",
+            "SHORTAUBURN": "Auburn (Short)",
+            "SHORTCHESTNUT": "Chestnut (Short)",
+            "SHORTGINGER": "Ginger (Short)",
+            "SHORTBLOND": "Blond (Short)",
+            "SHORTWHITE": "White (Short)",
+            "SHORTGRAY": "Gray (Short)",
+            "SHORTCOLORED": "Colored (Short)",
+            "LONGBLACK": "Black (Long)",
+            "LONGBROWN": "Brown (Long)",
+            "LONGAUBURN": "Auburn (Long)",
+            "LONGCHESTNUT": "Chestnut (Long)",
+            "LONGGINGER": "Ginger (Long)",
+            "LONGBLOND": "Blond (Long)",
+            "LONGWHITE": "White (Long)",
+            "LONGGRAY": "Gray (Long)",
+            "LONGCOLORED": "Colored (Long)",
+            "BALD": "Bald"
         }
     },
     "VIEWS": {

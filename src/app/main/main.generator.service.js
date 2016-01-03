@@ -295,9 +295,9 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The eyes label to translate
      */
-    getEyes(gender) {
+    getEyes() {
         let tab = this.localDataFactory.getEyesList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 
@@ -306,9 +306,9 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The mouth label to translate
      */
-    getMouth(gender) {
+    getMouth() {
         let tab = this.localDataFactory.getMouthList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 
@@ -317,9 +317,9 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The nose label to translate
      */
-    getNose(gender) {
+    getNose() {
         let tab = this.localDataFactory.getNoseList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 
@@ -328,9 +328,9 @@ export class GeneratorService {
      * @param {String} gender The character's gender
      * @result {String} The hair label to translate
      */
-    getHair(gender) {
+    getHair() {
         let tab = this.localDataFactory.getHairList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 

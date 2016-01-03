@@ -17,6 +17,12 @@ import PunchLines from '../elements/PunchLines';
 import Corpulences from '../elements/Corpulences';
 import FaceShapes from '../elements/FaceShapes';
 import SkinTones from '../elements/SkinTones';
+import Noses from '../elements/Noses';
+import Mouth from '../elements/Mouth';
+import Eyes from '../elements/Eyes';
+import Hairs from '../elements/Hairs';
+
+
 
 /**
  * This Factory is used to get datas for the generator
@@ -70,14 +76,6 @@ export class LocalDataFactory {
      */
     getCivilizations(gender) {
         return Civilizations[gender];
-    }
-
-    /**
-     * Get all the special sign body labels list
-     * @return {String} The special sign body labels list to translate
-     */
-    getSpecialSignBodyList() {
-        return SpecialSignBody;
     }
 
     /**
@@ -181,7 +179,7 @@ export class LocalDataFactory {
      * @return {String} The eyes labels list to translate
      */
     getEyesList() {
-        return this.notSet;
+        return Eyes;
     }
 
     /**
@@ -189,7 +187,7 @@ export class LocalDataFactory {
      * @return {String} The mouth labels list to translate
      */
     getMouthList() {
-        return this.notSet;
+        return Mouth;
     }
 
     /**
@@ -197,7 +195,7 @@ export class LocalDataFactory {
      * @return {String} The nose labels list to translate
      */
     getNoseList() {
-        return this.notSet;
+        return Noses;
     }
 
     /**
@@ -205,7 +203,7 @@ export class LocalDataFactory {
      * @return {String} The hair labels list to translate
      */
     getHairList() {
-        return this.notSet;
+        return Hairs;
     }
 
     /**
@@ -216,6 +214,14 @@ export class LocalDataFactory {
         return this.notSet;
     }
 
+    /**
+     * Get all the special sign body labels list
+     * @return {String} The special sign body labels list to translate
+     */
+    getSpecialSignBodyList() {
+        return SpecialSignBody;
+    }
+    
     /**
      * Get all the goal labels list
      * @return {String} The goal labels list to translate

@@ -1054,6 +1054,62 @@
                 "MALE": "Albinos",
                 "FEMALE": "Albinos"
             }
+        },
+        "NOSES": {
+            "SHARP": "Pointu",
+            "LONG": "Long",
+            "HOOKED": "Crochu",
+            "ROLLED": "Retroussé",
+            "AQUILINE": "Aquilin",
+            "SHORT": "Court",
+            "CRUSHED": "Écrasé",
+            "BIG": "Gros",
+            "BROKEN": "Cassé"
+        },
+        "MOUTH": {
+            "LIPSPINCHED": "Lèvres pincées",
+            "PULPY": "Plupeuse",
+            "FLESHY": "Charnue",
+            "THIN": "Mince",
+            "DUCKFACE": "Cul de poule",
+            "LARGE": "Grande"
+        },
+        "EYES": {
+            "VIVID": "Vifs",
+            "BRIGHT": "Brillants",
+            "DULL": "Ternes",
+            "DARK": "Sombres",
+            "COLD": "Froids",
+            "BEADY": "Globuleux",
+            "SUSPICIOUS": "Louches",
+            "THREATENING": "Menaçants",
+            "ASTONISHED": "Étonnés",
+            "PIERCING": "Perçants",
+            "EMPTY": "Vides",
+            "SHORT-SIGHTED": "Myope",
+            "BLIND": "Aveugle",
+            "GRIM": "Torve"
+        },
+        "HAIRS": {
+            "SHORTBLACK": "Noirs (Courts)",
+            "SHORTBROWN": "Bruns (Courts)",
+            "SHORTAUBURN": "Auburn (Courts)",
+            "SHORTCHESTNUT": "Châtains (Courts)",
+            "SHORTGINGER": "Roux (Courts)",
+            "SHORTBLOND": "Blonds (Courts)",
+            "SHORTWHITE": "Blancs (Courts)",
+            "SHORTGRAY": "Gris (Courts)",
+            "SHORTCOLORED": "Colorés (Courts)",
+            "LONGBLACK": "Noirs (Longs)",
+            "LONGBROWN": "Bruns (Longs)",
+            "LONGAUBURN": "Auburn (Longs)",
+            "LONGCHESTNUT": "Châtains (Longs)",
+            "LONGGINGER": "Roux (Longs)",
+            "LONGBLOND": "Blonds (Longs)",
+            "LONGWHITE": "Blancs (Longs)",
+            "LONGGRAY": "Gris (Longs)",
+            "LONGCOLORED": "Colorés (Longs)",
+            "BALD": "Chauve"
         }
     },
     "VIEWS": {
