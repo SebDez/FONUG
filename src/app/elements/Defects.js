@@ -26,7 +26,7 @@ module.exports = [
     {
         name: {
             MALE: 'GENERATOR.DEFECTS.STUBBORN.MALE',
-            FEMALE: 'GENERATOR.DEFECTS.ACSTUBBORNERBIC.FEMALE'
+            FEMALE: 'GENERATOR.DEFECTS.STUBBORN.FEMALE'
         }
     },
     {
