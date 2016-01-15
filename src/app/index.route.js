@@ -25,6 +25,12 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
       templateUrl: 'app/contact/contact.html',
       controller: 'ContactController',
       controllerAs: 'contact'
+    })
+    .state('input', {
+      url: '/input',
+      templateUrl: 'app/inputhelper/input.html',
+      controller: 'InputController',
+      controllerAs: 'input'
     });
 
 

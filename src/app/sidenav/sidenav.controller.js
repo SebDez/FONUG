@@ -42,24 +42,32 @@ export class SidenavController {
     }
 
     /**
+     * Go to state
+     * @param {Object} statename The state name
+     */
+    goToState(statename) {
+        this.$state.go(statename);
+    }
+
+    /**
      * Go to contact page
      */
     goToContact() {
-        this.$state.go('contact');
+        this.goToState('contact');
     }
 
     /**
      * Go to about page
      */
     goToAbout() {
-        this.$state.go('about');
+        this.goToState('about');
     }
-    
+
     /**
      * Go to main page
      */
     goToMain() {
-        this.$state.go('home');
+        this.goToState('home');
     }
 
 }

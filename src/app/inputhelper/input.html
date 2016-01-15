@@ -1,0 +1,96 @@
+<navbar></navbar>
+<sidenav></sidenav>
+
+<div class="divContainer" layout="column" layout-align="center center" layout-wrap>
+  <div class="container main md-whiteframe-z2" layout-fill>
+    <md-content flex layout-padding class="textJustify">
+      <div layout="column" layout-align="center center" layout-wrap>
+        <div flex="150">
+          <md-input-container>
+            <label>KEY</label>
+            <input ng-model="input.key">
+          </md-input-container>
+
+          <md-checkbox ng-model="input.withWeight" aria-label="Checkbox 1">
+            Ponderate ?
+          </md-checkbox>
+          <md-checkbox ng-model="input.withGender" aria-label="Checkbox 1">
+            Gender ?
+          </md-checkbox>
+
+        </div>
+        <div ng-repeat="obj in input.elementList">
+          <div flex="100">
+            {{input.elementList.indexOf(obj)}}.
+            <md-input-container>
+              <label>Element Name</label>
+              <input ng-model="obj.tag">
+            </md-input-container>
+
+
+            <span ng-if="input.withGender" ng-init="obj.labelMaleFr=obj.defaultLabelFr; obj.labelMaleEn=obj.defaultLabelEn;">
+              <md-input-container>
+                <label>Male FR</label>
+                <input ng-model="obj.labelMaleFr">
+              </md-input-container>
+              <md-input-container>
+                <label>Female FR</label>
+                <input ng-model="obj.labelFemaleFr">
+              </md-input-container>
+              <md-input-container>
+                <label>Male EN</label>
+                <input ng-model="obj.labelMaleEn">
+              </md-input-container>
+              <md-input-container>
+                <label>Female EN</label>
+                <input ng-model="obj.labelFemaleEn">
+              </md-input-container>
+            </span>
+
+            <span ng-if="!input.withGender" ng-init="obj.defaultLabelFr=obj.labelMaleFr; obj.defaultLabelEn=obj.labelMaleEn;">
+              <md-input-container>
+                <label>Label FR</label>
+                <input ng-model="obj.defaultLabelFr">
+              </md-input-container>
+              <md-input-container>
+                <label>Label EN</label>
+                <input ng-model="obj.defaultLabelEn">
+              </md-input-container>
+            </span>
+
+            <span ng-if="input.withWeight">
+              <md-input-container>
+                <label>Weight</label>
+                <input ng-model="obj.weight" ng-init="obj.weight=input.defaultWeight">
+              </md-input-container>
+            </span>
+          </div>
+        </div>
+
+        <div flex="100">
+          <div layout="row" layout-padding>
+            <div flex>
+              <md-button ng-click="input.createObject()" class="md-raised md-primary">Add new element</md-button>
+            </div>
+          </div>
+        </div>
+    </md-content>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>My object
+    <br/>
+    <br/> {{input.formatElementListToPrint()}}
+    <br/>
+    <br/>
+    <br/>TradFR
+    <br/>
+    <br/> {{input.frTranslationObject}}
+    <br/>
+    <br/>
+    <br/>TradEn
+    <br/>
+    <br/> {{input.enTranslationObject}}
+  </div>
+</div>
