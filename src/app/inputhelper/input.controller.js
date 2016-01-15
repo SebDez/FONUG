@@ -13,7 +13,7 @@ export class InputController {
     /** @type {String} */
     this.elementKey = 'defaultKey';
     /** @type {String} */
-    this.elementName = 'defaultName';
+    this.elementName = 'name';
     /** @type {Float} */
     this.defaultWeight = 0.5;
     /** @type {Boolean} */
@@ -42,12 +42,12 @@ export class InputController {
    */
   setObjectToInputFormat(obj){
     if (this.withGender) {
-      obj.elementName = {
+      obj.name = {
         MALE: 'GENERATOR.' + this.elementKey.toUpperCase() + '.' + obj.tag.toUpperCase() + '.MALE',
         FEMALE: 'GENERATOR.' + this.elementKey.toUpperCase() + '.' + obj.tag.toUpperCase() + '.FEMALE'
       };
     } else {
-      obj.elementName = 'GENERATOR.' + this.elementKey.toUpperCase() + '.' + obj.tag.toUpperCase();
+      obj.name = 'GENERATOR.' + this.elementKey.toUpperCase() + '.' + obj.tag.toUpperCase();
     }
   }
 

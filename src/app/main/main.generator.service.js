@@ -94,8 +94,8 @@ export class GeneratorService {
         let randIndex = this.getRandomIndexInTab(randomList);
         return randomList[randIndex];
     }
-    
-    
+
+
     /**
      * Get an element object from a list according to its chance to be picked
      * @param [Object] elements The list of elements
@@ -156,7 +156,7 @@ export class GeneratorService {
      */
     generateName(inputGender, civilization) {
         let tab = this.localDataFactory.getNames();
-        
+
         let civ = civilization;
         let gender = inputGender;
         if (!tab[civ]) {
@@ -181,7 +181,6 @@ export class GeneratorService {
 
     /**
      * Get the character charisma
-     * @param {String} gender The character's gender
      * @result {String} The charisma object
      */
     getCharisma() {
@@ -192,7 +191,6 @@ export class GeneratorService {
 
     /**
      * Get the character beauty
-     * @param {String} gender The character's gender
      * @result {String} The beauty label to translate
      */
     getBeauty() {
@@ -203,7 +201,6 @@ export class GeneratorService {
 
     /**
      * Get the character intellect
-     * @param {String} gender The character's gender
      * @result {String} The intellect label to translate
      */
     getIntellect() {
@@ -214,7 +211,6 @@ export class GeneratorService {
 
     /**
      * Get the character
-     * @param {String} gender The character's gender
      * @result {String} The label to translate
      */
     getPerception() {
@@ -225,10 +221,9 @@ export class GeneratorService {
 
     /**
      * Get the character fight skills
-     * @param {String} gender The character's gender
      * @result {String} The label to translate
      */
-    getFightSkills() { 
+    getFightSkills() {
         let tab = this.localDataFactory.getFightSkillsList();
         return this.getElementObjectFromListWithWeighting(tab);
     }
@@ -247,7 +242,6 @@ export class GeneratorService {
 
     /**
      * Get the character punch line
-     * @param {String} gender The character's gender
      * @result {String} The punch line label to translate
      */
     getPunchLine() {
@@ -292,7 +286,6 @@ export class GeneratorService {
 
     /**
      * Get the character eyes
-     * @param {String} gender The character's gender
      * @result {String} The eyes label to translate
      */
     getEyes() {
@@ -303,7 +296,6 @@ export class GeneratorService {
 
     /**
      * Get the character mouth
-     * @param {String} gender The character's gender
      * @result {String} The mouth label to translate
      */
     getMouth() {
@@ -314,7 +306,6 @@ export class GeneratorService {
 
     /**
      * Get the character nose
-     * @param {String} gender The character's gender
      * @result {String} The nose label to translate
      */
     getNose() {
@@ -325,7 +316,6 @@ export class GeneratorService {
 
     /**
      * Get the character hair
-     * @param {String} gender The character's gender
      * @result {String} The hair label to translate
      */
     getHair() {
@@ -336,7 +326,6 @@ export class GeneratorService {
 
     /**
      * Get the character special sign face
-     * @param {String} gender The character's gender
      * @result {String} The special sign face label to translate
      */
     getSpecialSignFace(gender) {
@@ -357,12 +346,11 @@ export class GeneratorService {
 
     /**
      * Get the character motivation
-     * @param {String} gender The character's gender
      * @result {String} The motivation label to translate
      */
-    getMotivation(gender) {
+    getMotivation() {
         let tab = this.localDataFactory.getMotivationList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 
@@ -390,7 +378,6 @@ export class GeneratorService {
 
     /**
      * Get the character phobia
-     * @param {String} gender The character's gender
      * @result {String} The phobia label to translate
      */
     getPhobia() {
@@ -506,7 +493,7 @@ export class GeneratorService {
         let tab = this.localDataFactory.getClothingStyleList();
         return this.getElementLabelFromListWithWeighting(tab,gender);
     }
-    
+
     /**
      * Get the character temper
      * @param {String} gender The character's gender

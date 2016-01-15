@@ -21,6 +21,7 @@ import Noses from '../elements/Noses';
 import Mouth from '../elements/Mouth';
 import Eyes from '../elements/Eyes';
 import Hairs from '../elements/Hairs';
+import Motivations from '../elements/Motivations';
 
 
 
@@ -87,7 +88,7 @@ export class LocalDataFactory {
     }
 
     /**
-     * Get all the names 
+     * Get all the names
      * @return {String} The names values
      */
     getNames() {
@@ -221,7 +222,7 @@ export class LocalDataFactory {
     getSpecialSignBodyList() {
         return SpecialSignBody;
     }
-    
+
     /**
      * Get all the goal labels list
      * @return {String} The goal labels list to translate
@@ -235,7 +236,7 @@ export class LocalDataFactory {
      * @return {String} The motivation labels list to translate
      */
     getMotivationList() {
-        return this.notSet;
+        return Motivations;
     }
 
     /**
@@ -247,7 +248,7 @@ export class LocalDataFactory {
     }
 
     /**
-     * Get all the qualities labels list 
+     * Get all the qualities labels list
      * @return {String} The alignments labels list to translate
      */
     getQualityList() {
@@ -261,7 +262,7 @@ export class LocalDataFactory {
     getPhobiaList() {
         return Phobia;
     }
-    
+
     /**
      * Get all the temper labels list
      * @return {String} The tempers labels list to translate
