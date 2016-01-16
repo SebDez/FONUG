@@ -4,7 +4,18 @@
 <div class="divContainer" layout="column" layout-align="center center" layout-wrap>
     <div class="container main md-whiteframe-z2" layout-fill>
 
+        <md-input-container>
+                <label>Element list FR</label>
+                <input ng-model="input.inputListFr">
+            </md-input-container>
 
+        <md-input-container>
+                <label>Element list EN</label>
+                <input ng-model="input.inputListEn">
+            </md-input-container>
+
+ <md-button ng-click="input.generateObjectsFromString()" class="md-raised md-primary">Add new element</md-button>
+        
         <div layout="row" layout-align="center center" layout-wrap>
             <md-input-container>
                 <label>KEY</label>
