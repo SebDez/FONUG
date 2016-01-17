@@ -129,12 +129,12 @@ export class GeneratorService {
     }
 
     /**
-     * Get the character special sign body
-     * @param {String} gender The character's special sign body
-     * @result {String} The special sign body label to translate
+     * Get the character special sign
+     * @param {String} gender The character's special sign
+     * @result {String} The special sign label to translate
      */
-    getSpecialSignBody(gender) {
-        let tab = this.localDataFactory.getSpecialSignBodyList();
+    getSpecialSign(gender) {
+        let tab = this.localDataFactory.getSpecialSignList();
         return this.getElementLabelFromListWithWeighting(tab, gender);
     }
 
@@ -322,17 +322,6 @@ export class GeneratorService {
         let tab = this.localDataFactory.getHairList();
         return this.getElementLabelFromListWithWeighting(tab);
     }
-
-
-    /**
-     * Get the character special sign face
-     * @result {String} The special sign face label to translate
-     */
-    getSpecialSignFace(gender) {
-        let tab = this.localDataFactory.getSpecialSignFaceList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
-    }
-
 
     /**
      * Get the character goal

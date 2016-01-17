@@ -1139,6 +1139,293 @@
             "JEALOUSY": "Jealousy ",
             "ENVY": "Envy ",
             "LAZINESS": "Laziness"
+        },
+        "SPECIALSIGN": {
+            "PROFUSESWEATING": {
+                "MALE": "Profuse sweating",
+                "FEMALE": "Profuse sweating"
+            },
+            "CLAMMYHANDS": {
+                "MALE": "Clammy hands",
+                "FEMALE": "Clammy hands"
+            },
+            "STRONGBODYODORSMELL": {
+                "MALE": "Strong body odor ( smell )",
+                "FEMALE": "Strong body odor ( smell )"
+            },
+            "STRONGBODYODORDIRT": {
+                "MALE": "Strong body odor ( dirt )",
+                "FEMALE": "Strong body odor ( dirt )"
+            },
+            "STRONGBODYODORSWEAT": {
+                "MALE": "Strong body odor ( sweat)",
+                "FEMALE": "Strong body odor ( sweat)"
+            },
+            "STRONGBODYODORTOBACCO": {
+                "MALE": "Strong body odor (tobacco)",
+                "FEMALE": "Strong body odor (tobacco)"
+            },
+            "BADBREATH": {
+                "MALE": "Bad breath",
+                "FEMALE": "Bad breath"
+            },
+            "HAIRY": {
+                "MALE": "Hairy",
+                "FEMALE": "Hairy"
+            },
+            "LARGEBREASTS": {
+                "MALE": "Large breasts",
+                "FEMALE": "Large breasts"
+            },
+            "ONEHANDED": {
+                "MALE": "One-handed",
+                "FEMALE": "One-handed"
+            },
+            "WEARAHOOK": {
+                "MALE": "Wear a hook",
+                "FEMALE": "Wear a hook"
+            },
+            "HUMPBACKED": {
+                "MALE": "Humpbacked",
+                "FEMALE": "Humpbacked"
+            },
+            "BANDYLEGS": {
+                "MALE": "Bandy legs",
+                "FEMALE": "Bandy legs"
+            },
+            "CLUBFOOT": {
+                "MALE": "Clubfoot",
+                "FEMALE": "Clubfoot"
+            },
+            "CUTFINGERS": {
+                "MALE": "Cut fingers",
+                "FEMALE": "Cut fingers"
+            },
+            "DEAF": {
+                "MALE": "Deaf",
+                "FEMALE": "Deaf"
+            },
+            "MAKEUP": {
+                "MALE": "Makeup/wearing paints",
+                "FEMALE": "Makeup/wearing paints"
+            },
+            "TATTOO": {
+                "MALE": "Tattoo",
+                "FEMALE": "Tattoo"
+            },
+            "FACIALPARALYSIS": {
+                "MALE": "Facial paralysis",
+                "FEMALE": "Facial paralysis"
+            },
+            "PARALYSISOFALIMB": {
+                "MALE": "Paralysis of a limb",
+                "FEMALE": "Paralysis of a limb"
+            },
+            "TREMORS": {
+                "MALE": "Tremors",
+                "FEMALE": "Tremors"
+            },
+            "SENESCENCE": {
+                "MALE": "Senescence",
+                "FEMALE": "Senescence"
+            },
+            "PROTRUDINGEARS": {
+                "MALE": "Protruding ears",
+                "FEMALE": "Protruding ears"
+            },
+            "SICK": {
+                "MALE": "Sick",
+                "FEMALE": "Sick"
+            },
+            "TIC": {
+                "MALE": "Tic",
+                "FEMALE": "Tic"
+            },
+            "LONGNAILS": {
+                "MALE": "Long nails",
+                "FEMALE": "Long nails"
+            },
+            "SPITTING": {
+                "MALE": "Spitting",
+                "FEMALE": "Spitting"
+            },
+            "UNSIGHTLYWARTS": {
+                "MALE": "Unsightly warts",
+                "FEMALE": "Unsightly warts"
+            },
+            "WOODENLEG": {
+                "MALE": "Wooden leg",
+                "FEMALE": "Wooden leg"
+            },
+            "NOSERINGS": {
+                "MALE": "Nose rings",
+                "FEMALE": "Nose rings"
+            },
+            "EARSPIERCING": {
+                "MALE": "Ears piercing",
+                "FEMALE": "Ears piercing"
+            },
+            "LIPPIERCING": {
+                "MALE": "Lip piercing",
+                "FEMALE": "Lip piercing"
+            },
+            "TONGUEPIERCING": {
+                "MALE": "Tongue piercing",
+                "FEMALE": "Tongue piercing"
+            },
+            "WHISTLES": {
+                "MALE": "Whistles",
+                "FEMALE": "Whistles"
+            },
+            "GIGGLE": {
+                "MALE": "Giggle",
+                "FEMALE": "Giggle"
+            },
+            "SNIFFS": {
+                "MALE": "Sniffs",
+                "FEMALE": "Sniffs"
+            },
+            "COUGHS": {
+                "MALE": "Coughs",
+                "FEMALE": "Coughs"
+            },
+            "SLAMSTONGUE": {
+                "MALE": "Slams his tongue",
+                "FEMALE": "Slams his tongue"
+            },
+            "SMOOTHSTRAND": {
+                "MALE": "Smooth a strand",
+                "FEMALE": "Smooth a strand"
+            },
+            "COMBHAIRS": {
+                "MALE": "Comb his hairs",
+                "FEMALE": "Comb his hairs"
+            },
+            "SPITS": {
+                "MALE": "Spits",
+                "FEMALE": "Spits"
+            },
+            "CLEARSTHROAT": {
+                "MALE": "Clears his throat",
+                "FEMALE": "Clears his throat"
+            },
+            "SCRATCHINGBODY": {
+                "MALE": "Scratching a body part",
+                "FEMALE": "Scratching a body part"
+            },
+            "PERFORMSRITUAL": {
+                "MALE": "Performs a ritual gesture to ward off bad fate",
+                "FEMALE": "Performs a ritual gesture to ward off bad fate"
+            },
+            "RECITEDPSALM": {
+                "MALE": "Recited a psalm",
+                "FEMALE": "Recited a psalm"
+            },
+            "PRAY": {
+                "MALE": "Pray",
+                "FEMALE": "Pray"
+            },
+            "STRIKESCHEST": {
+                "MALE": "Strikes his chest",
+                "FEMALE": "Strikes his chest"
+            },
+            "PLAYINGCOIN": {
+                "MALE": "Playing with a coin",
+                "FEMALE": "Playing with a coin"
+            },
+            "PLAYINGDAGGER": {
+                "MALE": "Playing with a dagger",
+                "FEMALE": "Playing with a dagger"
+            },
+            "PLAYINGBALL": {
+                "MALE": "Playing with a ball",
+                "FEMALE": "Playing with a ball"
+            },
+            "PLAYINGCARDS": {
+                "MALE": "Playing with cards",
+                "FEMALE": "Playing with cards"
+            },
+            "PLAYINGPENDANT": {
+                "MALE": "Playing with a pendant",
+                "FEMALE": "Playing with a pendant"
+            },
+            "SWEAR": {
+                "MALE": "Swear",
+                "FEMALE": "Swear"
+            },
+            "HUMS": {
+                "MALE": "Hums",
+                "FEMALE": "Hums"
+            },
+            "MOISTENSLIPS": {
+                "MALE": "Moistens the lips",
+                "FEMALE": "Moistens the lips"
+            },
+            "STOMP": {
+                "MALE": "Stomp",
+                "FEMALE": "Stomp"
+            },
+            "BLINK": {
+                "MALE": "Blink",
+                "FEMALE": "Blink"
+            },
+            "FLITS": {
+                "MALE": "Flits",
+                "FEMALE": "Flits"
+            },
+            "CROSSESARMS": {
+                "MALE": "Crosses his arms",
+                "FEMALE": "Crosses his arms"
+            },
+            "HELDCHIN": {
+                "MALE": "Held the chin",
+                "FEMALE": "Held the chin"
+            },
+            "FANSONESELF": {
+                "MALE": "Fans oneself( fan )",
+                "FEMALE": "Fans oneself( fan )"
+            },
+            "INFLAMEDGESTURES": {
+                "MALE": "Inflamed gestures",
+                "FEMALE": "Inflamed gestures"
+            },
+            "SPEAKHANDS": {
+                "MALE": "Speak with hands",
+                "FEMALE": "Speak with hands"
+            },
+            "FLUIDGESTURES": {
+                "MALE": "Fluid and graceful gestures",
+                "FEMALE": "Fluid and graceful gestures"
+            },
+            "DOUBTFULPOUT": {
+                "MALE": "Doubtful pout",
+                "FEMALE": "Doubtful pout"
+            },
+            "GRIN": {
+                "MALE": "Grin",
+                "FEMALE": "Grin"
+            },
+            "GNAWSNAILS": {
+                "MALE": "Gnaw his nails",
+                "FEMALE": "Gnaw his nails"
+            },
+            "PICKINGTEETH": {
+                "MALE": "Picking his teeth",
+                "FEMALE": "Picking his teeth"
+            },
+            "DRINK": {
+                "MALE": "Drink a lot",
+                "FEMALE": "Drink a lot"
+            },
+            "SMOKEOFTEN": {
+                "MALE": "Smoke often",
+                "FEMALE": "Smoke often"
+            },
+            "DEPENDENTDRUG": {
+                "MALE": "Is dependent on a drug",
+                "FEMALE": "Is dependent on a drug"
+            }
+
         }
     },
     "VIEWS": {
@@ -1193,8 +1480,7 @@
             "MOUTH": "Mouth",
             "NOSE": "Nose",
             "HAIR": "Hair",
-            "SPECIAL_SIGN_FACE": "Special Sign (face)",
-            "SPECIAL_SIGN_BODY": "Special Sign (body)",
+            "SPECIAL_SIGN": "Special Sign",
             "PERSONNALITY": "Personnality",
             "ALIGNMENT": "Alignment",
             "GOAL": "Goal",

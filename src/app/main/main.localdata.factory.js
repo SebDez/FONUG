@@ -1,4 +1,4 @@
-import SpecialSignBody from '../elements/SpecialSignBody';
+import SpecialSign from '../elements/SpecialSign';
 import Civilizations from '../elements/Civilizations';
 import Alignments from '../elements/Alignments';
 import Names from '../elements/Names';
@@ -208,20 +208,13 @@ export class LocalDataFactory {
     }
 
     /**
-     * Get all the special sign face labels list
-     * @return {String} The special sign face labels list to translate
+     * Get all the special sign  labels list
+     * @return {String} The special sign  labels list to translate
      */
-    getSpecialSignFaceList() {
-        return this.notSet;
+    getSpecialSignList() {
+        return SpecialSign;
     }
 
-    /**
-     * Get all the special sign body labels list
-     * @return {String} The special sign body labels list to translate
-     */
-    getSpecialSignBodyList() {
-        return SpecialSignBody;
-    }
 
     /**
      * Get all the goal labels list

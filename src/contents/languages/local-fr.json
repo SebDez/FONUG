@@ -216,32 +216,6 @@
                 "FEMALE": "Cyclope"
             }
         },
-        "PHYSICALTRAITS": {
-            "NORMAL": {
-                "MALE": "Normal",
-                "FEMALE": "Normale"
-            },
-            "ARMTATOO": {
-                "MALE": "Il a un tatouage sur son bras.",
-                "FEMALE": "Elle a un tatouage sur son bras."
-            },
-            "LIMPINGLEG": {
-                "MALE": "Il boite.",
-                "FEMALE": "Elle boite."
-            },
-            "MISSINGPHALANX": {
-                "MALE": "Il lui manque une phalange sur sa main.",
-                "FEMALE": "Il lui manque une phalange sur sa main."
-            },
-            "SCARONCHEST": {
-                "MALE": "Il a une cicatrice sur la poitrine.",
-                "FEMALE": "Elle a une cicatrice sur la poitrine."
-            },
-            "GNAWNAILS": {
-                "MALE": "Il ronge ses ongles.",
-                "FEMALE": "Elle ronge ses ongles."
-            }
-        },
         "ALIGNMENTS": {
             "LAWFULGOOD": "Loyal Bon",
             "NEUTRALGOOD": "Neutre Bon",
@@ -1136,6 +1110,292 @@
             "JEALOUSY": "La jalousie",
             "ENVY": "L’envie",
             "LAZINESS": "La paresse"
+        },
+        "SPECIALSIGN": {
+            "PROFUSESWEATING": {
+                "MALE": "Sudation abondante",
+                "FEMALE": "Sudation abondante"
+            },
+            "CLAMMYHANDS": {
+                "MALE": "Mains moites",
+                "FEMALE": "Mains moites"
+            },
+            "STRONGBODYODORSMELL": {
+                "MALE": "Forte odeur corporelle (parfum)",
+                "FEMALE": "Forte odeur corporelle (parfum)"
+            },
+            "STRONGBODYODORDIRT": {
+                "MALE": "Forte odeur corporelle (saleté)",
+                "FEMALE": "Forte odeur corporelle (saleté)"
+            },
+            "STRONGBODYODORSWEAT": {
+                "MALE": "Forte odeur corporelle (sueur)",
+                "FEMALE": "Forte odeur corporelle (sueur)"
+            },
+            "STRONGBODYODORTOBACCO": {
+                "MALE": "Forte odeur corporelle (tabac)",
+                "FEMALE": "Forte odeur corporelle (tabac)"
+            },
+            "BADBREATH": {
+                "MALE": "Mauvaise haleine",
+                "FEMALE": "Mauvaise haleine"
+            },
+            "HAIRY": {
+                "MALE": "Poilu",
+                "FEMALE": "Poilue"
+            },
+            "LARGEBREASTS": {
+                "MALE": "Poitrine opulente",
+                "FEMALE": "Poitrine opulente"
+            },
+            "ONEHANDED": {
+                "MALE": "Manchot",
+                "FEMALE": "Manchote"
+            },
+            "WEARAHOOK": {
+                "MALE": "Porte un crochet",
+                "FEMALE": "Porte un crochet"
+            },
+            "HUMPBACKED": {
+                "MALE": "Bossu",
+                "FEMALE": "Bossue"
+            },
+            "BANDYLEGS": {
+                "MALE": "Jambes arquées",
+                "FEMALE": "Jambes arquées"
+            },
+            "CLUBFOOT": {
+                "MALE": "Pied-bot",
+                "FEMALE": "Pied-bot"
+            },
+            "CUTFINGERS": {
+                "MALE": "Doigts coupés",
+                "FEMALE": "Doigts coupés"
+            },
+            "DEAF": {
+                "MALE": "Sourd",
+                "FEMALE": "Sourde"
+            },
+            "MAKEUP": {
+                "MALE": "Est maquillé/porte des peintures",
+                "FEMALE": "Est maquillée/porte des peintures"
+            },
+            "TATTOO": {
+                "MALE": "Tatouage",
+                "FEMALE": "Tatouage"
+            },
+            "FACIALPARALYSIS": {
+                "MALE": "Paralysie faciale",
+                "FEMALE": "Paralysie faciale"
+            },
+            "PARALYSISOFALIMB": {
+                "MALE": "Paralysie d’un membre",
+                "FEMALE": "Paralysie d’un membre"
+            },
+            "TREMORS": {
+                "MALE": "Tremblements",
+                "FEMALE": "Tremblements"
+            },
+            "SENESCENCE": {
+                "MALE": "Sénescence",
+                "FEMALE": "Sénescence"
+            },
+            "PROTRUDINGEARS": {
+                "MALE": "Oreilles décollées",
+                "FEMALE": "Oreilles décollées"
+            },
+            "SICK": {
+                "MALE": "Malade",
+                "FEMALE": "Malade"
+            },
+            "TIC": {
+                "MALE": "Tics",
+                "FEMALE": "Tics"
+            },
+            "LONGNAILS": {
+                "MALE": "Ongles longs",
+                "FEMALE": "Ongles longs"
+            },
+            "SPITTING": {
+                "MALE": "Postillonneur",
+                "FEMALE": "Postillonneuse"
+            },
+            "UNSIGHTLYWARTS": {
+                "MALE": "Verrues disgracieuses",
+                "FEMALE": "Verrues disgracieuses"
+            },
+            "WOODENLEG": {
+                "MALE": "Jambe de bois",
+                "FEMALE": "Jambe de bois"
+            },
+            "NOSERINGS": {
+                "MALE": "Piercing nasal",
+                "FEMALE": "Piercing nasal"
+            },
+            "EARSPIERCING": {
+                "MALE": "Piercing oreilles",
+                "FEMALE": "Piercing oreilles"
+            },
+            "LIPPIERCING": {
+                "MALE": "Piercing lèvres",
+                "FEMALE": "Piercing lèvres"
+            },
+            "TONGUEPIERCING": {
+                "MALE": "Piercing langue",
+                "FEMALE": "Piercing langue"
+            },
+            "WHISTLES": {
+                "MALE": "Sifflote",
+                "FEMALE": "Sifflote"
+            },
+            "GIGGLE": {
+                "MALE": "Gloussements",
+                "FEMALE": "Gloussements"
+            },
+            "SNIFFS": {
+                "MALE": "Renifle",
+                "FEMALE": "Renifle"
+            },
+            "COUGHS": {
+                "MALE": "Toussote",
+                "FEMALE": "Toussote"
+            },
+            "SLAMSTONGUE": {
+                "MALE": "Claque sa langue",
+                "FEMALE": "Claque sa langue"
+            },
+            "SMOOTHSTRAND": {
+                "MALE": "Se lisse une mèche",
+                "FEMALE": "Se lisse une mèche"
+            },
+            "COMBHAIRS": {
+                "MALE": "Se recoiffe",
+                "FEMALE": "Se recoiffe"
+            },
+            "SPITS": {
+                "MALE": "Crache",
+                "FEMALE": "Crache"
+            },
+            "CLEARSTHROAT": {
+                "MALE": "Se racle la gorge",
+                "FEMALE": "Se racle la gorge"
+            },
+            "SCRATCHINGBODY": {
+                "MALE": "Se gratte une partie du corps",
+                "FEMALE": "Se gratte une partie du corps"
+            },
+            "PERFORMSRITUAL": {
+                "MALE": "Exécute un rite gestuel pour conjurer le mauvais sort",
+                "FEMALE": "Exécute un rite gestuel pour conjurer le mauvais sort"
+            },
+            "RECITEDPSALM": {
+                "MALE": "Récite un psaume",
+                "FEMALE": "Récite un psaume"
+            },
+            "PRAY": {
+                "MALE": "Prie",
+                "FEMALE": "Prie"
+            },
+            "STRIKESCHEST": {
+                "MALE": "Se frappe le torse",
+                "FEMALE": "Se frappe le torse"
+            },
+            "PLAYINGCOIN": {
+                "MALE": "Joue avec une pièce",
+                "FEMALE": "Joue avec une pièce"
+            },
+            "PLAYINGDAGGER": {
+                "MALE": "Joue avec une dague",
+                "FEMALE": "Joue avec une dague"
+            },
+            "PLAYINGBALL": {
+                "MALE": "Joue avec une balle",
+                "FEMALE": "Joue avec une balle"
+            },
+            "PLAYINGCARDS": {
+                "MALE": "Joue avec des cartes",
+                "FEMALE": "Joue avec des cartes"
+            },
+            "PLAYINGPENDANT": {
+                "MALE": "Joue avec un pendentif",
+                "FEMALE": "Joue avec un pendentif"
+            },
+            "SWEAR": {
+                "MALE": "Jure",
+                "FEMALE": "Jure"
+            },
+            "HUMS": {
+                "MALE": "Fredonne",
+                "FEMALE": "Fredonne"
+            },
+            "MOISTENSLIPS": {
+                "MALE": "S’humecte les lèvres",
+                "FEMALE": "S’humecte les lèvres"
+            },
+            "STOMP": {
+                "MALE": "Tape du pied",
+                "FEMALE": "Tape du pied"
+            },
+            "BLINK": {
+                "MALE": "Cille",
+                "FEMALE": "Cille"
+            },
+            "FLITS": {
+                "MALE": "Papillonne",
+                "FEMALE": "Papillonne"
+            },
+            "CROSSESARMS": {
+                "MALE": "Croise les bras",
+                "FEMALE": "Croise les bras"
+            },
+            "HELDCHIN": {
+                "MALE": "Se tient le menton",
+                "FEMALE": "Se tient le menton"
+            },
+            "FANSONESELF": {
+                "MALE": "S’évente (éventail)",
+                "FEMALE": "S’évente (éventail)"
+            },
+            "INFLAMEDGESTURES": {
+                "MALE": "Gestuelle enflammée",
+                "FEMALE": "Gestuelle enflammée"
+            },
+            "SPEAKHANDS": {
+                "MALE": "Parle avec les mains",
+                "FEMALE": "Parle avec les mains"
+            },
+            "FLUIDGESTURES": {
+                "MALE": "Gestuelle fluide et gracieuse",
+                "FEMALE": "Gestuelle fluide et gracieuse"
+            },
+            "DOUBTFULPOUT": {
+                "MALE": "Moue dubitative",
+                "FEMALE": "Moue dubitative"
+            },
+            "GRIN": {
+                "MALE": "Grimace",
+                "FEMALE": "Grimace"
+            },
+            "GNAWSNAILS": {
+                "MALE": "Se ronge les ongles",
+                "FEMALE": "Se ronge les ongles"
+            },
+            "PICKINGTEETH": {
+                "MALE": "Se cure les dents",
+                "FEMALE": "Se cure les dents"
+            },
+            "DRINK": {
+                "MALE": "Bois beaucoup",
+                "FEMALE": "Bois beaucoup"
+            },
+            "SMOKEOFTEN": {
+                "MALE": "Fume souvent",
+                "FEMALE": "Fume souvent"
+            },
+            "DEPENDENTDRUG": {
+                "MALE": "Est dépendant d’une drogue",
+                "FEMALE": "Est dépendante d’une drogue"
+            }
         }
     },
     "VIEWS": {
@@ -1190,8 +1450,7 @@
             "MOUTH": "Bouche",
             "NOSE": "Nez",
             "HAIR": "Cheveux",
-            "SPECIAL_SIGN_FACE": "Signe Distinctif (visage)",
-            "SPECIAL_SIGN_BODY": "Signe Distinctif (corps)",
+            "SPECIAL_SIGN": "Signe Distinctif",
             "PERSONNALITY": "Personnalité",
             "ALIGNMENT": "Alignement",
             "GOAL": "Objectif",

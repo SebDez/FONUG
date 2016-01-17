@@ -57,8 +57,8 @@ export class CharacterController {
             this.currentCharacter.civilization = this.generatorService.getRandomCivilization(gender);
         }
 
-        //SPECIAL SIGN BODY
-        this.currentCharacter.specialSignBody = this.generatorService.getSpecialSignBody(gender);
+        //SPECIAL SIGN
+        this.currentCharacter.specialSign = this.generatorService.getSpecialSign(gender);
 
         //ALIGNMENT
         this.currentCharacter.alignment = this.generatorService.getAlignment();
@@ -119,10 +119,6 @@ export class CharacterController {
         //HAIR
         this.currentCharacter.hair = this.generatorService.getHair(gender);
         
-        
-        //SPECIAL SIGN FACE
-        this.currentCharacter.specialSignFace = this.generatorService.getSpecialSignFace(gender);
-    
         
         //GOAL
         this.currentCharacter.goal = this.generatorService.getGoal(gender);
