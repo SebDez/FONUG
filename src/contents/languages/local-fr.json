@@ -912,7 +912,7 @@
                 "MALE": "Svelte",
                 "FEMALE": "Svelte"
             },
-            "FLESHY ": {
+            "FLESHY": {
                 "MALE": "Empâté",
                 "FEMALE": "Empâtée"
             },
@@ -1090,7 +1090,7 @@
             "LOVE": "Amour",
             "FEAR": "Peur",
             "GREED": "Cupidité",
-            "PERSONALFULFILLMENT ": "Accomplissement personnel",
+            "PERSONALFULFILLMENT": "Accomplissement personnel",
             "SOCIALPRESSURE": "Pression sociale",
             "PROFESSIONALSUCCESS": "Réussite professionnelle",
             "FAITH": "La foi",

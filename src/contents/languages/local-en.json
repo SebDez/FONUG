@@ -941,7 +941,7 @@
                 "MALE": "Slender",
                 "FEMALE": "Slender"
             },
-            "FLESHY ": {
+            "FLESHY": {
                 "MALE": "Fleshy",
                 "FEMALE": "Fleshy"
             },
@@ -1119,7 +1119,7 @@
             "LOVE": "Love",
             "FEAR": "Fear",
             "GREED": "Greed ",
-            "PERSONALFULFILLMENT ": "Personal fulfillment ",
+            "PERSONALFULFILLMENT": "Personal fulfillment ",
             "SOCIALPRESSURE": "Social pressure ",
             "PROFESSIONALSUCCESS": "Professional success ",
             "FAITH": "Faith ",
