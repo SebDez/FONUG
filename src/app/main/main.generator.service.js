@@ -441,12 +441,11 @@ export class GeneratorService {
 
     /**
      * Get the character combat style
-     * @param {String} gender The character's gender
      * @result {String} The combat style label to translate
      */
-    getCombatStyle(gender) {
+    getCombatStyle() {
         let tab = this.localDataFactory.getCombatStyleList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
     /**

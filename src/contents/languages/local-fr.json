@@ -1787,6 +1787,15 @@
                 "FEMALE": "Confondue avec quelqu’un"
             }
 
+        },
+        "COMBATSTYLE": {
+            "VERYLONGRANGE": "Très longue portée",
+            "LONGRANGE": "Longue portée",
+            "CLOSERANGE": "Portée proche",
+            "CLOSECOMBAT": "Corps à corps",
+            "UNARMED": "Mains nues",
+            "WRESTLING": "Lutte",
+            "SELFDEFENSE": "Selfdefense"
         }
     },
     "VIEWS": {

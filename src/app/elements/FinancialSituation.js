@@ -2,7 +2,7 @@ module.exports = [{
     name: 'GENERATOR.FINANCIALSITUATION.ANTISYSTEM',
     weight: '0.1'
 }, {
-    name: 'GENERATOR.FINANCIALSITUATION.VERYPOOR ',
+    name: 'GENERATOR.FINANCIALSITUATION.VERYPOOR',
     weight: '0.2'
 }, {
     name: 'GENERATOR.FINANCIALSITUATION.POOR',

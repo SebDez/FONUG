@@ -26,6 +26,7 @@ import Professions from '../elements/Professions';
 import FinancialSituation from '../elements/FinancialSituation';
 import Accents from '../elements/Accents';
 import Reputations from '../elements/Reputations';
+import CombatStyle from '../elements/CombatStyle';
 
 
 /**
@@ -322,7 +323,7 @@ export class LocalDataFactory {
      * @return {String} The combatStyle labels list to translate
      */
     getCombatStyleList() {
-        return this.notSet;
+        return CombatStyle;
     }
 
     /**

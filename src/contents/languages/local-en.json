@@ -1815,6 +1815,15 @@
                 "MALE": "Confused with someone else",
                 "FEMALE": "Confused with someone else"
             }
+        },
+        "COMBATSTYLE": {
+            "VERYLONGRANGE": "Very long range",
+            "LONGRANGE": "Long range",
+            "CLOSERANGE": "Close range",
+            "CLOSECOMBAT": "Close combat",
+            "UNARMED": "Unarmed",
+            "WRESTLING": "Wrestling",
+            "SELFDEFENSE": "Selfdefense"
         }
     },
     "VIEWS": {
