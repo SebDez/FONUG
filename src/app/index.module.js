@@ -14,6 +14,8 @@ import {SidenavDirective}from './sidenav/sidenav.directive.js';
 import {AboutController}from './about/about.controller.js';
 import {ContactController}from './contact/contact.controller.js';
 import {InputController}from './inputhelper/input.controller.js';
+import {ProgressBarController}from './progressbar/progressbar.controller';
+import {ProgressBarDirective}from './progressbar/progressbar.directive.js';
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
   .constant('malarkey', malarkey)
@@ -32,6 +34,8 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .controller('AboutController', AboutController)
     .controller('ContactController', ContactController)
     .controller('InputController', InputController)
+    .directive('progressbarfonug', ProgressBarDirective)
+    .controller('ProgressBarController', ProgressBarController)
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
         $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');

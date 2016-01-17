@@ -17,6 +17,7 @@
 
                     <div layout="column" class="right">
 
+                        
                         <div layout="row" layout-sm="column" layout-xs="column">
 
                             <div flex="15">
@@ -24,9 +25,8 @@
                             </div>
 
                             <div flex="85">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.charisma.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.charisma.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.charisma) | translate}}</div>
-                                </div>
+                                <progressbarfonug label="character.getLabelFromElementObject(character.currentCharacter.charisma) | translate" theme="character.currentCharacter.alignment.cssTheme" percentage="character.currentCharacter.charisma.percentage">
+                                </progressbarfonug>
                             </div>
                         </div>
 
@@ -38,10 +38,8 @@
                             </div>
 
                             <div flex="85">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.beauty.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.beauty.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.beauty) | translate}}
-                                    </div>
-                                </div>
+                                <progressbarfonug label="character.getLabelFromElementObject(character.currentCharacter.beauty) | translate" theme="character.currentCharacter.alignment.cssTheme" percentage="character.currentCharacter.beauty.percentage">
+                                </progressbarfonug>
                             </div>
                         </div>
 
@@ -53,10 +51,8 @@
                             </div>
 
                             <div flex="85">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.intellect.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.intellect.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.intellect) | translate}}
-                                    </div>
-                                </div>
+                                <progressbarfonug label="character.getLabelFromElementObject(character.currentCharacter.intellect) | translate" theme="character.currentCharacter.alignment.cssTheme" percentage="character.currentCharacter.intellect.percentage">
+                                </progressbarfonug>
                             </div>
                         </div>
 
@@ -68,10 +64,8 @@
                             </div>
 
                             <div flex="85">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.perception.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.perception.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.perception) | translate}}
-                                    </div>
-                                </div>
+                                <progressbarfonug label="character.getLabelFromElementObject(character.currentCharacter.perception) | translate" theme="character.currentCharacter.alignment.cssTheme" percentage="character.currentCharacter.perception.percentage">
+                                </progressbarfonug>
                             </div>
                         </div>
 
@@ -83,10 +77,8 @@
                             </div>
 
                             <div flex="85">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-custom {{character.currentCharacter.alignment.cssTheme}}" role="progressbar" aria-valuenow="{{character.currentCharacter.fightSkills.percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: {{character.currentCharacter.fightSkills.percentage}}%">{{character.getLabelFromElementObject(character.currentCharacter.fightSkills) | translate}}
-                                    </div>
-                                </div>
+                                <progressbarfonug label="character.getLabelFromElementObject(character.currentCharacter.fightSkills) | translate" theme="character.currentCharacter.alignment.cssTheme" percentage="character.currentCharacter.fightSkills.percentage">
+                                </progressbarfonug>
                             </div>
                         </div>
                     </div>

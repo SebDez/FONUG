@@ -488,7 +488,7 @@ export class GeneratorService {
      * Get the character clothing country
      * @result {String} The clothing country label to translate
      */
-    getClothingCountry(gender) {
+    getClothingCountry() {
         let tab = this.localDataFactory.getClothingCountryList();
         return this.getElementLabelFromListWithWeighting(tab);
     }
