@@ -29,7 +29,8 @@ import Reputations from '../elements/Reputations';
 import CombatStyle from '../elements/CombatStyle';
 import Clothes from '../elements/Clothes';
 import Accessories from '../elements/Accessories';
-
+import FamilialSituationAdult from '../elements/FamilialSituationAdult';
+import FamilialSituationYoung from '../elements/FamilialSituationYoung';
 
 /**
  * This Factory is used to get datas for the generator
@@ -288,11 +289,19 @@ export class LocalDataFactory {
     }
 
     /**
-     * Get all the familySituation labels list
-     * @return {String} The familySituation labels list to translate
+     * Get all the familySituation for adults labels list
+     * @return {String} The familySituation for adults labels list to translate
      */
-    getFamilySituationList() {
-        return this.notSet;
+    getFamilialSituationAdultList() {
+        return FamilialSituationAdult;
+    }
+    
+    /**
+     * Get all the familySituation for youngs labels list
+     * @return {String} The familySituation for youngs labels list to translate
+     */
+    getFamilialSituationYoungList() {
+        return FamilialSituationYoung;
     }
 
     /**

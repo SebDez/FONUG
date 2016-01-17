@@ -1698,7 +1698,7 @@
         },
         "FINANCIALSITUATION": {
             "ANTISYSTEM": "Antisystème",
-            "VERYPOOR ": "Très pauvre",
+            "VERYPOOR": "Très pauvre",
             "POOR": "Pauvre",
             "AVERAGE": "Moyenne",
             "RATHERBETTEROFF": "Plutôt aisée",
@@ -1837,8 +1837,49 @@
             "SOMEACCESSORIES": "Un peu d’accessoires",
             "LOTSACCESSORIES": "Beaucoup d’accessoires",
             "STREETPEDLAR": "Marchand ambulant"
+        },
+        "FAMILIALSITUATION": {
+            "SINGLE": {
+                "MALE": "Célibataire",
+                "FEMALE": "Célibataire"
+            },
+            "COHABITING": {
+                "MALE": "Concubinage",
+                "FEMALE": "Concubinage"
+            },
+            "MARRIED": {
+                "MALE": "Marié",
+                "FEMALE": "Mariée"
+            },
+            "DIVORCED": {
+                "MALE": "Divorcé",
+                "FEMALE": "Divorcée"
+            },
+            "ENGAGED": {
+                "MALE": "Fiancé",
+                "FEMALE": "Fiancée"
+            },
+            "WIDOWED": {
+                "MALE": "Veuf",
+                "FEMALE": "Veuve"
+            },
+            "ONLYCHILD": {
+                "MALE": "Enfant unique",
+                "FEMALE": "Enfant unique"
+            },
+            "YOUNGEST": {
+                "MALE": "Petit dernier",
+                "FEMALE": "Petite dernière"
+            },
+            "OLDERSIBLINGS": {
+                "MALE": "Plus âgé de la fratrie",
+                "FEMALE": "Plus âgée de la fratrie"
+            },
+            "HASCHILDREN": {
+                "MALE": "A des enfants",
+                "FEMALE": "A des enfants"
+            }
         }
-
     },
     "VIEWS": {
         "MAIN": {

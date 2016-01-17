@@ -1727,7 +1727,7 @@
         },
         "FINANCIALSITUATION": {
             "ANTISYSTEM": "Anti-system ",
-            "VERYPOOR ": "Very poor ",
+            "VERYPOOR": "Very poor ",
             "POOR": "Poor",
             "AVERAGE": "Average",
             "RATHERBETTEROFF": "Rather better-off",
@@ -1858,7 +1858,56 @@
                 "MALE": "Maintained",
                 "FEMALE": "Maintained"
             }
-        },"ACCESSORIES":{"NOACCESSORIES":"No accessories","AFEWACCESSORIES":"A few accessories","SOMEACCESSORIES":"Some accessories","LOTSACCESSORIES":"Lots of accessories","STREETPEDLAR":"Street pedlar"}
+        },
+        "ACCESSORIES": {
+            "NOACCESSORIES": "No accessories",
+            "AFEWACCESSORIES": "A few accessories",
+            "SOMEACCESSORIES": "Some accessories",
+            "LOTSACCESSORIES": "Lots of accessories",
+            "STREETPEDLAR": "Street pedlar"
+        },
+        "FAMILIALSITUATION": {
+            "SINGLE": {
+                "MALE": "Single",
+                "FEMALE": "Single"
+            },
+            "COHABITING": {
+                "MALE": "Cohabiting ",
+                "FEMALE": "Cohabiting "
+            },
+            "MARRIED": {
+                "MALE": "Married",
+                "FEMALE": "Married"
+            },
+            "DIVORCED": {
+                "MALE": "Divorced",
+                "FEMALE": "Divorced"
+            },
+            "ENGAGED": {
+                "MALE": "Engaged ",
+                "FEMALE": "Engaged "
+            },
+            "WIDOWED": {
+                "MALE": "Widowed",
+                "FEMALE": "Widowed"
+            },
+            "ONLYCHILD": {
+                "MALE": "Only child",
+                "FEMALE": "Only child"
+            },
+            "YOUNGEST": {
+                "MALE": "Youngest",
+                "FEMALE": "Youngest"
+            },
+            "OLDERSIBLINGS": {
+                "MALE": "Older siblings ",
+                "FEMALE": "Older siblings "
+            },
+            "HASCHILDREN": {
+                "MALE": "Has children",
+                "FEMALE": "Has children"
+            }
+        }
     },
     "VIEWS": {
         "MAIN": {

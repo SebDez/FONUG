@@ -400,10 +400,16 @@ export class GeneratorService {
     /**
      * Get the character family situation
      * @param {String} gender The character's gender
+     * @param {String} age The character's age
      * @result {String} The family situation label to translate
      */
-    getFamilySituation(gender) {
-        let tab = this.localDataFactory.getFamilySituationList();
+    getFamilySituation(gender, age) {
+        let tab =[];
+        if(age.indexOf('CHILD')>-1 || age.indexOf('ADOLESCENT')>-1){
+            tab = this.localDataFactory.getFamilialSituationYoungList(); 
+        }else{ 
+            tab = this.localDataFactory.getFamilialSituationAdultList();
+        }
         return this.getElementLabelFromListWithWeighting(tab,gender);
     }
 

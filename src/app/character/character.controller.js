@@ -149,7 +149,7 @@ export class CharacterController {
         
         
         //FAMILY SITUATION
-        this.currentCharacter.familySituation = this.generatorService.getFamilySituation(gender);
+        this.currentCharacter.familySituation = this.generatorService.getFamilySituation(gender,this.currentCharacter.age);
         
         
         //FINANCIAL SITUATION
