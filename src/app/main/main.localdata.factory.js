@@ -33,6 +33,8 @@ import FamilialSituationAdult from '../elements/FamilialSituationAdult';
 import FamilialSituationYoung from '../elements/FamilialSituationYoung';
 import Talents from '../elements/Talents';
 import Voices from '../elements/Voices';
+import ClothingStyle from '../elements/ClothingStyle';
+import ClothingCountry from '../elements/ClothingCountry';
 
 
 /**
@@ -361,7 +363,15 @@ export class LocalDataFactory {
      * @return {String} The clothingStyle labels list to translate
      */
     getClothingStyleList() {
-        return this.notSet;
+        return ClothingStyle;
+    }
+    
+    /**
+     * Get all the clothing country labels list
+     * @return {String} The clothing country labels list to translate
+     */
+    getClothingCountryList() {
+        return ClothingCountry;
     }
     
     /**

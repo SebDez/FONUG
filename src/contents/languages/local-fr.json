@@ -1920,6 +1920,105 @@
             "SINGING": "Chantante",
             "SHRILL": "Stridente",
             "LISP": "Cheveu sur la langue"
+        },
+        "CLOTHINGSTYLE": {
+            "FASHIONABLE": {
+                "MALE": "A la mode",
+                "FEMALE": "A la mode"
+            },
+            "NERDY": {
+                "MALE": "Ringard",
+                "FEMALE": "Ringarde"
+            },
+            "CONSISTENT": {
+                "MALE": "Conforme",
+                "FEMALE": "Conforme"
+            },
+            "MILITARY": {
+                "MALE": "Militaire",
+                "FEMALE": "Militaire"
+            },
+            "UNIFORM": {
+                "MALE": "Uniforme",
+                "FEMALE": "Uniforme"
+            },
+            "ASSEMBLY": {
+                "MALE": "Assemblage",
+                "FEMALE": "Assemblage"
+            },
+            "SIMPLE": {
+                "MALE": "Simple",
+                "FEMALE": "Simple"
+            },
+            "LOADED": {
+                "MALE": "Chargé",
+                "FEMALE": "Chargée"
+            },
+            "RELIGIOUS": {
+                "MALE": "Religieux",
+                "FEMALE": "Religieuse"
+            },
+            "HELPFUL": {
+                "MALE": "Utile",
+                "FEMALE": "Utile"
+            },
+            "OSTENTATIOUS": {
+                "MALE": "Ostentatoire",
+                "FEMALE": "Ostentatoire"
+            },
+            "EQUIPPED": {
+                "MALE": "Équipé",
+                "FEMALE": "Équipée"
+            },
+            "GREEN": {
+                "MALE": "Écolo",
+                "FEMALE": "Écolo"
+            },
+            "TRANSVERSE": {
+                "MALE": "Transverse",
+                "FEMALE": "Transverse"
+            }
+        },
+        "CLOTHINGCOUNTRY": {
+            "ORIENTAL": "Oriental",
+            "ASIAN": "Asiatique",
+            "SCANDINAVIAN": "Nordique",
+            "INUIT": "Inuit",
+            "NATIVEAMERICAN": "Amérindien",
+            "MAYAN": "Maya",
+            "AZTEC": "Aztèque",
+            "INCA": "Incas",
+            "EUROPEAN": "Européen",
+            "GREEK": "Grec",
+            "ROMAN": "Romain",
+            "EGYPTIAN": "Égyptien",
+            "HINDU": "Hindou",
+            "TRIBAL": "Tribal",
+            "POLYNESIAN": "Polynésien",
+            "JAPANESE": "Japonais",
+            "EASTERNEUROPE": "Europe de l’est",
+            "ANTIQUECHINA": "Chine antique",
+            "PIRATE": "Pirate",
+            "CELTIC": "Celtic",
+            "BARBARIAN": "Barbare",
+            "CORRUPT": "Corrompu",
+            "ANGELIC": "Angélique",
+            "EDGETECHNOLOGY": "À la pointe de la technologie",
+            "STEAMPUNK": "Steampunk",
+            "COURTLOUISXIV": "Cour de Louis XIV",
+            "NEWWORLD": "Époque du nouveau monde (fin moyen âge)",
+            "AFRICAN": "Africain",
+            "NOMAD": "Nomade",
+            "VENETIAN": "Vénitien",
+            "MONGOLIAN": "Mongole",
+            "PERSIAN": "Perse",
+            "POPCULTURE": "Pop culture (moderne)",
+            "EMPIRES": "Empires (18ème)",
+            "FUTURISTIC": "Futuriste",
+            "AUSTRALIANTRIBAL": "Tribal australien",
+            "TRIBALAMAZONIE": "Tribal amazone",
+            "WESTERN": "Western",
+            "ABYSSAL": "Abyssale"
         }
     },
     "VIEWS": {

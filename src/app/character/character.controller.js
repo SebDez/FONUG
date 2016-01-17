@@ -178,6 +178,10 @@ export class CharacterController {
         
         //CLOTHING STYLE
         this.currentCharacter.clothingStyle = this.generatorService.getClothingStyle(gender);
+        
+        
+        //CLOTHING COUNTRY
+        this.currentCharacter.clothingCountry = this.generatorService.getClothingCountry();
          
         
         //TEMPER
