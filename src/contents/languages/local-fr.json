@@ -1899,6 +1899,27 @@
             "THROUGHHERE": "Je suis déjà passé par ici",
             "GUARDIANANGEL": "J’ai un ange gardien",
             "RHYTHM": "Le rythme dans la peau"
+        },
+        "VOICES": {
+            "BEGUE": "Bègue",
+            "BROKEN": "Cassée",
+            "HOARSE": "Aphone",
+            "RASPY": "Rauque",
+            "NASAL": "Nasillarde",
+            "SILENT": "Muet",
+            "SMALL": "Petite",
+            "TIMID": "Timide",
+            "BIG": "Grosse",
+            "BOSSY": "Autoritaire",
+            "FLUTE": "Flûtée",
+            "SOFT": "Douce",
+            "SOOTHING": "Apaisante",
+            "MONOTONE": "Monocorde",
+            "DIFFICULTYBREATHING": "Difficultés respiratoires",
+            "TREMBLING": "Chevrotante",
+            "SINGING": "Chantante",
+            "SHRILL": "Stridente",
+            "LISP": "Cheveu sur la langue"
         }
     },
     "VIEWS": {
@@ -1973,7 +1994,8 @@
             "CLOTHES": "Vêtements",
             "ACCESSORIES": "Accessoires",
             "CLOTHING_STYLE": "Style Vestimentaire",
-            "TEMPER": "Tempérament"
+            "TEMPER": "Tempérament",
+            "VOICE": "Voix"
         }
     }
 }

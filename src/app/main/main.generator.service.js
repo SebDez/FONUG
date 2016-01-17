@@ -493,5 +493,15 @@ export class GeneratorService {
         let tab = this.localDataFactory.getTemperList();
         return this.getElementLabelFromListWithWeighting(tab,gender);
     }
+    
+    
+    /**
+     * Get the character voice
+     * @result {String} The voice label to translate
+     */
+    getVoice() {
+        let tab = this.localDataFactory.getVoicesList();
+        return this.getElementLabelFromListWithWeighting(tab);
+    }
 
 }

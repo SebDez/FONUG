@@ -1927,6 +1927,27 @@
             "THROUGHHERE": "I 've been through here",
             "GUARDIANANGEL": "I have a guardian angel",
             "RHYTHM": "The rhythm in the skin"
+        },
+        "VOICES": {
+            "BEGUE": "Begue",
+            "BROKEN": "Broken",
+            "HOARSE": "Hoarse",
+            "RASPY": "Raspy",
+            "NASAL": "Nasal",
+            "SILENT": "Silent",
+            "SMALL": "Small",
+            "TIMID": "Timid",
+            "BIG": "Big",
+            "BOSSY": "Bossy",
+            "FLUTE": "Flute",
+            "SOFT": "Soft",
+            "SOOTHING": "Soothing",
+            "MONOTONE": "Monotone",
+            "DIFFICULTYBREATHING": "Difficulty breathing",
+            "TREMBLING": "Trembling",
+            "SINGING": "Singing",
+            "SHRILL": "Shrill",
+            "LISP": "Lisp"
         }
     },
     "VIEWS": {
@@ -2001,7 +2022,8 @@
             "CLOTHES": "Clothes",
             "ACCESSORIES": "Accessories",
             "CLOTHING_STYLE": "Clothing Style",
-            "TEMPER": "Temper"
+            "TEMPER": "Temper",
+            "VOICE": "Voice"
         }
     }
 }

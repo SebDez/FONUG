@@ -67,21 +67,21 @@ export class CharacterController {
         this.currentCharacter.name = this.generatorService.generateName(this.currentCharacter.genderTag, this.currentCharacter.civilization.tag);
 
         //CHARISMA
-        this.currentCharacter.charisma = this.generatorService.getCharisma(gender);
+        this.currentCharacter.charisma = this.generatorService.getCharisma();
         
         //BEAUTY
-        this.currentCharacter.beauty = this.generatorService.getBeauty(gender);
+        this.currentCharacter.beauty = this.generatorService.getBeauty();
         
         //INTELLECT
-        this.currentCharacter.intellect = this.generatorService.getIntellect(gender);
+        this.currentCharacter.intellect = this.generatorService.getIntellect();
         
         
         //PERCEPTION
-        this.currentCharacter.perception = this.generatorService.getPerception(gender);
+        this.currentCharacter.perception = this.generatorService.getPerception();
         
         
         //FIGHT SKILLS
-        this.currentCharacter.fightSkills = this.generatorService.getFightSkills(gender);
+        this.currentCharacter.fightSkills = this.generatorService.getFightSkills();
         
         
         //CLASS
@@ -89,7 +89,7 @@ export class CharacterController {
         
         
         //PUNCHLINE
-        this.currentCharacter.punchline = this.generatorService.getPunchLine(gender);
+        this.currentCharacter.punchline = this.generatorService.getPunchLine();
         
         
         //CORPULENCE
@@ -105,7 +105,7 @@ export class CharacterController {
         
         
         //EYES
-        this.currentCharacter.eyes = this.generatorService.getEyes(gender);
+        this.currentCharacter.eyes = this.generatorService.getEyes();
         
         
         //MOUTH
@@ -113,19 +113,19 @@ export class CharacterController {
         
         
         //NOSE
-        this.currentCharacter.nose = this.generatorService.getNose(gender);
+        this.currentCharacter.nose = this.generatorService.getNose();
         
         
         //HAIR
-        this.currentCharacter.hair = this.generatorService.getHair(gender);
+        this.currentCharacter.hair = this.generatorService.getHair();
         
         
         //GOAL
-        this.currentCharacter.goal = this.generatorService.getGoal(gender);
+        this.currentCharacter.goal = this.generatorService.getGoal();
         
         
         //MOTIVATION
-        this.currentCharacter.motivation = this.generatorService.getMotivation(gender);
+        this.currentCharacter.motivation = this.generatorService.getMotivation();
         
         
         //DEFECT
@@ -137,11 +137,11 @@ export class CharacterController {
         
         
         //PHOBIA
-        this.currentCharacter.phobia = this.generatorService.getPhobia(gender);
+        this.currentCharacter.phobia = this.generatorService.getPhobia();
         
         
         //TALENT
-        this.currentCharacter.talent = this.generatorService.getTalent(gender);
+        this.currentCharacter.talent = this.generatorService.getTalent();
         
         
         //PROFESSION
@@ -153,11 +153,11 @@ export class CharacterController {
         
         
         //FINANCIAL SITUATION
-        this.currentCharacter.financialSituation = this.generatorService.getFinancialSituation(gender);
+        this.currentCharacter.financialSituation = this.generatorService.getFinancialSituation();
         
         
         //ACCENT
-        this.currentCharacter.accent = this.generatorService.getAccent(gender);
+        this.currentCharacter.accent = this.generatorService.getAccent();
         
         
         //REPUTATION
@@ -165,7 +165,7 @@ export class CharacterController {
         
         
         //COMBAT STYLE
-        this.currentCharacter.combatStyle = this.generatorService.getCombatStyle(gender);
+        this.currentCharacter.combatStyle = this.generatorService.getCombatStyle();
         
         
         //CLOTHES
@@ -173,7 +173,7 @@ export class CharacterController {
         
         
         //ACCESSORIES
-        this.currentCharacter.accessories = this.generatorService.getAccessories(gender);
+        this.currentCharacter.accessories = this.generatorService.getAccessories();
         
         
         //CLOTHING STYLE
@@ -181,7 +181,11 @@ export class CharacterController {
          
         
         //TEMPER
-        this.currentCharacter.temper = this.generatorService.getTemper(gender);       
+        this.currentCharacter.temper = this.generatorService.getTemper(gender);   
+        
+        
+        //VOICE
+        this.currentCharacter.voice = this.generatorService.getVoice();   
         
     }
     
