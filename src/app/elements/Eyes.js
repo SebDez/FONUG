@@ -1,54 +1,105 @@
-module.exports = [
-    {
-        name: 'GENERATOR.EYES.VIVID',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.BRIGHT',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.DULL',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.DARK',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.COLD',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.BEADY',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.SUSPICIOUS',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.THREATENING',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.ASTONISHED',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.PIERCING',
-        weight: 0.4
-    },
-    {
-        name: 'GENERATOR.EYES.SHORT-SIGHTED',
-        weight: 0.2
-    },
-    {
-        name: 'GENERATOR.EYES.BLIND',
-        weight: 0.1
-    },
-    {
-        name: 'GENERATOR.EYES.GRIM',
-        weight: 0.2
-    }
-]
+module.exports = [{
+    "name": "GENERATOR.EYES.ALICEBLUE"
+}, {
+    "name": "GENERATOR.EYES.ANTIQUEWHITE"
+}, {
+    "name": "GENERATOR.EYES.AQUA"
+}, {
+    "name": "GENERATOR.EYES.AQUAMARINE"
+}, {
+    "name": "GENERATOR.EYES.AZURE"
+}, {
+    "name": "GENERATOR.EYES.BEIGE"
+}, {
+    "name": "GENERATOR.EYES.BISQUE"
+}, {
+    "name": "GENERATOR.EYES.BLACK"
+}, {
+    "name": "GENERATOR.EYES.BLANCHEDALMOND"
+}, {
+    "name": "GENERATOR.EYES.BLUE"
+}, {
+    "name": "GENERATOR.EYES.BLUEVIOLET"
+}, {
+    "name": "GENERATOR.EYES.BROWN"
+}, {
+    "name": "GENERATOR.EYES.BURLYWOOD"
+}, {
+    "name": "GENERATOR.EYES.CADETBLUE"
+}, {
+    "name": "GENERATOR.EYES.CHARTREUSE"
+}, {
+    "name": "GENERATOR.EYES.CHOCOLATE"
+}, {
+    "name": "GENERATOR.EYES.CORAL"
+}, {
+    "name": "GENERATOR.EYES.CORAL"
+}, {
+    "name": "GENERATOR.EYES.CORNFLOWERBLUE"
+}, {
+    "name": "GENERATOR.EYES.CORNSILK"
+}, {
+    "name": "GENERATOR.EYES.CRIMSON"
+}, {
+    "name": "GENERATOR.EYES.CYAN"
+}, {
+    "name": "GENERATOR.EYES.DARKBLUE"
+}, {
+    "name": "GENERATOR.EYES.DARKCYAN"
+}, {
+    "name": "GENERATOR.EYES.DARKGOLDENROD"
+}, {
+    "name": "GENERATOR.EYES.DARKGRAY"
+}, {
+    "name": "GENERATOR.EYES.DARKGREEN"
+}, {
+    "name": "GENERATOR.EYES.DARKKHAKI"
+}, {
+    "name": "GENERATOR.EYES.DARKMAGENTA"
+}, {
+    "name": "GENERATOR.EYES.DARKOLIVEGREEN"
+}, {
+    "name": "GENERATOR.EYES.DARKORANGE"
+}, {
+    "name": "GENERATOR.EYES.DARKORCHID"
+}, {
+    "name": "GENERATOR.EYES.DARKRED"
+}, {
+    "name": "GENERATOR.EYES.DARKSALMON"
+}, {
+    "name": "GENERATOR.EYES.DARKSEAGREEN"
+}, {
+    "name": "GENERATOR.EYES.DARKSLATEBLUE"
+}, {
+    "name": "GENERATOR.EYES.DARKSLATEGRAY"
+}, {
+    "name": "GENERATOR.EYES.DARKTURQUOISE"
+}, {
+    "name": "GENERATOR.EYES.DARKVIOLET"
+}, {
+    "name": "GENERATOR.EYES.DEEPPINK"
+}, {
+    "name": "GENERATOR.EYES.DEEPSKYBLUE"
+}, {
+    "name": "GENERATOR.EYES.DIMGRAY"
+}, {
+    "name": "GENERATOR.EYES.DODGERBLUE"
+}, {
+    "name": "GENERATOR.EYES.FIREBRICK"
+}, {
+    "name": "GENERATOR.EYES.FLORALWHITE"
+}, {
+    "name": "GENERATOR.EYES.FORESTGREEN"
+}, {
+    "name": "GENERATOR.EYES.FUCHSIA"
+}, {
+    "name": "GENERATOR.EYES.GAINSBORO"
+}, {
+    "name": "GENERATOR.EYES.GHOSTWHITE"
+}, {
+    "name": "GENERATOR.EYES.GOLD"
+}, {
+    "name": "GENERATOR.EYES.GOLDENROD"
+}, {
+    "name": "GENERATOR.EYES.RED"
+}];
