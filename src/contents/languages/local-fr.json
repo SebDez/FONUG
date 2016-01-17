@@ -1796,6 +1796,40 @@
             "UNARMED": "Mains nues",
             "WRESTLING": "Lutte",
             "SELFDEFENSE": "Selfdefense"
+        },
+        "CLOTHES": {
+            "POORLYDRESSED": {
+                "MALE": "Mal vêtu",
+                "FEMALE": "Mal vêtue"
+            },
+            "WELLDRESSED": {
+                "MALE": "Bien vêtu",
+                "FEMALE": "Bien vêtue"
+            },
+            "VERYBADLY DRESSED": {
+                "MALE": "Très mal vêtu",
+                "FEMALE": "Très mal vêtue"
+            },
+            "VERYWELL DRESSED": {
+                "MALE": "Très bien vêtu",
+                "FEMALE": "Très bien vêtue"
+            },
+            "NEGLECTED": {
+                "MALE": "Négligé",
+                "FEMALE": "Négligée"
+            },
+            "ONHIS 31": {
+                "MALE": "Sur son 31",
+                "FEMALE": "Sur son 31"
+            },
+            "WORNDIRTY": {
+                "MALE": "Usés/sales",
+                "FEMALE": "Usés/sales"
+            },
+            "MAINTAINED": {
+                "MALE": "Entretenu",
+                "FEMALE": "Entretenue"
+            }
         }
     },
     "VIEWS": {

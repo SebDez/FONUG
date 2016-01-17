@@ -27,6 +27,7 @@ import FinancialSituation from '../elements/FinancialSituation';
 import Accents from '../elements/Accents';
 import Reputations from '../elements/Reputations';
 import CombatStyle from '../elements/CombatStyle';
+import Clothes from '../elements/Clothes';
 
 
 /**
@@ -331,7 +332,7 @@ export class LocalDataFactory {
      * @return {String} The clothes labels list to translate
      */
     getClothesList() {
-        return this.notSet;
+        return Clothes;
     }
 
     /**

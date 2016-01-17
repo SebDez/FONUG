@@ -1824,6 +1824,40 @@
             "UNARMED": "Unarmed",
             "WRESTLING": "Wrestling",
             "SELFDEFENSE": "Selfdefense"
+        },
+        "CLOTHES": {
+            "POORLYDRESSED": {
+                "MALE": "Poorly dressed",
+                "FEMALE": "Poorly dressed"
+            },
+            "WELLDRESSED": {
+                "MALE": "Well dressed",
+                "FEMALE": "Well dressed"
+            },
+            "VERYBADLY DRESSED": {
+                "MALE": "Very badly dressed",
+                "FEMALE": "Very badly dressed"
+            },
+            "VERYWELL DRESSED": {
+                "MALE": "Very well dressed",
+                "FEMALE": "Very well dressed"
+            },
+            "NEGLECTED": {
+                "MALE": "Neglected",
+                "FEMALE": "Neglected"
+            },
+            "ONHIS 31": {
+                "MALE": "On his 31",
+                "FEMALE": "On his 31"
+            },
+            "WORNDIRTY": {
+                "MALE": "Worn / dirty",
+                "FEMALE": "Worn / dirty"
+            },
+            "MAINTAINED": {
+                "MALE": "Maintained",
+                "FEMALE": "Maintained"
+            }
         }
     },
     "VIEWS": {
