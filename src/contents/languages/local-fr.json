@@ -1830,7 +1830,15 @@
                 "MALE": "Entretenu",
                 "FEMALE": "Entretenue"
             }
+        },
+        "ACCESSORIES": {
+            "NOACCESSORIES": "Pas d’accessoires",
+            "AFEWACCESSORIES": "Peu d’accessoires",
+            "SOMEACCESSORIES": "Un peu d’accessoires",
+            "LOTSACCESSORIES": "Beaucoup d’accessoires",
+            "STREETPEDLAR": "Marchand ambulant"
         }
+
     },
     "VIEWS": {
         "MAIN": {

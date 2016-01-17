@@ -461,12 +461,11 @@ export class GeneratorService {
 
     /**
      * Get the character accessories
-     * @param {String} gender The character's gender
      * @result {String} The accessories label to translate
      */
-    getAccessories(gender) {
+    getAccessories() {
         let tab = this.localDataFactory.getAccessoriesList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 

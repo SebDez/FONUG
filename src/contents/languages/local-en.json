@@ -1858,7 +1858,7 @@
                 "MALE": "Maintained",
                 "FEMALE": "Maintained"
             }
-        }
+        },"ACCESSORIES":{"NOACCESSORIES":"No accessories","AFEWACCESSORIES":"A few accessories","SOMEACCESSORIES":"Some accessories","LOTSACCESSORIES":"Lots of accessories","STREETPEDLAR":"Street pedlar"}
     },
     "VIEWS": {
         "MAIN": {

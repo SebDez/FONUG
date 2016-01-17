@@ -28,6 +28,7 @@ import Accents from '../elements/Accents';
 import Reputations from '../elements/Reputations';
 import CombatStyle from '../elements/CombatStyle';
 import Clothes from '../elements/Clothes';
+import Accessories from '../elements/Accessories';
 
 
 /**
@@ -340,7 +341,7 @@ export class LocalDataFactory {
      * @return {String} The accessories labels list to translate
      */
     getAccessoriesList() {
-        return this.notSet;
+        return Accessories;
     }
 
     /**
