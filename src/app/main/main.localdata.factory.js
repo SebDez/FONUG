@@ -22,6 +22,7 @@ import Mouth from '../elements/Mouth';
 import Eyes from '../elements/Eyes';
 import Hairs from '../elements/Hairs';
 import Motivations from '../elements/Motivations';
+import Professions from '../elements/Professions';
 
 
 
@@ -278,7 +279,7 @@ export class LocalDataFactory {
      * @return {String} The profession labels list to translate
      */
     getProfessionList() {
-        return this.notSet;
+        return Professions;
     }
 
     /**

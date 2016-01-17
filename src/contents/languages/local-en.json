@@ -1426,6 +1426,304 @@
                 "FEMALE": "Is dependent on a drug"
             }
 
+        },
+        "PROFESSION": {
+            "INNKEEPER": {
+                "MALE": "Innkeeper",
+                "FEMALE": "Innkeeper"
+            },
+            "MERCENARY": {
+                "MALE": "Mercenary",
+                "FEMALE": "Mercenary"
+            },
+            "THIEF": {
+                "MALE": "Thief",
+                "FEMALE": "Thief"
+            },
+            "MURDERER": {
+                "MALE": "Murderer",
+                "FEMALE": "Murderer"
+            },
+            "ENCHANTER": {
+                "MALE": "Enchanter",
+                "FEMALE": "Enchanter"
+            },
+            "SPY": {
+                "MALE": "Spy",
+                "FEMALE": "Spy"
+            },
+            "GLADIATOR": {
+                "MALE": "Gladiator",
+                "FEMALE": "Gladiator"
+            },
+            "HEALER": {
+                "MALE": "Healer",
+                "FEMALE": "Healer"
+            },
+            "DOCTOR": {
+                "MALE": "Doctor",
+                "FEMALE": "Doctor"
+            },
+            "SMITH": {
+                "MALE": "Smith",
+                "FEMALE": "Smith"
+            },
+            "TANNER": {
+                "MALE": "Tanner",
+                "FEMALE": "Tanner"
+            },
+            "BUTCHER": {
+                "MALE": "Butcher",
+                "FEMALE": "Butcher"
+            },
+            "FARMER": {
+                "MALE": "Farmer",
+                "FEMALE": "Farmer"
+            },
+            "WISEPERSON": {
+                "MALE": "Wise person",
+                "FEMALE": "Wise person"
+            },
+            "SOLDIER": {
+                "MALE": "Soldier",
+                "FEMALE": "Soldier"
+            },
+            "SHOEMAKER": {
+                "MALE": "Shoemaker",
+                "FEMALE": "Shoemaker"
+            },
+            "FURRIER": {
+                "MALE": "Furrier",
+                "FEMALE": "Furrier"
+            },
+            "MAIDSERVANT": {
+                "MALE": "Maidservant",
+                "FEMALE": "Maidservant"
+            },
+            "TAILOR": {
+                "MALE": "Tailor",
+                "FEMALE": "Tailor"
+            },
+            "BARBER": {
+                "MALE": "Barber",
+                "FEMALE": "Barber"
+            },
+            "JEWELER": {
+                "MALE": "Jeweler",
+                "FEMALE": "Jeweler"
+            },
+            "RESTAURANTEUR": {
+                "MALE": "Restauranteur",
+                "FEMALE": "Restauranteur"
+            },
+            "OLDCLOTHESDEALER": {
+                "MALE": "Old-clothes dealer",
+                "FEMALE": "Old-clothes dealer"
+            },
+            "PASTRYCOOK": {
+                "MALE": "Pastrycook",
+                "FEMALE": "Pastrycook"
+            },
+            "MASON": {
+                "MALE": "Mason",
+                "FEMALE": "Mason"
+            },
+            "CARPENTER": {
+                "MALE": "Carpenter",
+                "FEMALE": "Carpenter"
+            },
+            "WEAVER": {
+                "MALE": "Weaver",
+                "FEMALE": "Weaver"
+            },
+            "CHANDLER": {
+                "MALE": "Chandler",
+                "FEMALE": "Chandler"
+            },
+            "MERCER": {
+                "MALE": "Mercer",
+                "FEMALE": "Mercer"
+            },
+            "COOPER": {
+                "MALE": "Cooper",
+                "FEMALE": "Cooper"
+            },
+            "BAKER": {
+                "MALE": "Baker",
+                "FEMALE": "Baker"
+            },
+            "WATERCARRIER": {
+                "MALE": "Water carrier",
+                "FEMALE": "Water carrier"
+            },
+            "SCABBARDMAKER": {
+                "MALE": "Scabbard maker",
+                "FEMALE": "Scabbard maker"
+            },
+            "WINESELLER": {
+                "MALE": "Wine seller",
+                "FEMALE": "Wine seller"
+            },
+            "HATMAKER": {
+                "MALE": "Hatmaker",
+                "FEMALE": "Hatmaker"
+            },
+            "SADDLER": {
+                "MALE": "Saddler",
+                "FEMALE": "Saddler"
+            },
+            "CHICKENBUTCHER": {
+                "MALE": "Chicken butcher",
+                "FEMALE": "Chicken butcher"
+            },
+            "PURSEMAKER": {
+                "MALE": "Purse maker",
+                "FEMALE": "Purse maker"
+            },
+            "LAUNDRESSE": {
+                "MALE": "Laundresse",
+                "FEMALE": "Laundresse"
+            },
+            "OILMERCHANT": {
+                "MALE": "Oil merchant",
+                "FEMALE": "Oil merchant"
+            },
+            "PORTER": {
+                "MALE": "Porter",
+                "FEMALE": "Porter"
+            },
+            "MEATBUTCHER": {
+                "MALE": "Meat butcher",
+                "FEMALE": "Meat butcher"
+            },
+            "FISHMERCHANT": {
+                "MALE": "Fish merchant",
+                "FEMALE": "Fish merchant"
+            },
+            "BEERSELLER": {
+                "MALE": "Beer seller",
+                "FEMALE": "Beer seller"
+            },
+            "BUCKLEMAKER": {
+                "MALE": "Buckle maker",
+                "FEMALE": "Buckle maker"
+            },
+            "PLASTERER": {
+                "MALE": "Plasterer",
+                "FEMALE": "Plasterer"
+            },
+            "SPICEMERCHANT": {
+                "MALE": "Spice merchant",
+                "FEMALE": "Spice merchant"
+            },
+            "BLACKSMITH": {
+                "MALE": "Blacksmith",
+                "FEMALE": "Blacksmith"
+            },
+            "PAINTER": {
+                "MALE": "Painter",
+                "FEMALE": "Painter"
+            },
+            "ROOFER": {
+                "MALE": "Roofer",
+                "FEMALE": "Roofer"
+            },
+            "LOCKSMITH": {
+                "MALE": "Locksmith",
+                "FEMALE": "Locksmith"
+            },
+            "BATHER": {
+                "MALE": "Bather",
+                "FEMALE": "Bather"
+            },
+            "ROPEMAKER": {
+                "MALE": "Ropemaker",
+                "FEMALE": "Ropemaker"
+            },
+            "COPYIST": {
+                "MALE": "Copyist",
+                "FEMALE": "Copyist"
+            },
+            "SCULPTOR": {
+                "MALE": "Sculptor",
+                "FEMALE": "Sculptor"
+            },
+            "RUGMAKER": {
+                "MALE": "Rugmaker",
+                "FEMALE": "Rugmaker"
+            },
+            "HARNESSMAKER": {
+                "MALE": "Harness maker",
+                "FEMALE": "Harness maker"
+            },
+            "BLEACHER": {
+                "MALE": "Bleacher",
+                "FEMALE": "Bleacher"
+            },
+            "CUTLER": {
+                "MALE": "Cutler",
+                "FEMALE": "Cutler"
+            },
+            "GLOVEMAKER": {
+                "MALE": "Glove maker",
+                "FEMALE": "Glove maker"
+            },
+            "WOOD": {
+                "MALE": "Wood",
+                "FEMALE": "Wood"
+            },
+            "SELLER": {
+                "MALE": "Seller",
+                "FEMALE": "Seller"
+            },
+            "WOODCARVER": {
+                "MALE": "Woodcarver",
+                "FEMALE": "Woodcarver"
+            },
+            "GUARD": {
+                "MALE": "Guard",
+                "FEMALE": "Guard"
+            },
+            "OUTLOW": {
+                "MALE": "Outlow",
+                "FEMALE": "Outlow"
+            },
+            "TRADER": {
+                "MALE": "Trader",
+                "FEMALE": "Trader"
+            },
+            "POLITICIAN": {
+                "MALE": "Politician",
+                "FEMALE": "Politician"
+            },
+            "BREEDER": {
+                "MALE": "Breeder",
+                "FEMALE": "Breeder"
+            },
+            "CARRIER": {
+                "MALE": "Carrier",
+                "FEMALE": "Carrier"
+            },
+            "NOINFLUENCELORD": {
+                "MALE": "No influence Lord",
+                "FEMALE": "No influence Lord"
+            },
+            "LORDINFLUENTIAL": {
+                "MALE": "Lord influential",
+                "FEMALE": "Lord influential"
+            },
+            "LORDCOURTYARD": {
+                "MALE": "Lord to a courtyard",
+                "FEMALE": "Lord to a courtyard"
+            },
+            "KING": {
+                "MALE": "King",
+                "FEMALE": "King"
+            },
+            "CONTEUR": {
+                "MALE": "Storyteller",
+                "FEMALE": "Storyteller"
+            }
         }
     },
     "VIEWS": {
