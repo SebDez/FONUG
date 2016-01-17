@@ -343,543 +343,543 @@
                 "FEMALE": "Excellente"
             }
         },
-        "GOALS":{
-            "LUST":"La luxure",
-            "LOVE":"L'amour",
-            "WEALTH":"Le richesse",
-            "GREATERGOOD":"Le bien commun",
-            "POWER":"Le pouvoir",
-            "GLORY":"La gloire",
-            "FAMOUS":"La renommée",
-            "KNOWLEDGE":"Le savoir",
-            "SAVINGLOVE":"Sauver un être cher"
+        "GOALS": {
+            "LUST": "La luxure",
+            "LOVE": "L'amour",
+            "WEALTH": "Le richesse",
+            "GREATERGOOD": "Le bien commun",
+            "POWER": "Le pouvoir",
+            "GLORY": "La gloire",
+            "FAMOUS": "La renommée",
+            "KNOWLEDGE": "Le savoir",
+            "SAVINGLOVE": "Sauver un être cher"
         },
-        "DEFECTS":{
-            "ABRUPT":{
+        "DEFECTS": {
+            "ABRUPT": {
                 "MALE": "Abrupt",
                 "FEMALE": "Abrupte"
             },
-            "ACERBIC":{
+            "ACERBIC": {
                 "MALE": "Acerbe",
                 "FEMALE": "Acerbe"
             },
-            "ANXIOUS":{
+            "ANXIOUS": {
                 "MALE": "Anxieux",
                 "FEMALE": "Anxieuse"
             },
-            "AUTHORITARIAN":{
+            "AUTHORITARIAN": {
                 "MALE": "Autoritaire",
                 "FEMALE": "Autoritaire"
             },
-            "STUBBORN":{
+            "STUBBORN": {
                 "MALE": "Borné",
                 "FEMALE": "Bornée"
             },
-            "NOISY":{
+            "NOISY": {
                 "MALE": "Bruyant",
                 "FEMALE": "Bruyante"
             },
-            "SECRETIVEPERSON":{
+            "SECRETIVEPERSON": {
                 "MALE": "Cachotier",
                 "FEMALE": "Cachotière"
             },
-            "CAREERIST":{
+            "CAREERIST": {
                 "MALE": "Carriériste",
                 "FEMALE": "Carriériste"
             },
-            "COMPLICATED":{
+            "COMPLICATED": {
                 "MALE": "Compliqué",
                 "FEMALE": "Compliquée"
             },
-            "CRUEL":{
+            "CRUEL": {
                 "MALE": "Cruel",
                 "FEMALE": "Cruelle"
             },
-            "DEFEATIST":{
+            "DEFEATIST": {
                 "MALE": "Défaitiste",
                 "FEMALE": "Défaitiste"
             },
-            "SPENDTHRIFT":{
+            "SPENDTHRIFT": {
                 "MALE": "Dépensier",
                 "FEMALE": "Dépensière"
             },
-            "DISOBEDIENT":{
+            "DISOBEDIENT": {
                 "MALE": "Désobéissant",
                 "FEMALE": "Désobéissante"
             },
-            "ABSENTMINDED":{
+            "ABSENTMINDED": {
                 "MALE": "Distrait",
                 "FEMALE": "Distraite"
             },
-            "SELFISH":{
+            "SELFISH": {
                 "MALE": "Égoïste",
                 "FEMALE": "Égoïste"
             },
-            "INFORMAL":{
+            "INFORMAL": {
                 "MALE": "Famillier",
                 "FEMALE": "Famillière"
             },
-            "RUDE":{
+            "RUDE": {
                 "MALE": "Grossier",
                 "FEMALE": "Grossière"
             },
-            "HYPOCRITE":{
+            "HYPOCRITE": {
                 "MALE": "Hypocrite",
                 "FEMALE": "Hypocrite"
             },
-            "UNCULTIVATED":{
+            "UNCULTIVATED": {
                 "MALE": "Inculte",
                 "FEMALE": "Inculte"
             },
-            "INTOLERANT":{
+            "INTOLERANT": {
                 "MALE": "Intolérant",
                 "FEMALE": "Intolérante"
             },
-            "LAXPERSON":{
+            "LAXPERSON": {
                 "MALE": "Laxiste",
                 "FEMALE": "Laxiste"
             },
-            "HEAVY":{
+            "HEAVY": {
                 "MALE": "Lourd",
                 "FEMALE": "Lourde"
             },
-            "WHIMSICAL":{
+            "WHIMSICAL": {
                 "MALE": "Lunatique",
                 "FEMALE": "Lunatique"
             },
-            "MACHOMAN":{
+            "MACHOMAN": {
                 "MALE": "Macho",
                 "FEMALE": "Macho"
             },
-            "MANIPULATOR":{
+            "MANIPULATOR": {
                 "MALE": "Manipulateur",
                 "FEMALE": "Manipulatice"
             },
-            "PROUD":{
+            "PROUD": {
                 "MALE": "Orgeuilleux",
                 "FEMALE": "Orgeuilleuse"
             },
-            "FEARFUL":{
+            "FEARFUL": {
                 "MALE": "Peureux",
                 "FEMALE": "Peureuse"
             },
-            "FASTIDIOUS":{
+            "FASTIDIOUS": {
                 "MALE": "Pointilleux",
                 "FEMALE": "Pointilleuse"
             },
-            "RACIST":{
+            "RACIST": {
                 "MALE": "Raciste",
                 "FEMALE": "Raciste"
             },
-            "SQUARE":{
+            "SQUARE": {
                 "MALE": "Ringard",
                 "FEMALE": "Ringarde"
             },
-            "STUPID":{
+            "STUPID": {
                 "MALE": "Stupide",
                 "FEMALE": "Stupide"
             },
-            "SAD":{
+            "SAD": {
                 "MALE": "Triste",
                 "FEMALE": "Triste"
             },
-            "GROSS":{
+            "GROSS": {
                 "MALE": "Vulgaire",
                 "FEMALE": "Vulgaire"
             }
         },
-        "QUALITIES":{
-            "CLEVER":{
+        "QUALITIES": {
+            "CLEVER": {
                 "MALE": "Adroit",
                 "FEMALE": "Adroite"
             },
-            "PLEASANT":{
+            "PLEASANT": {
                 "MALE": "Agréable",
                 "FEMALE": "Agréable"
             },
-            "APPLIED":{
+            "APPLIED": {
                 "MALE": "Appliqué",
                 "FEMALE": "Appliquée"
             },
-            "QUIET":{
+            "QUIET": {
                 "MALE": "Calme",
                 "FEMALE": "Calme"
             },
-            "WARM":{
+            "WARM": {
                 "MALE": "Chaleureux",
                 "FEMALE": "Chaleureuse"
             },
-            "EDUCATED":{
+            "EDUCATED": {
                 "MALE": "Cultivé",
                 "FEMALE": "Cultivée"
             },
-            "DEDICATED":{
+            "DEDICATED": {
                 "MALE": "Dévoué",
                 "FEMALE": "Dévouée"
             },
-            "DISCIPLINED":{
+            "DISCIPLINED": {
                 "MALE": "Discipliné",
                 "FEMALE": "Disciplinée"
             },
-            "TOUGH":{
+            "TOUGH": {
                 "MALE": "Endurant",
                 "FEMALE": "Endurante"
             },
-            "LOYAL":{
+            "LOYAL": {
                 "MALE": "Fidèle",
                 "FEMALE": "Fidèle"
             },
-            "STRONG":{
+            "STRONG": {
                 "MALE": "Fort",
                 "FEMALE": "Forte"
             },
-            "HUMBLE":{
+            "HUMBLE": {
                 "MALE": "Humble",
                 "FEMALE": "Humble"
             },
-            "INTEGRATES":{
+            "INTEGRATES": {
                 "MALE": "Intégre",
                 "FEMALE": "Intégre"
             },
-            "LEADER":{
+            "LEADER": {
                 "MALE": "Meneur",
                 "FEMALE": "Meneuse"
             },
-            "LUCID":{
+            "LUCID": {
                 "MALE": "Lucide",
                 "FEMALE": "Lucide"
             },
-            "CLEVER":{
+            "CLEVER": {
                 "MALE": "Malin",
                 "FEMALE": "Maline"
             },
-            "FUNNY":{
+            "FUNNY": {
                 "MALE": "Marrant",
                 "FEMALE": "Marrante"
             },
-            "ORIGINAL":{
+            "ORIGINAL": {
                 "MALE": "Original",
                 "FEMALE": "Originale"
             },
-            "PHILOSOPHICAL":{
+            "PHILOSOPHICAL": {
                 "MALE": "Philosophe",
                 "FEMALE": "Philosophe"
             },
-            "PROVIDINGSENSITIVE":{
+            "PROVIDINGSENSITIVE": {
                 "MALE": "Prévoyant",
                 "FEMALE": "Prévoyante"
             },
-            "STABLE":{
+            "STABLE": {
                 "MALE": "Stable",
                 "FEMALE": "Stable"
             },
-            "STRATEGIST":{
+            "STRATEGIST": {
                 "MALE": "Stratège",
                 "FEMALE": "Stratège"
             },
-            "TENACIOUS":{
+            "TENACIOUS": {
                 "MALE": "Tenace",
                 "FEMALE": "Tenace"
             },
-            "BRAVE":{
+            "BRAVE": {
                 "MALE": "Valeureux",
                 "FEMALE": "Valeureuse"
             },
-            "DETERMINED":{
+            "DETERMINED": {
                 "MALE": "Volontaire",
                 "FEMALE": "Volontaire"
             },
-            "ZEN":{
+            "ZEN": {
                 "MALE": "Zen",
                 "FEMALE": "Zen"
             },
-            "RESOURCEFUL":{
+            "RESOURCEFUL": {
                 "MALE": "Débrouillard",
                 "FEMALE": "Débrouillarde"
             },
-            "PRAGMATIC":{
+            "PRAGMATIC": {
                 "MALE": "Pragmatique",
                 "FEMALE": "Pragmatique"
             }
         },
-        "TEMPERS":{
-            "BRAVE":{
+        "TEMPERS": {
+            "BRAVE": {
                 "MALE": "Brave",
                 "FEMALE": "Brave"
             },
-            "RASH":{
+            "RASH": {
                 "MALE": "Téméraire",
                 "FEMALE": "Téméraire"
             },
-            "RESERVED":{
+            "RESERVED": {
                 "MALE": "Réservé",
                 "FEMALE": "Réservée"
             },
-            "DISCREET":{
+            "DISCREET": {
                 "MALE": "Discret",
                 "FEMALE": "Discrete"
             },
-            "SHY":{
+            "SHY": {
                 "MALE": "Timide",
                 "FEMALE": "Timide"
             },
-            "COWARD":{
+            "COWARD": {
                 "MALE": "Lâche",
                 "FEMALE": "Lâche"
             },
-            "CRAFTY":{
+            "CRAFTY": {
                 "MALE": "Rusé",
                 "FEMALE": "Rusée"
             },
-            "MEAN":{
+            "MEAN": {
                 "MALE": "Méchant",
                 "FEMALE": "Méchante"
             },
-            "ROGUISH":{
+            "ROGUISH": {
                 "MALE": "Malicieux",
                 "FEMALE": "Malicieuse"
             },
-            "HONEST":{
+            "HONEST": {
                 "MALE": "Honnête",
                 "FEMALE": "Honnête"
             },
-            "FAITHFUL":{
+            "FAITHFUL": {
                 "MALE": "Fidèle",
                 "FEMALE": "Fidèle"
             },
-            "LOYAL":{
+            "LOYAL": {
                 "MALE": "Loyal",
                 "FEMALE": "Loyale"
             },
-            "PROUD":{
+            "PROUD": {
                 "MALE": "Fier",
                 "FEMALE": "Fière"
             },
-            "KIND":{
+            "KIND": {
                 "MALE": "Gentil",
                 "FEMALE": "Gentille"
             },
-            "HAUGHTY":{
+            "HAUGHTY": {
                 "MALE": "Hautain",
                 "FEMALE": "Hautaine"
             },
-            "ARROGANT":{
+            "ARROGANT": {
                 "MALE": "Orgueilleux",
                 "FEMALE": "Orgueilleuse"
             },
-            "FRIGHTENING":{
+            "FRIGHTENING": {
                 "MALE": "Effrayant",
                 "FEMALE": "Effrayante"
             },
-            "HATEFUL":{
+            "HATEFUL": {
                 "MALE": "Haineux",
                 "FEMALE": "Haineuse"
             },
-            "NICE":{
+            "NICE": {
                 "MALE": "Sympathique",
                 "FEMALE": "Sympathique"
             },
-            "ATTACHING":{
+            "ATTACHING": {
                 "MALE": "Attachant",
                 "FEMALE": "Attachante"
             },
-            "SERIOUS":{
+            "SERIOUS": {
                 "MALE": "Sérieux",
                 "FEMALE": "Sérieuse"
             },
-            "CHARMING":{
+            "CHARMING": {
                 "MALE": "Charmant",
                 "FEMALE": "Charmante"
             },
-            "STRICT":{
+            "STRICT": {
                 "MALE": "Sévère",
                 "FEMALE": "Sévère"
             },
-            "PEACEFUL":{
+            "PEACEFUL": {
                 "MALE": "Calme",
                 "FEMALE": "Calme"
             },
-            "INNOCENT":{
+            "INNOCENT": {
                 "MALE": "Naïf",
                 "FEMALE": "Naïve"
             },
-            "NOBLE":{
+            "NOBLE": {
                 "MALE": "Noble",
                 "FEMALE": "Noble"
             },
-            "CAUTIOUS":{
+            "CAUTIOUS": {
                 "MALE": "Prudent",
                 "FEMALE": "Prudente"
             },
-            "ENERGETIC":{
+            "ENERGETIC": {
                 "MALE": "Énergique",
                 "FEMALE": "Énergique"
             },
-            "ROUGH":{
+            "ROUGH": {
                 "MALE": "Brutal",
                 "FEMALE": "Brutale"
             },
-            "IMPATIENT":{
+            "IMPATIENT": {
                 "MALE": "Impatient",
                 "FEMALE": "Impatiente"
             },
-            "LAZY":{
+            "LAZY": {
                 "MALE": "Paresseux",
                 "FEMALE": "Paresseuse"
             },
-            "LIAR":{
+            "LIAR": {
                 "MALE": "Menteur",
                 "FEMALE": "Menteuse"
             },
-            "DERISIVE":{
+            "DERISIVE": {
                 "MALE": "Moqueur",
                 "FEMALE": "Moqueuse"
             },
-            "SMART":{
+            "SMART": {
                 "MALE": "Malin",
                 "FEMALE": "Maline"
             },
-            "FEARLESS":{
+            "FEARLESS": {
                 "MALE": "Courageux",
                 "FEMALE": "Courageuse"
             }
         },
-        "PHOBIA":{
-            "NOTHING":"Aucune",
-            "ARACHNOPHOBIA":"Arachnophobie",
-            "DARK":"Peur Du Noir",
-            "WATER":"Peur de l'eau",
-            "AGORAPHOBIA":"Agoraphobie",
-            "FIRE":"Peur du feu",
-            "CLAUSTROPHOBIA":"Claustrophobie",
-            "PAIN":"Peur de la douleur",
-            "THUNDER":"Peur du Tonnerre",
-            "LONELINESS":"Peur de la solitude",
-            "SPEAKINGPUBLIC":"Parler en public",
-            "BRIDGES":"Peur des ponts",
-            "ANIMALS":"Peur des animaux",
-            "HEIGHTS":"Peur de du vide"
+        "PHOBIA": {
+            "NOTHING": "Aucune",
+            "ARACHNOPHOBIA": "Arachnophobie",
+            "DARK": "Peur Du Noir",
+            "WATER": "Peur de l'eau",
+            "AGORAPHOBIA": "Agoraphobie",
+            "FIRE": "Peur du feu",
+            "CLAUSTROPHOBIA": "Claustrophobie",
+            "PAIN": "Peur de la douleur",
+            "THUNDER": "Peur du Tonnerre",
+            "LONELINESS": "Peur de la solitude",
+            "SPEAKINGPUBLIC": "Parler en public",
+            "BRIDGES": "Peur des ponts",
+            "ANIMALS": "Peur des animaux",
+            "HEIGHTS": "Peur de du vide"
         },
-        "CHARCLASS":{
-            "BARBARIAN":{
+        "CHARCLASS": {
+            "BARBARIAN": {
                 "MALE": "Barbare",
                 "FEMALE": "Barbare"
             },
-            "BARD":{
+            "BARD": {
                 "MALE": "Barde",
                 "FEMALE": "Barde"
             },
-            "DRUID":{
+            "DRUID": {
                 "MALE": "Druide",
                 "FEMALE": "Druidesse"
             },
-            "WITCHER":{
+            "WITCHER": {
                 "MALE": "Ensorceleur",
                 "FEMALE": "Ensorceleuse"
             },
-            "WARRIOR":{
+            "WARRIOR": {
                 "MALE": "Guerrier",
                 "FEMALE": "Guerrière"
             },
-            "MAGICIAN":{
+            "MAGICIAN": {
                 "MALE": "Magicien",
                 "FEMALE": "Magicienne"
             },
-            "MONK":{
+            "MONK": {
                 "MALE": "Moine",
                 "FEMALE": "Soeur"
             },
-            "PALADIN":{
+            "PALADIN": {
                 "MALE": "Paladin",
                 "FEMALE": "Paladine"
             },
-            "PRIEST":{
+            "PRIEST": {
                 "MALE": "Prêtre",
                 "FEMALE": "Prêtresse"
             },
-            "TRAMP":{
+            "TRAMP": {
                 "MALE": "Rôdeur",
                 "FEMALE": "Rôdeuse"
             },
-            "NECROMANCER":{
+            "NECROMANCER": {
                 "MALE": "Nécromancien",
                 "FEMALE": "Nécromancienne"
             },
-            "ALCHEMIST":{
+            "ALCHEMIST": {
                 "MALE": "Alchimiste",
                 "FEMALE": "Alchimiste"
             },
-            "KNIGHT":{
+            "KNIGHT": {
                 "MALE": "Chevalier",
                 "FEMALE": "Chevalière"
             },
-            "SOOTHSAYER":{
+            "SOOTHSAYER": {
                 "MALE": "Devin",
                 "FEMALE": "Voyante"
             },
-            "WITCH":{
+            "WITCH": {
                 "MALE": "Sorcier",
                 "FEMALE": "Sorcière"
             },
-            "NINJA":{
+            "NINJA": {
                 "MALE": "Ninja",
                 "FEMALE": "Ninja"
             },
-            "SAMOURAI":{
+            "SAMOURAI": {
                 "MALE": "Samouraï",
                 "FEMALE": "Samouraï"
             },
-            "PIRATE":{
+            "PIRATE": {
                 "MALE": "Pirate",
                 "FEMALE": "Pirate"
             },
-            "HEALER":{
+            "HEALER": {
                 "MALE": "Soigneur",
                 "FEMALE": "Soigneuse"
             }
         },
-        "PUNCHLINES":{
-            "BETTERBEFORE":"C'était mieux avant !",
-            "NOTCONCERNED":"Cela ne nous regarde pas !",
-            "BLACKWINGS":"Noires ailes, noires nouvelles",
-            "NOTME":"C'est pas moi, je vous le jure !",
-            "LIGHTOFF":"Qui a éteint la lumière ?",
-            "HUM":"Huuuuuuum...",
-            "GRR":"Grrrr",
-            "PFF":"Pffff",
-            "OUTCH":"Aoutch !!",
-            "ATCHOUM":"Atchoum !",
-            "TCHIP":"*Tchip*",
-            "TOOOLD":"Je suis trop vieux pour toutes ces conneries !",
-            "MAKEOFFER":"Je vais lui faire une offre qu'il ne peut pas refuser",
-            "DEADPEOPLE":"Je vois des gens qui sont morts",
-            "HASTA":"Hasta la vista, baby",
-            "KINGWORLD":"Je suis le roi du monde !",
-            "LOOKME":"C'est moi que tu regardes ?",
-            "SOUPLE":"Reste souple garçon",
-            "PATIENT":"Je suis très patient, mais rarement longtemps",
-            "FISTFACE":"Mon poing va bientôt finir dans ton visage",
-            "VOIRAILLEURS":"Va voir ailleurs si j'y suis",
-            "BROCOLIS":"Saviez vous que les brocolis contiennent plus de vitamines C que les oranges ?",
-            "BICHE":"Vous voulez voir ma biche ?",
-            "PI":"J'aime Pi, ça me relaxe.",
-            "KNOWIT":"Je savais le faire avant",
-            "SAISONS":"Il y a plus de saisons",
-            "PVB1":"Il vaut mieux se disputer avec quelqu'un d'intelligent que parler à un imbécile.",
-            "PVB2":"Le mensonge donne des fleurs mais pas de fruits.",
-            "PVB3":"Qui te craint en ta présence, te nuit en ton absence.",
-            "PVB4":"Si vous voulez savoir la vérité, écoutez les fous.",
-            "PVB5":"Quand la pauvreté entre par la porte, l'amour s'en va par la fenêtre.",
-            "PVB6":"Quand un arbre tombe, on l'entend ; quand la forêt pousse, pas un bruit.",
-            "PVB7":"Mieux vaut mille refus qu'une promesse non tenue.",
-            "PVB8":"Lorsque tu ne sais pas où tu vas, regarde d'où tu viens.",
-            "ILOVE":"J'adore ce que vous faîtes",
-            "JUDGE":"Je suis pas là pour juger",
-            "PASSIONNANT":"Ah oui ? Passionnant.",
-            "VERRE":"Je vous paie un verre ?",
-            "TONIGHT":"Vous faites quoi ce soir ?",
-            "SAMETHING":"Je prendrais la même chose que d'habitude",
-            "ROGER":"Roger, un autre !"
+        "PUNCHLINES": {
+            "BETTERBEFORE": "C'était mieux avant !",
+            "NOTCONCERNED": "Cela ne nous regarde pas !",
+            "BLACKWINGS": "Noires ailes, noires nouvelles",
+            "NOTME": "C'est pas moi, je vous le jure !",
+            "LIGHTOFF": "Qui a éteint la lumière ?",
+            "HUM": "Huuuuuuum...",
+            "GRR": "Grrrr",
+            "PFF": "Pffff",
+            "OUTCH": "Aoutch !!",
+            "ATCHOUM": "Atchoum !",
+            "TCHIP": "*Tchip*",
+            "TOOOLD": "Je suis trop vieux pour toutes ces conneries !",
+            "MAKEOFFER": "Je vais lui faire une offre qu'il ne peut pas refuser",
+            "DEADPEOPLE": "Je vois des gens qui sont morts",
+            "HASTA": "Hasta la vista, baby",
+            "KINGWORLD": "Je suis le roi du monde !",
+            "LOOKME": "C'est moi que tu regardes ?",
+            "SOUPLE": "Reste souple garçon",
+            "PATIENT": "Je suis très patient, mais rarement longtemps",
+            "FISTFACE": "Mon poing va bientôt finir dans ton visage",
+            "VOIRAILLEURS": "Va voir ailleurs si j'y suis",
+            "BROCOLIS": "Saviez vous que les brocolis contiennent plus de vitamines C que les oranges ?",
+            "BICHE": "Vous voulez voir ma biche ?",
+            "PI": "J'aime Pi, ça me relaxe.",
+            "KNOWIT": "Je savais le faire avant",
+            "SAISONS": "Il y a plus de saisons",
+            "PVB1": "Il vaut mieux se disputer avec quelqu'un d'intelligent que parler à un imbécile.",
+            "PVB2": "Le mensonge donne des fleurs mais pas de fruits.",
+            "PVB3": "Qui te craint en ta présence, te nuit en ton absence.",
+            "PVB4": "Si vous voulez savoir la vérité, écoutez les fous.",
+            "PVB5": "Quand la pauvreté entre par la porte, l'amour s'en va par la fenêtre.",
+            "PVB6": "Quand un arbre tombe, on l'entend ; quand la forêt pousse, pas un bruit.",
+            "PVB7": "Mieux vaut mille refus qu'une promesse non tenue.",
+            "PVB8": "Lorsque tu ne sais pas où tu vas, regarde d'où tu viens.",
+            "ILOVE": "J'adore ce que vous faîtes",
+            "JUDGE": "Je suis pas là pour juger",
+            "PASSIONNANT": "Ah oui ? Passionnant.",
+            "VERRE": "Je vous paie un verre ?",
+            "TONIGHT": "Vous faites quoi ce soir ?",
+            "SAMETHING": "Je prendrais la même chose que d'habitude",
+            "ROGER": "Roger, un autre !"
         },
         "CORPULENCES": {
             "BIG": {
@@ -1110,6 +1110,32 @@
             "LONGGRAY": "Gris (Longs)",
             "LONGCOLORED": "Colorés (Longs)",
             "BALD": "Chauve"
+        },
+        "MOTIVATIONS": {
+            "REVENGE": "Vengeance",
+            "LOVE": "Amour",
+            "FEAR": "Peur",
+            "GREED": "Cupidité",
+            "PERSONALFULFILLMENT ": "Accomplissement personnel",
+            "SOCIALPRESSURE": "Pression sociale",
+            "PROFESSIONALSUCCESS": "Réussite professionnelle",
+            "FAITH": "La foi",
+            "PRIDE": "L’orgueil",
+            "HATRED": "La haine",
+            "GLUTTONY": "La gourmandise",
+            "FINANCIALPROFIT": "L’appat du gain",
+            "SADNESS": "La tristesse",
+            "NOSTALGIA": "La nostalgie",
+            "PURSUITIDEAL": "La poursuite d’un idéal",
+            "THERECOGNITION": "La reconnaissance",
+            "TRUTH": "La vérité",
+            "FAMILY": "La famille",
+            "LOYALTY": "La loyauté",
+            "JUSTICE": "La justice",
+            "DEVOTION": "La dévotion",
+            "JEALOUSY": "La jalousie",
+            "ENVY": "L’envie",
+            "LAZINESS": "La paresse"
         }
     },
     "VIEWS": {
@@ -1185,7 +1211,7 @@
             "CLOTHES": "Vêtements",
             "ACCESSORIES": "Accessoires",
             "CLOTHING_STYLE": "Style Vestimentaire",
-            "TEMPER":"Tempérament"
+            "TEMPER": "Tempérament"
         }
     }
 }
