@@ -410,23 +410,21 @@ export class GeneratorService {
 
     /**
      * Get the character financial situation
-     * @param {String} gender The character's gender
      * @result {String} The financial situation label to translate
      */
-    getFinancialSituation(gender) {
+    getFinancialSituation() {
         let tab = this.localDataFactory.getFinancialSituationList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 
     /**
      * Get the character accent
-     * @param {String} gender The character's gender
      * @result {String} The accent label to translate
      */
-    getAccent(gender) {
+    getAccent() {
         let tab = this.localDataFactory.getAccentList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 

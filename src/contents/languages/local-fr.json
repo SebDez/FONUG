@@ -1695,6 +1695,98 @@
                 "FEMALE": "Conteuse"
             }
 
+        },
+        "FINANCIALSITUATION": {
+            "ANTISYSTEM": "Antisystème",
+            "VERYPOOR ": "Très pauvre",
+            "POOR": "Pauvre",
+            "AVERAGE": "Moyenne",
+            "RATHERBETTEROFF": "Plutôt aisée",
+            "BETTEROFF": "Aisée",
+            "RICH": "Riche",
+            "VERYRICH": "Très riche"
+        },
+        "ACCENT": {
+            "NOACCENT": "Aucun",
+            "SLIGHTACCENT": "Léger",
+            "WHENTIRED": "Lorsque fatigué/ivre",
+            "FORTACCENT": "Fort",
+            "MOTHERTONGUE": "Parle uniquement sa langue maternelle"
+        },
+        "REPUTATION": {
+            "TOTALSTRANGER": {
+                "MALE": "Inconnu total",
+                "FEMALE": "Inconnue total"
+            },
+            "RUMORS": {
+                "MALE": "Rumeurs",
+                "FEMALE": "Rumeurs"
+            },
+            "GOSSIP": {
+                "MALE": "Potins",
+                "FEMALE": "Potins"
+            },
+            "KNOWNINHOMETOWN": {
+                "MALE": "Connu dans sa ville d’origine",
+                "FEMALE": "Connue dans sa ville d’origine"
+            },
+            "KNOWNREGION": {
+                "MALE": "Connu dans sa région",
+                "FEMALE": "Connue dans sa région"
+            },
+            "KNOWNCOUNTRY": {
+                "MALE": "Connu dans son pays",
+                "FEMALE": "Connue dans son pays"
+            },
+            "KNOWNLOCALLY": {
+                "MALE": "Connu localement",
+                "FEMALE": "Connue localement"
+            },
+            "KNOWNREGIONALLY": {
+                "MALE": "Connu régionalement",
+                "FEMALE": "Connue régionalement"
+            },
+            "NATIONALLYKNOWN": {
+                "MALE": "Connu nationalement",
+                "FEMALE": "Connue nationalement"
+            },
+            "INTERNATIONALLYKNOWN": {
+                "MALE": "Connu internationalement",
+                "FEMALE": "Connue internationalement"
+            },
+            "LEGENDARY": {
+                "MALE": "Légendaire",
+                "FEMALE": "Légendaire"
+            },
+            "SCANDALOUS": {
+                "MALE": "Scandaleuse",
+                "FEMALE": "Scandaleuse"
+            },
+            "FEAR": {
+                "MALE": "Craint",
+                "FEMALE": "Crainte"
+            },
+            "DOUBT": {
+                "MALE": "Douteuse",
+                "FEMALE": "Douteuse"
+            },
+            "HONORABLE": {
+                "MALE": "Honorifique",
+                "FEMALE": "Honorifique"
+            },
+            "PRAISEWORTHY": {
+                "MALE": "Louable",
+                "FEMALE": "Louable"
+            },
+            "ACCUSEDWRONGLY": {
+                "MALE": "Accusé à tort",
+                "FEMALE": "Accusée à tort"
+            },
+            "CONFUSESOMEONE": {
+                "MALE": "Confondu avec quelqu’un",
+                "FEMALE": "Confondue avec quelqu’un"
+            }
+
         }
     },
     "VIEWS": {

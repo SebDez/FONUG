@@ -23,7 +23,9 @@ import Eyes from '../elements/Eyes';
 import Hairs from '../elements/Hairs';
 import Motivations from '../elements/Motivations';
 import Professions from '../elements/Professions';
-
+import FinancialSituation from '../elements/FinancialSituation';
+import Accents from '../elements/Accents';
+import Reputations from '../elements/Reputations';
 
 
 /**
@@ -295,7 +297,7 @@ export class LocalDataFactory {
      * @return {String} The financialSituation labels list to translate
      */
     getFinancialSituationList() {
-        return this.notSet;
+        return FinancialSituation;
     }
 
     /**
@@ -303,7 +305,7 @@ export class LocalDataFactory {
      * @return {String} The accent labels list to translate
      */
     getAccentList() {
-        return this.notSet;
+        return Accents;
     }
 
 
@@ -312,7 +314,7 @@ export class LocalDataFactory {
      * @return {String} The reputation labels list to translate
      */
     getReputationList() {
-        return this.notSet;
+        return Reputations;
     }
 
     /**
