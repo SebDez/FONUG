@@ -31,6 +31,7 @@ import Clothes from '../elements/Clothes';
 import Accessories from '../elements/Accessories';
 import FamilialSituationAdult from '../elements/FamilialSituationAdult';
 import FamilialSituationYoung from '../elements/FamilialSituationYoung';
+import Talents from '../elements/Talents';
 
 /**
  * This Factory is used to get datas for the generator
@@ -277,7 +278,7 @@ export class LocalDataFactory {
      * @return {String} The talent labels list to translate
      */
     getTalentList() {
-        return this.notSet;
+        return Talents;
     }
 
     /**

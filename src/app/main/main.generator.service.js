@@ -377,12 +377,11 @@ export class GeneratorService {
 
     /**
      * Get the character talent
-     * @param {String} gender The character's gender
      * @result {String} The talent label to translate
      */
-    getTalent(gender) {
+    getTalent() {
         let tab = this.localDataFactory.getTalentList();
-        return this.getElementLabelFromListWithWeighting(tab,gender);
+        return this.getElementLabelFromListWithWeighting(tab);
     }
 
 

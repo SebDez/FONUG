@@ -1879,6 +1879,26 @@
                 "MALE": "A des enfants",
                 "FEMALE": "A des enfants"
             }
+        },
+        "TALENTS": {
+            "PRETTYFLEXIBLE": "Je suis plutôt souple",
+            "ALREADYREAD IT": "J’ai déjà lu ça",
+            "VENIVIDIVICI": "Veni vidi vici",
+            "NOTSEENNOTTAKEN": "Pas vu pas pris",
+            "NOTEVENAFRAID": "Même pas peur",
+            "SEENSOMEONE": "J’ai déjà vu quelqu’un le faire",
+            "IKNOWAGUY": "Je connais un type",
+            "CALLAFRIEND": "Appelle à un ami",
+            "KNOWEACHOTHER": "On se connait non ?",
+            "FUSS": "C’est quoi les histoires ?",
+            "MINEISBIGGER": "La mienne est plus grosse",
+            "THATMINE": "C’est à moi ça",
+            "RAISEDHEAVIER": "J’ai déjà soulevé plus lourd",
+            "SPACEHERE": "Il reste de la place",
+            "IUNDERSTANDQUICK": "Je comprends vite",
+            "THROUGHHERE": "Je suis déjà passé par ici",
+            "GUARDIANANGEL": "J’ai un ange gardien",
+            "RHYTHM": "Le rythme dans la peau"
         }
     },
     "VIEWS": {
