@@ -1,14 +1,16 @@
 <navbar></navbar>
 <sidenav></sidenav>
 
-<div class="divContainer" layout="column" layout-align="center center" layout-wrap>
-    <div class="container main md-whiteframe-z2" md-theme="{{character.currentCharacter.alignment.mdTheme}}" layout-fill>
-
+<div  class="divContainer" layout="column" layout-align="center center" layout-wrap>
+    <div id="toSave" class="container main md-whiteframe-z2" md-theme="{{character.currentCharacter.alignment.mdTheme}}" layout-fill>
+        <div flex>
+            <md-button ng-click="character.createPDF()" class="md-raised md-primary">save</md-button>
+        </div>
         <!-- MAIN -->
         <md-toolbar>
             <h1 class="md-toolbar-tools"> {{character.currentCharacter.name}} - {{character.currentCharacter.civilization.name | translate}} {{character.currentCharacter.charClass | translate}}</h1>
         </md-toolbar>
-        <md-content style="height: 650px;">
+        <!--<md-content style="height: 650px;">-->
             <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
                 <div flex="30" class="logoContainer">
                     <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
@@ -17,7 +19,7 @@
 
                     <div layout="column" class="right">
 
-                        
+
                         <div layout="row" layout-sm="column" layout-xs="column">
 
                             <div flex="15">
@@ -258,6 +260,6 @@
                     <md-button ng-click="sidenav.goToMain()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</md-button>
                 </div>
             </div>
-        </md-content>
+        <!--</md-content>-->
     </div>
 </div>

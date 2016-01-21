@@ -20,7 +20,10 @@
     "angular-material": "~1.0.1",
     "flag-icon-css": "~0.8.5",
     "roboto-fontface": "~0.4.3",
-    "angular-un-svg": "~1.0.4"
+    "angular-un-svg": "~1.0.4",
+    "jspdf": "~1.1.135",
+    "html2canvas": "~0.4.1",
+    "canvas2image": "bower-canvas2image#~0.0.1"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.2"

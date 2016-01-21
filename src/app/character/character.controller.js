@@ -1,10 +1,12 @@
 export class CharacterController {
 
-    constructor(GeneratorService, $state, $stateParams) {
+    constructor(GeneratorService, $state, $stateParams, $document, $filter) {
         'ngInject';
         this.generatorService = GeneratorService;
         this.$stateParams = $stateParams;
         this.$state = $state;
+        this.$document=$document;
+        this.$filter=$filter;
 
         if (!this.$stateParams.currentCharacter) {
             this.$state.go('home');
@@ -14,6 +16,8 @@ export class CharacterController {
             this.setCivilization();
             this.generateCharacter();
         }
+
+        this.characDiv = document.getElementById("toSave");
     }
 
     /**
@@ -68,131 +72,131 @@ export class CharacterController {
 
         //CHARISMA
         this.currentCharacter.charisma = this.generatorService.getCharisma();
-        
+
         //BEAUTY
         this.currentCharacter.beauty = this.generatorService.getBeauty();
-        
+
         //INTELLECT
         this.currentCharacter.intellect = this.generatorService.getIntellect();
-        
-        
+
+
         //PERCEPTION
         this.currentCharacter.perception = this.generatorService.getPerception();
-        
-        
+
+
         //FIGHT SKILLS
         this.currentCharacter.fightSkills = this.generatorService.getFightSkills();
-        
-        
+
+
         //CLASS
         this.currentCharacter.charClass = this.generatorService.getCharClass(gender);
-        
-        
+
+
         //PUNCHLINE
         this.currentCharacter.punchline = this.generatorService.getPunchLine();
-        
-        
+
+
         //CORPULENCE
         this.currentCharacter.corpulence = this.generatorService.getCorpulence(gender);
-        
-        
+
+
         //FACE SHAPE
         this.currentCharacter.faceShape = this.generatorService.getFaceShape(gender);
-        
-        
+
+
         //SKIN TONE
         this.currentCharacter.skinTone = this.generatorService.getSkinTone(gender);
-        
-        
+
+
         //EYES
         this.currentCharacter.eyes = this.generatorService.getEyes();
-        
-        
+
+
         //MOUTH
         this.currentCharacter.mouth = this.generatorService.getMouth(gender);
-        
-        
+
+
         //NOSE
         this.currentCharacter.nose = this.generatorService.getNose();
-        
-        
+
+
         //HAIR
         this.currentCharacter.hair = this.generatorService.getHair();
-        
-        
+
+
         //GOAL
         this.currentCharacter.goal = this.generatorService.getGoal();
-        
-        
+
+
         //MOTIVATION
         this.currentCharacter.motivation = this.generatorService.getMotivation();
-        
-        
+
+
         //DEFECT
         this.currentCharacter.defect = this.generatorService.getDefect(gender);
-        
-        
+
+
         //QUALITY
         this.currentCharacter.quality = this.generatorService.getQuality(gender);
-        
-        
+
+
         //PHOBIA
         this.currentCharacter.phobia = this.generatorService.getPhobia();
-        
-        
+
+
         //TALENT
         this.currentCharacter.talent = this.generatorService.getTalent();
-        
-        
+
+
         //PROFESSION
         this.currentCharacter.profession = this.generatorService.getProfession(gender);
-        
-        
+
+
         //FAMILY SITUATION
         this.currentCharacter.familySituation = this.generatorService.getFamilySituation(gender,this.currentCharacter.age);
-        
-        
+
+
         //FINANCIAL SITUATION
         this.currentCharacter.financialSituation = this.generatorService.getFinancialSituation();
-        
-        
+
+
         //ACCENT
         this.currentCharacter.accent = this.generatorService.getAccent();
-        
-        
+
+
         //REPUTATION
         this.currentCharacter.reputation = this.generatorService.getReputation(gender);
-        
-        
+
+
         //COMBAT STYLE
         this.currentCharacter.combatStyle = this.generatorService.getCombatStyle();
-        
-        
+
+
         //CLOTHES
         this.currentCharacter.clothes = this.generatorService.getClothes(gender);
-        
-        
+
+
         //ACCESSORIES
         this.currentCharacter.accessories = this.generatorService.getAccessories();
-        
-        
+
+
         //CLOTHING STYLE
         this.currentCharacter.clothingStyle = this.generatorService.getClothingStyle(gender);
-        
-        
+
+
         //CLOTHING COUNTRY
         this.currentCharacter.clothingCountry = this.generatorService.getClothingCountry();
-         
-        
+
+
         //TEMPER
-        this.currentCharacter.temper = this.generatorService.getTemper(gender);   
-        
-        
+        this.currentCharacter.temper = this.generatorService.getTemper(gender);
+
+
         //VOICE
-        this.currentCharacter.voice = this.generatorService.getVoice();   
-        
+        this.currentCharacter.voice = this.generatorService.getVoice();
+
     }
-    
+
     /**
     * Get an element name from an object
     * @param {Object} element The element concerned
@@ -204,6 +208,20 @@ export class CharacterController {
         }else if(this.currentCharacter.genderTag==='FEMALE'){
             return element.name.FEMALE;
         }
+    }
+
+    /**
+    * Create a PDF from HTML
+    */
+    createPDF(){
+        let pdf = new jsPDF('p','pt','a4');
+        pdf.addHTML(this.characDiv,()=>{
+        	let string = pdf.output('datauristring');
+            let name = this.currentCharacter.name;
+            let civ = this.$filter('translate')(this.currentCharacter.civilization.name);
+            let charclass=this.$filter('translate')(this.currentCharacter.charClass);
+            pdf.save('FONUG_'+name+'_'+civ+'_'+charclass+'_.pdf');
+        });
     }
 
 }
