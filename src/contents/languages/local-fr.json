@@ -2073,7 +2073,8 @@
         "SIDENAV": {
             "NAVIGATION": "Navigation",
             "ABOUT": "A propos",
-            "CONTACT": "Contact"
+            "CONTACT": "Contact",
+            "SAVE":"Sauvegarder mon personnage"
         },
         "ABOUT": {
             "TEXT1": "<p>FONUG est un générateur de personnages aléatoires open-source, libre et gratuit !</p> <p>Vous pouvez choisir de générer votre personnage soit de manière intégralement aléatoire soit en spécifiant initialement des critères comme l'âge, le sexe ou la civilisation de celui-ci.</p><p>Le personnage généré est très général et avec des informations plutôt vagues dans le simple but de pouvoir transposer vos personnages dans tous les univers possibles.</p><p>Certaines informations pourront paraitre contradictoires ou surprenantes et il sera à vous d'adapter selon le contexte dans lequel apparaitrait votre personnage. (Découvrir que le petit neveu de 5 ans de votre personnage est du genre chaotique mauvais n'est pas un moment facile mais croyez moi le générateur ne se trompe jamais !)</p>",
@@ -2131,7 +2132,8 @@
             "ACCESSORIES": "Accessoires",
             "CLOTHING_STYLE": "Style Vestimentaire",
             "TEMPER": "Tempérament",
-            "VOICE": "Voix"
+            "VOICE": "Voix",
+            "SAVE":"Sauvegarder"
         }
     }
 }

@@ -162,3 +162,11 @@ span.chaoticEvil {
 .title{
     margin-top: 30px;
 }
+
+.fixedmarker{
+    background:#fff;
+    position: fixed;
+    left: 100%;
+    top: 18%;
+    margin-left: -230px; /*half the width*/
+}

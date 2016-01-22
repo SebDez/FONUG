@@ -2101,7 +2101,8 @@
         "SIDENAV": {
             "NAVIGATION": "Navigation",
             "ABOUT": "About",
-            "CONTACT": "Contact"
+            "CONTACT": "Contact",
+            "SAVE":"Save my character"
         },
         "ABOUT": {
             "TEXT1": "<p>FONUG is a generator for random characters, it is open-source and free !</p> <p>You can choose to generate your character entirely randomly or to select the gender, the age or the civilization as start values.</p><p>The character is generated according to that choice, the data could not be rational, it's up to you to adjust the values that you judge appropriated.</p><p>The character generated is very general with a view to be adapted to any world background (as a mediavel wolrd to a futuristic one ) I know that learn that your character's nephew of 5 years old is a kind of chaotic evil isn't a great moment, but believe me, the generator is never wrong !</p>",
@@ -2159,7 +2160,8 @@
             "ACCESSORIES": "Accessories",
             "CLOTHING_STYLE": "Clothing Style",
             "TEMPER": "Temper",
-            "VOICE": "Voice"
+            "VOICE": "Voice",
+            "SAVE":"Save"
         }
     }
 }
