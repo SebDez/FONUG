@@ -1,11 +1,13 @@
 <navbar></navbar>
 <sidenav></sidenav>
 
+<div class="container  md-whiteframe-z2">
+    <md-icon ng-click="character.createPDF()" class="glyphicon glyphicon-floppy-disk" ng-style="{color: white, 'font-size': '50px', height: '50px'}"></md-icon>
+</div>
+
 <div  class="divContainer" layout="column" layout-align="center center" layout-wrap>
     <div id="toSave" class="container main md-whiteframe-z2" md-theme="{{character.currentCharacter.alignment.mdTheme}}" layout-fill>
-        <div flex>
-            <md-button ng-click="character.createPDF()" class="md-raised md-primary">save</md-button>
-        </div>
+
         <!-- MAIN -->
         <md-toolbar>
             <h1 class="md-toolbar-tools"> {{character.currentCharacter.name}} - {{character.currentCharacter.civilization.name | translate}} {{character.currentCharacter.charClass | translate}}</h1>
