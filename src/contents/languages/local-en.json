@@ -2245,7 +2245,8 @@
             "AGE": "Age",
             "CIVILIZATION": "Civilization",
             "TEXT1": "<p>It is appropriate both for the rapid generation of Non Player Characters as other fictional characters , the goal is not to generate a player cheet but to give some tracks at character creation.</p>",
-            "TEXT2": "FONUG is a character generator entierly random."
+            "TEXT2": "FONUG is a character generator entierly random.",
+            "CHOOSE_CATEGORIES":"Choose categories"
         },
         "SIDENAV": {
             "NAVIGATION": "Navigation",

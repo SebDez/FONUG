@@ -19,11 +19,20 @@ export class CharacterController {
             this.generateCharacter();
         }
 
-        /**{Object} Div to save into PDF*/
+        /** @type {Object} Div to save into PDF*/
         this.characDiv = document.getElementById("toSave");
         
-        /**{Boolean} Used to undisplay the svg on pdf save*/
+        /** @type {Boolean} Used to undisplay the svg on pdf save*/
         this.isToSave=false;
+        
+        /** @type {Boolean}*/
+        this.generatePhysical=$stateParams.generatePhysical;
+        /** @type {Boolean}*/
+        this.generateSocial=$stateParams.generateSocial;
+        /** @type {Boolean}*/
+        this.generateAppearance=$stateParams.generateAppearance;
+        /** @type {Boolean}*/
+        this.generatePersonality=$stateParams.generatePersonality;
     }
 
     /**

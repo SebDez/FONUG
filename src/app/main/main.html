@@ -58,6 +58,36 @@
                 </md-input-container>
 
             </div>
+
+
+        </div>
+
+        <!-- SELECT CATEGORIES -->
+        <label ng-if="main.notRandom" class="control-label">{{'VIEWS.MAIN.CHOOSE_CATEGORIES' | translate}}</label>
+        <div layout="row" layout-sm="column" layout-xs="column" ng-if="main.notRandom" layout-align="center center" class="textContainer" layout-wrap>
+            <div flex>
+                <md-checkbox ng-model="main.generatePhysical" aria-label="Checkbox 1">
+                    {{'VIEWS.GENERATOR.PHYSICAL' | translate}}
+                </md-checkbox>
+            </div>
+
+            <div flex>
+                <md-checkbox ng-model="main.generateSocial" aria-label="Checkbox 1">
+                    {{'VIEWS.GENERATOR.SOCIAL' | translate}}
+                </md-checkbox>
+            </div>
+
+            <div flex>
+                <md-checkbox ng-model="main.generateAppearance" aria-label="Checkbox 1">
+                    {{'VIEWS.GENERATOR.APPEARANCE' | translate}}
+                </md-checkbox>
+            </div>
+
+            <div flex>
+                <md-checkbox ng-model="main.generatePersonality" aria-label="Checkbox 1">
+                    {{'VIEWS.GENERATOR.PERSONNALITY' | translate}}
+                </md-checkbox>
+            </div>
         </div>
 
         <div layout="row" layout-padding>

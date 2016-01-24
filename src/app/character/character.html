@@ -19,19 +19,19 @@
         <!-- ##### -->
 
         <!-- PHYSICAL -->
-        <physical character="character.currentCharacter"></physical>
+        <physical ng-if="character.generatePhysical" character="character.currentCharacter"></physical>
         <!-- ##### -->
 
         <!-- PERSONALITE -->
-        <personality character="character.currentCharacter"></personality>
+        <personality  ng-if="character.generatePersonality" character="character.currentCharacter"></personality>
         <!-- ##### -->
 
         <!-- SOCIAL -->
-        <social character="character.currentCharacter"></social>
+        <social  ng-if="character.generateSocial" character="character.currentCharacter"></social>
         <!-- ##### -->
 
         <!-- APPARENCE -->
-        <appearance character="character.currentCharacter"></appearance>
+        <appearance  ng-if="character.generateAppearance" character="character.currentCharacter"></appearance>
         <!-- ##### -->
         
         <!-- Generate an other character button -->

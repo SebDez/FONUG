@@ -18,6 +18,15 @@ export class MainController {
         this.btnGenerateIsDisabled=true;
         
         this.changeSelectedMode(this.notRandom);
+        
+        /** @type {Boolean}*/
+        this.generatePhysical=true;
+        /** @type {Boolean}*/
+        this.generateSocial=true;
+        /** @type {Boolean}*/
+        this.generateAppearance=true;
+        /** @type {Boolean}*/
+        this.generatePersonality=true;
     }
 
     /**
@@ -78,7 +87,13 @@ export class MainController {
     * Go the generator state with selected init values
     */
     generate(){
-         this.$state.go('generated',   { currentCharacter: this.currentCharacter });
+         this.$state.go('generated',   { 
+            currentCharacter: this.currentCharacter,
+            generatePhysical: this.generatePhysical,
+            generateSocial: this.generateSocial,
+            generateAppearance: this.generateAppearance,
+            generatePersonality: this.generatePersonality
+         });
     }
     
     

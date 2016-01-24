@@ -12,7 +12,13 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
       templateUrl: 'app/character/character.html',
       controller: 'CharacterController',
       controllerAs: 'character',
-      params: { 'currentCharacter': null }
+      params: { 
+            'currentCharacter': null,
+            'generatePhysical': true,
+            'generateSocial': true,
+            'generateAppearance': true,
+            'generatePersonality': true,
+      }
     })
     .state('about', {
       url: '/about',
