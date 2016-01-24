@@ -18,6 +18,8 @@ import {ProgressBarController}from './progressbar/progressbar.controller';
 import {ProgressBarDirective}from './progressbar/progressbar.directive.js';
 import {SocialDirective}from './character/social/social.directive';
 import {SocialDirectiveController}from './character/social/social.dir.controller';
+import {AppearanceDirective}from './character/appearance/appearance.directive';
+import {AppearanceDirectiveController}from './character/appearance/appearance.dir.controller';
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
   .constant('malarkey', malarkey)
@@ -40,6 +42,8 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .controller('ProgressBarController', ProgressBarController)
     .directive('social', SocialDirective)
     .controller('SocialDirectiveController', SocialDirectiveController)
+    .directive('appearance', AppearanceDirective)
+    .controller('AppearanceDirectiveController', AppearanceDirectiveController)
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
         $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');

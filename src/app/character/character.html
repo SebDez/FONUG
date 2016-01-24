@@ -208,29 +208,7 @@
         <!-- ##### -->
 
         <!-- APPARENCE -->
-        <md-toolbar class="title">
-            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.APPEARANCE' | translate}}</h1>
-        </md-toolbar>
-
-
-        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.COMBAT_STYLE' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.combatStyle | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHES' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.clothes | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.ACCESSORIES' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.accessories | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.CLOTHING_STYLE' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.clothingStyle | translate}}, {{character.currentCharacter.clothingCountry | translate}}</p>
-            </div>
-        </div>
+        <appearance character="character.currentCharacter"></appearance>
         <!-- ##### -->
 
 
@@ -239,6 +217,5 @@
                 <md-button ng-click="sidenav.goToMain()" class="md-raised md-primary">{{'VIEWS.MAIN.GENERATEOTHER' | translate}}</md-button>
             </div>
         </div>
-        <!--</md-content>-->
     </div>
 </div>
