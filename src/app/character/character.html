@@ -204,41 +204,7 @@
 
 
         <!-- SOCIAL -->
-        <md-toolbar class="title">
-            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.SOCIAL' | translate}}</h1>
-        </md-toolbar>
-
-
-        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-            <div flex="100" class="inline">
-                <h4 class="inline">{{'VIEWS.GENERATOR.TALENT' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.talent | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.PROFESSION' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.profession | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.FAMILY_SITUATION' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.familySituation | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.FINANCIAL_SITUATION' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.financialSituation | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.ACCENT' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.accent | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.REPUTATION' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.reputation | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.VOICE' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.voice | translate}}</p>
-            </div>
-        </div>
+        <social character="character.currentCharacter"></social>
         <!-- ##### -->
 
         <!-- APPARENCE -->

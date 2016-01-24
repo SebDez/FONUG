@@ -16,6 +16,8 @@ import {ContactController}from './contact/contact.controller.js';
 import {InputController}from './inputhelper/input.controller.js';
 import {ProgressBarController}from './progressbar/progressbar.controller';
 import {ProgressBarDirective}from './progressbar/progressbar.directive.js';
+import {SocialDirective}from './character/social/social.directive';
+import {SocialDirectiveController}from './character/social/social.dir.controller';
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
   .constant('malarkey', malarkey)
@@ -36,6 +38,8 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .controller('InputController', InputController)
     .directive('progressbarfonug', ProgressBarDirective)
     .controller('ProgressBarController', ProgressBarController)
+    .directive('social', SocialDirective)
+    .controller('SocialDirectiveController', SocialDirectiveController)
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
         $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');
