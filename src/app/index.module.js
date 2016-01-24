@@ -22,6 +22,10 @@ import {AppearanceDirective}from './character/appearance/appearance.directive';
 import {AppearanceDirectiveController}from './character/appearance/appearance.dir.controller';
 import {PersonalityDirective}from './character/personality/personality.directive';
 import {PersonalityDirectiveController}from './character/personality/personality.dir.controller';
+import {PhysicalDirective}from './character/physical/physical.directive';
+import {PhysicalDirectiveController}from './character/physical/physical.dir.controller';
+import {MainDirective}from './character/main/main.directive';
+import {MainDirectiveController}from './character/main/main.dir.controller';
 
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
@@ -49,6 +53,10 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .controller('AppearanceDirectiveController', AppearanceDirectiveController)
     .directive('personality', PersonalityDirective)
     .controller('PersonalityDirectiveController', PersonalityDirectiveController)
+    .directive('physical', PhysicalDirective)
+    .controller('PhysicalDirectiveController', PhysicalDirectiveController)
+    .directive('main', MainDirective)
+    .controller('MainDirectiveController', MainDirectiveController)
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
         $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');
