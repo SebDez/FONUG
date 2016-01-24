@@ -1174,7 +1174,14 @@
             "SHORT": "Court",
             "CRUSHED": "Écrasé",
             "BIG": "Gros",
-            "BROKEN": "Cassé"
+            "BROKEN": "Cassé",
+            "STRAIGHT": "Droit",
+            "SMALL": "Petit",
+            "BEAUTIFUL": "Beau",
+            "ORDINARY": "Quelconque",
+            "CUTE": "Mignon",
+            "DISCREET": "Discret",
+            "DEVELOPED": "Développé"
         },
         "MOUTH": {
             "LIPSPINCHED": "Lèvres pincées",
@@ -1185,8 +1192,8 @@
             "LARGE": "Grande",
             "PERFECTTEETH": "Dentition parfaite",
             "SENSUAL": "Sensuelle",
-            "TEETHOF HAPPINESS": "Dents du bonheur",
-            "AGOLD TOOTH": "Une dent en or",
+            "TEETHOFHAPPINESS": "Dents du bonheur",
+            "AGOLDTOOTH": "Une dent en or",
             "LIPSFINE": "Lèvres fines",
             "NORMAL": "Normale"
         },

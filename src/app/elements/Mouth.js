@@ -22,9 +22,9 @@ module.exports = [
     }, {
         name: 'GENERATOR.MOUTH.SENSUAL'
     }, {
-        name: 'GENERATOR.MOUTH.TEETHOF HAPPINESS'
+        name: 'GENERATOR.MOUTH.TEETHOFHAPPINESS'
     }, {
-        name: 'GENERATOR.MOUTH.AGOLD TOOTH'
+        name: 'GENERATOR.MOUTH.AGOLDTOOTH'
     }, {
         name: 'GENERATOR.MOUTH.LIPSFINE'
     }, {

@@ -25,5 +25,22 @@ module.exports = [
     },
     {
         name: 'GENERATOR.NOSES.BROKEN'
+    },
+    {
+        name: 'GENERATOR.NOSES.STRAIGHT'
+    }, {
+        name: 'GENERATOR.NOSES.SMALL'
+    }, {
+        name: 'GENERATOR.NOSES.BEAUTIFUL'
+    }, {
+        name: 'GENERATOR.NOSES.ORDINARY'
+    }, {
+        name: 'GENERATOR.NOSES.CUTE'
+    }, {
+        name: 'GENERATOR.NOSES.DISCREET'
+    }, {
+        name: 'GENERATOR.NOSES.DEVELOPED'
+    }, {
+        name: 'GENERATOR.NOSES.BEAUTIFUL'
     }
 ]

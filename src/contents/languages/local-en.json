@@ -1203,7 +1203,14 @@
             "SHORT": "Short",
             "CRUSHED": "Crushed",
             "BIG": "Big",
-            "BROKEN": "Broken"
+            "BROKEN": "Broken",
+            "STRAIGHT": "Straight",
+            "SMALL": "Small",
+            "BEAUTIFUL": "Beautiful",
+            "ORDINARY": "Ordinary",
+            "CUTE": "Cute",
+            "DISCREET": "Discreet",
+            "DEVELOPED": "Developed"
         },
         "MOUTH": {
             "LIPSPINCHED": "Lips Pinched",
@@ -1214,8 +1221,8 @@
             "LARGE": "Large",
             "PERFECTTEETH": "Perfect teeth",
             "SENSUAL": "Sensual",
-            "TEETHOF HAPPINESS": "Teeth of happiness",
-            "AGOLD TOOTH": "A gold tooth",
+            "TEETHOFHAPPINESS": "Teeth of happiness",
+            "AGOLDTOOTH": "A gold tooth",
             "LIPSFINE": "Lips fine",
             "NORMAL": "Normal"
         },

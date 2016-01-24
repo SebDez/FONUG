@@ -85,12 +85,6 @@ module.exports = [
     },
     {
         name: {
-            MALE: 'GENERATOR.CORPULENCES.SELFISH.MALE',
-            FEMALE: 'GENERATOR.CORPULENCES.SELFISH.FEMALE'
-        }
-    },
-    {
-        name: {
             MALE: 'GENERATOR.CORPULENCES.FLESHY.MALE',
             FEMALE: 'GENERATOR.CORPULENCES.FLESHY.FEMALE'
         }
