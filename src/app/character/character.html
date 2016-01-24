@@ -169,39 +169,8 @@
         <!-- ##### -->
 
         <!-- PERSONALITE -->
-        <md-toolbar class="title">
-            <h1 class="md-toolbar-tools">{{'VIEWS.GENERATOR.PERSONNALITY' | translate}}</h1>
-        </md-toolbar>
-
-
-        <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.GOAL' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.goal | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.MOTIVATION' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.motivation | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.DEFECT' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.defect | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.QUALITY' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.quality | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.PHOBIA' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.phobia | translate}}</p>
-            </div>
-            <div flex="50">
-                <h4 class="inline">{{'VIEWS.GENERATOR.TEMPER' | translate}}:</h4>
-                <p class="inline">{{character.currentCharacter.temper | translate}}</p>
-            </div>
-        </div>
+        <personality character="character.currentCharacter"></personality>
         <!-- ##### -->
-
 
         <!-- SOCIAL -->
         <social character="character.currentCharacter"></social>

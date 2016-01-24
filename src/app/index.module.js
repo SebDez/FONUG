@@ -20,6 +20,9 @@ import {SocialDirective}from './character/social/social.directive';
 import {SocialDirectiveController}from './character/social/social.dir.controller';
 import {AppearanceDirective}from './character/appearance/appearance.directive';
 import {AppearanceDirectiveController}from './character/appearance/appearance.dir.controller';
+import {PersonalityDirective}from './character/personality/personality.directive';
+import {PersonalityDirectiveController}from './character/personality/personality.dir.controller';
+
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
   .constant('malarkey', malarkey)
@@ -44,6 +47,8 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .controller('SocialDirectiveController', SocialDirectiveController)
     .directive('appearance', AppearanceDirective)
     .controller('AppearanceDirectiveController', AppearanceDirectiveController)
+    .directive('personality', PersonalityDirective)
+    .controller('PersonalityDirectiveController', PersonalityDirectiveController)
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
         $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');
