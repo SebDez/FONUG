@@ -48,15 +48,15 @@ module.exports = {
             tag: 'LIZARDMEN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GNOME.MALE',
-            logo: 'pie-slice',
+            logo: 'cowled',
             tag: 'GNOME'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HOBBIT.MALE',
-            logo: 'pie-slice',
+            logo: 'cowled',
             tag: 'HOBBIT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HALFLING.MALE',
-            logo: 'pie-slice',
+            logo: 'cowled',
             tag: 'HALFLING'
     },{
             name: 'GENERATOR.CIVILIZATIONS.TROLL.MALE',
@@ -232,15 +232,15 @@ module.exports = {
             tag: 'LIZARDMEN'
     },{
             name: 'GENERATOR.CIVILIZATIONS.GNOME.FEMALE',
-            logo: 'pie-slice',
+            logo: 'cowled',
             tag: 'GNOME'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HOBBIT.FEMALE',
-            logo: 'pie-slice',
+            logo: 'cowled',
             tag: 'HOBBIT'
     },{
             name: 'GENERATOR.CIVILIZATIONS.HALFLING.FEMALE',
-            logo: 'pie-slice',
+            logo: 'cowled',
             tag: 'HALFLING'
     },{
             name: 'GENERATOR.CIVILIZATIONS.TROLL.FEMALE',
