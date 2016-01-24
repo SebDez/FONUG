@@ -1032,1197 +1032,1245 @@
                 "MALE": "Aerodynamique",
                 "FEMALE": "Aerodynamique"
             }
-    },
-    "FACESHAPES": {
-        "ROUND": {
-            "MALE": "Rond",
-            "FEMALE": "Ronde"
         },
-        "THIN": {
-            "MALE": "Mince",
-            "FEMALE": "Mince"
-        },
-        "OVAL": {
-            "MALE": "Ovale",
-            "FEMALE": "Ovale"
-        },
-        "DUG": {
-            "MALE": "Creusé",
-            "FEMALE": "Creusée"
-        },
-        "CHUBBY": {
-            "MALE": "Joufflu",
-            "FEMALE": "Joufflue"
-        },
-        "PALE": {
-            "MALE": "Pâle",
-            "FEMALE": "Pâle"
-        },
-        "DARK": {
-            "MALE": "Sombre",
-            "FEMALE": "Sombre"
-        },
-        "SMILING": {
-            "MALE": "Souriant",
-            "FEMALE": "Souriante"
-        },
-        "WRINKLED": {
-            "MALE": "Ridé",
-            "FEMALE": "Ridée"
-        },
-        "GRIMACING": {
-            "MALE": "Grimaçant",
-            "FEMALE": "Grimaçante"
-        },
-        "CONTORTED": {
-            "MALE": "Crispé",
-            "FEMALE": "Crispée"
-        }
-    },
-    "SKINTONES": {
-        "HAULED": {
-            "MALE": "Halé",
-            "FEMALE": "Halé"
-        },
-        "MATTE": {
-            "MALE": "Mat",
-            "FEMALE": "Mat"
-        },
-        "EBONY": {
-            "MALE": "Ébène",
-            "FEMALE": "Ébène"
-        },
-        "WAN": {
-            "MALE": "Blafard",
-            "FEMALE": "Blafard"
-        },
-        "PALE": {
-            "MALE": "Pâle",
-            "FEMALE": "Pâle"
-        },
-        "LIGHT": {
-            "MALE": "Clair",
-            "FEMALE": "Clair"
-        },
-        "DARK": {
-            "MALE": "Foncé",
-            "FEMALE": "Foncé"
-        },
-        "BLACK": {
-            "MALE": "Noir",
-            "FEMALE": "Noir"
-        },
-        "ALBINO": {
-            "MALE": "Albinos",
-            "FEMALE": "Albinos"
-        }
-    },
-    "NOSES": {
-        "SHARP": "Pointu",
-        "LONG": "Long",
-        "HOOKED": "Crochu",
-        "ROLLED": "Retroussé",
-        "AQUILINE": "Aquilin",
-        "SHORT": "Court",
-        "CRUSHED": "Écrasé",
-        "BIG": "Gros",
-        "BROKEN": "Cassé"
-    },
-    "MOUTH": {
-        "LIPSPINCHED": "Lèvres pincées",
-        "PULPY": "Plupeuse",
-        "FLESHY": "Charnue",
-        "THIN": "Mince",
-        "DUCKFACE": "Cul de poule",
-        "LARGE": "Grande"
-    },
-    "EYES": {
-        "ALICEBLUE": "Alice bleu",
-        "ANTIQUEWHITE": "Blanc antique ",
-        "AQUA": "Bleu ciel",
-        "AQUAMARINE": "Bleu-vert",
-        "AZURE": "Azure ",
-        "BEIGE": "Beige ",
-        "BISQUE": "Bisque ",
-        "BLACK": "Noir ",
-        "BLANCHEDALMOND": "Amande blanchie ",
-        "BLUE": "Bleu",
-        "BLUEVIOLET": "Violet ",
-        "BROWN": "Marron",
-        "BURLYWOOD": "Bois clair",
-        "CADETBLUE": "Bleu gris",
-        "CHARTREUSE": "Chartreuse ",
-        "CHOCOLATE": "Chocolat ",
-        "CORAL": "Corail",
-        "CORNFLOWERBLUE": "Bleuet bleu",
-        "CORNSILK": "Lait",
-        "CRIMSON": "Crimson ",
-        "CYAN": "Cyan ",
-        "DARKBLUE": "Bleu foncé ",
-        "DARKCYAN": "Cyan foncé ",
-        "DARKGOLDENROD": "La verge d'or noir ",
-        "DARKGRAY": "Gris foncé ",
-        "DARKGREEN": "Vert foncé ",
-        "DARKKHAKI": "Kaki foncé ",
-        "DARKMAGENTA": "Magenta foncé ",
-        "DARKOLIVEGREEN": "Vert olive foncé ",
-        "DARKORANGE": "Orange foncé ",
-        "DARKORCHID": "Orchidée foncé ",
-        "DARKRED": "Rouge ",
-        "DARKSALMON": "Saumon foncé",
-        "DARKSEAGREEN": "Bleu vert foncé ",
-        "DARKSLATEBLUE": "Ardoise bleu foncé ",
-        "DARKSLATEGRAY": "Ardoise gris foncé ",
-        "DARKTURQUOISE": "Noir turquoise",
-        "DARKVIOLET": "Violet foncé ",
-        "DEEPPINK": "Rose profond ",
-        "DEEPSKYBLUE": "Bleu profond ",
-        "DIMGRAY": "Sombre gris ",
-        "DODGERBLUE": "Bleu Dodger",
-        "FIREBRICK": "Brique",
-        "FLORALWHITE": "Blanc floral ",
-        "FORESTGREEN": "Vert forêt ",
-        "FUCHSIA": "Fuchsia ",
-        "GAINSBORO": "Gris clair",
-        "GHOSTWHITE": "Blanc",
-        "GOLD": "Or ",
-        "GOLDENROD": "Or marron",
-        "RED": "Rouge"
-    },
-    "HAIRS": {
-        "SHORTBLACK": "Noirs (Courts)",
-        "SHORTBROWN": "Bruns (Courts)",
-        "SHORTAUBURN": "Auburn (Courts)",
-        "SHORTCHESTNUT": "Châtains (Courts)",
-        "SHORTGINGER": "Roux (Courts)",
-        "SHORTBLOND": "Blonds (Courts)",
-        "SHORTWHITE": "Blancs (Courts)",
-        "SHORTGRAY": "Gris (Courts)",
-        "SHORTCOLORED": "Colorés (Courts)",
-        "LONGBLACK": "Noirs (Longs)",
-        "LONGBROWN": "Bruns (Longs)",
-        "LONGAUBURN": "Auburn (Longs)",
-        "LONGCHESTNUT": "Châtains (Longs)",
-        "LONGGINGER": "Roux (Longs)",
-        "LONGBLOND": "Blonds (Longs)",
-        "LONGWHITE": "Blancs (Longs)",
-        "LONGGRAY": "Gris (Longs)",
-        "LONGCOLORED": "Colorés (Longs)",
-        "BALD": "Chauve"
-    },
-    "MOTIVATIONS": {
-        "REVENGE": "Vengeance",
-        "LOVE": "Amour",
-        "FEAR": "Peur",
-        "GREED": "Cupidité",
-        "PERSONALFULFILLMENT": "Accomplissement personnel",
-        "SOCIALPRESSURE": "Pression sociale",
-        "PROFESSIONALSUCCESS": "Réussite professionnelle",
-        "FAITH": "La foi",
-        "PRIDE": "L’orgueil",
-        "HATRED": "La haine",
-        "GLUTTONY": "La gourmandise",
-        "FINANCIALPROFIT": "L’appat du gain",
-        "SADNESS": "La tristesse",
-        "NOSTALGIA": "La nostalgie",
-        "PURSUITIDEAL": "La poursuite d’un idéal",
-        "THERECOGNITION": "La reconnaissance",
-        "TRUTH": "La vérité",
-        "FAMILY": "La famille",
-        "LOYALTY": "La loyauté",
-        "JUSTICE": "La justice",
-        "DEVOTION": "La dévotion",
-        "JEALOUSY": "La jalousie",
-        "ENVY": "L’envie",
-        "LAZINESS": "La paresse"
-    },
-    "SPECIALSIGN": {
-        "PROFUSESWEATING": {
-            "MALE": "Sudation abondante",
-            "FEMALE": "Sudation abondante"
-        },
-        "CLAMMYHANDS": {
-            "MALE": "Mains moites",
-            "FEMALE": "Mains moites"
-        },
-        "STRONGBODYODORSMELL": {
-            "MALE": "Forte odeur corporelle (parfum)",
-            "FEMALE": "Forte odeur corporelle (parfum)"
-        },
-        "STRONGBODYODORDIRT": {
-            "MALE": "Forte odeur corporelle (saleté)",
-            "FEMALE": "Forte odeur corporelle (saleté)"
-        },
-        "STRONGBODYODORSWEAT": {
-            "MALE": "Forte odeur corporelle (sueur)",
-            "FEMALE": "Forte odeur corporelle (sueur)"
-        },
-        "STRONGBODYODORTOBACCO": {
-            "MALE": "Forte odeur corporelle (tabac)",
-            "FEMALE": "Forte odeur corporelle (tabac)"
-        },
-        "BADBREATH": {
-            "MALE": "Mauvaise haleine",
-            "FEMALE": "Mauvaise haleine"
-        },
-        "HAIRY": {
-            "MALE": "Poilu",
-            "FEMALE": "Poilue"
-        },
-        "LARGEBREASTS": {
-            "MALE": "Poitrine opulente",
-            "FEMALE": "Poitrine opulente"
-        },
-        "ONEHANDED": {
-            "MALE": "Manchot",
-            "FEMALE": "Manchote"
-        },
-        "WEARAHOOK": {
-            "MALE": "Porte un crochet",
-            "FEMALE": "Porte un crochet"
-        },
-        "HUMPBACKED": {
-            "MALE": "Bossu",
-            "FEMALE": "Bossue"
-        },
-        "BANDYLEGS": {
-            "MALE": "Jambes arquées",
-            "FEMALE": "Jambes arquées"
-        },
-        "CLUBFOOT": {
-            "MALE": "Pied-bot",
-            "FEMALE": "Pied-bot"
-        },
-        "CUTFINGERS": {
-            "MALE": "Doigts coupés",
-            "FEMALE": "Doigts coupés"
-        },
-        "DEAF": {
-            "MALE": "Sourd",
-            "FEMALE": "Sourde"
-        },
-        "MAKEUP": {
-            "MALE": "Est maquillé/porte des peintures",
-            "FEMALE": "Est maquillée/porte des peintures"
-        },
-        "TATTOO": {
-            "MALE": "Tatouage",
-            "FEMALE": "Tatouage"
-        },
-        "FACIALPARALYSIS": {
-            "MALE": "Paralysie faciale",
-            "FEMALE": "Paralysie faciale"
-        },
-        "PARALYSISOFALIMB": {
-            "MALE": "Paralysie d’un membre",
-            "FEMALE": "Paralysie d’un membre"
-        },
-        "TREMORS": {
-            "MALE": "Tremblements",
-            "FEMALE": "Tremblements"
-        },
-        "SENESCENCE": {
-            "MALE": "Sénescence",
-            "FEMALE": "Sénescence"
-        },
-        "PROTRUDINGEARS": {
-            "MALE": "Oreilles décollées",
-            "FEMALE": "Oreilles décollées"
-        },
-        "SICK": {
-            "MALE": "Malade",
-            "FEMALE": "Malade"
-        },
-        "TIC": {
-            "MALE": "Tics",
-            "FEMALE": "Tics"
-        },
-        "LONGNAILS": {
-            "MALE": "Ongles longs",
-            "FEMALE": "Ongles longs"
-        },
-        "SPITTING": {
-            "MALE": "Postillonneur",
-            "FEMALE": "Postillonneuse"
-        },
-        "UNSIGHTLYWARTS": {
-            "MALE": "Verrues disgracieuses",
-            "FEMALE": "Verrues disgracieuses"
-        },
-        "WOODENLEG": {
-            "MALE": "Jambe de bois",
-            "FEMALE": "Jambe de bois"
-        },
-        "NOSERINGS": {
-            "MALE": "Piercing nasal",
-            "FEMALE": "Piercing nasal"
-        },
-        "EARSPIERCING": {
-            "MALE": "Piercing oreilles",
-            "FEMALE": "Piercing oreilles"
-        },
-        "LIPPIERCING": {
-            "MALE": "Piercing lèvres",
-            "FEMALE": "Piercing lèvres"
-        },
-        "TONGUEPIERCING": {
-            "MALE": "Piercing langue",
-            "FEMALE": "Piercing langue"
-        },
-        "WHISTLES": {
-            "MALE": "Sifflote",
-            "FEMALE": "Sifflote"
-        },
-        "GIGGLE": {
-            "MALE": "Gloussements",
-            "FEMALE": "Gloussements"
-        },
-        "SNIFFS": {
-            "MALE": "Renifle",
-            "FEMALE": "Renifle"
-        },
-        "COUGHS": {
-            "MALE": "Toussote",
-            "FEMALE": "Toussote"
-        },
-        "SLAMSTONGUE": {
-            "MALE": "Claque sa langue",
-            "FEMALE": "Claque sa langue"
-        },
-        "SMOOTHSTRAND": {
-            "MALE": "Se lisse une mèche",
-            "FEMALE": "Se lisse une mèche"
-        },
-        "COMBHAIRS": {
-            "MALE": "Se recoiffe",
-            "FEMALE": "Se recoiffe"
-        },
-        "SPITS": {
-            "MALE": "Crache",
-            "FEMALE": "Crache"
-        },
-        "CLEARSTHROAT": {
-            "MALE": "Se racle la gorge",
-            "FEMALE": "Se racle la gorge"
-        },
-        "SCRATCHINGBODY": {
-            "MALE": "Se gratte une partie du corps",
-            "FEMALE": "Se gratte une partie du corps"
-        },
-        "PERFORMSRITUAL": {
-            "MALE": "Exécute un rite gestuel pour conjurer le mauvais sort",
-            "FEMALE": "Exécute un rite gestuel pour conjurer le mauvais sort"
-        },
-        "RECITEDPSALM": {
-            "MALE": "Récite un psaume",
-            "FEMALE": "Récite un psaume"
-        },
-        "PRAY": {
-            "MALE": "Prie",
-            "FEMALE": "Prie"
-        },
-        "STRIKESCHEST": {
-            "MALE": "Se frappe le torse",
-            "FEMALE": "Se frappe le torse"
-        },
-        "PLAYINGCOIN": {
-            "MALE": "Joue avec une pièce",
-            "FEMALE": "Joue avec une pièce"
-        },
-        "PLAYINGDAGGER": {
-            "MALE": "Joue avec une dague",
-            "FEMALE": "Joue avec une dague"
-        },
-        "PLAYINGBALL": {
-            "MALE": "Joue avec une balle",
-            "FEMALE": "Joue avec une balle"
-        },
-        "PLAYINGCARDS": {
-            "MALE": "Joue avec des cartes",
-            "FEMALE": "Joue avec des cartes"
-        },
-        "PLAYINGPENDANT": {
-            "MALE": "Joue avec un pendentif",
-            "FEMALE": "Joue avec un pendentif"
-        },
-        "SWEAR": {
-            "MALE": "Jure",
-            "FEMALE": "Jure"
-        },
-        "HUMS": {
-            "MALE": "Fredonne",
-            "FEMALE": "Fredonne"
-        },
-        "MOISTENSLIPS": {
-            "MALE": "S’humecte les lèvres",
-            "FEMALE": "S’humecte les lèvres"
-        },
-        "STOMP": {
-            "MALE": "Tape du pied",
-            "FEMALE": "Tape du pied"
-        },
-        "BLINK": {
-            "MALE": "Cille",
-            "FEMALE": "Cille"
-        },
-        "FLITS": {
-            "MALE": "Papillonne",
-            "FEMALE": "Papillonne"
-        },
-        "CROSSESARMS": {
-            "MALE": "Croise les bras",
-            "FEMALE": "Croise les bras"
-        },
-        "HELDCHIN": {
-            "MALE": "Se tient le menton",
-            "FEMALE": "Se tient le menton"
-        },
-        "FANSONESELF": {
-            "MALE": "S’évente (éventail)",
-            "FEMALE": "S’évente (éventail)"
-        },
-        "INFLAMEDGESTURES": {
-            "MALE": "Gestuelle enflammée",
-            "FEMALE": "Gestuelle enflammée"
-        },
-        "SPEAKHANDS": {
-            "MALE": "Parle avec les mains",
-            "FEMALE": "Parle avec les mains"
-        },
-        "FLUIDGESTURES": {
-            "MALE": "Gestuelle fluide et gracieuse",
-            "FEMALE": "Gestuelle fluide et gracieuse"
-        },
-        "DOUBTFULPOUT": {
-            "MALE": "Moue dubitative",
-            "FEMALE": "Moue dubitative"
-        },
-        "GRIN": {
-            "MALE": "Grimace",
-            "FEMALE": "Grimace"
-        },
-        "GNAWSNAILS": {
-            "MALE": "Se ronge les ongles",
-            "FEMALE": "Se ronge les ongles"
-        },
-        "PICKINGTEETH": {
-            "MALE": "Se cure les dents",
-            "FEMALE": "Se cure les dents"
-        },
-        "DRINK": {
-            "MALE": "Bois beaucoup",
-            "FEMALE": "Bois beaucoup"
-        },
-        "SMOKEOFTEN": {
-            "MALE": "Fume souvent",
-            "FEMALE": "Fume souvent"
-        },
-        "DEPENDENTDRUG": {
-            "MALE": "Est dépendant d’une drogue",
-            "FEMALE": "Est dépendante d’une drogue"
-        }
-    },
-    "PROFESSION": {
-        "INNKEEPER": {
-            "MALE": "Tavernier",
-            "FEMALE": "Tavernière"
-        },
-        "MERCENARY": {
-            "MALE": "Mercenaire",
-            "FEMALE": "Mercenaire"
-        },
-        "THIEF": {
-            "MALE": "Voleur",
-            "FEMALE": "Voleuse"
-        },
-        "MURDERER": {
-            "MALE": "Assassin",
-            "FEMALE": "Assassine"
-        },
-        "ENCHANTER": {
-            "MALE": "Enchanteur",
-            "FEMALE": "Enchanteuse"
-        },
-        "SPY": {
-            "MALE": "Espion",
-            "FEMALE": "Espionne"
-        },
-        "GLADIATOR": {
-            "MALE": "Gladiateur",
-            "FEMALE": "Gladiatrice"
-        },
-        "HEALER": {
-            "MALE": "Guérisseur",
-            "FEMALE": "Guérisseuse"
-        },
-        "DOCTOR": {
-            "MALE": "Médecin",
-            "FEMALE": "Médecin"
-        },
-        "SMITH": {
-            "MALE": "Forgeron",
-            "FEMALE": "Forgeronne"
-        },
-        "TANNER": {
-            "MALE": "Tanneur",
-            "FEMALE": "Tanneuse"
-        },
-        "BUTCHER": {
-            "MALE": "Boucher",
-            "FEMALE": "Bouchère"
-        },
-        "FARMER": {
-            "MALE": "Cultivateur",
-            "FEMALE": "Cultivatrice"
-        },
-        "WISEPERSON": {
-            "MALE": "Sage",
-            "FEMALE": "Sage"
-        },
-        "SOLDIER": {
-            "MALE": "Soldat",
-            "FEMALE": "Soldat"
-        },
-        "SHOEMAKER": {
-            "MALE": "Cordonnier",
-            "FEMALE": "Cordonnière"
-        },
-        "FURRIER": {
-            "MALE": "Fourreur",
-            "FEMALE": "Fourreuse"
-        },
-        "MAIDSERVANT": {
-            "MALE": "Servant",
-            "FEMALE": "Servante"
-        },
-        "TAILOR": {
-            "MALE": "Tailleur",
-            "FEMALE": "Tailleuse"
-        },
-        "BARBER": {
-            "MALE": "Barbier",
-            "FEMALE": "Barbière"
-        },
-        "JEWELER": {
-            "MALE": "Bijoutier",
-            "FEMALE": "Bijoutière"
-        },
-        "RESTAURANTEUR": {
-            "MALE": "Restaurateur",
-            "FEMALE": "Restauratrice"
-        },
-        "OLDCLOTHESDEALER": {
-            "MALE": "Fripier",
-            "FEMALE": "Fripière"
-        },
-        "PASTRYCOOK": {
-            "MALE": "Pâtissier",
-            "FEMALE": "Pâtissière"
-        },
-        "MASON": {
-            "MALE": "Maçon",
-            "FEMALE": "Maçonne"
-        },
-        "CARPENTER": {
-            "MALE": "Charpentier",
-            "FEMALE": "Charpentière"
-        },
-        "WEAVER": {
-            "MALE": "Tisserand",
-            "FEMALE": "Tisserande"
-        },
-        "CHANDLER": {
-            "MALE": "Fabricant de chandelles",
-            "FEMALE": "Fabricante de chandelles"
-        },
-        "MERCER": {
-            "MALE": "Mercier",
-            "FEMALE": "Mercière"
-        },
-        "COOPER": {
-            "MALE": "Cuivrier",
-            "FEMALE": "Cuivrière"
-        },
-        "BAKER": {
-            "MALE": "Boulanger",
-            "FEMALE": "Boulangère"
-        },
-        "WATERCARRIER": {
-            "MALE": "Porteur d'eau",
-            "FEMALE": "Porteuse d'eau"
-        },
-        "SCABBARDMAKER": {
-            "MALE": "Fabricant de fourreau",
-            "FEMALE": "Fabricante de fourreau"
-        },
-        "WINESELLER": {
-            "MALE": "Marchand de vin",
-            "FEMALE": "Marchande de vin"
-        },
-        "HATMAKER": {
-            "MALE": "Chapelier",
-            "FEMALE": "Chapelière"
-        },
-        "SADDLER": {
-            "MALE": "Sellier",
-            "FEMALE": "Sellière"
-        },
-        "CHICKENBUTCHER": {
-            "MALE": "Volailler",
-            "FEMALE": "Volaillère"
-        },
-        "PURSEMAKER": {
-            "MALE": "Fabricant de bourses",
-            "FEMALE": "Fabricante de bourses"
-        },
-        "LAUNDRESSE": {
-            "MALE": "Blanchisseure (lessive)",
-            "FEMALE": "Blanchisseuse (lessive)"
-        },
-        "OILMERCHANT": {
-            "MALE": "Marchand d'huile",
-            "FEMALE": "Marchande d'huile"
-        },
-        "PORTER": {
-            "MALE": "Porteur",
-            "FEMALE": "Porteuse"
-        },
-        "MEATBUTCHER": {
-            "MALE": "Boucher",
-            "FEMALE": "Bouchère"
-        },
-        "FISHMERCHANT": {
-            "MALE": "Poissonier",
-            "FEMALE": "Poissonière"
-        },
-        "BEERSELLER": {
-            "MALE": "Brasseur",
-            "FEMALE": "Brasseuse"
-        },
-        "BUCKLEMAKER": {
-            "MALE": "Fabricant de boucles",
-            "FEMALE": "Fabricante de boucles"
-        },
-        "PLASTERER": {
-            "MALE": "Platrier",
-            "FEMALE": "Platrière"
-        },
-        "SPICEMERCHANT": {
-            "MALE": "Marchand d'épices",
-            "FEMALE": "Marchande d'épices"
-        },
-        "BLACKSMITH": {
-            "MALE": "Forgeron",
-            "FEMALE": "Forgeronne"
-        },
-        "PAINTER": {
-            "MALE": "Peintre",
-            "FEMALE": "Peintre"
-        },
-        "ROOFER": {
-            "MALE": "Couvreur",
-            "FEMALE": "Couvreuse"
-        },
-        "LOCKSMITH": {
-            "MALE": "Serrurier",
-            "FEMALE": "Serrurière"
-        },
-        "BATHER": {
-            "MALE": "Laveur",
-            "FEMALE": "Laveuse"
-        },
-        "ROPEMAKER": {
-            "MALE": "Fabricant de cordes",
-            "FEMALE": "Fabricante de cordes"
-        },
-        "COPYIST": {
-            "MALE": "Copiste",
-            "FEMALE": "Copiste"
-        },
-        "SCULPTOR": {
-            "MALE": "Sculpteur",
-            "FEMALE": "Sculptrice"
-        },
-        "RUGMAKER": {
-            "MALE": "Fabriquant de tapis",
-            "FEMALE": "Fabriquante de tapis"
-        },
-        "HARNESSMAKER": {
-            "MALE": "Fabricant de harnais",
-            "FEMALE": "Fabricante de harnais"
-        },
-        "BLEACHER": {
-            "MALE": "Blanchisseur",
-            "FEMALE": "Blanchisseuse"
-        },
-        "CUTLER": {
-            "MALE": "Marchand de foin",
-            "FEMALE": "Marchande de foin"
-        },
-        "GLOVEMAKER": {
-            "MALE": "Coutelier",
-            "FEMALE": "Coutelière"
-        },
-        "WOOD": {
-            "MALE": "Gantier",
-            "FEMALE": "Gantière"
-        },
-        "SELLER": {
-            "MALE": "Marchand de bois",
-            "FEMALE": "Marchande de bois"
-        },
-        "WOODCARVER": {
-            "MALE": "Sculpteur sur bois",
-            "FEMALE": "Sculptrice sur bois"
-        },
-        "GUARD": {
-            "MALE": "Garde",
-            "FEMALE": "Garde"
-        },
-        "OUTLOW": {
-            "MALE": "Hors-la-loi",
-            "FEMALE": "Hors-la-loi"
-        },
-        "TRADER": {
-            "MALE": "Marchand",
-            "FEMALE": "Marchande"
-        },
-        "POLITICIAN": {
-            "MALE": "Politicien",
-            "FEMALE": "Politicienne"
-        },
-        "BREEDER": {
-            "MALE": "Eleveur",
-            "FEMALE": "Eleveuse"
-        },
-        "CARRIER": {
-            "MALE": "Transporteur",
-            "FEMALE": "Transporteuse"
-        },
-        "NOINFLUENCELORD": {
-            "MALE": "Seigneur peu influent",
-            "FEMALE": "Seigneur peu influente"
-        },
-        "LORDINFLUENTIAL": {
-            "MALE": "Seigneur influent",
-            "FEMALE": "Seigneur influente"
-        },
-        "LORDCOURTYARD": {
-            "MALE": "Seigneur à une cour",
-            "FEMALE": "Seigneur à une cour"
-        },
-        "KING": {
-            "MALE": "Roi",
-            "FEMALE": "Reine"
-        },
-        "CONTEUR": {
-            "MALE": "Conteur",
-            "FEMALE": "Conteuse"
-        }
+        "FACESHAPES": {
+            "ROUND": {
+                "MALE": "Rond",
+                "FEMALE": "Ronde"
+            },
+            "THIN": {
+                "MALE": "Mince",
+                "FEMALE": "Mince"
+            },
+            "OVAL": {
+                "MALE": "Ovale",
+                "FEMALE": "Ovale"
+            },
+            "DUG": {
+                "MALE": "Creusé",
+                "FEMALE": "Creusée"
+            },
+            "CHUBBY": {
+                "MALE": "Joufflu",
+                "FEMALE": "Joufflue"
+            },
+            "PALE": {
+                "MALE": "Pâle",
+                "FEMALE": "Pâle"
+            },
+            "DARK": {
+                "MALE": "Sombre",
+                "FEMALE": "Sombre"
+            },
+            "SMILING": {
+                "MALE": "Souriant",
+                "FEMALE": "Souriante"
+            },
+            "WRINKLED": {
+                "MALE": "Ridé",
+                "FEMALE": "Ridée"
+            },
+            "GRIMACING": {
+                "MALE": "Grimaçant",
+                "FEMALE": "Grimaçante"
+            },
+            "CONTORTED": {
+                "MALE": "Crispé",
+                "FEMALE": "Crispée"
+            },
+            "BLOOMING": {
+                "MALE": "Épanoui",
+                "FEMALE": "Épanouie"
+            },
+            "FRESHFACE": {
+                "MALE": "Mine fraîche",
+                "FEMALE": "Mine fraîche"
+            },
+            "HIGHCHEEKBONES": {
+                "MALE": "Pommettes saillantes",
+                "FEMALE": "Pommettes saillantes"
+            },
+            "NATURAL": {
+                "MALE": "Normal",
+                "FEMALE": "Normale"
+            },
+            "SOFTLOOK": {
+                "MALE": "Regard doux",
+                "FEMALE": "Regard doux"
+            },
+            "AMBITIOUSLOOK": {
+                "MALE": "Regard ambitieux",
+                "FEMALE": "Regard ambitieux"
+            },
+            "BRIGHTLOOK": {
+                "MALE": "Regard vif",
+                "FEMALE": "Regard vif"
+            },
+            "KILLERLOOK": {
+                "MALE": "Regard de tueur",
+                "FEMALE": "Regard de tueuse"
+            },
+            "BALANCED": {
+                "MALE": "Équilibré",
+                "FEMALE": "Équilibrée"
+            },
+            "PERFECT": {
+                "MALE": "Idéal",
+                "FEMALE": "Idéale"
+            },
+            "COMMON": {
+                "MALE": "Commun",
+                "FEMALE": "Communne"
+            },
+            "JOVIAL": {
+                "MALE": "Jovial",
+                "FEMALE": "Joviale"
+            }
+        },
+        "SKINTONES": {
+            "HAULED": {
+                "MALE": "Halé",
+                "FEMALE": "Halé"
+            },
+            "MATTE": {
+                "MALE": "Mat",
+                "FEMALE": "Mat"
+            },
+            "EBONY": {
+                "MALE": "Ébène",
+                "FEMALE": "Ébène"
+            },
+            "WAN": {
+                "MALE": "Blafard",
+                "FEMALE": "Blafard"
+            },
+            "PALE": {
+                "MALE": "Pâle",
+                "FEMALE": "Pâle"
+            },
+            "LIGHT": {
+                "MALE": "Clair",
+                "FEMALE": "Clair"
+            },
+            "DARK": {
+                "MALE": "Foncé",
+                "FEMALE": "Foncé"
+            },
+            "BLACK": {
+                "MALE": "Noir",
+                "FEMALE": "Noir"
+            },
+            "ALBINO": {
+                "MALE": "Albinos",
+                "FEMALE": "Albinos"
+            }
+        },
+        "NOSES": {
+            "SHARP": "Pointu",
+            "LONG": "Long",
+            "HOOKED": "Crochu",
+            "ROLLED": "Retroussé",
+            "AQUILINE": "Aquilin",
+            "SHORT": "Court",
+            "CRUSHED": "Écrasé",
+            "BIG": "Gros",
+            "BROKEN": "Cassé"
+        },
+        "MOUTH": {
+            "LIPSPINCHED": "Lèvres pincées",
+            "PULPY": "Plupeuse",
+            "FLESHY": "Charnue",
+            "THIN": "Mince",
+            "DUCKFACE": "Cul de poule",
+            "LARGE": "Grande"
+        },
+        "EYES": {
+            "ALICEBLUE": "Alice bleu",
+            "ANTIQUEWHITE": "Blanc antique ",
+            "AQUA": "Bleu ciel",
+            "AQUAMARINE": "Bleu-vert",
+            "AZURE": "Azure ",
+            "BEIGE": "Beige ",
+            "BISQUE": "Bisque ",
+            "BLACK": "Noir ",
+            "BLANCHEDALMOND": "Amande blanchie ",
+            "BLUE": "Bleu",
+            "BLUEVIOLET": "Violet ",
+            "BROWN": "Marron",
+            "BURLYWOOD": "Bois clair",
+            "CADETBLUE": "Bleu gris",
+            "CHARTREUSE": "Chartreuse ",
+            "CHOCOLATE": "Chocolat ",
+            "CORAL": "Corail",
+            "CORNFLOWERBLUE": "Bleuet bleu",
+            "CORNSILK": "Lait",
+            "CRIMSON": "Crimson ",
+            "CYAN": "Cyan ",
+            "DARKBLUE": "Bleu foncé ",
+            "DARKCYAN": "Cyan foncé ",
+            "DARKGOLDENROD": "La verge d'or noir ",
+            "DARKGRAY": "Gris foncé ",
+            "DARKGREEN": "Vert foncé ",
+            "DARKKHAKI": "Kaki foncé ",
+            "DARKMAGENTA": "Magenta foncé ",
+            "DARKOLIVEGREEN": "Vert olive foncé ",
+            "DARKORANGE": "Orange foncé ",
+            "DARKORCHID": "Orchidée foncé ",
+            "DARKRED": "Rouge ",
+            "DARKSALMON": "Saumon foncé",
+            "DARKSEAGREEN": "Bleu vert foncé ",
+            "DARKSLATEBLUE": "Ardoise bleu foncé ",
+            "DARKSLATEGRAY": "Ardoise gris foncé ",
+            "DARKTURQUOISE": "Noir turquoise",
+            "DARKVIOLET": "Violet foncé ",
+            "DEEPPINK": "Rose profond ",
+            "DEEPSKYBLUE": "Bleu profond ",
+            "DIMGRAY": "Sombre gris ",
+            "DODGERBLUE": "Bleu Dodger",
+            "FIREBRICK": "Brique",
+            "FLORALWHITE": "Blanc floral ",
+            "FORESTGREEN": "Vert forêt ",
+            "FUCHSIA": "Fuchsia ",
+            "GAINSBORO": "Gris clair",
+            "GHOSTWHITE": "Blanc",
+            "GOLD": "Or ",
+            "GOLDENROD": "Or marron",
+            "RED": "Rouge"
+        },
+        "HAIRS": {
+            "SHORTBLACK": "Noirs (Courts)",
+            "SHORTBROWN": "Bruns (Courts)",
+            "SHORTAUBURN": "Auburn (Courts)",
+            "SHORTCHESTNUT": "Châtains (Courts)",
+            "SHORTGINGER": "Roux (Courts)",
+            "SHORTBLOND": "Blonds (Courts)",
+            "SHORTWHITE": "Blancs (Courts)",
+            "SHORTGRAY": "Gris (Courts)",
+            "SHORTCOLORED": "Colorés (Courts)",
+            "LONGBLACK": "Noirs (Longs)",
+            "LONGBROWN": "Bruns (Longs)",
+            "LONGAUBURN": "Auburn (Longs)",
+            "LONGCHESTNUT": "Châtains (Longs)",
+            "LONGGINGER": "Roux (Longs)",
+            "LONGBLOND": "Blonds (Longs)",
+            "LONGWHITE": "Blancs (Longs)",
+            "LONGGRAY": "Gris (Longs)",
+            "LONGCOLORED": "Colorés (Longs)",
+            "BALD": "Chauve"
+        },
+        "MOTIVATIONS": {
+            "REVENGE": "Vengeance",
+            "LOVE": "Amour",
+            "FEAR": "Peur",
+            "GREED": "Cupidité",
+            "PERSONALFULFILLMENT": "Accomplissement personnel",
+            "SOCIALPRESSURE": "Pression sociale",
+            "PROFESSIONALSUCCESS": "Réussite professionnelle",
+            "FAITH": "La foi",
+            "PRIDE": "L’orgueil",
+            "HATRED": "La haine",
+            "GLUTTONY": "La gourmandise",
+            "FINANCIALPROFIT": "L’appat du gain",
+            "SADNESS": "La tristesse",
+            "NOSTALGIA": "La nostalgie",
+            "PURSUITIDEAL": "La poursuite d’un idéal",
+            "THERECOGNITION": "La reconnaissance",
+            "TRUTH": "La vérité",
+            "FAMILY": "La famille",
+            "LOYALTY": "La loyauté",
+            "JUSTICE": "La justice",
+            "DEVOTION": "La dévotion",
+            "JEALOUSY": "La jalousie",
+            "ENVY": "L’envie",
+            "LAZINESS": "La paresse"
+        },
+        "SPECIALSIGN": {
+            "PROFUSESWEATING": {
+                "MALE": "Sudation abondante",
+                "FEMALE": "Sudation abondante"
+            },
+            "CLAMMYHANDS": {
+                "MALE": "Mains moites",
+                "FEMALE": "Mains moites"
+            },
+            "STRONGBODYODORSMELL": {
+                "MALE": "Forte odeur corporelle (parfum)",
+                "FEMALE": "Forte odeur corporelle (parfum)"
+            },
+            "STRONGBODYODORDIRT": {
+                "MALE": "Forte odeur corporelle (saleté)",
+                "FEMALE": "Forte odeur corporelle (saleté)"
+            },
+            "STRONGBODYODORSWEAT": {
+                "MALE": "Forte odeur corporelle (sueur)",
+                "FEMALE": "Forte odeur corporelle (sueur)"
+            },
+            "STRONGBODYODORTOBACCO": {
+                "MALE": "Forte odeur corporelle (tabac)",
+                "FEMALE": "Forte odeur corporelle (tabac)"
+            },
+            "BADBREATH": {
+                "MALE": "Mauvaise haleine",
+                "FEMALE": "Mauvaise haleine"
+            },
+            "HAIRY": {
+                "MALE": "Poilu",
+                "FEMALE": "Poilue"
+            },
+            "LARGEBREASTS": {
+                "MALE": "Poitrine opulente",
+                "FEMALE": "Poitrine opulente"
+            },
+            "ONEHANDED": {
+                "MALE": "Manchot",
+                "FEMALE": "Manchote"
+            },
+            "WEARAHOOK": {
+                "MALE": "Porte un crochet",
+                "FEMALE": "Porte un crochet"
+            },
+            "HUMPBACKED": {
+                "MALE": "Bossu",
+                "FEMALE": "Bossue"
+            },
+            "BANDYLEGS": {
+                "MALE": "Jambes arquées",
+                "FEMALE": "Jambes arquées"
+            },
+            "CLUBFOOT": {
+                "MALE": "Pied-bot",
+                "FEMALE": "Pied-bot"
+            },
+            "CUTFINGERS": {
+                "MALE": "Doigts coupés",
+                "FEMALE": "Doigts coupés"
+            },
+            "DEAF": {
+                "MALE": "Sourd",
+                "FEMALE": "Sourde"
+            },
+            "MAKEUP": {
+                "MALE": "Est maquillé/porte des peintures",
+                "FEMALE": "Est maquillée/porte des peintures"
+            },
+            "TATTOO": {
+                "MALE": "Tatouage",
+                "FEMALE": "Tatouage"
+            },
+            "FACIALPARALYSIS": {
+                "MALE": "Paralysie faciale",
+                "FEMALE": "Paralysie faciale"
+            },
+            "PARALYSISOFALIMB": {
+                "MALE": "Paralysie d’un membre",
+                "FEMALE": "Paralysie d’un membre"
+            },
+            "TREMORS": {
+                "MALE": "Tremblements",
+                "FEMALE": "Tremblements"
+            },
+            "SENESCENCE": {
+                "MALE": "Sénescence",
+                "FEMALE": "Sénescence"
+            },
+            "PROTRUDINGEARS": {
+                "MALE": "Oreilles décollées",
+                "FEMALE": "Oreilles décollées"
+            },
+            "SICK": {
+                "MALE": "Malade",
+                "FEMALE": "Malade"
+            },
+            "TIC": {
+                "MALE": "Tics",
+                "FEMALE": "Tics"
+            },
+            "LONGNAILS": {
+                "MALE": "Ongles longs",
+                "FEMALE": "Ongles longs"
+            },
+            "SPITTING": {
+                "MALE": "Postillonneur",
+                "FEMALE": "Postillonneuse"
+            },
+            "UNSIGHTLYWARTS": {
+                "MALE": "Verrues disgracieuses",
+                "FEMALE": "Verrues disgracieuses"
+            },
+            "WOODENLEG": {
+                "MALE": "Jambe de bois",
+                "FEMALE": "Jambe de bois"
+            },
+            "NOSERINGS": {
+                "MALE": "Piercing nasal",
+                "FEMALE": "Piercing nasal"
+            },
+            "EARSPIERCING": {
+                "MALE": "Piercing oreilles",
+                "FEMALE": "Piercing oreilles"
+            },
+            "LIPPIERCING": {
+                "MALE": "Piercing lèvres",
+                "FEMALE": "Piercing lèvres"
+            },
+            "TONGUEPIERCING": {
+                "MALE": "Piercing langue",
+                "FEMALE": "Piercing langue"
+            },
+            "WHISTLES": {
+                "MALE": "Sifflote",
+                "FEMALE": "Sifflote"
+            },
+            "GIGGLE": {
+                "MALE": "Gloussements",
+                "FEMALE": "Gloussements"
+            },
+            "SNIFFS": {
+                "MALE": "Renifle",
+                "FEMALE": "Renifle"
+            },
+            "COUGHS": {
+                "MALE": "Toussote",
+                "FEMALE": "Toussote"
+            },
+            "SLAMSTONGUE": {
+                "MALE": "Claque sa langue",
+                "FEMALE": "Claque sa langue"
+            },
+            "SMOOTHSTRAND": {
+                "MALE": "Se lisse une mèche",
+                "FEMALE": "Se lisse une mèche"
+            },
+            "COMBHAIRS": {
+                "MALE": "Se recoiffe",
+                "FEMALE": "Se recoiffe"
+            },
+            "SPITS": {
+                "MALE": "Crache",
+                "FEMALE": "Crache"
+            },
+            "CLEARSTHROAT": {
+                "MALE": "Se racle la gorge",
+                "FEMALE": "Se racle la gorge"
+            },
+            "SCRATCHINGBODY": {
+                "MALE": "Se gratte une partie du corps",
+                "FEMALE": "Se gratte une partie du corps"
+            },
+            "PERFORMSRITUAL": {
+                "MALE": "Exécute un rite gestuel pour conjurer le mauvais sort",
+                "FEMALE": "Exécute un rite gestuel pour conjurer le mauvais sort"
+            },
+            "RECITEDPSALM": {
+                "MALE": "Récite un psaume",
+                "FEMALE": "Récite un psaume"
+            },
+            "PRAY": {
+                "MALE": "Prie",
+                "FEMALE": "Prie"
+            },
+            "STRIKESCHEST": {
+                "MALE": "Se frappe le torse",
+                "FEMALE": "Se frappe le torse"
+            },
+            "PLAYINGCOIN": {
+                "MALE": "Joue avec une pièce",
+                "FEMALE": "Joue avec une pièce"
+            },
+            "PLAYINGDAGGER": {
+                "MALE": "Joue avec une dague",
+                "FEMALE": "Joue avec une dague"
+            },
+            "PLAYINGBALL": {
+                "MALE": "Joue avec une balle",
+                "FEMALE": "Joue avec une balle"
+            },
+            "PLAYINGCARDS": {
+                "MALE": "Joue avec des cartes",
+                "FEMALE": "Joue avec des cartes"
+            },
+            "PLAYINGPENDANT": {
+                "MALE": "Joue avec un pendentif",
+                "FEMALE": "Joue avec un pendentif"
+            },
+            "SWEAR": {
+                "MALE": "Jure",
+                "FEMALE": "Jure"
+            },
+            "HUMS": {
+                "MALE": "Fredonne",
+                "FEMALE": "Fredonne"
+            },
+            "MOISTENSLIPS": {
+                "MALE": "S’humecte les lèvres",
+                "FEMALE": "S’humecte les lèvres"
+            },
+            "STOMP": {
+                "MALE": "Tape du pied",
+                "FEMALE": "Tape du pied"
+            },
+            "BLINK": {
+                "MALE": "Cille",
+                "FEMALE": "Cille"
+            },
+            "FLITS": {
+                "MALE": "Papillonne",
+                "FEMALE": "Papillonne"
+            },
+            "CROSSESARMS": {
+                "MALE": "Croise les bras",
+                "FEMALE": "Croise les bras"
+            },
+            "HELDCHIN": {
+                "MALE": "Se tient le menton",
+                "FEMALE": "Se tient le menton"
+            },
+            "FANSONESELF": {
+                "MALE": "S’évente (éventail)",
+                "FEMALE": "S’évente (éventail)"
+            },
+            "INFLAMEDGESTURES": {
+                "MALE": "Gestuelle enflammée",
+                "FEMALE": "Gestuelle enflammée"
+            },
+            "SPEAKHANDS": {
+                "MALE": "Parle avec les mains",
+                "FEMALE": "Parle avec les mains"
+            },
+            "FLUIDGESTURES": {
+                "MALE": "Gestuelle fluide et gracieuse",
+                "FEMALE": "Gestuelle fluide et gracieuse"
+            },
+            "DOUBTFULPOUT": {
+                "MALE": "Moue dubitative",
+                "FEMALE": "Moue dubitative"
+            },
+            "GRIN": {
+                "MALE": "Grimace",
+                "FEMALE": "Grimace"
+            },
+            "GNAWSNAILS": {
+                "MALE": "Se ronge les ongles",
+                "FEMALE": "Se ronge les ongles"
+            },
+            "PICKINGTEETH": {
+                "MALE": "Se cure les dents",
+                "FEMALE": "Se cure les dents"
+            },
+            "DRINK": {
+                "MALE": "Bois beaucoup",
+                "FEMALE": "Bois beaucoup"
+            },
+            "SMOKEOFTEN": {
+                "MALE": "Fume souvent",
+                "FEMALE": "Fume souvent"
+            },
+            "DEPENDENTDRUG": {
+                "MALE": "Est dépendant d’une drogue",
+                "FEMALE": "Est dépendante d’une drogue"
+            }
+        },
+        "PROFESSION": {
+            "INNKEEPER": {
+                "MALE": "Tavernier",
+                "FEMALE": "Tavernière"
+            },
+            "MERCENARY": {
+                "MALE": "Mercenaire",
+                "FEMALE": "Mercenaire"
+            },
+            "THIEF": {
+                "MALE": "Voleur",
+                "FEMALE": "Voleuse"
+            },
+            "MURDERER": {
+                "MALE": "Assassin",
+                "FEMALE": "Assassine"
+            },
+            "ENCHANTER": {
+                "MALE": "Enchanteur",
+                "FEMALE": "Enchanteuse"
+            },
+            "SPY": {
+                "MALE": "Espion",
+                "FEMALE": "Espionne"
+            },
+            "GLADIATOR": {
+                "MALE": "Gladiateur",
+                "FEMALE": "Gladiatrice"
+            },
+            "HEALER": {
+                "MALE": "Guérisseur",
+                "FEMALE": "Guérisseuse"
+            },
+            "DOCTOR": {
+                "MALE": "Médecin",
+                "FEMALE": "Médecin"
+            },
+            "SMITH": {
+                "MALE": "Forgeron",
+                "FEMALE": "Forgeronne"
+            },
+            "TANNER": {
+                "MALE": "Tanneur",
+                "FEMALE": "Tanneuse"
+            },
+            "BUTCHER": {
+                "MALE": "Boucher",
+                "FEMALE": "Bouchère"
+            },
+            "FARMER": {
+                "MALE": "Cultivateur",
+                "FEMALE": "Cultivatrice"
+            },
+            "WISEPERSON": {
+                "MALE": "Sage",
+                "FEMALE": "Sage"
+            },
+            "SOLDIER": {
+                "MALE": "Soldat",
+                "FEMALE": "Soldat"
+            },
+            "SHOEMAKER": {
+                "MALE": "Cordonnier",
+                "FEMALE": "Cordonnière"
+            },
+            "FURRIER": {
+                "MALE": "Fourreur",
+                "FEMALE": "Fourreuse"
+            },
+            "MAIDSERVANT": {
+                "MALE": "Servant",
+                "FEMALE": "Servante"
+            },
+            "TAILOR": {
+                "MALE": "Tailleur",
+                "FEMALE": "Tailleuse"
+            },
+            "BARBER": {
+                "MALE": "Barbier",
+                "FEMALE": "Barbière"
+            },
+            "JEWELER": {
+                "MALE": "Bijoutier",
+                "FEMALE": "Bijoutière"
+            },
+            "RESTAURANTEUR": {
+                "MALE": "Restaurateur",
+                "FEMALE": "Restauratrice"
+            },
+            "OLDCLOTHESDEALER": {
+                "MALE": "Fripier",
+                "FEMALE": "Fripière"
+            },
+            "PASTRYCOOK": {
+                "MALE": "Pâtissier",
+                "FEMALE": "Pâtissière"
+            },
+            "MASON": {
+                "MALE": "Maçon",
+                "FEMALE": "Maçonne"
+            },
+            "CARPENTER": {
+                "MALE": "Charpentier",
+                "FEMALE": "Charpentière"
+            },
+            "WEAVER": {
+                "MALE": "Tisserand",
+                "FEMALE": "Tisserande"
+            },
+            "CHANDLER": {
+                "MALE": "Fabricant de chandelles",
+                "FEMALE": "Fabricante de chandelles"
+            },
+            "MERCER": {
+                "MALE": "Mercier",
+                "FEMALE": "Mercière"
+            },
+            "COOPER": {
+                "MALE": "Cuivrier",
+                "FEMALE": "Cuivrière"
+            },
+            "BAKER": {
+                "MALE": "Boulanger",
+                "FEMALE": "Boulangère"
+            },
+            "WATERCARRIER": {
+                "MALE": "Porteur d'eau",
+                "FEMALE": "Porteuse d'eau"
+            },
+            "SCABBARDMAKER": {
+                "MALE": "Fabricant de fourreau",
+                "FEMALE": "Fabricante de fourreau"
+            },
+            "WINESELLER": {
+                "MALE": "Marchand de vin",
+                "FEMALE": "Marchande de vin"
+            },
+            "HATMAKER": {
+                "MALE": "Chapelier",
+                "FEMALE": "Chapelière"
+            },
+            "SADDLER": {
+                "MALE": "Sellier",
+                "FEMALE": "Sellière"
+            },
+            "CHICKENBUTCHER": {
+                "MALE": "Volailler",
+                "FEMALE": "Volaillère"
+            },
+            "PURSEMAKER": {
+                "MALE": "Fabricant de bourses",
+                "FEMALE": "Fabricante de bourses"
+            },
+            "LAUNDRESSE": {
+                "MALE": "Blanchisseure (lessive)",
+                "FEMALE": "Blanchisseuse (lessive)"
+            },
+            "OILMERCHANT": {
+                "MALE": "Marchand d'huile",
+                "FEMALE": "Marchande d'huile"
+            },
+            "PORTER": {
+                "MALE": "Porteur",
+                "FEMALE": "Porteuse"
+            },
+            "MEATBUTCHER": {
+                "MALE": "Boucher",
+                "FEMALE": "Bouchère"
+            },
+            "FISHMERCHANT": {
+                "MALE": "Poissonier",
+                "FEMALE": "Poissonière"
+            },
+            "BEERSELLER": {
+                "MALE": "Brasseur",
+                "FEMALE": "Brasseuse"
+            },
+            "BUCKLEMAKER": {
+                "MALE": "Fabricant de boucles",
+                "FEMALE": "Fabricante de boucles"
+            },
+            "PLASTERER": {
+                "MALE": "Platrier",
+                "FEMALE": "Platrière"
+            },
+            "SPICEMERCHANT": {
+                "MALE": "Marchand d'épices",
+                "FEMALE": "Marchande d'épices"
+            },
+            "BLACKSMITH": {
+                "MALE": "Forgeron",
+                "FEMALE": "Forgeronne"
+            },
+            "PAINTER": {
+                "MALE": "Peintre",
+                "FEMALE": "Peintre"
+            },
+            "ROOFER": {
+                "MALE": "Couvreur",
+                "FEMALE": "Couvreuse"
+            },
+            "LOCKSMITH": {
+                "MALE": "Serrurier",
+                "FEMALE": "Serrurière"
+            },
+            "BATHER": {
+                "MALE": "Laveur",
+                "FEMALE": "Laveuse"
+            },
+            "ROPEMAKER": {
+                "MALE": "Fabricant de cordes",
+                "FEMALE": "Fabricante de cordes"
+            },
+            "COPYIST": {
+                "MALE": "Copiste",
+                "FEMALE": "Copiste"
+            },
+            "SCULPTOR": {
+                "MALE": "Sculpteur",
+                "FEMALE": "Sculptrice"
+            },
+            "RUGMAKER": {
+                "MALE": "Fabriquant de tapis",
+                "FEMALE": "Fabriquante de tapis"
+            },
+            "HARNESSMAKER": {
+                "MALE": "Fabricant de harnais",
+                "FEMALE": "Fabricante de harnais"
+            },
+            "BLEACHER": {
+                "MALE": "Blanchisseur",
+                "FEMALE": "Blanchisseuse"
+            },
+            "CUTLER": {
+                "MALE": "Marchand de foin",
+                "FEMALE": "Marchande de foin"
+            },
+            "GLOVEMAKER": {
+                "MALE": "Coutelier",
+                "FEMALE": "Coutelière"
+            },
+            "WOOD": {
+                "MALE": "Gantier",
+                "FEMALE": "Gantière"
+            },
+            "SELLER": {
+                "MALE": "Marchand de bois",
+                "FEMALE": "Marchande de bois"
+            },
+            "WOODCARVER": {
+                "MALE": "Sculpteur sur bois",
+                "FEMALE": "Sculptrice sur bois"
+            },
+            "GUARD": {
+                "MALE": "Garde",
+                "FEMALE": "Garde"
+            },
+            "OUTLOW": {
+                "MALE": "Hors-la-loi",
+                "FEMALE": "Hors-la-loi"
+            },
+            "TRADER": {
+                "MALE": "Marchand",
+                "FEMALE": "Marchande"
+            },
+            "POLITICIAN": {
+                "MALE": "Politicien",
+                "FEMALE": "Politicienne"
+            },
+            "BREEDER": {
+                "MALE": "Eleveur",
+                "FEMALE": "Eleveuse"
+            },
+            "CARRIER": {
+                "MALE": "Transporteur",
+                "FEMALE": "Transporteuse"
+            },
+            "NOINFLUENCELORD": {
+                "MALE": "Seigneur peu influent",
+                "FEMALE": "Seigneur peu influente"
+            },
+            "LORDINFLUENTIAL": {
+                "MALE": "Seigneur influent",
+                "FEMALE": "Seigneur influente"
+            },
+            "LORDCOURTYARD": {
+                "MALE": "Seigneur à une cour",
+                "FEMALE": "Seigneur à une cour"
+            },
+            "KING": {
+                "MALE": "Roi",
+                "FEMALE": "Reine"
+            },
+            "CONTEUR": {
+                "MALE": "Conteur",
+                "FEMALE": "Conteuse"
+            }
 
-    },
-    "FINANCIALSITUATION": {
-        "ANTISYSTEM": "Antisystème",
-        "VERYPOOR": "Très pauvre",
-        "POOR": "Pauvre",
-        "AVERAGE": "Moyenne",
-        "RATHERBETTEROFF": "Plutôt aisée",
-        "BETTEROFF": "Aisée",
-        "RICH": "Riche",
-        "VERYRICH": "Très riche"
-    },
-    "ACCENT": {
-        "NOACCENT": "Aucun",
-        "SLIGHTACCENT": "Léger",
-        "WHENTIRED": "Lorsque fatigué/ivre",
-        "FORTACCENT": "Fort",
-        "MOTHERTONGUE": "Parle uniquement sa langue maternelle"
-    },
-    "REPUTATION": {
-        "TOTALSTRANGER": {
-            "MALE": "Inconnu total",
-            "FEMALE": "Inconnue total"
         },
-        "RUMORS": {
-            "MALE": "Rumeurs",
-            "FEMALE": "Rumeurs"
+        "FINANCIALSITUATION": {
+            "ANTISYSTEM": "Antisystème",
+            "VERYPOOR": "Très pauvre",
+            "POOR": "Pauvre",
+            "AVERAGE": "Moyenne",
+            "RATHERBETTEROFF": "Plutôt aisée",
+            "BETTEROFF": "Aisée",
+            "RICH": "Riche",
+            "VERYRICH": "Très riche"
         },
-        "GOSSIP": {
-            "MALE": "Potins",
-            "FEMALE": "Potins"
+        "ACCENT": {
+            "NOACCENT": "Aucun",
+            "SLIGHTACCENT": "Léger",
+            "WHENTIRED": "Lorsque fatigué/ivre",
+            "FORTACCENT": "Fort",
+            "MOTHERTONGUE": "Parle uniquement sa langue maternelle"
         },
-        "KNOWNINHOMETOWN": {
-            "MALE": "Connu dans sa ville d’origine",
-            "FEMALE": "Connue dans sa ville d’origine"
-        },
-        "KNOWNREGION": {
-            "MALE": "Connu dans sa région",
-            "FEMALE": "Connue dans sa région"
-        },
-        "KNOWNCOUNTRY": {
-            "MALE": "Connu dans son pays",
-            "FEMALE": "Connue dans son pays"
-        },
-        "KNOWNLOCALLY": {
-            "MALE": "Connu localement",
-            "FEMALE": "Connue localement"
-        },
-        "KNOWNREGIONALLY": {
-            "MALE": "Connu régionalement",
-            "FEMALE": "Connue régionalement"
-        },
-        "NATIONALLYKNOWN": {
-            "MALE": "Connu nationalement",
-            "FEMALE": "Connue nationalement"
-        },
-        "INTERNATIONALLYKNOWN": {
-            "MALE": "Connu internationalement",
-            "FEMALE": "Connue internationalement"
-        },
-        "LEGENDARY": {
-            "MALE": "Légendaire",
-            "FEMALE": "Légendaire"
-        },
-        "SCANDALOUS": {
-            "MALE": "Scandaleuse",
-            "FEMALE": "Scandaleuse"
-        },
-        "FEAR": {
-            "MALE": "Craint",
-            "FEMALE": "Crainte"
-        },
-        "DOUBT": {
-            "MALE": "Douteuse",
-            "FEMALE": "Douteuse"
-        },
-        "HONORABLE": {
-            "MALE": "Honorifique",
-            "FEMALE": "Honorifique"
-        },
-        "PRAISEWORTHY": {
-            "MALE": "Louable",
-            "FEMALE": "Louable"
-        },
-        "ACCUSEDWRONGLY": {
-            "MALE": "Accusé à tort",
-            "FEMALE": "Accusée à tort"
-        },
-        "CONFUSESOMEONE": {
-            "MALE": "Confondu avec quelqu’un",
-            "FEMALE": "Confondue avec quelqu’un"
-        }
+        "REPUTATION": {
+            "TOTALSTRANGER": {
+                "MALE": "Inconnu total",
+                "FEMALE": "Inconnue total"
+            },
+            "RUMORS": {
+                "MALE": "Rumeurs",
+                "FEMALE": "Rumeurs"
+            },
+            "GOSSIP": {
+                "MALE": "Potins",
+                "FEMALE": "Potins"
+            },
+            "KNOWNINHOMETOWN": {
+                "MALE": "Connu dans sa ville d’origine",
+                "FEMALE": "Connue dans sa ville d’origine"
+            },
+            "KNOWNREGION": {
+                "MALE": "Connu dans sa région",
+                "FEMALE": "Connue dans sa région"
+            },
+            "KNOWNCOUNTRY": {
+                "MALE": "Connu dans son pays",
+                "FEMALE": "Connue dans son pays"
+            },
+            "KNOWNLOCALLY": {
+                "MALE": "Connu localement",
+                "FEMALE": "Connue localement"
+            },
+            "KNOWNREGIONALLY": {
+                "MALE": "Connu régionalement",
+                "FEMALE": "Connue régionalement"
+            },
+            "NATIONALLYKNOWN": {
+                "MALE": "Connu nationalement",
+                "FEMALE": "Connue nationalement"
+            },
+            "INTERNATIONALLYKNOWN": {
+                "MALE": "Connu internationalement",
+                "FEMALE": "Connue internationalement"
+            },
+            "LEGENDARY": {
+                "MALE": "Légendaire",
+                "FEMALE": "Légendaire"
+            },
+            "SCANDALOUS": {
+                "MALE": "Scandaleuse",
+                "FEMALE": "Scandaleuse"
+            },
+            "FEAR": {
+                "MALE": "Craint",
+                "FEMALE": "Crainte"
+            },
+            "DOUBT": {
+                "MALE": "Douteuse",
+                "FEMALE": "Douteuse"
+            },
+            "HONORABLE": {
+                "MALE": "Honorifique",
+                "FEMALE": "Honorifique"
+            },
+            "PRAISEWORTHY": {
+                "MALE": "Louable",
+                "FEMALE": "Louable"
+            },
+            "ACCUSEDWRONGLY": {
+                "MALE": "Accusé à tort",
+                "FEMALE": "Accusée à tort"
+            },
+            "CONFUSESOMEONE": {
+                "MALE": "Confondu avec quelqu’un",
+                "FEMALE": "Confondue avec quelqu’un"
+            }
 
-    },
-    "COMBATSTYLE": {
-        "VERYLONGRANGE": "Très longue portée",
-        "LONGRANGE": "Longue portée",
-        "CLOSERANGE": "Portée proche",
-        "CLOSECOMBAT": "Corps à corps",
-        "UNARMED": "Mains nues",
-        "WRESTLING": "Lutte",
-        "SELFDEFENSE": "Selfdefense"
-    },
-    "CLOTHES": {
-        "POORLYDRESSED": {
-            "MALE": "Mal vêtu",
-            "FEMALE": "Mal vêtue"
         },
-        "WELLDRESSED": {
-            "MALE": "Bien vêtu",
-            "FEMALE": "Bien vêtue"
+        "COMBATSTYLE": {
+            "VERYLONGRANGE": "Très longue portée",
+            "LONGRANGE": "Longue portée",
+            "CLOSERANGE": "Portée proche",
+            "CLOSECOMBAT": "Corps à corps",
+            "UNARMED": "Mains nues",
+            "WRESTLING": "Lutte",
+            "SELFDEFENSE": "Selfdefense"
         },
-        "VERYBADLY DRESSED": {
-            "MALE": "Très mal vêtu",
-            "FEMALE": "Très mal vêtue"
+        "CLOTHES": {
+            "POORLYDRESSED": {
+                "MALE": "Mal vêtu",
+                "FEMALE": "Mal vêtue"
+            },
+            "WELLDRESSED": {
+                "MALE": "Bien vêtu",
+                "FEMALE": "Bien vêtue"
+            },
+            "VERYBADLY DRESSED": {
+                "MALE": "Très mal vêtu",
+                "FEMALE": "Très mal vêtue"
+            },
+            "VERYWELL DRESSED": {
+                "MALE": "Très bien vêtu",
+                "FEMALE": "Très bien vêtue"
+            },
+            "NEGLECTED": {
+                "MALE": "Négligé",
+                "FEMALE": "Négligée"
+            },
+            "ONHIS 31": {
+                "MALE": "Sur son 31",
+                "FEMALE": "Sur son 31"
+            },
+            "WORNDIRTY": {
+                "MALE": "Usés/sales",
+                "FEMALE": "Usés/sales"
+            },
+            "MAINTAINED": {
+                "MALE": "Entretenu",
+                "FEMALE": "Entretenue"
+            }
         },
-        "VERYWELL DRESSED": {
-            "MALE": "Très bien vêtu",
-            "FEMALE": "Très bien vêtue"
+        "ACCESSORIES": {
+            "NOACCESSORIES": "Pas d’accessoires",
+            "AFEWACCESSORIES": "Peu d’accessoires",
+            "SOMEACCESSORIES": "Un peu d’accessoires",
+            "LOTSACCESSORIES": "Beaucoup d’accessoires",
+            "STREETPEDLAR": "Marchand ambulant"
         },
-        "NEGLECTED": {
-            "MALE": "Négligé",
-            "FEMALE": "Négligée"
+        "FAMILIALSITUATION": {
+            "SINGLE": {
+                "MALE": "Célibataire",
+                "FEMALE": "Célibataire"
+            },
+            "COHABITING": {
+                "MALE": "Concubinage",
+                "FEMALE": "Concubinage"
+            },
+            "MARRIED": {
+                "MALE": "Marié",
+                "FEMALE": "Mariée"
+            },
+            "DIVORCED": {
+                "MALE": "Divorcé",
+                "FEMALE": "Divorcée"
+            },
+            "ENGAGED": {
+                "MALE": "Fiancé",
+                "FEMALE": "Fiancée"
+            },
+            "WIDOWED": {
+                "MALE": "Veuf",
+                "FEMALE": "Veuve"
+            },
+            "ONLYCHILD": {
+                "MALE": "Enfant unique",
+                "FEMALE": "Enfant unique"
+            },
+            "YOUNGEST": {
+                "MALE": "Petit dernier",
+                "FEMALE": "Petite dernière"
+            },
+            "OLDERSIBLINGS": {
+                "MALE": "Plus âgé de la fratrie",
+                "FEMALE": "Plus âgée de la fratrie"
+            },
+            "HASCHILDREN": {
+                "MALE": "A des enfants",
+                "FEMALE": "A des enfants"
+            }
         },
-        "ONHIS 31": {
-            "MALE": "Sur son 31",
-            "FEMALE": "Sur son 31"
+        "TALENTS": {
+            "PRETTYFLEXIBLE": "Je suis plutôt souple",
+            "ALREADYREAD IT": "J’ai déjà lu ça",
+            "VENIVIDIVICI": "Veni vidi vici",
+            "NOTSEENNOTTAKEN": "Pas vu pas pris",
+            "NOTEVENAFRAID": "Même pas peur",
+            "SEENSOMEONE": "J’ai déjà vu quelqu’un le faire",
+            "IKNOWAGUY": "Je connais un type",
+            "CALLAFRIEND": "Appelle à un ami",
+            "KNOWEACHOTHER": "On se connait non ?",
+            "FUSS": "C’est quoi les histoires ?",
+            "MINEISBIGGER": "La mienne est plus grosse",
+            "THATMINE": "C’est à moi ça",
+            "RAISEDHEAVIER": "J’ai déjà soulevé plus lourd",
+            "SPACEHERE": "Il reste de la place",
+            "IUNDERSTANDQUICK": "Je comprends vite",
+            "THROUGHHERE": "Je suis déjà passé par ici",
+            "GUARDIANANGEL": "J’ai un ange gardien",
+            "RHYTHM": "Le rythme dans la peau"
         },
-        "WORNDIRTY": {
-            "MALE": "Usés/sales",
-            "FEMALE": "Usés/sales"
+        "VOICES": {
+            "BEGUE": "Bègue",
+            "BROKEN": "Cassée",
+            "HOARSE": "Aphone",
+            "RASPY": "Rauque",
+            "NASAL": "Nasillarde",
+            "SILENT": "Muet",
+            "SMALL": "Petite",
+            "TIMID": "Timide",
+            "BIG": "Grosse",
+            "BOSSY": "Autoritaire",
+            "FLUTE": "Flûtée",
+            "SOFT": "Douce",
+            "SOOTHING": "Apaisante",
+            "MONOTONE": "Monocorde",
+            "DIFFICULTYBREATHING": "Difficultés respiratoires",
+            "TREMBLING": "Chevrotante",
+            "SINGING": "Chantante",
+            "SHRILL": "Stridente",
+            "LISP": "Cheveu sur la langue"
         },
-        "MAINTAINED": {
-            "MALE": "Entretenu",
-            "FEMALE": "Entretenue"
+        "CLOTHINGSTYLE": {
+            "FASHIONABLE": {
+                "MALE": "A la mode",
+                "FEMALE": "A la mode"
+            },
+            "NERDY": {
+                "MALE": "Ringard",
+                "FEMALE": "Ringarde"
+            },
+            "CONSISTENT": {
+                "MALE": "Conforme",
+                "FEMALE": "Conforme"
+            },
+            "MILITARY": {
+                "MALE": "Militaire",
+                "FEMALE": "Militaire"
+            },
+            "UNIFORM": {
+                "MALE": "Uniforme",
+                "FEMALE": "Uniforme"
+            },
+            "ASSEMBLY": {
+                "MALE": "Assemblage",
+                "FEMALE": "Assemblage"
+            },
+            "SIMPLE": {
+                "MALE": "Simple",
+                "FEMALE": "Simple"
+            },
+            "LOADED": {
+                "MALE": "Chargé",
+                "FEMALE": "Chargée"
+            },
+            "RELIGIOUS": {
+                "MALE": "Religieux",
+                "FEMALE": "Religieuse"
+            },
+            "HELPFUL": {
+                "MALE": "Utile",
+                "FEMALE": "Utile"
+            },
+            "OSTENTATIOUS": {
+                "MALE": "Ostentatoire",
+                "FEMALE": "Ostentatoire"
+            },
+            "EQUIPPED": {
+                "MALE": "Équipé",
+                "FEMALE": "Équipée"
+            },
+            "GREEN": {
+                "MALE": "Écolo",
+                "FEMALE": "Écolo"
+            },
+            "TRANSVERSE": {
+                "MALE": "Transverse",
+                "FEMALE": "Transverse"
+            }
+        },
+        "CLOTHINGCOUNTRY": {
+            "ORIENTAL": "Oriental",
+            "ASIAN": "Asiatique",
+            "SCANDINAVIAN": "Nordique",
+            "INUIT": "Inuit",
+            "NATIVEAMERICAN": "Amérindien",
+            "MAYAN": "Maya",
+            "AZTEC": "Aztèque",
+            "INCA": "Incas",
+            "EUROPEAN": "Européen",
+            "GREEK": "Grec",
+            "ROMAN": "Romain",
+            "EGYPTIAN": "Égyptien",
+            "HINDU": "Hindou",
+            "TRIBAL": "Tribal",
+            "POLYNESIAN": "Polynésien",
+            "JAPANESE": "Japonais",
+            "EASTERNEUROPE": "Europe de l’est",
+            "ANTIQUECHINA": "Chine antique",
+            "PIRATE": "Pirate",
+            "CELTIC": "Celtic",
+            "BARBARIAN": "Barbare",
+            "CORRUPT": "Corrompu",
+            "ANGELIC": "Angélique",
+            "EDGETECHNOLOGY": "À la pointe de la technologie",
+            "STEAMPUNK": "Steampunk",
+            "COURTLOUISXIV": "Cour de Louis XIV",
+            "NEWWORLD": "Époque du nouveau monde (fin moyen âge)",
+            "AFRICAN": "Africain",
+            "NOMAD": "Nomade",
+            "VENETIAN": "Vénitien",
+            "MONGOLIAN": "Mongole",
+            "PERSIAN": "Perse",
+            "POPCULTURE": "Pop culture (moderne)",
+            "EMPIRES": "Empires (18ème)",
+            "FUTURISTIC": "Futuriste",
+            "AUSTRALIANTRIBAL": "Tribal australien",
+            "TRIBALAMAZONIE": "Tribal amazone",
+            "WESTERN": "Western",
+            "ABYSSAL": "Abyssale"
         }
     },
-    "ACCESSORIES": {
-        "NOACCESSORIES": "Pas d’accessoires",
-        "AFEWACCESSORIES": "Peu d’accessoires",
-        "SOMEACCESSORIES": "Un peu d’accessoires",
-        "LOTSACCESSORIES": "Beaucoup d’accessoires",
-        "STREETPEDLAR": "Marchand ambulant"
-    },
-    "FAMILIALSITUATION": {
-        "SINGLE": {
-            "MALE": "Célibataire",
-            "FEMALE": "Célibataire"
+    "VIEWS": {
+        "MAIN": {
+            "RANDOM": "Au  hasard",
+            "MYSELF": "Personnalisé",
+            "GENERATEBUTTON": "Générer un personnage",
+            "GENERATEOTHER": "Générer un autre personnage",
+            "GENDER": "Genre",
+            "AGE": "Âge",
+            "CIVILIZATION": "Civilisation",
+            "TEXT1": "<p>Il convient autant pour la génération rapide de Personages Non Joueurs que pour d'autres personnages de fiction, le but n'est pas de générer une fiche personnage mais de bien donner des pistes lors de la création du personnage.</p>",
+            "TEXT2": "FONUG est un générateur aléatoire de personnage."
         },
-        "COHABITING": {
-            "MALE": "Concubinage",
-            "FEMALE": "Concubinage"
+        "SIDENAV": {
+            "NAVIGATION": "Navigation",
+            "ABOUT": "A propos",
+            "CONTACT": "Contact",
+            "SAVE": "Sauvegarder mon personnage"
         },
-        "MARRIED": {
-            "MALE": "Marié",
-            "FEMALE": "Mariée"
+        "ABOUT": {
+            "TEXT1": "<p>FONUG est un générateur de personnages aléatoires open-source, libre et gratuit !</p> <p>Vous pouvez choisir de générer votre personnage soit de manière intégralement aléatoire soit en spécifiant initialement des critères comme l'âge, le sexe ou la civilisation de celui-ci.</p><p>Le personnage généré est très général et avec des informations plutôt vagues dans le simple but de pouvoir transposer vos personnages dans tous les univers possibles.</p><p>Certaines informations pourront paraitre contradictoires ou surprenantes et il sera à vous d'adapter selon le contexte dans lequel apparaitrait votre personnage. (Découvrir que le petit neveu de 5 ans de votre personnage est du genre chaotique mauvais n'est pas un moment facile mais croyez moi le générateur ne se trompe jamais !)</p>",
+            "TEXT2": "<p>Je tiens à remercie Alexis K., grand MJ des collines du Nord, qui a eut l'idée de ce projet et m'a fourni une bonne base de travail et Christian T. pour m'avoir fourni ses petites mains pour remplir mes jeux de données.</p><p>Enfin un grand merci à GUNOF (http://www.gunof.net/) un générateur Univervsel de Noms de Fiction que j'adore et que j'utilise souvent, c'est un peu en hommage que j'ai appelé l'application ainsi (FONUG/GUNOF).</p>",
+            "TEXT3": "<p>Du point de vue technique, l'application est réalisée avec de l'AngularJS et plein d'autres technos JS super sympa que j'adore tout particulièrement, c'est open source vous pouvez jeter un oeil ici :</p>",
+            "TITLE": "A PROPOS",
+            "BUTTON": "Voir les sources sur Github"
         },
-        "DIVORCED": {
-            "MALE": "Divorcé",
-            "FEMALE": "Divorcée"
+        "CONTACT": {
+            "TITLE": "CONTACT",
+            "BUTTON": "Voir la page Facebook",
+            "TEXT1": "En tant que bon développeur qui se repecte je suis quelqu'un de fénéant c'est pourquoi il n'y a pas ici de formulaire de contact.",
+            "TEXT2": "<p>En revanche nous avons une page Facebook, n'hésitez pas à venir me contacter via celle-ci et pourquoi pas vous abonner à celle-ci ?</p>",
+            "TEXT3": "<p>J'ai hâte de découvrir vos créations et de connaitre les histoires que vous leur avez fait vivre !</p>"
         },
-        "ENGAGED": {
-            "MALE": "Fiancé",
-            "FEMALE": "Fiancée"
-        },
-        "WIDOWED": {
-            "MALE": "Veuf",
-            "FEMALE": "Veuve"
-        },
-        "ONLYCHILD": {
-            "MALE": "Enfant unique",
-            "FEMALE": "Enfant unique"
-        },
-        "YOUNGEST": {
-            "MALE": "Petit dernier",
-            "FEMALE": "Petite dernière"
-        },
-        "OLDERSIBLINGS": {
-            "MALE": "Plus âgé de la fratrie",
-            "FEMALE": "Plus âgée de la fratrie"
-        },
-        "HASCHILDREN": {
-            "MALE": "A des enfants",
-            "FEMALE": "A des enfants"
+        "GENERATOR": {
+            "SOON": "Bientôt généré ;)",
+            "MY_CHARACTER": "Mon personnage",
+            "CHARISMA": "Charisme",
+            "BEAUTY": "Beauté",
+            "INTELLECT": "Intellect",
+            "PERCEPTION": "Perception",
+            "FIGHT_SKILLS": "Combat",
+            "AGE": "Âge",
+            "GENDER": "Genre",
+            "CIVILIZATION": "Civilisation",
+            "CLASS": "Classe",
+            "PUNCHLINE": "Punchline",
+            "PHYSICAL": "Physique",
+            "CORPULENCE": "Allure",
+            "FACE_SHAPE": "Forme du visage",
+            "SKIN_TONE": "Teint",
+            "EYES": "Yeux",
+            "MOUTH": "Bouche",
+            "NOSE": "Nez",
+            "HAIR": "Cheveux",
+            "SPECIAL_SIGN": "Signe Distinctif",
+            "PERSONNALITY": "Personnalité",
+            "ALIGNMENT": "Alignement",
+            "GOAL": "Objectif",
+            "MOTIVATION": "Motivation",
+            "DEFECT": "Défaut",
+            "QUALITY": "Qualité",
+            "PHOBIA": "Phobie",
+            "SOCIAL": "Social",
+            "TALENT": "Talent",
+            "PROFESSION": "Profession",
+            "FAMILY_SITUATION": "Situation Familiale",
+            "FINANCIAL_SITUATION": "Situation Financière",
+            "ACCENT": "Accent",
+            "REPUTATION": "Reputation",
+            "APPEARANCE": "Apparence",
+            "COMBAT_STYLE": "Style de combat",
+            "CLOTHES": "Vêtements",
+            "ACCESSORIES": "Accessoires",
+            "CLOTHING_STYLE": "Style Vestimentaire",
+            "TEMPER": "Tempérament",
+            "VOICE": "Voix",
+            "SAVE": "Sauvegarder",
+            "FONUG_LOGO": "Fonug Génerateur de personnages"
         }
-    },
-    "TALENTS": {
-        "PRETTYFLEXIBLE": "Je suis plutôt souple",
-        "ALREADYREAD IT": "J’ai déjà lu ça",
-        "VENIVIDIVICI": "Veni vidi vici",
-        "NOTSEENNOTTAKEN": "Pas vu pas pris",
-        "NOTEVENAFRAID": "Même pas peur",
-        "SEENSOMEONE": "J’ai déjà vu quelqu’un le faire",
-        "IKNOWAGUY": "Je connais un type",
-        "CALLAFRIEND": "Appelle à un ami",
-        "KNOWEACHOTHER": "On se connait non ?",
-        "FUSS": "C’est quoi les histoires ?",
-        "MINEISBIGGER": "La mienne est plus grosse",
-        "THATMINE": "C’est à moi ça",
-        "RAISEDHEAVIER": "J’ai déjà soulevé plus lourd",
-        "SPACEHERE": "Il reste de la place",
-        "IUNDERSTANDQUICK": "Je comprends vite",
-        "THROUGHHERE": "Je suis déjà passé par ici",
-        "GUARDIANANGEL": "J’ai un ange gardien",
-        "RHYTHM": "Le rythme dans la peau"
-    },
-    "VOICES": {
-        "BEGUE": "Bègue",
-        "BROKEN": "Cassée",
-        "HOARSE": "Aphone",
-        "RASPY": "Rauque",
-        "NASAL": "Nasillarde",
-        "SILENT": "Muet",
-        "SMALL": "Petite",
-        "TIMID": "Timide",
-        "BIG": "Grosse",
-        "BOSSY": "Autoritaire",
-        "FLUTE": "Flûtée",
-        "SOFT": "Douce",
-        "SOOTHING": "Apaisante",
-        "MONOTONE": "Monocorde",
-        "DIFFICULTYBREATHING": "Difficultés respiratoires",
-        "TREMBLING": "Chevrotante",
-        "SINGING": "Chantante",
-        "SHRILL": "Stridente",
-        "LISP": "Cheveu sur la langue"
-    },
-    "CLOTHINGSTYLE": {
-        "FASHIONABLE": {
-            "MALE": "A la mode",
-            "FEMALE": "A la mode"
-        },
-        "NERDY": {
-            "MALE": "Ringard",
-            "FEMALE": "Ringarde"
-        },
-        "CONSISTENT": {
-            "MALE": "Conforme",
-            "FEMALE": "Conforme"
-        },
-        "MILITARY": {
-            "MALE": "Militaire",
-            "FEMALE": "Militaire"
-        },
-        "UNIFORM": {
-            "MALE": "Uniforme",
-            "FEMALE": "Uniforme"
-        },
-        "ASSEMBLY": {
-            "MALE": "Assemblage",
-            "FEMALE": "Assemblage"
-        },
-        "SIMPLE": {
-            "MALE": "Simple",
-            "FEMALE": "Simple"
-        },
-        "LOADED": {
-            "MALE": "Chargé",
-            "FEMALE": "Chargée"
-        },
-        "RELIGIOUS": {
-            "MALE": "Religieux",
-            "FEMALE": "Religieuse"
-        },
-        "HELPFUL": {
-            "MALE": "Utile",
-            "FEMALE": "Utile"
-        },
-        "OSTENTATIOUS": {
-            "MALE": "Ostentatoire",
-            "FEMALE": "Ostentatoire"
-        },
-        "EQUIPPED": {
-            "MALE": "Équipé",
-            "FEMALE": "Équipée"
-        },
-        "GREEN": {
-            "MALE": "Écolo",
-            "FEMALE": "Écolo"
-        },
-        "TRANSVERSE": {
-            "MALE": "Transverse",
-            "FEMALE": "Transverse"
-        }
-    },
-    "CLOTHINGCOUNTRY": {
-        "ORIENTAL": "Oriental",
-        "ASIAN": "Asiatique",
-        "SCANDINAVIAN": "Nordique",
-        "INUIT": "Inuit",
-        "NATIVEAMERICAN": "Amérindien",
-        "MAYAN": "Maya",
-        "AZTEC": "Aztèque",
-        "INCA": "Incas",
-        "EUROPEAN": "Européen",
-        "GREEK": "Grec",
-        "ROMAN": "Romain",
-        "EGYPTIAN": "Égyptien",
-        "HINDU": "Hindou",
-        "TRIBAL": "Tribal",
-        "POLYNESIAN": "Polynésien",
-        "JAPANESE": "Japonais",
-        "EASTERNEUROPE": "Europe de l’est",
-        "ANTIQUECHINA": "Chine antique",
-        "PIRATE": "Pirate",
-        "CELTIC": "Celtic",
-        "BARBARIAN": "Barbare",
-        "CORRUPT": "Corrompu",
-        "ANGELIC": "Angélique",
-        "EDGETECHNOLOGY": "À la pointe de la technologie",
-        "STEAMPUNK": "Steampunk",
-        "COURTLOUISXIV": "Cour de Louis XIV",
-        "NEWWORLD": "Époque du nouveau monde (fin moyen âge)",
-        "AFRICAN": "Africain",
-        "NOMAD": "Nomade",
-        "VENETIAN": "Vénitien",
-        "MONGOLIAN": "Mongole",
-        "PERSIAN": "Perse",
-        "POPCULTURE": "Pop culture (moderne)",
-        "EMPIRES": "Empires (18ème)",
-        "FUTURISTIC": "Futuriste",
-        "AUSTRALIANTRIBAL": "Tribal australien",
-        "TRIBALAMAZONIE": "Tribal amazone",
-        "WESTERN": "Western",
-        "ABYSSAL": "Abyssale"
     }
-},
-"VIEWS": {
-    "MAIN": {
-        "RANDOM": "Au  hasard",
-        "MYSELF": "Personnalisé",
-        "GENERATEBUTTON": "Générer un personnage",
-        "GENERATEOTHER": "Générer un autre personnage",
-        "GENDER": "Genre",
-        "AGE": "Âge",
-        "CIVILIZATION": "Civilisation",
-        "TEXT1": "<p>Il convient autant pour la génération rapide de Personages Non Joueurs que pour d'autres personnages de fiction, le but n'est pas de générer une fiche personnage mais de bien donner des pistes lors de la création du personnage.</p>",
-        "TEXT2": "FONUG est un générateur aléatoire de personnage."
-    },
-    "SIDENAV": {
-        "NAVIGATION": "Navigation",
-        "ABOUT": "A propos",
-        "CONTACT": "Contact",
-        "SAVE": "Sauvegarder mon personnage"
-    },
-    "ABOUT": {
-        "TEXT1": "<p>FONUG est un générateur de personnages aléatoires open-source, libre et gratuit !</p> <p>Vous pouvez choisir de générer votre personnage soit de manière intégralement aléatoire soit en spécifiant initialement des critères comme l'âge, le sexe ou la civilisation de celui-ci.</p><p>Le personnage généré est très général et avec des informations plutôt vagues dans le simple but de pouvoir transposer vos personnages dans tous les univers possibles.</p><p>Certaines informations pourront paraitre contradictoires ou surprenantes et il sera à vous d'adapter selon le contexte dans lequel apparaitrait votre personnage. (Découvrir que le petit neveu de 5 ans de votre personnage est du genre chaotique mauvais n'est pas un moment facile mais croyez moi le générateur ne se trompe jamais !)</p>",
-        "TEXT2": "<p>Je tiens à remercie Alexis K., grand MJ des collines du Nord, qui a eut l'idée de ce projet et m'a fourni une bonne base de travail et Christian T. pour m'avoir fourni ses petites mains pour remplir mes jeux de données.</p><p>Enfin un grand merci à GUNOF (http://www.gunof.net/) un générateur Univervsel de Noms de Fiction que j'adore et que j'utilise souvent, c'est un peu en hommage que j'ai appelé l'application ainsi (FONUG/GUNOF).</p>",
-        "TEXT3": "<p>Du point de vue technique, l'application est réalisée avec de l'AngularJS et plein d'autres technos JS super sympa que j'adore tout particulièrement, c'est open source vous pouvez jeter un oeil ici :</p>",
-        "TITLE": "A PROPOS",
-        "BUTTON": "Voir les sources sur Github"
-    },
-    "CONTACT": {
-        "TITLE": "CONTACT",
-        "BUTTON": "Voir la page Facebook",
-        "TEXT1": "En tant que bon développeur qui se repecte je suis quelqu'un de fénéant c'est pourquoi il n'y a pas ici de formulaire de contact.",
-        "TEXT2": "<p>En revanche nous avons une page Facebook, n'hésitez pas à venir me contacter via celle-ci et pourquoi pas vous abonner à celle-ci ?</p>",
-        "TEXT3": "<p>J'ai hâte de découvrir vos créations et de connaitre les histoires que vous leur avez fait vivre !</p>"
-    },
-    "GENERATOR": {
-        "SOON": "Bientôt généré ;)",
-        "MY_CHARACTER": "Mon personnage",
-        "CHARISMA": "Charisme",
-        "BEAUTY": "Beauté",
-        "INTELLECT": "Intellect",
-        "PERCEPTION": "Perception",
-        "FIGHT_SKILLS": "Combat",
-        "AGE": "Âge",
-        "GENDER": "Genre",
-        "CIVILIZATION": "Civilisation",
-        "CLASS": "Classe",
-        "PUNCHLINE": "Punchline",
-        "PHYSICAL": "Physique",
-        "CORPULENCE": "Allure",
-        "FACE_SHAPE": "Forme du visage",
-        "SKIN_TONE": "Teint",
-        "EYES": "Yeux",
-        "MOUTH": "Bouche",
-        "NOSE": "Nez",
-        "HAIR": "Cheveux",
-        "SPECIAL_SIGN": "Signe Distinctif",
-        "PERSONNALITY": "Personnalité",
-        "ALIGNMENT": "Alignement",
-        "GOAL": "Objectif",
-        "MOTIVATION": "Motivation",
-        "DEFECT": "Défaut",
-        "QUALITY": "Qualité",
-        "PHOBIA": "Phobie",
-        "SOCIAL": "Social",
-        "TALENT": "Talent",
-        "PROFESSION": "Profession",
-        "FAMILY_SITUATION": "Situation Familiale",
-        "FINANCIAL_SITUATION": "Situation Financière",
-        "ACCENT": "Accent",
-        "REPUTATION": "Reputation",
-        "APPEARANCE": "Apparence",
-        "COMBAT_STYLE": "Style de combat",
-        "CLOTHES": "Vêtements",
-        "ACCESSORIES": "Accessoires",
-        "CLOTHING_STYLE": "Style Vestimentaire",
-        "TEMPER": "Tempérament",
-        "VOICE": "Voix",
-        "SAVE": "Sauvegarder",
-        "FONUG_LOGO": "Fonug Génerateur de personnages"
-    }
-}
 }
