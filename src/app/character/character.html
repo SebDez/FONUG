@@ -19,7 +19,14 @@
         <!--<md-content style="height: 650px;">-->
         <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
             <div flex="30" class="logoContainer">
-                <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
+                <div ng-if="!character.isToSave">
+                    <un-svg class="logo {{character.currentCharacter.alignment.cssTheme}}" svg-src="../assets/logos/{{character.currentCharacter.civilization.logo}}.svg"></un-svg>
+                </div>
+                <div ng-if="character.isToSave">
+                    {{'VIEWS.GENERATOR.FONUG_LOGO' | translate}}
+                    <a href="http://www.fonug.net">www.fonug.net</a>
+                    <img src="../../assets/images/dice-twenty-faces-twenty.png" width="100px"/>
+                </div>
             </div>
             <div flex="70">
 

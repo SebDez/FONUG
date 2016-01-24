@@ -2161,7 +2161,8 @@
             "CLOTHING_STYLE": "Clothing Style",
             "TEMPER": "Temper",
             "VOICE": "Voice",
-            "SAVE":"Save"
+            "SAVE":"Save",
+            "FONUG_LOGO":"Fonug Character Generator"
         }
     }
 }

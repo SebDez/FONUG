@@ -1,12 +1,14 @@
 export class CharacterController {
 
-    constructor(GeneratorService, $state, $stateParams, $document, $filter) {
+    constructor(GeneratorService, $state, $stateParams, $document, $filter, $log, $timeout) {
         'ngInject';
         this.generatorService = GeneratorService;
         this.$stateParams = $stateParams;
         this.$state = $state;
         this.$document=$document;
         this.$filter=$filter;
+        this.$log=$log;
+        this.$timeout=$timeout;
 
         if (!this.$stateParams.currentCharacter) {
             this.$state.go('home');
@@ -17,7 +19,11 @@ export class CharacterController {
             this.generateCharacter();
         }
 
+        /**{Object} Div to save into PDF*/
         this.characDiv = document.getElementById("toSave");
+        
+        /**{Boolean} Used to undisplay the svg on pdf save*/
+        this.isToSave=false;
     }
 
     /**
@@ -214,13 +220,33 @@ export class CharacterController {
     * Create a PDF from HTML
     */
     createPDF(){
+        this.isToSave=true;
         let pdf = new jsPDF('p','pt','a4');
         pdf.addHTML(this.characDiv,()=>{
-        	let string = pdf.output('datauristring');
-            let name = this.currentCharacter.name;
-            let civ = this.$filter('translate')(this.currentCharacter.civilization.name);
-            let charclass=this.$filter('translate')(this.currentCharacter.charClass);
-            pdf.save('FONUG_'+name+'_'+civ+'_'+charclass+'_.pdf');
+            this.isToSave=false;
+            if(!this.isToSave){
+                this.$timeout(this.savePDF(pdf),100000);
+            }
+        });
+    }
+    
+    /**
+    * Save the PDF
+    */
+    savePDF(pdf){ 
+        let name = this.currentCharacter.name;
+        let civ = this.$filter('translate')(this.currentCharacter.civilization.name);
+        let charclass=this.$filter('translate')(this.currentCharacter.charClass);
+        pdf.save('FONUG_'+name+'_'+civ+'_'+charclass+'_.pdf');
+    }
+    
+    /**
+    * Reset the SVG into the logo div after the pdf has been catch
+    */
+    setSvgAgain(){
+        return new Promise((resolve)=>{
+            this.isToSave=false;
+            resolve();
         });
     }
 

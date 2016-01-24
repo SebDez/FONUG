@@ -2133,7 +2133,8 @@
             "CLOTHING_STYLE": "Style Vestimentaire",
             "TEMPER": "Tempérament",
             "VOICE": "Voix",
-            "SAVE":"Sauvegarder"
+            "SAVE":"Sauvegarder",
+            "FONUG_LOGO":"Fonug Génerateur de personnages"
         }
     }
 }
