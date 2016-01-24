@@ -1182,7 +1182,13 @@
             "FLESHY": "Charnue",
             "THIN": "Mince",
             "DUCKFACE": "Cul de poule",
-            "LARGE": "Grande"
+            "LARGE": "Grande",
+            "PERFECTTEETH": "Dentition parfaite",
+            "SENSUAL": "Sensuelle",
+            "TEETHOF HAPPINESS": "Dents du bonheur",
+            "AGOLD TOOTH": "Une dent en or",
+            "LIPSFINE": "Lèvres fines",
+            "NORMAL": "Normale"
         },
         "EYES": {
             "ALICEBLUE": "Alice bleu",

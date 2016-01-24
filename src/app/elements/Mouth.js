@@ -16,5 +16,18 @@ module.exports = [
     },
     {
         name: 'GENERATOR.MOUTH.LARGE'
+    },
+    {
+        name: 'GENERATOR.MOUTH.PERFECTTEETH'
+    }, {
+        name: 'GENERATOR.MOUTH.SENSUAL'
+    }, {
+        name: 'GENERATOR.MOUTH.TEETHOF HAPPINESS'
+    }, {
+        name: 'GENERATOR.MOUTH.AGOLD TOOTH'
+    }, {
+        name: 'GENERATOR.MOUTH.LIPSFINE'
+    }, {
+        name: 'GENERATOR.MOUTH.NORMAL'
     }
 ]
