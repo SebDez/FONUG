@@ -1,8 +1,8 @@
 .background {
     background-color: #e0e0e0;
     height: 100%;
+    height: auto !important;
     min-height: 100%;
-    height: 100%
 }
 
 $screen-mid: 1500px;
@@ -10,12 +10,12 @@ $screen-mid: 1500px;
     margin-left: 10%;
     width: 80%;
     margin-top: 5%;
-    
+
     @media screen and (min-width: 970px) and (max-width: 1500px) {
         margin-left: 35%;
         width:60%;
     }
-    
+
 }
 
 .main {
@@ -26,21 +26,21 @@ $screen-mid: 1500px;
 
 label > input {
     /* HIDE RADIO */
-    
+
     //visibility: hidden; /* Makes input not-clickable */
     //position: absolute; /* Remove input from document flow */
 }
 
 label > input + md-button {
     /* IMAGE STYLES */
-    
+
     //cursor:pointer;
     //border:2px solid transparent;
 }
 
 label > input:checked + md-button {
     /* (RADIO CHECKED) IMAGE STYLES */
-    
+
     //border:2px solid #f00;
 }
 
