@@ -1,5 +1,7 @@
-<md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" style="float:left;overflow: hidden; height:93%;">
-
+<md-sidenav class="md-sidenav-left md-whiteframe-z2 full-height" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" style="float:left;overflow: hidden; height:93%;">
+    <md-toolbar ng-click="sidenav.goToMain()">
+                <h1 class="md-toolbar-tools">FONUG</h1>
+    </md-toolbar>
     <md-content layout-padding ng-controller="SidenavController">
 
         <md-icon hide-gt-md ng-click="sidenav.close()" class="glyphicon glyphicon-remove-circle" ng-style="{color: white, 'font-size': '25px', height: '25px', float:'right'}"></md-icon>
