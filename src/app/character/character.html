@@ -2,7 +2,7 @@
 <sidenav></sidenav>
 
 <div class="divContainer" layout="column" layout-align="center center" layout-wrap>
-    
+
     <!-- Save to pdf button -->
     <div hide-xs hide-sm class="fixedmarker md-whiteframe-z2">
         <md-button ng-click="character.createPDF()" class="md-raised md-primary">
@@ -10,12 +10,12 @@
         </md-button>
     </div>
     <!-- ##### -->
-    
+
     <!-- Character div, will be saved to pdf -->
     <div id="toSave" class="container main md-whiteframe-z2" md-theme="{{character.currentCharacter.alignment.mdTheme}}" layout-fill>
-        
+
         <!-- MAIN -->
-        <main character="character.currentCharacter"></main>
+        <main character="character.currentCharacter" istosave="character.isToSave"></main>
         <!-- ##### -->
 
         <!-- PHYSICAL -->
@@ -33,7 +33,7 @@
         <!-- APPARENCE -->
         <appearance  ng-if="character.generateAppearance" character="character.currentCharacter"></appearance>
         <!-- ##### -->
-        
+
         <!-- Generate an other character button -->
         <div layout="row" layout-padding>
             <div flex>
@@ -41,8 +41,8 @@
             </div>
         </div>
         <!-- ##### -->
-        
+
     </div>
     <!-- ##### -->
-    
+
 </div>

@@ -7,7 +7,8 @@ export function MainDirective() {
         controller: 'MainDirectiveController',
         controllerAs: 'main',
         scope: {
-          character: '='
+          character: '=',
+          istosave:'='
         }
     };
 

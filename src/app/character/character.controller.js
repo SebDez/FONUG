@@ -9,7 +9,7 @@ export class CharacterController {
         this.$filter=$filter;
         this.$log=$log;
         this.$timeout=$timeout;
-        
+
         /** @type {Boolean}*/
         this.generatePhysical=$stateParams.generatePhysical;
         /** @type {Boolean}*/
@@ -30,9 +30,9 @@ export class CharacterController {
 
         /** @type {Object} Div to save into PDF*/
         this.characDiv = document.getElementById("toSave");
-        
+
         /** @type {Boolean} Used to undisplay the svg on pdf save*/
-        this.isToSave=false;
+        this.isToSave={value:false};
     }
 
     /**
@@ -55,7 +55,7 @@ export class CharacterController {
                 this.currentCharacter.genderTag = 'MALE';
             }
         }
-    
+
     /**
     * Generate character Social
     * @param gender The character gender
@@ -78,11 +78,11 @@ export class CharacterController {
 
         //REPUTATION
         this.currentCharacter.reputation = this.generatorService.getReputation(gender);
-        
+
         //VOICE
         this.currentCharacter.voice = this.generatorService.getVoice();
     }
-    
+
     /**
     * Generate character Personnality
     * @param gender The character gender
@@ -102,11 +102,11 @@ export class CharacterController {
 
         //PHOBIA
         this.currentCharacter.phobia = this.generatorService.getPhobia();
-        
+
         //TEMPER
         this.currentCharacter.temper = this.generatorService.getTemper(gender);
     }
-    
+
     /**
     * Generate character Appearance
     * @param gender The character gender
@@ -123,11 +123,11 @@ export class CharacterController {
 
         //CLOTHING COUNTRY
         this.currentCharacter.clothingCountry = this.generatorService.getClothingCountry();
-        
+
         //COMBAT STYLE
         this.currentCharacter.combatStyle = this.generatorService.getCombatStyle();
     }
-    
+
     /**
     * Generate character Physical
     * @param gender The character gender
@@ -153,16 +153,16 @@ export class CharacterController {
 
         //HAIR
         this.currentCharacter.hair = this.generatorService.getHair();
-        
+
         //SPECIAL SIGN
         this.currentCharacter.specialSign = this.generatorService.getSpecialSign(gender);
     }
-    
+
     /**
      * Generate all character values
     */
     generateCharacter() {
-        
+
          //GENDER
         if (this.currentCharacter.gender === 'RANDOM') {
             this.currentCharacter.gender = this.generatorService.getRandomGender();
@@ -179,13 +179,13 @@ export class CharacterController {
         if (this.currentCharacter.civilization === 'RANDOM') {
             this.currentCharacter.civilization = this.generatorService.getRandomCivilization(gender);
         }
-        
+
         //ALIGNMENT
         this.currentCharacter.alignment = this.generatorService.getAlignment();
 
         //NAME
         this.currentCharacter.name = this.generatorService.generateName(this.currentCharacter.genderTag, this.currentCharacter.civilization.tag);
-        
+
         //CHARISMA
         this.currentCharacter.charisma = this.generatorService.getCharisma();
 
@@ -200,31 +200,31 @@ export class CharacterController {
 
         //FIGHT SKILLS
         this.currentCharacter.fightSkills = this.generatorService.getFightSkills();
-        
+
         //CLASS
         this.currentCharacter.charClass = this.generatorService.getCharClass(gender);
 
         //PUNCHLINE
         this.currentCharacter.punchline = this.generatorService.getPunchLine();
-    
+
         //GENERATE SOCIAL
         if(this.generateSocial){
             this.generateCharacterSocial(gender);
         }
-        
+
         //GENERATE PERSONALITY
         if(this.generatePersonality){
             this.generateCharacterPersonnality(gender);
         }
-        
+
         //GENERATE APPEARANCE
         if(this.generateAppearance){
-            this.generateCharacterAppareance(gender);  
+            this.generateCharacterAppareance(gender);
         }
-        
+
         //GENERATE PHYSICAL
         if(this.generatePhysical){
-            this.generateCharacterPhysical(gender); 
+            this.generateCharacterPhysical(gender);
         }
     }
 
@@ -232,26 +232,26 @@ export class CharacterController {
     * Create a PDF from HTML
     */
     createPDF(){
-        this.isToSave=true;
+        this.isToSave.value=true;
         let pdf = new jsPDF('p','pt','a4');
         pdf.addHTML(this.characDiv,()=>{
-            this.isToSave=false;
-            if(!this.isToSave){
+            this.isToSave.value=false;
+            if(!this.isToSave.value){
                 this.$timeout(this.savePDF(pdf),100000);
             }
         });
     }
-    
+
     /**
     * Save the PDF
     */
-    savePDF(pdf){ 
+    savePDF(pdf){
         let name = this.currentCharacter.name;
         let civ = this.$filter('translate')(this.currentCharacter.civilization.name);
         let charclass=this.$filter('translate')(this.currentCharacter.charClass);
         pdf.save('FONUG_'+name+'_'+civ+'_'+charclass+'_.pdf');
     }
-    
+
     /**
     * Reset the SVG into the logo div after the pdf has been catch
     */
