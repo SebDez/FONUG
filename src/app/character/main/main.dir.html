@@ -1,7 +1,7 @@
         <md-toolbar>
             <h1 class="md-toolbar-tools"> {{main.character.name}} - {{main.character.civilization.name | translate}} {{main.character.charClass | translate}}</h1>
         </md-toolbar>
-
+        {{main.setLabelsForProgressBar()}}
         <div layout="row" layout-xs="column" layout-align="center center" layout-wrap>
             <div flex="30" class="logoContainer">
                 <div ng-if="!main.isToSave.value">

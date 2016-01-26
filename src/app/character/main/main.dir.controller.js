@@ -9,16 +9,16 @@ export class MainDirectiveController {
         this.character = $scope.character;
         this.isToSave = $scope.istosave;
 
-        /** @type {String} */
-        this.beautyLabel;
-        /** @type {String} */
-        this.charismaLabel;
-        /** @type {String} */
-        this.perceptionLabel;
-        /** @type {String} */
-        this.intellectLabel;
-        /** @type {String} */
-        this.fightSkillsLabel;
+        /** @type {Object} */
+        this.beautyLabel={};
+        /** @type {Object} */
+        this.charismaLabel={};
+        /** @type {Object} */
+        this.perceptionLabel={};
+        /** @type {Object} */
+        this.intellectLabel={};
+        /** @type {Object} */
+        this.fightSkillsLabel={};
 
         this.setLabelsForProgressBar();
     }
@@ -47,35 +47,35 @@ export class MainDirectiveController {
     * Set Beauty label translated
     */
     setBeautyLabel(){
-        this.beautyLabel= this.getElementTrans(this.character.beauty);
+        this.beautyLabel.value= this.getElementTrans(this.character.beauty);
     }
 
     /**
     * Set Charisma label translated
     */
     setCharismaLabel(){
-        this.charismaLabel=this.getElementTrans(this.character.charisma);
+        this.charismaLabel.value=this.getElementTrans(this.character.charisma);
     }
 
     /**
     * Set Perception label translated
     */
     setPerceptionLabel(){
-        this.perceptionLabel= this.getElementTrans(this.character.perception);
+        this.perceptionLabel.value= this.getElementTrans(this.character.perception);
     }
 
     /**
     * Set Intellect label translated
     */
     setIntellectLabel(){
-        this.intellectLabel= this.getElementTrans(this.character.intellect);
+        this.intellectLabel.value= this.getElementTrans(this.character.intellect);
     }
 
     /**
     * Set Fight Skills label translated
     */
     setFightSkillsLabel(){
-        this.fightSkillsLabel= this.getElementTrans(this.character.fightSkills);
+        this.fightSkillsLabel.value= this.getElementTrans(this.character.fightSkills);
     }
 
     /**
