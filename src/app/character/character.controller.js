@@ -18,6 +18,8 @@ export class CharacterController {
         this.generateAppearance=$stateParams.generateAppearance;
         /** @type {Boolean}*/
         this.generatePersonality=$stateParams.generatePersonality;
+        /** @type {Boolean}*/
+        this.generateHistoric=$stateParams.generateHistoric;
 
         if (!this.$stateParams.currentCharacter) {
             this.$state.go('home');
@@ -159,6 +161,28 @@ export class CharacterController {
     }
 
     /**
+    * Generate character Historic
+    * @param gender The character gender
+    */
+    generateCharacterHistoric(gender){
+        //No events if the character is a child
+        if(this.currentCharacter.age.indexOf('GENERATOR.AGES.CHILD.') > -1){
+            //CHILD EVENT CASES
+            this.currentCharacter.historic='VIEWS.GENERATOR.HISTORIC_NO_EVENT';
+        }else{
+            //There is a high chance to have no events
+            let rand = Math.floor(Math.random() * 10);
+            if(rand>=0 && rand<6){
+                //Generate event
+                this.currentCharacter.historic=this.generatorService.getHistoric(gender);
+            }else{
+                //No events
+                this.currentCharacter.historic='VIEWS.GENERATOR.HISTORIC_NO_EVENT';
+            }
+        }
+    }
+
+    /**
      * Generate all character values
     */
     generateCharacter() {
@@ -225,6 +249,11 @@ export class CharacterController {
         //GENERATE PHYSICAL
         if(this.generatePhysical){
             this.generateCharacterPhysical(gender);
+        }
+
+        //GENERATE HISTORIC
+        if(this.generateHistoric){
+            this.generateCharacterHistoric(gender);
         }
     }
 

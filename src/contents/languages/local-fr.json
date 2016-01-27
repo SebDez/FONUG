@@ -2205,7 +2205,65 @@
             "TRIBALAMAZONIE": "Tribal amazone",
             "WESTERN": "Western",
             "ABYSSAL": "Abyssale"
-        }
+        },
+        "HISTORIC": {
+      "CHILD_GOOD": {
+        "MALE": " Il a grandi entouré d’une famille soudée et de parents attentionnés qui lui donnèrent toujours 100 % des moyens dont ils disposaient afin qu’il ait une bonne éducation.",
+        "FEMALE": "Elle a grandi entourée d’une famille soudée et de parents attentionnés qui lui donnèrent toujours 100 % des moyens dont ils disposaient afin qu’elle ait une bonne éducation."
+      },
+      "CHILD_BAD": {
+        "MALE": "Orphelin, celui-ci a perdu ses parents étant très jeune, il les a peu connus, mais garde un souvenir touchant de ceux-ci. Victimes de la sauvagerie d’une bande de criminels, il voue aux coupables et aux gens de leur espèce une haine sans borne.",
+        "FEMALE": "Orpheline, celle-ci a perdu ses parents étant très jeune, elle les a peu connus, mais garde un souvenir touchant de ceux-ci. Victimes de la sauvagerie d’une bande de criminels, elle voue aux coupables et aux gens de leur espèce une haine sans borne."
+      },
+      "FRIEND_GOOD": {
+        "MALE": "Il a toujours eu un excellent ami d’enfance, une personne avec qui il a grandi et découvert le monde. Plus tard, leurs routes se sont séparées, mais ils sont restés plus que proches et un lien sacré les unit.",
+        "FEMALE": "Elle a toujours eu un excellent ami d’enfance, une personne avec qui elle a grandi et découvert le monde. Plus tard, leurs routes se sont séparées, mais ils sont restés plus que proches et un lien sacré les unit."
+      },
+      "FRIEND_BAD": {
+        "MALE": "Il fut trahi par l’un de ses meilleurs amis, pour ne pas dire le meilleur. Que cela soit les dangers ou les festivités à la taverne ils bravèrent tout ensemble avant qu’un tragique évènement ne les oppose à jamais, depuis ils se vouent une rivalité sans fin avec pour seul point commun un certain regret des temps passés.",
+        "FEMALE": "Elle fut trahie par l’un de ses meilleurs amis, pour ne pas dire le meilleur. Que cela soit les dangers ou les festivités à la taverne ils bravèrent tout ensemble avant qu’un tragique évènement ne les oppose à jamais, depuis ils se vouent une rivalité sans fin avec pour seul point commun un certain regret des temps passés."
+      },
+      "LOVE_GOOD": {
+        "MALE": "C’est de manière plus qu’inattendue qu’il rencontra l’amour, cette rencontre fût un coup de foudre et une passion dévorante l’envahi ce nouvel état d’esprit lui permit de vivre une nouvelle vie, d’une manière différente ou pour tourner une page, ce fût une rencontre marquante.",
+        "FEMALE": "C’est de manière plus qu’inattendue qu’elle rencontra l’amour, cette rencontre fût un coup de foudre et une passion dévorante l’envahi, ce nouvel état d’esprit lui permit de vivre une nouvelle vie, d’une manière différente ou pour tourner une page, ce fût une rencontre marquante."
+      },
+      "LOVE_BAD": {
+        "MALE": "Il fut longtemps et éperdument amoureux d’une autre personne jusqu’à ce qu’un de ces rivaux ne s’en prenne à son amour et lui ôta de ses bras. Une triste fin pour une si belle romance...",
+        "FEMALE": "Elle fut longtemps et éperdument amoureux d’une autre personne jusqu’à ce qu’un de ces rivaux ne s’en prenne à son amour et lui ôta de ses bras. Une triste fin pour une si belle romance..."
+      },
+      "COMP_GOOD": {
+        "MALE": "Son métier, il l’a dans le sang depuis qu’il est tout jeune, il a toujours fait ça et le fera sûrement jusqu’à la fin de ses jours, il est désormais reconnu comme étant plus qu’un expert dans son domaine.",
+        "FEMALE": "Son métier, elle l’a dans le sang depuis qu’elle est toute jeune, elle a toujours fait ça et le fera sûrement jusqu’à la fin de ses jours, elle est désormais reconnue comme étant plus qu’une experte dans son domaine."
+      },
+      "COMP_BAD": {
+        "MALE": "Alors qu’il se rendait sur son lieu de travail, il fut victime d’un terrible accident qui manqua de peu de le tuer. Au lieu de ça il fut inconscient des jours durant avant de se réveiller amnésique et sans aucun souvenir de sa vie passée. Des années plus tard, il a recouvert une majeure partie de sa mémoire, mais quelques souvenirs semblent encore perdus.",
+        "FEMALE": "Alors qu’elle se rendait sur son lieu de travail, elle fut victime d’un terrible accident qui manqua de peu de le tuer. Au lieu de ça elle fut inconsciente des jours durant avant de se réveiller amnésique et sans aucun souvenir de sa vie passée. Des années plus tard, elle a recouvert une majeure partie de sa mémoire, mais quelques souvenirs semblent encore perdus."
+      },
+      "PASSION_GOOD": {
+        "MALE": "Éternel passionné, il a toujours donné le meilleur de lui même dans ce qu’il entreprenait ce qui lui a permis de se dépatouiller de bon nombre de situations et de saisir une excellente opportunité par le passé.",
+        "FEMALE": "Éternel passionnée, elle a toujours donné le meilleur d’elle même dans ce qu’elle entreprenait ce qui lui a permis de se dépatouiller de bon nombre de situations et de saisir une excellente opportunité par le passé."
+      },
+      "PASSION_BAD": {
+        "MALE": "Il a été banni de sa patrie pour avoir tenu des propos ou agissements non autorisés. Que cela soit par idéalisme ou par simple loisir, tout ne passe pas auprès de tout le monde.",
+        "FEMALE": "Elle a été banni de sa patrie pour avoir tenu des propos ou agissements non autorisés. Que cela soit par idéalisme ou par simple loisir, tout ne passe pas auprès de tout le monde."
+      },
+      "SOCIAL_GOOD": {
+        "MALE": "Il a toujours su mettre ses compétences et son énergie au service de sa patrie et de ses habitants, ces choix furent les bons et encore de nos jours ses conseils sont toujours en application.",
+        "FEMALE": "Elle a toujours su mettre ses compétences et son énergie au service de sa patrie et de ses habitants, ces choix furent les bons et encore de nos jours ses conseils sont toujours en application."
+      },
+      "SOCIAL_BAD": {
+        "MALE": "Par le passé son village s’est retrouvé en plein milieu d’un conflit opposant deux factions rivales, l’affrontement fût violent et nombreuses furent les victimes. Son village a été entièrement rasé de la carte et il a dû se mettre en quête d’une nouvelle vie.",
+        "FEMALE": "Par le passé son village s’est retrouvé en plein milieu d’un conflit opposant deux factions rivales, l’affrontement fût violent et nombreuses furent les victimes. Son village a été entièrement rasé de la carte et elle a dû se mettre en quête d’une nouvelle vie."
+      },
+      "FAMILY_GOOD": {
+        "MALE": "Il a grandi (ou connu dans son entourage proche) dans une puissante famille où il ne manqua de rien et qui continue encore à ce jour de couvrir ses arrières au besoin.",
+        "FEMALE": "Elle a grandi (ou connu dans son entourage proche) dans une puissante famille où elle ne manqua de rien et qui continue encore à ce jour de couvrir ses arrières au besoin."
+      },
+      "FAMILY_BAD": {
+        "MALE": "Que cela soit suite à une catastrophe ou une mauvaise situation sociale, il a du grandir dans une famille très difficile, sans vraiment de moyens ou de cohésion, une situation qui vous marque un homme.",
+        "FEMALE": "Que cela soit suite à une catastrophe ou une mauvaise situation sociale, elle a du grandir dans une famille très difficile, sans vraiment de moyens ou de cohésion, une situation qui vous marque une femme."
+      }
+    }
     },
     "VIEWS": {
         "MAIN": {
@@ -2284,7 +2342,9 @@
             "TEMPER": "Tempérament",
             "VOICE": "Voix",
             "SAVE": "Sauvegarder",
-            "FONUG_LOGO": "Fonug Génerateur de personnages"
+            "FONUG_LOGO": "Fonug Génerateur de personnages",
+            "HISTORIC":"Evènement marquants",
+            "HISTORIC_NO_EVENT":"Ce personnage n'a pas encore vécu d'évènements marquants."
         }
     }
 }

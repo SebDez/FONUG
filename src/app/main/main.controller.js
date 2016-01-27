@@ -1,7 +1,7 @@
 export class MainController {
 
     constructor(GeneratorService,$state) {
-        
+
         'ngInject';
         this.$state = $state;
         this.generatorService = GeneratorService;
@@ -12,13 +12,13 @@ export class MainController {
         this.modeChoice='init';
         this.notRandom=false;
         this.initGenerator();
-        
+
         this.btnRandClass="md-raised";
         this.btnPersoClass="md-raised";
         this.btnGenerateIsDisabled=true;
-        
+
         this.changeSelectedMode(this.notRandom);
-        
+
         /** @type {Boolean}*/
         this.generatePhysical=true;
         /** @type {Boolean}*/
@@ -27,6 +27,8 @@ export class MainController {
         this.generateAppearance=true;
         /** @type {Boolean}*/
         this.generatePersonality=true;
+        /** @type {Boolean}*/
+        this.generateHistoric=true;
     }
 
     /**
@@ -81,22 +83,23 @@ export class MainController {
             civilization: "RANDOM"
         };
     }
-    
-    
+
+
     /**
     * Go the generator state with selected init values
     */
     generate(){
-         this.$state.go('generated',   { 
+         this.$state.go('generated',   {
             currentCharacter: this.currentCharacter,
             generatePhysical: this.generatePhysical,
             generateSocial: this.generateSocial,
             generateAppearance: this.generateAppearance,
-            generatePersonality: this.generatePersonality
+            generatePersonality: this.generatePersonality,
+            generateHistoric: this.generateHistoric
          });
     }
-    
-    
+
+
     /**
     * Altern between 'random' mode and 'personalize' mode
     * @param {Boolean} val True if personnalize, false for random

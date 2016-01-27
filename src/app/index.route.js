@@ -17,7 +17,8 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
             'generatePhysical': true,
             'generateSocial': true,
             'generateAppearance': true,
-            'generatePersonality': true
+            'generatePersonality': true,
+            'generateHistoric':true
       }
     })
     .state('about', {

@@ -26,6 +26,8 @@ import {PhysicalDirective}from './character/physical/physical.directive';
 import {PhysicalDirectiveController}from './character/physical/physical.dir.controller';
 import {MainDirective}from './character/main/main.directive';
 import {MainDirectiveController}from './character/main/main.dir.controller';
+import {HistoricDirective}from './character/historic/historic.directive';
+import {HistoricDirectiveController}from './character/historic/historic.dir.controller';
 
 
 angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr', 'pascalprecht.translate','ngMaterial','wyvernzora.un-svg'])
@@ -57,6 +59,8 @@ angular.module('fonug', ['ngAnimate', 'ngSanitize', 'ngMessages', 'ngAria', 'ngR
     .controller('PhysicalDirectiveController', PhysicalDirectiveController)
     .directive('main', MainDirective)
     .controller('MainDirectiveController', MainDirectiveController)
+    .directive('historic', HistoricDirective)
+    .controller('HistoricDirectiveController', HistoricDirectiveController)
     .config(function($mdThemingProvider) {
         $mdThemingProvider.theme('lawfulGoodTheme').primaryPalette('blue');
         $mdThemingProvider.theme('neutralGoodTheme').primaryPalette('cyan');

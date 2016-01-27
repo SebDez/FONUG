@@ -35,6 +35,7 @@ import Talents from '../elements/Talents';
 import Voices from '../elements/Voices';
 import ClothingStyle from '../elements/ClothingStyle';
 import ClothingCountry from '../elements/ClothingCountry';
+import Historics from '../elements/Historics';
 
 
 /**
@@ -300,7 +301,7 @@ export class LocalDataFactory {
     getFamilialSituationAdultList() {
         return FamilialSituationAdult;
     }
-    
+
     /**
      * Get all the familySituation for youngs labels list
      * @return {String} The familySituation for youngs labels list to translate
@@ -365,7 +366,7 @@ export class LocalDataFactory {
     getClothingStyleList() {
         return ClothingStyle;
     }
-    
+
     /**
      * Get all the clothing country labels list
      * @return {String} The clothing country labels list to translate
@@ -373,12 +374,20 @@ export class LocalDataFactory {
     getClothingCountryList() {
         return ClothingCountry;
     }
-    
+
     /**
      * Get all the voices labels list
      * @return {String} The voices labels list to translate
      */
     getVoicesList() {
         return Voices;
+    }
+
+    /**
+     * Get all the historic list
+     * @return {String} The historic labels list to translate
+     */
+    getHistoricList() {
+        return Historics;
     }
 }
