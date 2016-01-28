@@ -2236,60 +2236,60 @@
     },
     "HISTORIC": {
       "CHILD_GOOD": {
-        "MALE": "CHILD_GOOD",
-        "FEMALE": "CHILD_GOOD"
+        "MALE": "He grew up surrounded by close family and caring parents who always gave him 100% of the means at their disposal so that he had a good education.",
+        "FEMALE": "She grew up surrounded by close family and caring parents who always gave her 100% of the means at their disposal so that she had a good education."
       },
       "CHILD_BAD": {
-        "MALE": "CHILD_BAD",
-        "FEMALE": "CHILD_BAD"
+        "MALE": "Orphan, he lost his parents while he was very young, he didn’t know them very well, but keeps in memory a touching version of them. Victims of the savagery of a criminal gang, he dedicates to the guilty people and their kind an endless hatred.",
+        "FEMALE": "Orphan, she lost her parents while she was very young, she didn’t know them very well, but keeps in memory a touching version of them. Victims of the savagery of a criminal gang, she dedicates to the guilty people and their kind an endless hatred."
       },
       "FRIEND_GOOD": {
-        "MALE": "FRIEND_GOOD",
-        "FEMALE": "FRIEND_GOOD"
+        "MALE": "He always had a great childhood friend, someone with whom he grew up and discovered the world. Later, their paths were separated, but they remained close and there is more than a sacred bond between them.",
+        "FEMALE": "She always had a great childhood friend, someone with whom she grew up and discovered the world. Later, their paths were separated, but they remained close and there is more than a sacred bond between them."
       },
       "FRIEND_BAD": {
-        "MALE": "FRIEND_BAD",
-        "FEMALE": "FRIEND_BAD"
+        "MALE": "He was betrayed by one of his best friends. Whether hazards or festivities at the tavern they braved all together before a tragic event will forever set appart them, since they devote an endless rivalry with the only common point the thought of some regret of the past.",
+        "FEMALE": "She was betrayed by one of her best friends. Whether hazards or festivities at the tavern they braved all together before a tragic event will forever set appart them, since they devote an endless rivalry with the only common point the thought of some regret of the past."
       },
       "LOVE_GOOD": {
-        "MALE": "LOVE_GOOD",
-        "FEMALE": "LOVE_GOOD"
+        "MALE": "This is by an unexpected way that he fall in love, this meeting was a love at first sight and a passion that invaded him, a new state of mind which allow him to live a new life in a different way or to turn a page, it was a memorable encounter.",
+        "FEMALE": "This is by an unexpected way that she fall in love, this meeting was a love at first sight and a passion that invaded her, a new state of mind which allow her to live a new life in a different way or to turn a page, it was a memorable encounter."
       },
       "LOVE_BAD": {
-        "MALE": "LOVE_BAD",
-        "FEMALE": "LOVE_BAD"
+        "MALE": " It was long and hopelessly love with another person until one of these rivals attacked his love and deprived him of his beloved. A sad end to a beautiful romance ...",
+        "FEMALE": "It was long and hopelessly love with another person until one of these rivals attacked her love and deprived her of his beloved. A sad end to a beautiful romance ..."
       },
       "COMP_GOOD": {
-        "MALE": "COMP_GOOD",
-        "FEMALE": "COMP_GOOD"
+        "MALE": "His job, he has it in his blood since he was young he will probably until the end of his days, it is now recognized as a more expert in his purview.",
+        "FEMALE": "Her job, she has it in her blood since she was young she will probably until the end of her days, it is now recognized as a more expert in her purview."
       },
       "COMP_BAD": {
-        "MALE": "COMP_BAD",
-        "FEMALE": "COMP_BAD"
+        "MALE": "On his way to his workplace, he suffered a terrible accident that almost managed to kill him. Instead he was unconscious for days before waking up with amnesia and no memory of his past life. Years later, he covered a major part of his memory, but some memories still seem lost.",
+        "FEMALE": "On her way to his workplace, she suffered a terrible accident that almost managed to kill her. Instead she was unconscious for days before waking up with amnesia and no memory of her past life. Years later, she covered a major part of her memory, but some memories still seem lost."
       },
       "PASSION_GOOD": {
-        "MALE": "PASSION_GOOD",
-        "FEMALE": "PASSION_GOOD"
+        "MALE": "He always put his skills and energy to the service of his country and its people, those choices were good and even today his advices are still in application.",
+        "FEMALE": "She always put her skills and energy to the service of her country and its people, those choices were good and even today her advices are still in application."
       },
       "PASSION_BAD": {
-        "MALE": "PASSION_BAD",
-        "FEMALE": "PASSION_BAD"
+        "MALE": "In the past his village was located in the middle of a conflict between two rival factions, the confrontation was violent and many were the victims. His village was wiped of the map and had to go, looking for a new life.",
+        "FEMALE": "In the past her village was located in the middle of a conflict between two rival factions, the confrontation was violent and many were the victims. Her village was wiped of the map and had to go, looking for a new life."
       },
       "SOCIAL_GOOD": {
-        "MALE": "SOCIAL_GOOD",
-        "FEMALE": "SOCIAL_GOOD"
+        "MALE": "Eternal passionate, he always gave the best of himself in his undertakings which allowed him to get by in many situations and percieve an excellent opportunity in the past.",
+        "FEMALE": "Eternal passionate, she always gave the best of herself in her undertakings which allowed her to get by in many situations and percieve an excellent opportunity in the past."
       },
       "SOCIAL_BAD": {
-        "MALE": "SOCIAL_BAD",
-        "FEMALE": "SOCIAL_BAD"
+        "MALE": "He was banished from his homeland for have done or said some unauthorized things. Whether by idealism or simple entertainment, not everything is accepted by everyone.",
+        "FEMALE": "She was banished from her homeland for have done or said some unauthorized things. Whether by idealism or simple entertainment, not everything is accepted by everyone."
       },
       "FAMILY_GOOD": {
-        "MALE": "FAMILY_GOOD",
-        "FEMALE": "FAMILY_GOOD"
+        "MALE": "He grew up (or known in his inner circle ) in a powerful family where he missed nothing and that still continues to this day to cover his back as needed.",
+        "FEMALE": "She grew up (or known in his inner circle ) in a powerful family where she missed nothing and that still continues to this day to cover her back as needed."
       },
       "FAMILY_BAD": {
-        "MALE": "FAMILY_BAD",
-        "FEMALE": "FAMILY_BAD"
+        "MALE": "Whether following a disaster or a bad social situation, he had to grow up in a very difficult family, without really means or cohesion, a situation that marks a man.",
+        "FEMALE": "Whether following a disaster or a bad social situation, she had to grow up in a very difficult family, without really means or cohesion, a situation that marks a woman."
       }
     }
   },
